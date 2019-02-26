@@ -1,0 +1,185 @@
+---
+title: "Using the absmapsdata package"
+author: "Will Mackey"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Using the absmapsdata package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+
+library(dplyr)
+library(ggplot2)
+library(readr)
+
+```
+
+
+The `absmaps` exists to make it easier to produce maps from ABS data in R. The package contains compressed, tidied, and lazily-loadable `sf` objects containing geometric information about ABS data structures.
+
+Before we get into the 'what problem is this package solving' details, let's look at some examples so that you can copy-paste into your own console and replicate out-of-the-box. 
+
+
+## Just show me how to make a map with this package
+
+### Using the package's pre-loaded data
+
+The `absmaps` package comes with pre-downloaded and pre-processed data. To load a particular geospatial object, simply load the package and call the object:
+
+```{r}
+
+library(absmapsdata)
+
+mapdata1 <- sa32011
+
+head(mapdata1)
+```
+
+Or
+
+```{r}
+mapdata2 <- sa22016
+
+head(mapdata2)
+```
+
+
+The resulting `sf` object contains one observation per area (in the following examples, one observation per `sa3`). It stores the geometry information in the `geometry` variable, which is a nested list describing the area's polygon. The object can be joined to a standard `data.frame` or `tibble` and can be used with `dplyr` functions.
+
+
+### Creating maps with your `sf` object
+We do all this so we can create gorgeous maps. And with the `sf` object in hand, plotting a map via `ggplot` and `geom_sf` is simple.
+
+```{r}
+map <-
+sa32016 %>%
+  filter(gcc_name_2016 == "Greater Melbourne") %>%   # let's just look Melbourne
+  ggplot() +
+  geom_sf(aes(geometry = geometry))  # use the geometry variable
+
+map
+```
+
+The data also include centorids of each area, and we can add these points to the map with the `cent_lat` and `cent_long` variables using `geom_point`.
+
+```{r}
+map <-
+sa32016 %>%
+  filter(gcc_name_2016 == "Greater Melbourne") %>%   # let's just look Melbourne
+  ggplot() +
+  geom_sf(aes(geometry = geometry)) +   # use the geometry variable
+  geom_point(aes(cent_lat, cent_long))  # use the centroid lat and longs
+
+map
+```
+
+Cool. But, sidenote, this all looks a bit ugly. We can pretty it up using `ggplot` tweaks. See the comments on each line for its objective. Also note that we're filling the areas by their `areasqkm` size, another variable included in the `sf` object (we'll replace this with more interesting data in the next section).
+
+```{r}
+map <-
+sa32016 %>%
+  filter(gcc_name_2016 == "Greater Melbourne") %>%   # let's just look Melbourne
+  ggplot() +
+  geom_sf(aes(geometry = geometry,  # use the geometry variable
+              fill = areasqkm_2016),     # fill by area size
+          lwd = 0,                  # remove borders
+          show.legend = FALSE) +    # remove legend
+  geom_point(aes(cent_lat,
+                 cent_long),        # use the centroid lat and longs
+             colour = "white") +    # make the points white
+  theme_void() +                    # clears other plot elements
+  coord_sf(datum = NA)              # fixes a gridline bug in theme_void()
+
+map
+```
+
+```{r, test label, eval = FALSE, include = FALSE}
+
+data <- sa42016 %>% 
+  mutate(label = gsub("Melbourne\\s\\-", "", sa4_name_2016),
+         label = gsub("\\s", "\n", label))
+
+data %>%
+  filter(gcc_name_2016 == "Greater Melbourne") %>%   # let's just look Melbourne
+  ggplot() +
+  geom_sf(aes(geometry = geometry,  # use the geometry variable
+              fill = areasqkm_2016),     # fill by area size
+          lwd = 0,                  # remove borders
+          show.legend = FALSE) +    # remove legend
+  geom_text(aes(cent_lat, cent_long, label = label),
+            size = 3,
+            colour = "white") +
+  theme_void() +                    # clears other plot elements
+  coord_sf(datum = NA)              # fixes a gridline bug in theme_void()
+
+```
+
+
+## Joining with other datasets
+
+At some point, we'll want to join our spatial data with data-of-interest. The variables in our mapping data---stating the numeric code and name of each area and parent area---will make this _relatively_ easy.
+
+For example: we have a simple dataset of the unemployment rate in each `sa4` in each `year` (conveniently retrieved using the `readabs` [package](https://cran.r-project.org/web/packages/readabs/readabs.pdf)).
+
+```{r}
+# Read data in
+income <- read_csv("data/median_income_sa3.csv")
+
+# This data contains a variable of sa4 which 
+# can be joined to the sa4_name_2016 variable:
+combined_data <- income %>% 
+  left_join(sa32016, by = "sa3_name_2016")
+```
+
+Now that we have a tidy dataset with 1) the unemployment data we want to plot, and 2) the geometry of the areas, we can plot unemployment rates by area:
+
+```{r}
+map <-
+combined_data %>%
+  filter(gcc_name_2016 == "Greater Melbourne") %>%   # let's just look Melbourne
+  ggplot() +
+  geom_sf(aes(geometry = geometry,  # use the geometry variable
+              fill = median_income),        # fill by unemployment rate
+          lwd = 0) +                # remove borders
+  theme_void() +                    # clears other plot elements
+  coord_sf(datum = NA) +            # fixes a gridline bug in theme_void()
+  labs(fill = "Median income")
+
+map
+```
+
+
+## Why does this package exist?
+
+The motivation for this package is that maps are cool and fun and are, sometimes, the best way to communicate data.
+And making maps is `R` with `ggplot` is relatively easy _when you have the right `object`_.
+
+Getting the right `object` is not technically difficult, but requires research into the best-thing-to-do at each of the following steps:
+
+*  Find the ASGS ABS spatial-data page and determine the right file to download.
+*  Read the shapefile into `R` using one-of-many import tools.
+*  Convert the object into something usable.
+*  Clean up any inconsistencies and apply consistent variable naming/values across areas and years.
+*  Find an appropriate compression function and level to optimise output.
+
+For me, at least, finding the correct information and developing the best set of steps was a little bit interesting but mostly tedious and annoying. The `absmapsdata` package holds this data for you, so you can spend more time making maps, and less time on Stack Overflow, the ABS website, and [lovely-people's wonderful blogs](https://www.neonscience.org/dc-open-shapefiles-r).
+
+
+## How does this package do the-things-it-does
+
+The `absmapsdata` package simple holds compressed and easy to use data (`sf` objects) for you use.
+
+It is a data-only-based sibling of `absmaps`, which holds functionality to download more shapefile data from the ABS and compress it to a level you desire. However, this comes at a cost: the mapping software that `absmaps` is built on can be a bit fiddly to install.
+
+If you would like to do these things, please feel free to install `absmaps`. 
+
+## I want to complain about this package
+
+Fair enough! The best avenue is via a Github issue at (wfmackey/absmapsdata)

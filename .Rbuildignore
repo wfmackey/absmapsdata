@@ -1,0 +1,10 @@
+^Meta$
+^doc$
+^.*\.Rproj$
+^\.Rproj\.user$
+^README.Rmd
+^testfile.R
+^.*\tests$
+^.*\absmaps$
+^\.travis\.yml$
+^play$
