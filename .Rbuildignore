@@ -8,3 +8,5 @@
 ^.*\absmaps$
 ^\.travis\.yml$
 ^play$
+^README\.Rmd$
+^README-.*\.png$
