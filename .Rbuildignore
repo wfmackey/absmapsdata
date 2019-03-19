@@ -10,3 +10,5 @@
 ^play$
 ^README\.Rmd$
 ^README-.*\.png$
+^img$
+^README.html*

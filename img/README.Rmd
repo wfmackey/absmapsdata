@@ -139,21 +139,15 @@ At some point, we'll want to join our spatial data with data-of-interest. The va
 
 For example: suppose we had a simple dataset of median income by SA3 over time. 
 
-```{r, include = FALSE}
-income <- read_csv("vignettes/data/median_income_sa3.csv")
-```
-
-
-```{r, eval = FALSE}
+```{r, }
 # Read data in
 income <- read_csv("data/median_income_sa3.csv")
 ```
 
+This income data contains a variable `sa3_name_2016`, and we can use `dplyr::left_join()` to combine with our mapping data.
+
 ```{r}
-# This data contains a variable of sa4 which 
-# can be joined to the sa4_name_2016 variable:
-combined_data <- income %>% 
-  left_join(sa32016, by = "sa3_name_2016")
+combined_data <- left_join(income, sa32016, by = "sa3_name_2016")
 ```
 
 Now that we have a tidy dataset with 1) the income data we want to plot, and 2) the geometry of the areas, we can plot income by area:

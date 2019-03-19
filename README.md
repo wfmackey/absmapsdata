@@ -1,6 +1,3 @@
-
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
 # absmapsdata
 
 The `absmapsdata` package exists to make it easier to produce maps from
@@ -105,7 +102,7 @@ sa32016 %>%
 map
 ```
 
-![](README-unnamed-chunk-5-1.png)<!-- -->
+![](img/README-unnamed-chunk-5-1.png)<!-- -->
 
 The data also include centorids of each area, and we can add these
 points to the map with the `cent_lat` and `cent_long` variables using
@@ -122,7 +119,7 @@ sa32016 %>%
 map
 ```
 
-![](README-unnamed-chunk-6-1.png)<!-- -->
+![](img/README-unnamed-chunk-6-1.png)<!-- -->
 
 Cool. But, sidenote, this all looks a bit ugly. We can pretty it up
 using `ggplot` tweaks. See the comments on each line for its objective.
@@ -148,7 +145,7 @@ sa32016 %>%
 map
 ```
 
-![](README-unnamed-chunk-7-1.png)<!-- -->
+![](img/README-unnamed-chunk-7-1.png)<!-- -->
 
 ## Joining with other datasets
 
@@ -163,13 +160,19 @@ over time.
 ``` r
 # Read data in
 income <- read_csv("data/median_income_sa3.csv")
+#> Parsed with column specification:
+#> cols(
+#>   sa3_name_2016 = col_character(),
+#>   year = col_character(),
+#>   median_income = col_double()
+#> )
 ```
 
+This income data contains a variable `sa3_name_2016`, and we can use
+`dplyr::left_join()` to combine with our mapping data.
+
 ``` r
-# This data contains a variable of sa4 which 
-# can be joined to the sa4_name_2016 variable:
-combined_data <- income %>% 
-  left_join(sa32016, by = "sa3_name_2016")
+combined_data <- left_join(income, sa32016, by = "sa3_name_2016")
 ```
 
 Now that we have a tidy dataset with 1) the income data we want to plot,
@@ -190,7 +193,7 @@ combined_data %>%
 map
 ```
 
-![](README-unnamed-chunk-11-1.png)<!-- -->
+![](img/README-unnamed-chunk-10-1.png)<!-- -->
 
 ## Why does this package exist?
 
