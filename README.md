@@ -25,6 +25,36 @@ library(tidyverse)
 library(sf)
 ```
 
+## Maps loaded with this package
+
+Available maps are listed below. These will be added to over time. 
+If you would like to request a map to be added, let me know via an issue on this Github repo.
+(Or send me an email: wfmackey@gmail.com)
+
+**ASGS Main Structures**
+* Statistical Area 1 2011: `sa12011`
+* Statistical Area 1 2016: `sa12016`
+* Statistical Area 2 2011: `sa22011`
+* Statistical Area 2 2016: `sa22016`
+* Statistical Area 3 2011: `sa32011`
+* Statistical Area 3 2016: `sa32016`
+* Statistical Area 4 2011: `sa42011`
+* Statistical Area 4 2016: `sa42016`
+* Greater Capital Cities 2011: `gcc2011`
+* Greater Capital Cities 2016: `gcc2016`
+* Remoteness Areas 2011: `ra2011`
+* Remoteness Areas 2016: `ra2016`
+* State 2011: `state2011`
+* State 2016: `state2016`
+
+**ASGS Non-ABS Structures**
+* Commonwealth Electoral Divisions 2018: `ced2018`
+* State Electoral Divisions 2018:`sed2018`
+* Local Government Areas 2016: `lga2016`
+* Local Government Areas 2018: `lga2018`
+
+
+
 ## Just show me how to make a map with this package
 
 ### Using the package’s pre-loaded data
@@ -158,8 +188,9 @@ For example: suppose we had a simple dataset of median income by SA3
 over time.
 
 ``` r
-# Read data in
+# Read data in some data
 income <- read_csv("data/median_income_sa3.csv")
+
 #> Parsed with column specification:
 #> cols(
 #>   sa3_name_2016 = col_character(),
