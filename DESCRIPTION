@@ -14,8 +14,9 @@ Imports:
     readr,
     class
 Suggests:
-	knitr, 
-	rmarkdown,
+		sf,	
+		knitr, 
+		rmarkdown,
     testthat
 VignetteBuilder: knitr
 Encoding: UTF-8
