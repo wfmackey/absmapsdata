@@ -18,11 +18,16 @@ You can install `absmapsdata` from github with:
 devtools::install_github("wfmackey/absmapsdata")
 ```
 
-We will use the `sf` and `tidyverse` packages in this example:
+The `sf` package is required to handle the `sf` objects:
+```r
+install.packages("sf")
+library(sf)
+```
+
+And we will use the `tidyverse` packages in this example:
 
 ``` r
 library(tidyverse)
-library(sf)
 ```
 
 ## Maps loaded with this package
