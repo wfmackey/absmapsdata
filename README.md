@@ -7,7 +7,7 @@ data structures.
 
 Before we get into the ‘what problem is this package solving’ details,
 let’s look at some examples so that you can copy-paste into your own
-console and replicate out-of-the-box.
+script and replicate out-of-the-box (and impress your friends).
 
 ## Installation
 
