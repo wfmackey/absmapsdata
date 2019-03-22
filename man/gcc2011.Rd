@@ -5,8 +5,8 @@
 \alias{gcc2011}
 \title{Greater Capital Cities, 2011}
 \format{An \code{sf} object with 10 variables:
-#' \describe{
-\item{\code{gcc_code_2011}}{The alphanumeric Greater Capital City (GCC) code numeric}
+\describe{
+\item{\code{gcc_code_2011}}{The alphanumeric Greater Capital City (GCC) code character}
 \item{\code{gcc_name_2011}}{The GCC name}
 \item{\code{state_name_2011}}{The full state name}
 \item{\code{albers_sqkm_2011}}{The area in square kilometres}

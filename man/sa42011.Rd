@@ -5,10 +5,10 @@
 \alias{sa42011}
 \title{Statistical Area 4, 2011}
 \format{An \code{sf} object with 10 variables:
-#' \describe{
+\describe{
 \item{\code{sa4_code_2011}}{The full 3 digit SA4 code numeric}
 \item{\code{sa4_name_2011}}{The SA4 name character}
-\item{\code{gcc_code_2011}}{The alphanumeric Greater Capital City (GCC) code numeric}
+\item{\code{gcc_code_2011}}{The alphanumeric Greater Capital City (GCC) code character}
 \item{\code{gcc_name_2011}}{The GCC name}
 \item{\code{state_name_2011}}{The full state name}
 \item{\code{albers_sqkm_2011}}{The area in square kilometres}

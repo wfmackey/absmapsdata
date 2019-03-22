@@ -5,7 +5,7 @@
 \alias{ra2011}
 \title{Remoteness areas, 2011}
 \format{An \code{sf} object with 10 variables:
-#' \describe{
+\describe{
 \item{\code{ra_code}}{The remoteness area code (by state)}
 \item{\code{ra}}{The remoteness area name (by state)}
 \item{\code{albers_sqkm_2011}}{The area in square kilometres}

@@ -5,7 +5,7 @@
 \alias{ced2018}
 \title{Commonwelath Electoral Districts, 2018}
 \format{An \code{sf} object with six variables:
-#' \describe{
+\describe{
 \item{\code{ced_code_2018}}{The CED code}
 \item{\code{ced_name_2018}}{The CED name}
 \item{\code{albers_sqkm_2018}}{The area in square kilometres}
