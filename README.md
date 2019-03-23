@@ -20,13 +20,14 @@ devtools::install_github("wfmackey/absmapsdata")
 
 The `sf` package is required to handle the `sf` objects:
 ```r
-install.packages("sf")
+# install.packages("sf")
 library(sf)
 ```
 
 And we will use the `tidyverse` packages in this example:
 
 ``` r
+# install.packages("tidyverse")
 library(tidyverse)
 ```
 
