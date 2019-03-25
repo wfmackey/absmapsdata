@@ -5,7 +5,7 @@
 \alias{lga2018}
 \title{Local Government Areas, 2018}
 \format{An \code{sf} object with eight variables:
-#' \describe{
+\describe{
 \item{\code{lga_code_2018}}{The LGA code}
 \item{\code{lga_name_2018}}{The LGA name}
 \item{\code{state_code_2016}}{The state code}

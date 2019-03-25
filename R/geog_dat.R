@@ -3,7 +3,7 @@
 #' Geospatial data provided by the ABS for Statistical Area 1 in 2011.
 #'
 #' @format An \code{sf} object with 17 variables:
-#' #' \describe{
+#' \describe{
 #' \item{\code{sa1_code_2011}}{The full 11 digit SA1 code numeric}
 #' \item{\code{sa1_7dig_2011}}{The 7 digit SA1 code numeric}
 #' \item{\code{sa2_code_2011}}{The full 9 digit SA2 code numeric}
@@ -13,7 +13,7 @@
 #' \item{\code{sa3_name_2011}}{The SA3 name character}
 #' \item{\code{sa4_code_2011}}{The full 3 digit SA4 code numeric}
 #' \item{\code{sa4_name_2011}}{The SA4 name character}
-#' \item{\code{gcc_code_2011}}{The alphanumeric Greater Capital City (GCC) code numeric}
+#' \item{\code{gcc_code_2011}}{The alphanumeric Greater Capital City (GCC) code character}
 #' \item{\code{gcc_name_2011}}{The GCC name}
 #' \item{\code{state_name_2011}}{The full state name}
 #' \item{\code{albers_sqkm_2011}}{The area in square kilometres}
@@ -30,7 +30,7 @@
 #' Geospatial data provided by the ABS for Statistical Area 1 in 2016.
 #'
 #' @format An \code{sf} object with 17 variables:
-#' #' \describe{
+#' \describe{
 #' \item{\code{sa1_code_2016}}{The full 11 digit SA1 code numeric}
 #' \item{\code{sa1_7dig_2016}}{The 7 digit SA1 code numeric}
 #' \item{\code{sa2_code_2016}}{The full 9 digit SA2 code numeric}
@@ -40,7 +40,7 @@
 #' \item{\code{sa3_name_2016}}{The SA3 name character}
 #' \item{\code{sa4_code_2016}}{The full 3 digit SA4 code numeric}
 #' \item{\code{sa4_name_2016}}{The SA4 name character}
-#' \item{\code{gcc_code_2016}}{The alphanumeric Greater Capital City (GCC) code numeric}
+#' \item{\code{gcc_code_2016}}{The alphanumeric Greater Capital City (GCC) code character}
 #' \item{\code{gcc_name_2016}}{The GCC name}
 #' \item{\code{state_name_2016}}{The full state name}
 #' \item{\code{albers_sqkm_2016}}{The area in square kilometres}
@@ -57,7 +57,7 @@
 #' Geospatial data provided by the ABS for Statistical Area 2 in 2011.
 #'
 #' @format An \code{sf} object with 15 variables:
-#' #' \describe{
+#' \describe{
 #' \item{\code{sa2_code_2011}}{The full 9 digit SA2 code numeric}
 #' \item{\code{sa2_shortcode_2011}}{The 5 digit SA2 code numeric}
 #' \item{\code{sa2_name_2011}}{The SA2 name character}
@@ -65,7 +65,7 @@
 #' \item{\code{sa3_name_2011}}{The SA3 name character}
 #' \item{\code{sa4_code_2011}}{The full 3 digit SA4 code numeric}
 #' \item{\code{sa4_name_2011}}{The SA4 name character}
-#' \item{\code{gcc_code_2011}}{The alphanumeric Greater Capital City (GCC) code numeric}
+#' \item{\code{gcc_code_2011}}{The alphanumeric Greater Capital City (GCC) code character}
 #' \item{\code{gcc_name_2011}}{The GCC name}
 #' \item{\code{state_name_2011}}{The full state name}
 #' \item{\code{albers_sqkm_2011}}{The area in square kilometres}
@@ -81,7 +81,7 @@
 #' Geospatial data provided by the ABS for Statistical Area 2 in 2016.
 #'
 #' @format An \code{sf} object with 15 variables:
-#' #' \describe{
+#' \describe{
 #' \item{\code{sa2_code_2016}}{The full 9 digit SA2 code numeric}
 #' \item{\code{sa2_shortcode_2016}}{The 5 digit SA2 code numeric}
 #' \item{\code{sa2_name_2016}}{The SA2 name character}
@@ -89,7 +89,7 @@
 #' \item{\code{sa3_name_2016}}{The SA3 name character}
 #' \item{\code{sa4_code_2016}}{The full 3 digit SA4 code numeric}
 #' \item{\code{sa4_name_2016}}{The SA4 name character}
-#' \item{\code{gcc_code_2016}}{The alphanumeric Greater Capital City (GCC) code numeric}
+#' \item{\code{gcc_code_2016}}{The alphanumeric Greater Capital City (GCC) code character}
 #' \item{\code{gcc_name_2016}}{The GCC name}
 #' \item{\code{state_name_2016}}{The full state name}
 #' \item{\code{albers_sqkm_2016}}{The area in square kilometres}
@@ -105,12 +105,12 @@
 #' Geospatial data provided by the ABS for Statistical Area 3 in 2011.
 #'
 #' @format An \code{sf} object with 12 variables:
-#' #' \describe{
+#' \describe{
 #' \item{\code{sa3_code_2011}}{The full 5 digit SA3 code numeric}
 #' \item{\code{sa3_name_2011}}{The SA3 name character}
 #' \item{\code{sa4_code_2011}}{The full 3 digit SA4 code numeric}
 #' \item{\code{sa4_name_2011}}{The SA4 name character}
-#' \item{\code{gcc_code_2011}}{The alphanumeric Greater Capital City (GCC) code numeric}
+#' \item{\code{gcc_code_2011}}{The alphanumeric Greater Capital City (GCC) code character}
 #' \item{\code{gcc_name_2011}}{The GCC name}
 #' \item{\code{state_name_2011}}{The full state name}
 #' \item{\code{albers_sqkm_2011}}{The area in square kilometres}
@@ -126,12 +126,12 @@
 #' Geospatial data provided by the ABS for Statistical Area 3 in 2016.
 #'
 #' @format An \code{sf} object with 12 variables:
-#' #' \describe{
+#' \describe{
 #' \item{\code{sa3_code_2016}}{The full 5 digit SA3 code numeric}
 #' \item{\code{sa3_name_2016}}{The SA3 name character}
 #' \item{\code{sa4_code_2016}}{The full 3 digit SA4 code numeric}
 #' \item{\code{sa4_name_2016}}{The SA4 name character}
-#' \item{\code{gcc_code_2016}}{The alphanumeric Greater Capital City (GCC) code numeric}
+#' \item{\code{gcc_code_2016}}{The alphanumeric Greater Capital City (GCC) code character}
 #' \item{\code{gcc_name_2016}}{The GCC name}
 #' \item{\code{state_name_2016}}{The full state name}
 #' \item{\code{albers_sqkm_2016}}{The area in square kilometres}
@@ -148,10 +148,10 @@
 #' Geospatial data provided by the ABS for Statistical Area 4 in 2011.
 #'
 #' @format An \code{sf} object with 10 variables:
-#' #' \describe{
+#' \describe{
 #' \item{\code{sa4_code_2011}}{The full 3 digit SA4 code numeric}
 #' \item{\code{sa4_name_2011}}{The SA4 name character}
-#' \item{\code{gcc_code_2011}}{The alphanumeric Greater Capital City (GCC) code numeric}
+#' \item{\code{gcc_code_2011}}{The alphanumeric Greater Capital City (GCC) code character}
 #' \item{\code{gcc_name_2011}}{The GCC name}
 #' \item{\code{state_name_2011}}{The full state name}
 #' \item{\code{albers_sqkm_2011}}{The area in square kilometres}
@@ -167,10 +167,10 @@
 #' Geospatial data provided by the ABS for Statistical Area 4 in 2016.
 #'
 #' @format An \code{sf} object with 12 variables:
-#' #' \describe{
+#' \describe{
 #' \item{\code{sa4_code_2016}}{The full 3 digit SA4 code numeric}
 #' \item{\code{sa4_name_2016}}{The SA4 name character}
-#' \item{\code{gcc_code_2016}}{The alphanumeric Greater Capital City (GCC) code numeric}
+#' \item{\code{gcc_code_2016}}{The alphanumeric Greater Capital City (GCC) code character}
 #' \item{\code{gcc_name_2016}}{The GCC name}
 #' \item{\code{state_name_2016}}{The full state name}
 #' \item{\code{albers_sqkm_2016}}{The area in square kilometres}
@@ -187,8 +187,8 @@
 #' Geospatial data provided by the ABS for Greater Capital Cities (GCC) in 2011.
 #'
 #' @format An \code{sf} object with 10 variables:
-#' #' \describe{
-#' \item{\code{gcc_code_2011}}{The alphanumeric Greater Capital City (GCC) code numeric}
+#' \describe{
+#' \item{\code{gcc_code_2011}}{The alphanumeric Greater Capital City (GCC) code character}
 #' \item{\code{gcc_name_2011}}{The GCC name}
 #' \item{\code{state_name_2011}}{The full state name}
 #' \item{\code{albers_sqkm_2011}}{The area in square kilometres}
@@ -204,8 +204,8 @@
 #' Geospatial data provided by the ABS for Greater Capital Cities (GCC) in 2016.
 #'
 #' @format An \code{sf} object with 12 variables:
-#' #' \describe{
-#' \item{\code{gcc_code_2016}}{The alphanumeric Greater Capital City (GCC) code numeric}
+#' \describe{
+#' \item{\code{gcc_code_2016}}{The alphanumeric Greater Capital City (GCC) code character}
 #' \item{\code{gcc_name_2016}}{The GCC name}
 #' \item{\code{state_name_2016}}{The full state name}
 #' \item{\code{albers_sqkm_2016}}{The area in square kilometres}
@@ -222,7 +222,7 @@
 #' Geospatial data provided by the ABS for states in 2011.
 #'
 #' @format An \code{sf} object with 10 variables:
-#' #' \describe{
+#' \describe{
 #' \item{\code{state_name_2011}}{The full state name}
 #' \item{\code{albers_sqkm_2011}}{The area in square kilometres}
 #' \item{\code{cent_lat}}{The latitide of the area's centroid}
@@ -237,7 +237,7 @@
 #' Geospatial data provided by the ABS for states in 2016. Little has changed since 2011.
 #'
 #' @format An \code{sf} object with 12 variables:
-#' #' \describe{
+#' \describe{
 #' \item{\code{state_name_2016}}{The full state name}
 #' \item{\code{albers_sqkm_2016}}{The area in square kilometres}
 #' \item{\code{cent_lat}}{The latitide of the area's centroid}
@@ -252,7 +252,7 @@
 #' Geospatial data provided by the ABS for remoteness areas in 2011.
 #'
 #' @format An \code{sf} object with 10 variables:
-#' #' \describe{
+#' \describe{
 #' \item{\code{ra_code}}{The remoteness area code (by state)}
 #' \item{\code{ra}}{The remoteness area name (by state)}
 #' \item{\code{albers_sqkm_2011}}{The area in square kilometres}
@@ -268,7 +268,7 @@
 #' Geospatial data provided by the ABS for remoteness areas in 2016.
 #'
 #' @format An \code{sf} object with 10 variables:
-#' #' \describe{
+#' \describe{
 #' \item{\code{ra_code}}{The remoteness area code (by state)}
 #' \item{\code{ra}}{The remoteness area name (by state)}
 #' \item{\code{albers_sqkm_2016}}{The area in square kilometres}
@@ -285,7 +285,7 @@
 #' Geospatial data provided by the ABS for local government areas (LGAs) in 2018.
 #'
 #' @format An \code{sf} object with eight variables:
-#' #' \describe{
+#' \describe{
 #' \item{\code{lga_code_2018}}{The LGA code}
 #' \item{\code{lga_name_2018}}{The LGA name}
 #' \item{\code{state_code_2016}}{The state code}
@@ -303,7 +303,7 @@
 #' Geospatial data provided by the ABS for local government areas (LGAs) in 2016.
 #'
 #' @format An \code{sf} object with eight variables:
-#' #' \describe{
+#' \describe{
 #' \item{\code{lga_code_2016}}{The LGA code}
 #' \item{\code{lga_name_2016}}{The LGA name}
 #' \item{\code{state_code_2016}}{The state code}
@@ -321,7 +321,7 @@
 #' Geospatial data provided by the ABS for Commonwealth Electoral Districts (CEDs) in 2018.
 #'
 #' @format An \code{sf} object with six variables:
-#' #' \describe{
+#' \describe{
 #' \item{\code{ced_code_2018}}{The CED code}
 #' \item{\code{ced_name_2018}}{The CED name}
 #' \item{\code{albers_sqkm_2018}}{The area in square kilometres}
@@ -337,7 +337,7 @@
 #' Geospatial data provided by the ABS for State Electoral Districts (SEDs) in 2018.
 #'
 #' @format An \code{sf} object with six variables:
-#' #' \describe{
+#' \describe{
 #' \item{\code{sed_code_2018}}{The SED code}
 #' \item{\code{sed_name_2018}}{The SED name}
 #' \item{\code{albers_sqkm_2018}}{The area in square kilometres}

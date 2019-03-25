@@ -5,7 +5,7 @@
 \alias{state2016}
 \title{States, 2016}
 \format{An \code{sf} object with 12 variables:
-#' \describe{
+\describe{
 \item{\code{state_name_2016}}{The full state name}
 \item{\code{albers_sqkm_2016}}{The area in square kilometres}
 \item{\code{cent_lat}}{The latitide of the area's centroid}

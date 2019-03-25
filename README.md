@@ -7,7 +7,7 @@ data structures.
 
 Before we get into the ‘what problem is this package solving’ details,
 let’s look at some examples so that you can copy-paste into your own
-console and replicate out-of-the-box.
+script and replicate out-of-the-box (and impress your friends).
 
 ## Installation
 
@@ -18,11 +18,17 @@ You can install `absmapsdata` from github with:
 devtools::install_github("wfmackey/absmapsdata")
 ```
 
-We will use the `sf` and `tidyverse` packages in this example:
+The `sf` package is required to handle the `sf` objects:
+```r
+# install.packages("sf")
+library(sf)
+```
+
+And we will use the `tidyverse` packages in this example:
 
 ``` r
+# install.packages("tidyverse")
 library(tidyverse)
-library(sf)
 ```
 
 ## Maps loaded with this package

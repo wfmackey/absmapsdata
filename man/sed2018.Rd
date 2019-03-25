@@ -5,7 +5,7 @@
 \alias{sed2018}
 \title{State Electoral Districts, 2018}
 \format{An \code{sf} object with six variables:
-#' \describe{
+\describe{
 \item{\code{sed_code_2018}}{The SED code}
 \item{\code{sed_name_2018}}{The SED name}
 \item{\code{albers_sqkm_2018}}{The area in square kilometres}
