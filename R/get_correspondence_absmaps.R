@@ -11,6 +11,8 @@
 #' sa4_corr <- get_correspondence_absmaps("sa4", 2011,
 #'                                        "sa4", 2016)
 #' }
+#'
+#' @export
 
 get_correspondence_absmaps <- function(fromArea, fromYear, toArea, toYear) {
 
