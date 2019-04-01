@@ -5,6 +5,8 @@ ABS data in R. The package contains compressed, tidied, and
 lazily-loadable `sf` objects containing geometric information about ABS
 data structures.
 
+It also contains a vast number of ABS correspondences that you can access with the `get_correspondence_absmaps` function. The correspondences available can be found at https://data.gov.au/data/dataset/asgs-geographic-correspondences-2016/resource/951e18c7-f187-4c86-a73f-fcabcd19af16 .
+
 Before we get into the ‘what problem is this package solving’ details,
 let’s look at some examples so that you can copy-paste into your own
 script and replicate out-of-the-box (and impress your friends).
@@ -38,6 +40,7 @@ If you would like to request a map to be added, let me know via an issue on this
 (Or send me an email: wfmackey@gmail.com)
 
 **ASGS Main Structures**
+
 * Statistical Area 1 2011: `sa12011`
 * Statistical Area 1 2016: `sa12016`
 * Statistical Area 2 2011: `sa22011`
@@ -54,6 +57,7 @@ If you would like to request a map to be added, let me know via an issue on this
 * State 2016: `state2016`
 
 **ASGS Non-ABS Structures**
+
 * Commonwealth Electoral Divisions 2018: `ced2018`
 * State Electoral Divisions 2018:`sed2018`
 * Local Government Areas 2016: `lga2016`
@@ -231,6 +235,28 @@ map
 ```
 
 ![](img/README-unnamed-chunk-10-1.png)<!-- -->
+
+## Get correspondence files
+
+You can use the `get_correspondence_absmaps` function to get population-weighted correspondence tables provided by the ABS (full details can be found at: https://data.gov.au/data/dataset/asgs-geographic-correspondences-2016/resource/951e18c7-f187-4c86-a73f-fcabcd19af16 ). 
+
+For example:
+
+``` r
+get_correspondence_absmaps("cd", 2006,
+                           "sa1", 2016)
+
+#>     cd_code_2006 sa1_maincode_2016 sa1_7digitcode_2016     ratio
+#> 1        1010101       10902117908             1117908 0.4770571
+#> 2        1010101       10902117909             1117909 0.4857913
+#> 3        1010101       10902117910             1117910 0.0371516
+#> 4        1010102       10902117907             1117907 0.2101293
+#> 5        1010102       10902117908             1117908 0.2806216
+#> 6        1010102       10902117910             1117910 0.5092491
+
+
+```
+
 
 ## Why does this package exist?
 
