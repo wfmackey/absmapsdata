@@ -199,6 +199,7 @@ over time.
 
 ``` r
 # Read data in some data
+
 income <- read_csv("data/median_income_sa3.csv")
 
 #> Parsed with column specification:
@@ -228,13 +229,14 @@ combined_data %>%
               fill = median_income),        # fill by unemployment rate
           lwd = 0) +                # remove borders
   theme_void() +                    # clears other plot elements
-  coord_sf(datum = NA) +            # fixes a gridline bug in theme_void()
+  coord_sf(datum = NA,              # fixes a gridline bug in theme_void()
+           crs = "+init=epsg:4326") +       # sets the coordinate reference system (to match Google Earth)       
   labs(fill = "Median income")
 
 map
 ```
 
-![](img/README-unnamed-chunk-10-1.png)<!-- -->
+![](img/README-updated-aspect-ratio.png)<!-- -->
 
 ## Get correspondence files
 
