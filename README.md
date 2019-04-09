@@ -144,7 +144,7 @@ map
 
 ![](img/README-unnamed-chunk-5-1.png)<!-- -->
 
-The data also include centorids of each area, and we can add these
+The data also include centroids of each area, and we can add these
 points to the map with the `cent_lat` and `cent_long` variables using
 `geom_point`.
 
