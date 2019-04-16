@@ -70,8 +70,8 @@ If you would like to request a map to be added, let me know via an issue on this
 ### Using the package’s pre-loaded data
 
 The `absmapsdata` package comes with pre-downloaded and pre-processed
-data. To load a particular geospatial object, simply load the package
-and call the object:
+data. To load a particular geospatial object: load the **package**, then
+call the object (see list above for object names).
 
 ``` r
 
