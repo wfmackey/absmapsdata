@@ -17,7 +17,7 @@ You can install `absmapsdata` from github with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("wfmackey/absmapsdata")
+remotes::install_github("wfmackey/absmapsdata")
 ```
 
 The `sf` package is required to handle the `sf` objects:
@@ -287,7 +287,7 @@ blogs](https://www.neonscience.org/dc-open-shapefiles-r).
 
 ## How does this package do the-things-it-does
 
-The `absmapsdata` package simple holds compressed and easy to use data
+The `absmapsdata` package simply holds compressed and easy to use data
 (`sf` objects) for you use.
 
 It is a data-only-based sibling of `absmaps`, which holds functionality
