@@ -180,7 +180,7 @@ sa32016 %>%
                  cent_long),        # use the centroid lat and longs
              colour = "white") +    # make the points white
   theme_void() +                    # clears other plot elements
-  coord_sf(datum = NA)              # fixes a gridline bug in theme_void()
+  coord_sf()
 
 map
 ```
@@ -229,8 +229,7 @@ combined_data %>%
               fill = median_income),        # fill by unemployment rate
           lwd = 0) +                # remove borders
   theme_void() +                    # clears other plot elements
-  coord_sf(datum = NA,              # fixes a gridline bug in theme_void()
-           crs = "+init=epsg:4326") +       # sets the coordinate reference system (to match Google Earth)       
+  coord_sf(crs = "+init=epsg:4326") +       # sets the coordinate reference system (to match Google Earth)       
   labs(fill = "Median income")
 
 map
@@ -296,7 +295,7 @@ you desire. However, this comes at a cost: the mapping software that
 `absmaps` is built on can be a bit fiddly to install.
 
 If you would like to do these things, please feel free to install
-`absmapsdata`.
+`absmaps`.
 
 ## I want to complain about this package
 
