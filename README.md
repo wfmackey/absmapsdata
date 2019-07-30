@@ -16,7 +16,7 @@ script and replicate out-of-the-box (and impress your friends).
 You can install `absmapsdata` from github with:
 
 ``` r
-# install.packages("devtools")
+# install.packages("remotes")
 remotes::install_github("wfmackey/absmapsdata")
 ```
 
