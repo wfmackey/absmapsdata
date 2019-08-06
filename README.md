@@ -91,8 +91,8 @@ glimpse(mapdata1)
 #> $ state_code_2011 <chr> "1", "1", "1", "1", "1", "1", "1", "1", "1", "1"…
 #> $ state_name_2011 <chr> "New South Wales", "New South Wales", "New South…
 #> $ albers_sqkm     <dbl> 21236.6140, 6511.1214, 14281.8301, 9864.9397, 98…
-#> $ cent_lat        <dbl> 149.0763, 149.6013, 148.9416, 149.8063, 151.2182…
-#> $ cent_long       <dbl> -34.55399, -35.44940, -36.43958, -36.49934, -33.…
+#> $ cent_long       <dbl> 149.0763, 149.6013, 148.9416, 149.8063, 151.2182…
+#> $ cent_lat       <dbl> -34.55399, -35.44940, -36.43958, -36.49934, -33.…
 #> $ geometry        <MULTIPOLYGON [°]> MULTIPOLYGON (((149.1198 -3..., MUL…
 ```
 
@@ -116,8 +116,8 @@ glimpse(mapdata2)
 #> $ state_code_2016 <chr> "1", "1", "1", "1", "1", "1", "1", "1", "1", "1"…
 #> $ state_name_2016 <chr> "New South Wales", "New South Wales", "New South…
 #> $ areasqkm_2016   <dbl> 3418.3525, 6.9825, 4.7634, 13.0034, 3054.4099, 1…
-#> $ cent_lat        <dbl> 149.7932, 149.2328, 149.2255, 149.2524, 149.3911…
-#> $ cent_long       <dbl> -35.45508, -35.37590, -35.35103, -35.35520, -35.…
+#> $ cent_long       <dbl> 149.7932, 149.2328, 149.2255, 149.2524, 149.3911…
+#> $ cent_lat        <dbl> -35.45508, -35.37590, -35.35103, -35.35520, -35.…
 #> $ geometry        <MULTIPOLYGON [°]> MULTIPOLYGON (((149.7606 -3..., MUL…
 ```
 
@@ -154,7 +154,7 @@ sa32016 %>%
   filter(gcc_name_2016 == "Greater Melbourne") %>%   # let's just look Melbourne
   ggplot() +
   geom_sf(aes(geometry = geometry)) +   # use the geometry variable
-  geom_point(aes(cent_lat, cent_long))  # use the centroid lat and longs
+  geom_point(aes(cent_long, cent_lat))  # use the centroid long (x) and lats (y)
 
 map
 ```
@@ -176,8 +176,8 @@ sa32016 %>%
               fill = areasqkm_2016),     # fill by area size
           lwd = 0,                  # remove borders
           show.legend = FALSE) +    # remove legend
-  geom_point(aes(cent_lat,
-                 cent_long),        # use the centroid lat and longs
+  geom_point(aes(cent_long,
+                 cent_lat),        # use the centroid long (x) and lats (y)
              colour = "white") +    # make the points white
   theme_void() +                    # clears other plot elements
   coord_sf()
@@ -302,3 +302,12 @@ If you would like to do these things, please feel free to install
 Fair enough\! The best avenue is via a Github issue at
 (wfmackey/absmapsdata). This is also the best place to request data that
 isn’t yet available in the package.
+
+
+# Updates
+
+2019-08-06 v1.1
+
+- Requires R >= 3.5.
+- Correct `cent_lat` and `cent_long` variables in `sf` objects. Thanks to @jamesha95 for noticing this. 
+

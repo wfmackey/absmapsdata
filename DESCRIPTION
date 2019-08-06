@@ -1,13 +1,13 @@
 Package: absmapsdata
 Type: Package
 Title: A catalouge of ready-to-use ASGS mapping data
-Version: 0.1.0
+Version: 0.1.1
 Author: person("Will", "Mackey", email = "william.mackey@grattaninstitute.edu.au",
                 role = c("aut", "cre"))
 Maintainer: Will Mackey <william.mackey@grattaninstitute.edu.au>
 License: GPL-3
 Description: This package allows the user to access lazily-loaded, compressed and formatted spatial data from the Australian Statistical Geography Standard (ASGS). The spatial data is contained in the package as an `sf` object and can called using its name (eg sa12016). It can then be combined with information to be mapped using `ggplot2`'s `geom_sf`.
-Depends: R (>= 3.1)
+Depends: R (>= 3.5)
 Suggests:
 		sf,	
 		knitr, 
