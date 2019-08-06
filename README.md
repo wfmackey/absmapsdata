@@ -302,3 +302,12 @@ If you would like to do these things, please feel free to install
 Fair enough\! The best avenue is via a Github issue at
 (wfmackey/absmapsdata). This is also the best place to request data that
 isn’t yet available in the package.
+
+
+# Updates
+
+2019-08-06 v1.1
+
+- Requires R >= 3.5.
+- Correct `cent_lat` and `cent_long` variables in `sf` objects. Thanks to @jamesha95 for noticing this. 
+
