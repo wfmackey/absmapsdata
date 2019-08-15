@@ -2,7 +2,7 @@
 
 The `absmapsdata` package exists to make it easier to produce maps from
 ABS data in R. The package contains compressed, tidied, and
-lazily-loadable `sf` objects containing geometric information about ABS
+lazily-loadable `sf` objects that hold geometric information about ABS
 data structures.
 
 It also contains a vast number of ABS correspondences that you can access with the `get_correspondence_absmaps` function. The correspondences available can be found at https://data.gov.au/data/dataset/asgs-geographic-correspondences-2016/resource/951e18c7-f187-4c86-a73f-fcabcd19af16 .
