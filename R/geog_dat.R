@@ -346,3 +346,20 @@
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
 #' }
 "sed2018"
+
+
+#' Regional IVI, 2008
+#'
+#' Geospatial data privately provided on request by the Department of Employment(...)'s Labour Market Information Portal Team in 2019.
+#' Contains 37 regions used for the Department's Vacancy Report. See http://www.regionalaustralia.org.au/home/regional-jobs-vacancy-map/ for limited details.
+#'
+#' @format An \code{sf} object with six variables:
+#' \describe{
+#' \item{\code{region_name}}{The name of the region. One of 37 'best fit' regions created for the Vacancy Report by the Department of Jobs and Small Business}
+#' \item{\code{state_name}}{The state name.}
+#' \item{\code{state_code}}{The state code.}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"regional_ivi2008"
