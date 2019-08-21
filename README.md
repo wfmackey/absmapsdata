@@ -62,6 +62,7 @@ If you would like to request a map to be added, let me know via an issue on this
 * State Electoral Divisions 2018:`sed2018`
 * Local Government Areas 2016: `lga2016`
 * Local Government Areas 2018: `lga2018`
+* Regions for the Internet Vacancy Index 2008: `regional_ivi2008`
 
 
 

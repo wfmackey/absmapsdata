@@ -12,3 +12,4 @@
 ^README-.*\.png$
 ^img$
 ^README.html*
+^data-raw$
