@@ -363,3 +363,20 @@
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
 #' }
 "regional_ivi2008"
+
+
+
+
+#' Postcodes, 2016
+#'
+#' Geospatial data provided by the ABS for postcodes in 2016.
+#'
+#' @format An \code{sf} object with five variables:
+#' \describe{
+#' \item{\code{postcode_2016}}{The postcode number as a character string.}
+#' \item{\code{state_name}}{The postcode number as a numeric.}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"postcode2016"
