@@ -380,3 +380,42 @@
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
 #' }
 "postcode2016"
+
+
+
+#' Destination Zones, 2016
+#'
+#' Geospatial data provided by the ABS for destination zones in 2016.
+#'
+#' @format An \code{sf} object with nine variables:
+#' \describe{
+#' \item{\code{dz_code_2016}}{The destination zone code as a character string.}
+#' \item{\code{sa2_code_2016}}{The full 9 digit SA2 code numeric}
+#' \item{\code{sa2_shortcode_2016}}{The 5 digit SA2 code numeric}
+#' \item{\code{sa2_name_2016}}{The SA2 name character}
+#' \item{\code{state_name_2016}}{The full state name}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"dz2016"
+
+
+
+#' Destination Zones, 2011
+#'
+#' Geospatial data provided by the ABS for destination zones in 2011.
+#'
+#' @format An \code{sf} object with nine variables:
+#' \describe{
+#' \item{\code{dz_code_2011}}{The destination zone code as a character string.}
+#' \item{\code{sa2_code_2011}}{The full 9 digit SA2 code numeric}
+#' \item{\code{sa2_shortcode_2011}}{The 5 digit SA2 code numeric}
+#' \item{\code{sa2_name_2011}}{The SA2 name character}
+#' \item{\code{state_name_2011}}{The full state name}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"dz2011"
+
