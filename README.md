@@ -37,7 +37,6 @@ library(tidyverse)
 
 Available maps are listed below. These will be added to over time. 
 If you would like to request a map to be added, let me know via an issue on this Github repo.
-(Or send me an email: wfmackey@gmail.com)
 
 **ASGS Main Structures**
 
@@ -64,6 +63,8 @@ If you would like to request a map to be added, let me know via an issue on this
 * Local Government Areas 2018: `lga2018`
 * Regions for the Internet Vacancy Index 2008: `regional_ivi2008`
 * Postcodes 2016: `postcodes2016`
+* Census of Population and Housing Destination Zones 2011: `dz2011`
+* Census of Population and Housing Destination Zones 2016: `dz2016`
 
 
 ## Just show me how to make a map with this package
@@ -306,6 +307,10 @@ isn’t yet available in the package.
 
 
 # Updates
+
+2019-09-19 v1.2
+
+- Added 2011 and 2016 destination zones.
 
 2019-08-06 v1.1
 

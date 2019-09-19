@@ -31,6 +31,7 @@ dz2011 <-
          sa2_name_2011 = SA2_NAME11,
          state_code_2011 = STE_CODE11,
          state_name_2011 = STE_NAME11,
+         areasqkm_2011 = AREA_SQKM,
          cent_lat = Y,
          cent_long = X,
          geometry)
