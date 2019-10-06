@@ -1,6 +1,6 @@
 Package: absmapsdata
 Type: Package
-Title: A catalouge of ready-to-use ASGS mapping data
+Title: A catalogue of ready-to-use ASGS mapping data
 Version: 0.1.1
 Author: person("Will", "Mackey", email = "william.mackey@grattaninstitute.edu.au",
                 role = c("aut", "cre"))
