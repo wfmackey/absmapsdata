@@ -5,7 +5,7 @@ ABS data in R. The package contains compressed, tidied, and
 lazily-loadable `sf` objects that hold geometric information about ABS
 data structures.
 
-It also contains a vast number of ABS correspondences that you can access with the `get_correspondence_absmaps` function. The correspondences available can be found at https://data.gov.au/data/dataset/asgs-geographic-correspondences-2016/resource/951e18c7-f187-4c86-a73f-fcabcd19af16 .
+It also contains a vast number of 2016 population-weighted ABS correspondences that you can access with the `get_correspondence_absmaps` function. The correspondences available can be found at the [data.gov.au website](https://data.gov.au/data/dataset/asgs-geographic-correspondences-2016/resource/951e18c7-f187-4c86-a73f-fcabcd19af16).
 
 Before we get into the ‘what problem is this package solving’ details,
 let’s look at some examples so that you can copy-paste into your own
@@ -308,9 +308,13 @@ isn’t yet available in the package.
 
 # Updates
 
+2019-11-04 v1.2.1
+
+- Added more correspondences from 2016 population-weighted file. Thanks to @gdickens for flagging that I'd missed some (many). 
+
 2019-09-19 v1.2
 
-- Added 2011 and 2016 destination zones.
+- Added 2011 and 2016 destination zones. Thanks to @gabyd for suggesting this.
 
 2019-08-06 v1.1
 
