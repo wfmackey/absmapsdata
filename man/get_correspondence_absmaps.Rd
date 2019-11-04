@@ -2,7 +2,7 @@
 % Please edit documentation in R/get_correspondence_absmaps.R
 \name{get_correspondence_absmaps}
 \alias{get_correspondence_absmaps}
-\title{Read in ASGC/ASGS population-weighted correspondence tables from the ABS.}
+\title{Read in ASGC/ASGS 2016 population-weighted correspondence tables from the ABS.}
 \usage{
 get_correspondence_absmaps(fromArea, fromYear, toArea, toYear)
 }
@@ -19,12 +19,12 @@ get_correspondence_absmaps(fromArea, fromYear, toArea, toYear)
 A \code{tibble} object.
 }
 \description{
-Read in ASGC/ASGS population-weighted correspondence tables from the ABS.
+Source: \url{https://data.gov.au/dataset/ds-dga-23fe168c-09a7-42d2-a2f9-fd08fbd0a4ce/details?q=}
 }
 \examples{
 \dontrun{
-sa4_corr <- get_correspondence_absmaps("sa4", 2011,
-                                       "sa4", 2016)
+sa4_corr <- get_correspondence_absmaps("sa4", 2011, "sa4", 2016)
+lga2011_to_2018 <- get_correspondence_absmaps("LGA", 2011, "LGA", 2018)
 }
 
 }
