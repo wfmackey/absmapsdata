@@ -76,7 +76,8 @@ data. To load a particular geospatial object: load the **package**, then
 call the object (see list above for object names).
 
 ``` r
-
+library(tidyverse)
+library(sf)
 library(absmapsdata)
 
 mapdata1 <- sa32011
