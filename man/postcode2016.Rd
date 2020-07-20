@@ -4,14 +4,16 @@
 \name{postcode2016}
 \alias{postcode2016}
 \title{Postcodes, 2016}
-\format{An \code{sf} object with five variables:
+\format{
+An \code{sf} object with five variables:
 \describe{
 \item{\code{postcode_2016}}{The postcode number as a character string.}
 \item{\code{state_name}}{The postcode number as a numeric.}
 \item{\code{cent_lat}}{The latitide of the area's centroid}
 \item{\code{cent_long}}{The latitide of the area's centroid}
 \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
-}}
+}
+}
 \usage{
 postcode2016
 }

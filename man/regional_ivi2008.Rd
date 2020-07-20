@@ -4,7 +4,8 @@
 \name{regional_ivi2008}
 \alias{regional_ivi2008}
 \title{Regional IVI, 2008}
-\format{An \code{sf} object with six variables:
+\format{
+An \code{sf} object with six variables:
 \describe{
 \item{\code{region_name}}{The name of the region. One of 37 'best fit' regions created for the Vacancy Report by the Department of Jobs and Small Business}
 \item{\code{state_name}}{The state name.}
@@ -12,7 +13,8 @@
 \item{\code{cent_lat}}{The latitide of the area's centroid}
 \item{\code{cent_long}}{The latitide of the area's centroid}
 \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
-}}
+}
+}
 \usage{
 regional_ivi2008
 }

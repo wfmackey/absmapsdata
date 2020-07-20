@@ -4,7 +4,8 @@
 \name{dz2011}
 \alias{dz2011}
 \title{Destination Zones, 2011}
-\format{An \code{sf} object with nine variables:
+\format{
+An \code{sf} object with nine variables:
 \describe{
 \item{\code{dz_code_2011}}{The destination zone code as a character string.}
 \item{\code{sa2_code_2011}}{The full 9 digit SA2 code numeric}
@@ -14,7 +15,8 @@
 \item{\code{cent_lat}}{The latitide of the area's centroid}
 \item{\code{cent_long}}{The latitide of the area's centroid}
 \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
-}}
+}
+}
 \usage{
 dz2011
 }

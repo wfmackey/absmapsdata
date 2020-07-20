@@ -315,6 +315,22 @@
 #' }
 "lga2016"
 
+#' Local Government Areas, 2011
+#'
+#' Geospatial data provided by the ABS for local government areas (LGAs) in 2011.
+#'
+#' @format An \code{sf} object with eight variables:
+#' \describe{
+#' \item{\code{lga_code_2011}}{The LGA code}
+#' \item{\code{lga_name_2011}}{The LGA name}
+#' \item{\code{state_code_2011}}{The state code}
+#' \item{\code{state_name_2011}}{The full state name}
+#' \item{\code{albers_sqkm_2011}}{The area in square kilometres}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"lga2011"
 
 #' Commonwelath Electoral Districts, 2018
 #'

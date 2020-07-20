@@ -4,7 +4,8 @@
 \name{sa32011}
 \alias{sa32011}
 \title{Statistical Area 3, 2011}
-\format{An \code{sf} object with 12 variables:
+\format{
+An \code{sf} object with 12 variables:
 \describe{
 \item{\code{sa3_code_2011}}{The full 5 digit SA3 code numeric}
 \item{\code{sa3_name_2011}}{The SA3 name character}
@@ -17,7 +18,8 @@
 \item{\code{cent_lat}}{The latitide of the area's centroid}
 \item{\code{cent_long}}{The latitide of the area's centroid}
 \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
-}}
+}
+}
 \usage{
 sa32011
 }

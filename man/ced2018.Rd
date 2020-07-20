@@ -4,7 +4,8 @@
 \name{ced2018}
 \alias{ced2018}
 \title{Commonwelath Electoral Districts, 2018}
-\format{An \code{sf} object with six variables:
+\format{
+An \code{sf} object with six variables:
 \describe{
 \item{\code{ced_code_2018}}{The CED code}
 \item{\code{ced_name_2018}}{The CED name}
@@ -12,7 +13,8 @@
 \item{\code{cent_lat}}{The latitide of the area's centroid}
 \item{\code{cent_long}}{The latitide of the area's centroid}
 \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
-}}
+}
+}
 \usage{
 ced2018
 }

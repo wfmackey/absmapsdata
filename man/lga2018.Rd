@@ -4,7 +4,8 @@
 \name{lga2018}
 \alias{lga2018}
 \title{Local Government Areas, 2018}
-\format{An \code{sf} object with eight variables:
+\format{
+An \code{sf} object with eight variables:
 \describe{
 \item{\code{lga_code_2018}}{The LGA code}
 \item{\code{lga_name_2018}}{The LGA name}
@@ -14,7 +15,8 @@
 \item{\code{cent_lat}}{The latitide of the area's centroid}
 \item{\code{cent_long}}{The latitide of the area's centroid}
 \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
-}}
+}
+}
 \usage{
 lga2018
 }

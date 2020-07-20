@@ -4,7 +4,8 @@
 \name{gcc2016}
 \alias{gcc2016}
 \title{Greater Capital Cities, 2016}
-\format{An \code{sf} object with 12 variables:
+\format{
+An \code{sf} object with 12 variables:
 \describe{
 \item{\code{gcc_code_2016}}{The alphanumeric Greater Capital City (GCC) code character}
 \item{\code{gcc_name_2016}}{The GCC name}
@@ -13,7 +14,8 @@
 \item{\code{cent_lat}}{The latitide of the area's centroid}
 \item{\code{cent_long}}{The latitide of the area's centroid}
 \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
-}}
+}
+}
 \usage{
 gcc2016
 }
