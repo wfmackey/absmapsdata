@@ -198,10 +198,10 @@ and 2) the geometry of the areas, we can plot income by area:
 map <- combined_data %>%
   filter(gcc_name_2016 == "Greater Melbourne") %>%   # let's just look Melbourne
   ggplot() +
-  geom_sf(aes(geometry = geometry,  # use the geometry variable
-              fill = median_income),        # fill by unemployment rate
-          lwd = 0) +                # remove borders
-  theme_void() +                    # clears other plot elements
+  geom_sf(aes(geometry = geometry,   # use the geometry variable
+              fill = median_income), # fill by unemployment rate
+          lwd = 0) +                 # remove borders
+  theme_void() +                     # clears other plot elements
   coord_sf(crs = "+init=epsg:4326") +       # sets the coordinate reference system (to match Google Earth)       
   labs(fill = "Median income")
 ```
