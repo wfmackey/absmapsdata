@@ -8,7 +8,7 @@
 An \code{sf} object with 10 variables:
 \describe{
 \item{\code{state_name_2011}}{The full state name}
-\item{\code{albers_sqkm_2011}}{The area in square kilometres}
+\item{\code{areasqkm_2011}}{The area in square kilometres}
 \item{\code{cent_lat}}{The latitide of the area's centroid}
 \item{\code{cent_long}}{The latitide of the area's centroid}
 \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
