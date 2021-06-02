@@ -1,7 +1,8 @@
 library(tidyverse)
 library(sf)
 
-# Preparing Significant Urban Areas, Urban Centres and Localities, Section of State, July 2016
+# Preparing Significant Urban Areas, Urban Centres and Localities,
+# Section of State, July 2016 --------------------------------------------------
 # Source: https://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/1270.0.55.004July%202016?OpenDocument
 
 ucl <- read_shape(folder_path = "~/Downloads/1270055004_ucl_2016_aust_shape")
@@ -9,9 +10,11 @@ sos <- read_shape(folder_path = "~/Downloads/1270055004_sos_2016_aust_shape")
 sosr <- read_shape(folder_path = "~/Downloads/1270055004_sosr_2016_aust_shape")
 sua <- read_shape(folder_path = "~/Downloads/1270055004_sua_2016_aust_shape")
 
+# and tourism
+tourism <- read_shape(folder_path = "~/Downloads/1270055003_tr_2016_aust_shape.zip")
 
 
-# Tidy and save
+# Tidy and save ----------------------------------------------------------------
 sua2016 <- sua %>%
   select(sua_code_2016 = SUA_CODE16,
          sua_name_2016 = SUA_NAME16,
@@ -62,3 +65,16 @@ ucl2016 <- ucl %>%
          geometry)
 
 save(ucl2016, file = "data/ucl2016.rda", compress = "xz")
+
+
+tourism2016 <- tourism  %>%
+  select(tourism_code_2016 = TR_CODE16,
+         tourism_name_2016 = TR_NAME16,
+         state_code_2016 = STE_CODE16,
+         state_name_2016 = STE_NAME16,
+         areasqkm_2016 = AREASQKM16,
+         cent_lat = Y,
+         cent_long = X,
+         geometry)
+
+save(tourism2016, file = "data/tourism2016.rda", compress = "xz")
