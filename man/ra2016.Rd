@@ -9,7 +9,7 @@ An \code{sf} object with 10 variables:
 \describe{
 \item{\code{ra_code}}{The remoteness area code (by state)}
 \item{\code{ra}}{The remoteness area name (by state)}
-\item{\code{albers_sqkm_2016}}{The area in square kilometres}
+\item{\code{areasqkm_2016}}{The area in square kilometres}
 \item{\code{cent_lat}}{The latitide of the area's centroid}
 \item{\code{cent_long}}{The latitide of the area's centroid}
 \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}

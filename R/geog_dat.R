@@ -16,7 +16,7 @@
 #' \item{\code{gcc_code_2011}}{The alphanumeric Greater Capital City (GCC) code character}
 #' \item{\code{gcc_name_2011}}{The GCC name}
 #' \item{\code{state_name_2011}}{The full state name}
-#' \item{\code{albers_sqkm_2011}}{The area in square kilometres}
+#' \item{\code{areasqkm_2011}}{The area in square kilometres}
 #' \item{\code{cent_lat}}{The latitide of the area's centroid}
 #' \item{\code{cent_long}}{The latitide of the area's centroid}
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
@@ -43,7 +43,7 @@
 #' \item{\code{gcc_code_2016}}{The alphanumeric Greater Capital City (GCC) code character}
 #' \item{\code{gcc_name_2016}}{The GCC name}
 #' \item{\code{state_name_2016}}{The full state name}
-#' \item{\code{albers_sqkm_2016}}{The area in square kilometres}
+#' \item{\code{areasqkm_2016}}{The area in square kilometres}
 #' \item{\code{cent_lat}}{The latitide of the area's centroid}
 #' \item{\code{cent_long}}{The latitide of the area's centroid}
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
@@ -68,7 +68,7 @@
 #' \item{\code{gcc_code_2011}}{The alphanumeric Greater Capital City (GCC) code character}
 #' \item{\code{gcc_name_2011}}{The GCC name}
 #' \item{\code{state_name_2011}}{The full state name}
-#' \item{\code{albers_sqkm_2011}}{The area in square kilometres}
+#' \item{\code{areasqkm_2011}}{The area in square kilometres}
 #' \item{\code{cent_lat}}{The latitide of the area's centroid}
 #' \item{\code{cent_long}}{The latitide of the area's centroid}
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
@@ -92,7 +92,7 @@
 #' \item{\code{gcc_code_2016}}{The alphanumeric Greater Capital City (GCC) code character}
 #' \item{\code{gcc_name_2016}}{The GCC name}
 #' \item{\code{state_name_2016}}{The full state name}
-#' \item{\code{albers_sqkm_2016}}{The area in square kilometres}
+#' \item{\code{areasqkm_2016}}{The area in square kilometres}
 #' \item{\code{cent_lat}}{The latitide of the area's centroid}
 #' \item{\code{cent_long}}{The latitide of the area's centroid}
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
@@ -113,7 +113,7 @@
 #' \item{\code{gcc_code_2011}}{The alphanumeric Greater Capital City (GCC) code character}
 #' \item{\code{gcc_name_2011}}{The GCC name}
 #' \item{\code{state_name_2011}}{The full state name}
-#' \item{\code{albers_sqkm_2011}}{The area in square kilometres}
+#' \item{\code{areasqkm_2011}}{The area in square kilometres}
 #' \item{\code{cent_lat}}{The latitide of the area's centroid}
 #' \item{\code{cent_long}}{The latitide of the area's centroid}
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
@@ -134,7 +134,7 @@
 #' \item{\code{gcc_code_2016}}{The alphanumeric Greater Capital City (GCC) code character}
 #' \item{\code{gcc_name_2016}}{The GCC name}
 #' \item{\code{state_name_2016}}{The full state name}
-#' \item{\code{albers_sqkm_2016}}{The area in square kilometres}
+#' \item{\code{areasqkm_2016}}{The area in square kilometres}
 #' \item{\code{cent_lat}}{The latitide of the area's centroid}
 #' \item{\code{cent_long}}{The latitide of the area's centroid}
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
@@ -154,7 +154,7 @@
 #' \item{\code{gcc_code_2011}}{The alphanumeric Greater Capital City (GCC) code character}
 #' \item{\code{gcc_name_2011}}{The GCC name}
 #' \item{\code{state_name_2011}}{The full state name}
-#' \item{\code{albers_sqkm_2011}}{The area in square kilometres}
+#' \item{\code{areasqkm_2011}}{The area in square kilometres}
 #' \item{\code{cent_lat}}{The latitide of the area's centroid}
 #' \item{\code{cent_long}}{The latitide of the area's centroid}
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
@@ -173,7 +173,7 @@
 #' \item{\code{gcc_code_2016}}{The alphanumeric Greater Capital City (GCC) code character}
 #' \item{\code{gcc_name_2016}}{The GCC name}
 #' \item{\code{state_name_2016}}{The full state name}
-#' \item{\code{albers_sqkm_2016}}{The area in square kilometres}
+#' \item{\code{areasqkm_2016}}{The area in square kilometres}
 #' \item{\code{cent_lat}}{The latitide of the area's centroid}
 #' \item{\code{cent_long}}{The latitide of the area's centroid}
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
@@ -191,7 +191,7 @@
 #' \item{\code{gcc_code_2011}}{The alphanumeric Greater Capital City (GCC) code character}
 #' \item{\code{gcc_name_2011}}{The GCC name}
 #' \item{\code{state_name_2011}}{The full state name}
-#' \item{\code{albers_sqkm_2011}}{The area in square kilometres}
+#' \item{\code{areasqkm_2011}}{The area in square kilometres}
 #' \item{\code{cent_lat}}{The latitide of the area's centroid}
 #' \item{\code{cent_long}}{The latitide of the area's centroid}
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
@@ -208,7 +208,7 @@
 #' \item{\code{gcc_code_2016}}{The alphanumeric Greater Capital City (GCC) code character}
 #' \item{\code{gcc_name_2016}}{The GCC name}
 #' \item{\code{state_name_2016}}{The full state name}
-#' \item{\code{albers_sqkm_2016}}{The area in square kilometres}
+#' \item{\code{areasqkm_2016}}{The area in square kilometres}
 #' \item{\code{cent_lat}}{The latitide of the area's centroid}
 #' \item{\code{cent_long}}{The latitide of the area's centroid}
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
@@ -224,7 +224,7 @@
 #' @format An \code{sf} object with 10 variables:
 #' \describe{
 #' \item{\code{state_name_2011}}{The full state name}
-#' \item{\code{albers_sqkm_2011}}{The area in square kilometres}
+#' \item{\code{areasqkm_2011}}{The area in square kilometres}
 #' \item{\code{cent_lat}}{The latitide of the area's centroid}
 #' \item{\code{cent_long}}{The latitide of the area's centroid}
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
@@ -239,7 +239,7 @@
 #' @format An \code{sf} object with 12 variables:
 #' \describe{
 #' \item{\code{state_name_2016}}{The full state name}
-#' \item{\code{albers_sqkm_2016}}{The area in square kilometres}
+#' \item{\code{areasqkm_2016}}{The area in square kilometres}
 #' \item{\code{cent_lat}}{The latitide of the area's centroid}
 #' \item{\code{cent_long}}{The latitide of the area's centroid}
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
@@ -255,7 +255,7 @@
 #' \describe{
 #' \item{\code{ra_code}}{The remoteness area code (by state)}
 #' \item{\code{ra}}{The remoteness area name (by state)}
-#' \item{\code{albers_sqkm_2011}}{The area in square kilometres}
+#' \item{\code{areasqkm_2011}}{The area in square kilometres}
 #' \item{\code{cent_lat}}{The latitide of the area's centroid}
 #' \item{\code{cent_long}}{The latitide of the area's centroid}
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
@@ -271,7 +271,7 @@
 #' \describe{
 #' \item{\code{ra_code}}{The remoteness area code (by state)}
 #' \item{\code{ra}}{The remoteness area name (by state)}
-#' \item{\code{albers_sqkm_2016}}{The area in square kilometres}
+#' \item{\code{areasqkm_2016}}{The area in square kilometres}
 #' \item{\code{cent_lat}}{The latitide of the area's centroid}
 #' \item{\code{cent_long}}{The latitide of the area's centroid}
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
@@ -290,7 +290,7 @@
 #' \item{\code{lga_name_2018}}{The LGA name}
 #' \item{\code{state_code_2016}}{The state code}
 #' \item{\code{state_name_2016}}{The full state name}
-#' \item{\code{albers_sqkm_2018}}{The area in square kilometres}
+#' \item{\code{areasqkm_2018}}{The area in square kilometres}
 #' \item{\code{cent_lat}}{The latitide of the area's centroid}
 #' \item{\code{cent_long}}{The latitide of the area's centroid}
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
@@ -308,7 +308,7 @@
 #' \item{\code{lga_name_2016}}{The LGA name}
 #' \item{\code{state_code_2016}}{The state code}
 #' \item{\code{state_name_2016}}{The full state name}
-#' \item{\code{albers_sqkm_2016}}{The area in square kilometres}
+#' \item{\code{areasqkm_2016}}{The area in square kilometres}
 #' \item{\code{cent_lat}}{The latitide of the area's centroid}
 #' \item{\code{cent_long}}{The latitide of the area's centroid}
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
@@ -325,7 +325,7 @@
 #' \item{\code{lga_name_2011}}{The LGA name}
 #' \item{\code{state_code_2011}}{The state code}
 #' \item{\code{state_name_2011}}{The full state name}
-#' \item{\code{albers_sqkm_2011}}{The area in square kilometres}
+#' \item{\code{areasqkm_2011}}{The area in square kilometres}
 #' \item{\code{cent_lat}}{The latitide of the area's centroid}
 #' \item{\code{cent_long}}{The latitide of the area's centroid}
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
@@ -340,7 +340,7 @@
 #' \describe{
 #' \item{\code{ced_code_2018}}{The CED code}
 #' \item{\code{ced_name_2018}}{The CED name}
-#' \item{\code{albers_sqkm_2018}}{The area in square kilometres}
+#' \item{\code{areasqkm_2018}}{The area in square kilometres}
 #' \item{\code{cent_lat}}{The latitide of the area's centroid}
 #' \item{\code{cent_long}}{The latitide of the area's centroid}
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
@@ -356,7 +356,7 @@
 #' \describe{
 #' \item{\code{sed_code_2018}}{The SED code}
 #' \item{\code{sed_name_2018}}{The SED name}
-#' \item{\code{albers_sqkm_2018}}{The area in square kilometres}
+#' \item{\code{areasqkm_2018}}{The area in square kilometres}
 #' \item{\code{cent_lat}}{The latitide of the area's centroid}
 #' \item{\code{cent_long}}{The latitide of the area's centroid}
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
@@ -435,3 +435,94 @@
 #' }
 "dz2011"
 
+
+
+#' Significant Urban Area (SUA), 2016
+#'
+#' Geospatial data provided by the ABS for Significant Urban Areas (SUA) in 2016.
+#'
+#' @format An \code{sf} object with six variables:
+#' \describe{
+#' \item{\code{sua_code_2016}}{The SUA code}
+#' \item{\code{sua_name_2016}}{The SUA name}
+#' \item{\code{areasqkm_2016}}{The area in square kilometres}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"sua2016"
+
+
+#' Section of State (SOS), 2016
+#'
+#' Geospatial data provided by the ABS for Section of State (SOS) in 2016.
+
+#' @format An \code{sf} object with eight variables:
+#' \describe{
+#' \item{\code{sos_code_2016}}{The SOS code}
+#' \item{\code{sos_name_2016}}{The SOS name}
+#' \item{\code{state_code_2016}}{The state code}
+#' \item{\code{state_name_2016}}{The full state name}
+#' \item{\code{areasqkm_2016}}{The area in square kilometres}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"sos2016"
+
+#' Section of State Range (SOSR), 2016
+#'
+#' Geospatial data provided by the ABS for Section of State Range (SOSR) in 2016.
+#'
+#' @format An \code{sf} object with ten variables:
+#' \describe{
+#' \item{\code{ssr_code_2016}}{The SSR code}
+#' \item{\code{ssr_name_2016}}{The SSR name}
+#' \item{\code{sos_code_2016}}{The SOS code}
+#' \item{\code{sos_name_2016}}{The SOS name}
+#' \item{\code{state_code_2016}}{The state code}
+#' \item{\code{state_name_2016}}{The full state name}
+#' \item{\code{areasqkm_2016}}{The area in square kilometres}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"sosr2016"
+
+#' Urban Centre and Locality (UCL), 2016
+#'
+#' Geospatial data provided by the ABS for Urban Centre and Locality (UCL) in 2016.
+#'
+#' @format An \code{sf} object with twelve variables:
+#' \describe{
+#' \item{\code{ucl_code_2016}}{The UCL code}
+#' \item{\code{ucl_name_2016}}{The UCL name}
+#' \item{\code{ssr_code_2016}}{The SSR code}
+#' \item{\code{ssr_name_2016}}{The SSR name}
+#' \item{\code{sos_code_2016}}{The SOS code}
+#' \item{\code{sos_name_2016}}{The SOS name}
+#' \item{\code{state_code_2016}}{The state code}
+#' \item{\code{state_name_2016}}{The full state name}
+#' \item{\code{areasqkm_2016}}{The area in square kilometres}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"ucl2016"
+
+#' Tourism Regions, 2016
+#'
+#' Geospatial data provided by the ABS for Tourism Regions in 2016.
+#'
+#' @format An \code{sf} object with eight variables:
+#' \describe{
+#' \item{\code{tourism_code_2016}}{The Tourism Regions code}
+#' \item{\code{tourism_name_2016}}{The Tourism Regions name}
+#' \item{\code{state_code_2016}}{The state code}
+#' \item{\code{state_name_2016}}{The full state name}
+#' \item{\code{areasqkm_2016}}{The area in square kilometres}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"tourism2016"

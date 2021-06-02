@@ -56,7 +56,11 @@ save(sosr2016, file = "data/sosr2016.rda", compress = "xz")
 
 ucl2016 <- ucl %>%
   select(ucl_code_2016 = UCL_CODE16,
-         ucl_name_2016 = 2,
+         ucl_name_2016 = UCL_NAME16,
+         ssr_code_2016 = SSR_CODE16,
+         ssr_name_2016 = SSR_NAME16,
+         sos_code_2016 = SOS_CODE16,
+         sos_name_2016 = SOS_NAME16,
          state_code_2016 = STE_CODE16,
          state_name_2016 = STE_NAME16,
          areasqkm_2016 = AREASQKM16,

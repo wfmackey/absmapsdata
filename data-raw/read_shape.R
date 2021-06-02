@@ -1,13 +1,3 @@
-#' Read and compress shape files for processing
-#' @name read_shape
-#' @param path Path to the original file
-#' @param compress Compression level. Defaults to 0.1 (10%)
-#' @return An sf object
-#' @import stringr
-#' @importFrom clipr write_clip
-#' @export
-#'
-
 
 read_shape <- function(folder_path,
                        compress_level = 0.1) {
