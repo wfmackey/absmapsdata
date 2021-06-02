@@ -1,6 +1,6 @@
 # absmapsdata 1.2.2, 2021-06-02
 - Add Significant Urban Areas, Urban Centres and Localities, Section of State. Thanks to @baslat
-- Add Tourism Regions. Thanks to @charlescoverdale
+- Add Tourism Regions. Thanks to @charlescoverdale.
 
 
 # absmapsdata 1.2.1, 2019-11-04
