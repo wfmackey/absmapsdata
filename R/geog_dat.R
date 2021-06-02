@@ -2,7 +2,7 @@
 #'
 #' Geospatial data provided by the ABS for Statistical Area 1 in 2011.
 #'
-#' @format An \code{sf} object with 17 variables:
+#' @format An \code{sf} object with 16 variables:
 #' \describe{
 #' \item{\code{sa1_code_2011}}{The full 11 digit SA1 code numeric}
 #' \item{\code{sa1_7dig_2011}}{The 7 digit SA1 code numeric}
