@@ -1,5 +1,7 @@
-# absmapsdata 1.3, 2021-06-02
+# absmapsdata 1.2.2, 2021-06-02
 - Add Significant Urban Areas, Urban Centres and Localities, Section of State. Thanks to @baslat
+- Add `read_shape` function
+- Add 
 
 
 # absmapsdata 1.2.1, 2019-11-04
