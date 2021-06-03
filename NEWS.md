@@ -1,3 +1,7 @@
+# absmapsdata 1.2.3, 2021-06-03
+- Set all `sf` objects to CS `4326`. Thanks @ellisp and @daviddiviny for the suggestion.
+- Adds some tests ffs.
+
 # absmapsdata 1.2.2, 2021-06-02
 - Add Significant Urban Areas, Urban Centres and Localities, Section of State. Thanks to @baslat
 - Add Tourism Regions. Thanks to @charlescoverdale.
