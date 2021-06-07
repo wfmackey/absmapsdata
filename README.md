@@ -7,6 +7,8 @@
 
 [![Lifecycle:
 stable](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://www.tidyverse.org/lifecycle/#stable)
+[![R build
+status](https://github.com/wfmackey/absmapsdata/workflows/R-CMD-check/badge.svg)](https://github.com/wfmackey/absmapsdata/actions)
 <!-- badges: end -->
 
 The `absmapsdata` package exists to make it easier to produce maps from
@@ -84,11 +86,11 @@ call the object (see list above for object names).
 
 ``` r
 library(tidyverse)
-#> ── Attaching packages ────────────────────────────────── tidyverse 1.3.0.9000 ──
+#> ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──
 #> ✓ ggplot2 3.3.3     ✓ purrr   0.3.4
-#> ✓ tibble  3.1.1     ✓ dplyr   1.0.6
-#> ✓ tidyr   1.1.2     ✓ stringr 1.4.0
-#> ✓ readr   1.4.0     ✓ forcats 0.5.0
+#> ✓ tibble  3.1.2     ✓ dplyr   1.0.6
+#> ✓ tidyr   1.1.3     ✓ stringr 1.4.0
+#> ✓ readr   1.4.0     ✓ forcats 0.5.1
 #> ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
 #> x dplyr::filter() masks stats::filter()
 #> x dplyr::lag()    masks stats::lag()
@@ -256,7 +258,7 @@ map <- combined_data %>%
               fill = median_income), # fill by unemployment rate
           lwd = 0) +                 # remove borders
   theme_void() +                     # clears other plot elements
-  coord_sf(crs = "+init=epsg:4326") +       # sets the coordinate reference system (to match Google Earth)       
+  coord_sf(crs = "+init=epsg:4326") + # sets the coordinate reference system (to match Google Earth)       
   labs(fill = "Median income")
 ```
 
@@ -265,6 +267,8 @@ map <- combined_data %>%
 You can use the `get_correspondence_absmaps` function to get
 population-weighted correspondence tables provided [by the
 ABS](https://data.gov.au/data/dataset/asgs-geographic-correspondences-2016/resource/951e18c7-f187-4c86-a73f-fcabcd19af16).
+Note that while there are lots of correspondence tables, not every
+combination is available.
 
 For example:
 
