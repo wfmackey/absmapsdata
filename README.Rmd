@@ -19,6 +19,7 @@ knitr::opts_chunk$set(
 
 [![Lifecycle:
 stable](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://www.tidyverse.org/lifecycle/#stable)
+[![R build status](https://github.com/wfmackey/absmapsdata/workflows/R-CMD-check/badge.svg)](https://github.com/wfmackey/absmapsdata/actions)
 <!-- badges: end -->
 
 The `absmapsdata` package exists to make it easier to produce maps from
@@ -202,13 +203,15 @@ map <- combined_data %>%
               fill = median_income), # fill by unemployment rate
           lwd = 0) +                 # remove borders
   theme_void() +                     # clears other plot elements
-  coord_sf(crs = "+init=epsg:4326") +       # sets the coordinate reference system (to match Google Earth)       
+  coord_sf(crs = "+init=epsg:4326") + # sets the coordinate reference system (to match Google Earth)       
   labs(fill = "Median income")
 ```
 
 ## Get correspondence files
 
-You can use the `get_correspondence_absmaps` function to get population-weighted correspondence tables provided [by the ABS](https://data.gov.au/data/dataset/asgs-geographic-correspondences-2016/resource/951e18c7-f187-4c86-a73f-fcabcd19af16). 
+You can use the `get_correspondence_absmaps` function to get population-weighted correspondence tables provided [by the ABS](https://data.gov.au/data/dataset/asgs-geographic-correspondences-2016/resource/951e18c7-f187-4c86-a73f-fcabcd19af16).
+Note that while there are lots of correspondence tables, not every combination is available.
+
 
 For example:
 
