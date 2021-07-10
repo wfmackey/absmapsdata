@@ -35,6 +35,15 @@ You can install `absmapsdata` from github with:
 remotes::install_github("wfmackey/absmapsdata")
 ```
 
+`absmapsdata` contains a lot of data, so installing using
+`remotes::install_github` may fail if the download times out. If this
+happens, set the timeout option to a large value and try again, i.e. run
+
+``` r
+options(timeout=1000)
+remotes::install_github("wfmackey/absmapsdata")
+```
+
 The `sf` package is required to handle the `sf` objects:
 
 ``` r
@@ -50,31 +59,31 @@ this Github repo.
 
 **ASGS Main Structures**
 
--   Statistical Area 1 2011: `sa12011`
--   Statistical Area 1 2016: `sa12016`
--   Statistical Area 2 2011: `sa22011`
--   Statistical Area 2 2016: `sa22016`
--   Statistical Area 3 2011: `sa32011`
--   Statistical Area 3 2016: `sa32016`
--   Statistical Area 4 2011: `sa42011`
--   Statistical Area 4 2016: `sa42016`
--   Greater Capital Cities 2011: `gcc2011`
--   Greater Capital Cities 2016: `gcc2016`
--   Remoteness Areas 2011: `ra2011`
--   Remoteness Areas 2016: `ra2016`
--   State 2011: `state2011`
--   State 2016: `state2016`
+  - Statistical Area 1 2011: `sa12011`
+  - Statistical Area 1 2016: `sa12016`
+  - Statistical Area 2 2011: `sa22011`
+  - Statistical Area 2 2016: `sa22016`
+  - Statistical Area 3 2011: `sa32011`
+  - Statistical Area 3 2016: `sa32016`
+  - Statistical Area 4 2011: `sa42011`
+  - Statistical Area 4 2016: `sa42016`
+  - Greater Capital Cities 2011: `gcc2011`
+  - Greater Capital Cities 2016: `gcc2016`
+  - Remoteness Areas 2011: `ra2011`
+  - Remoteness Areas 2016: `ra2016`
+  - State 2011: `state2011`
+  - State 2016: `state2016`
 
 **ASGS Non-ABS Structures**
 
--   Commonwealth Electoral Divisions 2018: `ced2018`
--   State Electoral Divisions 2018:`sed2018`
--   Local Government Areas 2016: `lga2016`
--   Local Government Areas 2018: `lga2018`
--   Regions for the Internet Vacancy Index 2008: `regional_ivi2008`
--   Postcodes 2016: `postcodes2016`
--   Census of Population and Housing Destination Zones 2011: `dz2011`
--   Census of Population and Housing Destination Zones 2016: `dz2016`
+  - Commonwealth Electoral Divisions 2018: `ced2018`
+  - State Electoral Divisions 2018:`sed2018`
+  - Local Government Areas 2016: `lga2016`
+  - Local Government Areas 2018: `lga2018`
+  - Regions for the Internet Vacancy Index 2008: `regional_ivi2008`
+  - Postcodes 2016: `postcodes2016`
+  - Census of Population and Housing Destination Zones 2011: `dz2011`
+  - Census of Population and Housing Destination Zones 2016: `dz2016`
 
 ## Just show me how to make a map with this package
 
@@ -86,16 +95,16 @@ call the object (see list above for object names).
 
 ``` r
 library(tidyverse)
-#> ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──
-#> ✓ ggplot2 3.3.3     ✓ purrr   0.3.4
-#> ✓ tibble  3.1.2     ✓ dplyr   1.0.6
-#> ✓ tidyr   1.1.3     ✓ stringr 1.4.0
-#> ✓ readr   1.4.0     ✓ forcats 0.5.1
-#> ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-#> x dplyr::filter() masks stats::filter()
-#> x dplyr::lag()    masks stats::lag()
+#> ── Attaching packages ──────────────────────────────────────────────────────────── tidyverse 1.3.1 ──
+#> ✔ ggplot2 3.3.5     ✔ purrr   0.3.4
+#> ✔ tibble  3.1.2     ✔ dplyr   1.0.7
+#> ✔ tidyr   1.1.3     ✔ stringr 1.4.0
+#> ✔ readr   1.4.0     ✔ forcats 0.5.1
+#> ── Conflicts ─────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+#> ✖ dplyr::filter() masks stats::filter()
+#> ✖ dplyr::lag()    masks stats::lag()
 library(sf)
-#> Linking to GEOS 3.8.1, GDAL 3.1.4, PROJ 6.3.1
+#> Linking to GEOS 3.8.0, GDAL 3.0.4, PROJ 6.3.1
 library(absmapsdata)
 
 mapdata1 <- sa32011
@@ -220,7 +229,7 @@ over time.
 # Read data in some data
 income <- read_csv("https://raw.githubusercontent.com/wfmackey/absmapsdata/master/img/data/median_income_sa3.csv")
 #> 
-#> ── Column specification ────────────────────────────────────────────────────────
+#> ── Column specification ─────────────────────────────────────────────────────────────────────────────
 #> cols(
 #>   sa3_name_2016 = col_character(),
 #>   year = col_character(),
@@ -300,13 +309,13 @@ sometimes, the best way to communicate data. And making maps is `R` with
 Getting the right `object` is not technically difficult, but requires
 research into the best-thing-to-do at each of the following steps:
 
--   Find the ASGS ABS spatial-data page and determine the right file to
+  - Find the ASGS ABS spatial-data page and determine the right file to
     download.
--   Read the shapefile into `R` using one-of-many import tools.
--   Convert the object into something usable.
--   Clean up any inconsistencies and apply consistent variable
+  - Read the shapefile into `R` using one-of-many import tools.
+  - Convert the object into something usable.
+  - Clean up any inconsistencies and apply consistent variable
     naming/values across areas and years.
--   Find an appropriate compression function and level to optimise
+  - Find an appropriate compression function and level to optimise
     output.
 
 For me, at least, finding the correct information and developing the
@@ -318,7 +327,7 @@ blogs](https://www.neonscience.org/dc-open-shapefiles-r).
 
 ## Comments/complaints/requests/THOUGHTS
 
-Fair enough! The best avenue is via a Github issue at
+Fair enough\! The best avenue is via a Github issue at
 [wfmackey/absmapsdata](https://github.com/wfmackey/absmapsdata). This is
 also the best place to request data that isn’t yet available in the
 package.
