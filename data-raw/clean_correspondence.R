@@ -7,7 +7,7 @@ library(readxl)
 # Read correspondences
 
 
-loc <- here("asgs-data", "unzipped", "asgs2016_2016gridcorrespondences")
+loc <- "/asgs-data/unzipped/asgs2016_2016gridcorrespondences"
 
 file_list <- list.files(loc) %>%
   .[!str_detect(., ".pdf$")] %>%
@@ -17,7 +17,7 @@ file_list <- list.files(loc) %>%
 
 name_only_list <- str_remove_all(file_list, "\\.xlsx?")
 
-direct_list <- here("asgs-data", "unzipped", "asgs2016_2016gridcorrespondences", file_list)
+direct_list <- here("/asgs-data/unzipped/asgs2016_2016gridcorrespondences", file_list)
 
 
 
