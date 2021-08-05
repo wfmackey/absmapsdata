@@ -3,6 +3,7 @@ library(rio)
 library(glue)
 library(here)
 library(crayon)
+library(readxl)
 # Read correspondences
 
 
@@ -103,5 +104,3 @@ save_obs <- ls() %>%
   .[str_starts(., "CG|CA")]
 
 save(list = save_obs, file = "R/sysdata.rda", compress = "xz")
-
-
