@@ -74,6 +74,7 @@ clean_correspondences <- function(x) {
 
   # Rename RATIO_FROM_TO to ratio
   names(a) <- str_replace(toupper(names(a)), "RATIO_FROM_TO", "ratio")
+  names(a) <- str_replace(toupper(names(a)), "RATIO", "ratio")
 
   # Assert there is a ratio variable
   if (!any(names(a) == "ratio")) stop(glue("ratio variable not found in {file_list[x]}"))
