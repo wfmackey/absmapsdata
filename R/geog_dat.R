@@ -526,3 +526,15 @@
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
 #' }
 "tourism2016"
+
+#' Employment Regions, 2015-2020
+#'
+#' Geospatial data provided by the Department of Jobs and Small Business for Employment Regions in 2015-2020.
+#'
+#' @format An \code{sf} object with three variables:
+#' \describe{
+#' \item{\code{employment_region_code_2015}}{The Employment Regions code}
+#' \item{\code{employment_region_name_2015}}{The Employment Regions name}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"employment_regions2015"
