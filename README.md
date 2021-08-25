@@ -17,7 +17,7 @@ lazily-loadable `sf` objects that hold geometric information about ABS
 data structures.
 
 It also contains a vast number of 2016 population-weighted ABS
-correspondences that you can access with the
+correspondences (the most recent) that you can access with the
 `get_correspondence_absmaps` function. The correspondences available can
 be found at the [data.gov.au
 website](https://data.gov.au/data/dataset/asgs-geographic-correspondences-2016/resource/951e18c7-f187-4c86-a73f-fcabcd19af16).
@@ -59,31 +59,35 @@ this Github repo.
 
 **ASGS Main Structures**
 
-  - Statistical Area 1 2011: `sa12011`
-  - Statistical Area 1 2016: `sa12016`
-  - Statistical Area 2 2011: `sa22011`
-  - Statistical Area 2 2016: `sa22016`
-  - Statistical Area 3 2011: `sa32011`
-  - Statistical Area 3 2016: `sa32016`
-  - Statistical Area 4 2011: `sa42011`
-  - Statistical Area 4 2016: `sa42016`
-  - Greater Capital Cities 2011: `gcc2011`
-  - Greater Capital Cities 2016: `gcc2016`
-  - Remoteness Areas 2011: `ra2011`
-  - Remoteness Areas 2016: `ra2016`
-  - State 2011: `state2011`
-  - State 2016: `state2016`
+-   Statistical Area 1 2011: `sa12011`
+-   Statistical Area 1 2016: `sa12016`
+-   Statistical Area 2 2011: `sa22011`
+-   Statistical Area 2 2016: `sa22016`
+-   Statistical Area 3 2011: `sa32011`
+-   Statistical Area 3 2016: `sa32016`
+-   Statistical Area 4 2011: `sa42011`
+-   Statistical Area 4 2016: `sa42016`
+-   Greater Capital Cities 2011: `gcc2011`
+-   Greater Capital Cities 2016: `gcc2016`
+-   Remoteness Areas 2011: `ra2011`
+-   Remoteness Areas 2016: `ra2016`
+-   State 2011: `state2011`
+-   State 2016: `state2016`
 
 **ASGS Non-ABS Structures**
 
-  - Commonwealth Electoral Divisions 2018: `ced2018`
-  - State Electoral Divisions 2018:`sed2018`
-  - Local Government Areas 2016: `lga2016`
-  - Local Government Areas 2018: `lga2018`
-  - Regions for the Internet Vacancy Index 2008: `regional_ivi2008`
-  - Postcodes 2016: `postcodes2016`
-  - Census of Population and Housing Destination Zones 2011: `dz2011`
-  - Census of Population and Housing Destination Zones 2016: `dz2016`
+-   Commonwealth Electoral Divisions 2018: `ced2018`
+-   State Electoral Divisions 2018:`sed2018`
+-   Local Government Areas 2016: `lga2016`
+-   Local Government Areas 2018: `lga2018`
+-   Regions for the Internet Vacancy Index 2008: `regional_ivi2008`
+-   Postcodes 2016: `postcodes2016`
+-   Census of Population and Housing Destination Zones 2011: `dz2011`
+-   Census of Population and Housing Destination Zones 2016: `dz2016`
+
+**Non-ABS Australian Government Structures**
+
+-   Employment Regions 2015-2020: `employment_regions2015`
 
 ## Just show me how to make a map with this package
 
@@ -95,16 +99,16 @@ call the object (see list above for object names).
 
 ``` r
 library(tidyverse)
-#> ── Attaching packages ──────────────────────────────────────────────────────────── tidyverse 1.3.1 ──
-#> ✔ ggplot2 3.3.5     ✔ purrr   0.3.4
-#> ✔ tibble  3.1.2     ✔ dplyr   1.0.7
-#> ✔ tidyr   1.1.3     ✔ stringr 1.4.0
-#> ✔ readr   1.4.0     ✔ forcats 0.5.1
-#> ── Conflicts ─────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
-#> ✖ dplyr::filter() masks stats::filter()
-#> ✖ dplyr::lag()    masks stats::lag()
+#> ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──
+#> ✓ ggplot2 3.3.5     ✓ purrr   0.3.4
+#> ✓ tibble  3.1.3     ✓ dplyr   1.0.7
+#> ✓ tidyr   1.1.3     ✓ stringr 1.4.0
+#> ✓ readr   2.0.0     ✓ forcats 0.5.1
+#> ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+#> x dplyr::filter() masks stats::filter()
+#> x dplyr::lag()    masks stats::lag()
 library(sf)
-#> Linking to GEOS 3.8.0, GDAL 3.0.4, PROJ 6.3.1
+#> Linking to GEOS 3.8.1, GDAL 3.2.1, PROJ 7.2.1
 library(absmapsdata)
 
 mapdata1 <- sa32011
@@ -228,15 +232,16 @@ over time.
 ``` r
 # Read data in some data
 income <- read_csv("https://raw.githubusercontent.com/wfmackey/absmapsdata/master/img/data/median_income_sa3.csv")
+#> Rows: 2148 Columns: 3
+#> ── Column specification ────────────────────────────────────────────────────────
+#> Delimiter: ","
+#> chr (2): sa3_name_2016, year
+#> dbl (1): median_income
 #> 
-#> ── Column specification ─────────────────────────────────────────────────────────────────────────────
-#> cols(
-#>   sa3_name_2016 = col_character(),
-#>   year = col_character(),
-#>   median_income = col_double()
-#> )
+#> ℹ Use `spec()` to retrieve the full column specification for this data.
+#> ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 head(income)
-#> # A tibble: 6 x 3
+#> # A tibble: 6 × 3
 #>   sa3_name_2016       year    median_income
 #>   <chr>               <chr>           <dbl>
 #> 1 Queanbeyan          2010-11         51858
@@ -267,7 +272,6 @@ map <- combined_data %>%
               fill = median_income), # fill by unemployment rate
           lwd = 0) +                 # remove borders
   theme_void() +                     # clears other plot elements
-  coord_sf(crs = "+init=epsg:4326") + # sets the coordinate reference system (to match Google Earth)       
   labs(fill = "Median income")
 ```
 
@@ -284,19 +288,19 @@ For example:
 ``` r
 get_correspondence_absmaps("cd", 2006,
                            "sa1", 2016)
-#> # A tibble: 92,336 x 4
-#>    cd_code_2006 sa1_maincode_2016 sa1_7digitcode_2016  ratio
-#>    <chr>        <chr>             <chr>                <dbl>
-#>  1 1010101      10902117908       1117908             0.477 
-#>  2 1010101      10902117909       1117909             0.486 
-#>  3 1010101      10902117910       1117910             0.0372
-#>  4 1010102      10902117907       1117907             0.210 
-#>  5 1010102      10902117908       1117908             0.281 
-#>  6 1010102      10902117910       1117910             0.509 
-#>  7 1010103      10902117907       1117907             1     
-#>  8 1010104      10902117901       1117901             0.510 
-#>  9 1010104      10902117907       1117907             0.490 
-#> 10 1010105      10902117907       1117907             1     
+#> # A tibble: 92,336 × 5
+#>    CD_CODE_2006 SA1_MAINCODE_2016 SA1_7DIGITCODE_2016  ratio PERCENTAGE        
+#>    <chr>        <chr>             <chr>                <dbl> <chr>             
+#>  1 1010101      10902117908       1117908             0.477  47.705709900000002
+#>  2 1010101      10902117909       1117909             0.486  48.579130499999998
+#>  3 1010101      10902117910       1117910             0.0372 3.7151597000000001
+#>  4 1010102      10902117907       1117907             0.210  21.012930999999998
+#>  5 1010102      10902117908       1117908             0.281  28.062155199999999
+#>  6 1010102      10902117910       1117910             0.509  50.924913799999999
+#>  7 1010103      10902117907       1117907             1      100               
+#>  8 1010104      10902117901       1117901             0.510  51.007496400000001
+#>  9 1010104      10902117907       1117907             0.490  48.992503599999999
+#> 10 1010105      10902117907       1117907             1      100               
 #> # … with 92,326 more rows
 ```
 
@@ -309,13 +313,13 @@ sometimes, the best way to communicate data. And making maps is `R` with
 Getting the right `object` is not technically difficult, but requires
 research into the best-thing-to-do at each of the following steps:
 
-  - Find the ASGS ABS spatial-data page and determine the right file to
+-   Find the ASGS ABS spatial-data page and determine the right file to
     download.
-  - Read the shapefile into `R` using one-of-many import tools.
-  - Convert the object into something usable.
-  - Clean up any inconsistencies and apply consistent variable
+-   Read the shapefile into `R` using one-of-many import tools.
+-   Convert the object into something usable.
+-   Clean up any inconsistencies and apply consistent variable
     naming/values across areas and years.
-  - Find an appropriate compression function and level to optimise
+-   Find an appropriate compression function and level to optimise
     output.
 
 For me, at least, finding the correct information and developing the
@@ -327,7 +331,7 @@ blogs](https://www.neonscience.org/dc-open-shapefiles-r).
 
 ## Comments/complaints/requests/THOUGHTS
 
-Fair enough\! The best avenue is via a Github issue at
-[wfmackey/absmapsdata](https://github.com/wfmackey/absmapsdata). This is
-also the best place to request data that isn’t yet available in the
-package.
+Fair enough! The best avenue is via a Github issue at
+[wfmackey/absmapsdata/issues](https://github.com/wfmackey/absmapsdata/issues).
+This is also the best place to request data that isn’t yet available in
+the package.

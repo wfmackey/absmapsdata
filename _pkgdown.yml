@@ -25,7 +25,7 @@ home:
 
 reference:
   - title: "absmapsdata"
-    desc: > 
+    desc: >
       ASGS data structures provided by the ABS
     contents:
       - ced2018
@@ -56,4 +56,5 @@ reference:
       - sua2016
       - tourism2016
       - ucl2016
+      - employment_regions2015
       - get_correspondence_absmaps
