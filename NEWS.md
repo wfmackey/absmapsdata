@@ -1,3 +1,7 @@
+# absmapsdata 1.2.4, 2021-08-25
+- Add Employment Regions. Thanks @mattcowgill for the suggestion.
+- Note that this is the first instance of a non-ABS government structure in the package.
+
 # absmapsdata 1.2.3, 2021-06-03
 - Set all `sf` objects to CS `4326`. Thanks @ellisp and @daviddiviny for the suggestion.
 - Adds some tests ffs.
