@@ -1,0 +1,605 @@
+SA3_CODE_2016,SA3_NAME_2016,CED_CODE_2016,CED_NAME_2016,RATIO_FROM_TO,INDIV_TO_REGION_QLTY_INDICATOR,OVERALL_QUALITY_INDICATOR,BMOS_NULL_FLAG
+10102,Queanbeyan,113,Eden-Monaro,0.9878222,Acceptable,Acceptable,0
+10102,Queanbeyan,120,Hume,0.0121778,Acceptable,Acceptable,0
+10103,Snowy Mountains,113,Eden-Monaro,1,Acceptable,Acceptable,0
+10104,South Coast,113,Eden-Monaro,0.5812475,Acceptable,Acceptable,0
+10104,South Coast,116,Gilmore,0.4187525,Acceptable,Acceptable,0
+10105,Goulburn - Mulwaree,120,Hume,1,Acceptable,Acceptable,0
+10106,Young - Yass,113,Eden-Monaro,0.44667,Acceptable,Acceptable,0
+10106,Young - Yass,120,Hume,0.1062705,Acceptable,Acceptable,0
+10106,Young - Yass,139,Riverina,0.4470595,Acceptable,Acceptable,0
+10201,Gosford,112,Dobell,0.1534518,Poor,Acceptable,0
+10201,Gosford,140,Robertson,0.8465482,Acceptable,Acceptable,0
+10202,Wyong,112,Dobell,0.8076622,Poor,Acceptable,0
+10202,Wyong,141,Shortland,0.1923378,Acceptable,Acceptable,0
+10301,Bathurst,107,Calare,1,Good,Acceptable,0
+10302,Lachlan Valley,107,Calare,0.0515529,Good,Acceptable,0
+10302,Lachlan Valley,134,Parkes,0.1112134,Acceptable,Acceptable,0
+10302,Lachlan Valley,139,Riverina,0.8372337,Acceptable,Acceptable,0
+10303,Lithgow - Mudgee,107,Calare,0.9693696,Good,Acceptable,0
+10303,Lithgow - Mudgee,134,Parkes,0.0306304,Acceptable,Acceptable,0
+10304,Orange,107,Calare,1,Good,Acceptable,0
+10401,Clarence Valley,110,Cowper,0,Acceptable,Acceptable,1
+10401,Clarence Valley,133,Page,1,Acceptable,Acceptable,0
+10402,Coffs Harbour,110,Cowper,0.742164,Acceptable,Acceptable,0
+10402,Coffs Harbour,133,Page,0.257836,Acceptable,Acceptable,0
+10501,Bourke - Cobar - Coonamble,134,Parkes,1,Acceptable,Acceptable,0
+10502,Broken Hill and Far West,134,Parkes,1,Acceptable,Acceptable,0
+10503,Dubbo,107,Calare,0.1307411,Good,Acceptable,0
+10503,Dubbo,134,Parkes,0.8692589,Acceptable,Acceptable,0
+10601,Lower Hunter,121,Hunter,0.6840526,Acceptable,Acceptable,0
+10601,Lower Hunter,124,Lyne,0.102548,Poor,Acceptable,0
+10601,Lower Hunter,136,Paterson,0.2133993,Poor,Acceptable,0
+10602,Maitland,124,Lyne,0.1096423,Poor,Acceptable,0
+10602,Maitland,136,Paterson,0.8903577,Poor,Acceptable,0
+10603,Port Stephens,124,Lyne,0.1689461,Poor,Acceptable,0
+10603,Port Stephens,136,Paterson,0.8310539,Poor,Acceptable,0
+10604,Upper Hunter,121,Hunter,0.533413,Acceptable,Acceptable,0
+10604,Upper Hunter,130,New England,0.466587,Acceptable,Acceptable,0
+10701,Dapto - Port Kembla,111,Cunningham,0.3587415,Acceptable,Acceptable,0
+10701,Dapto - Port Kembla,147,Whitlam,0.6412585,Poor,Acceptable,0
+10702,Illawarra Catchment Reserve,111,Cunningham,1,Acceptable,Acceptable,0
+10703,Kiama - Shellharbour,116,Gilmore,0.238073,Acceptable,Acceptable,0
+10703,Kiama - Shellharbour,147,Whitlam,0.761927,Poor,Acceptable,0
+10704,Wollongong,111,Cunningham,1,Acceptable,Acceptable,0
+10801,Great Lakes,124,Lyne,1,Poor,Acceptable,0
+10802,Kempsey - Nambucca,110,Cowper,1,Acceptable,Acceptable,0
+10803,Lord Howe Island,142,Sydney,1,Good,Acceptable,0
+10804,Port Macquarie,110,Cowper,0.6025812,Acceptable,Acceptable,0
+10804,Port Macquarie,124,Lyne,0.3974188,Poor,Acceptable,0
+10805,Taree - Gloucester,124,Lyne,1,Poor,Acceptable,0
+10901,Albury,114,Farrer,1,Good,Acceptable,0
+10902,Lower Murray,114,Farrer,1,Good,Acceptable,0
+10903,Upper Murray exc. Albury,114,Farrer,1,Good,Acceptable,0
+11001,Armidale,130,New England,1,Acceptable,Acceptable,0
+11002,Inverell - Tenterfield,130,New England,0.9340854,Acceptable,Acceptable,0
+11002,Inverell - Tenterfield,134,Parkes,0.0659146,Acceptable,Acceptable,0
+11003,Moree - Narrabri,134,Parkes,1,Acceptable,Acceptable,0
+11004,Tamworth - Gunnedah,130,New England,0.8353257,Acceptable,Acceptable,0
+11004,Tamworth - Gunnedah,134,Parkes,0.1646743,Acceptable,Acceptable,0
+11101,Lake Macquarie - East,121,Hunter,0.0388628,Acceptable,Acceptable,0
+11101,Lake Macquarie - East,131,Newcastle,0.0319659,Acceptable,Acceptable,0
+11101,Lake Macquarie - East,141,Shortland,0.9291713,Acceptable,Acceptable,0
+11102,Lake Macquarie - West,121,Hunter,1,Acceptable,Acceptable,0
+11102,Lake Macquarie - West,141,Shortland,0,Acceptable,Acceptable,1
+11103,Newcastle,121,Hunter,0.0052878,Acceptable,Acceptable,1
+11103,Newcastle,131,Newcastle,0.9097409,Acceptable,Acceptable,0
+11103,Newcastle,136,Paterson,0.0703596,Poor,Acceptable,0
+11103,Newcastle,141,Shortland,0.0146117,Acceptable,Acceptable,0
+11201,Richmond Valley - Coastal,133,Page,0.2167617,Acceptable,Acceptable,0
+11201,Richmond Valley - Coastal,138,Richmond,0.7832383,Good,Acceptable,0
+11202,Richmond Valley - Hinterland,133,Page,0.9969027,Acceptable,Acceptable,0
+11202,Richmond Valley - Hinterland,138,Richmond,0.0030973,Good,Acceptable,1
+11203,Tweed Valley,138,Richmond,1,Good,Acceptable,0
+11301,Griffith - Murrumbidgee (West),114,Farrer,1,Good,Acceptable,0
+11302,Tumut - Tumbarumba,113,Eden-Monaro,0.9970972,Acceptable,Acceptable,0
+11302,Tumut - Tumbarumba,114,Farrer,0.0029028,Good,Acceptable,1
+11303,Wagga Wagga,139,Riverina,1,Acceptable,Acceptable,0
+11401,Shoalhaven,116,Gilmore,1,Acceptable,Acceptable,0
+11402,Southern Highlands,120,Hume,0.2567968,Acceptable,Acceptable,0
+11402,Southern Highlands,147,Whitlam,0.7432032,Poor,Acceptable,0
+11501,Baulkham Hills,104,Berowra,0.2842919,Poor,Acceptable,0
+11501,Baulkham Hills,129,Mitchell,0.7157081,Poor,Acceptable,0
+11502,Dural - Wisemans Ferry,104,Berowra,1,Poor,Acceptable,0
+11503,Hawkesbury,127,Macquarie,1,Good,Acceptable,0
+11504,Rouse Hill - McGraths Hill,104,Berowra,0.0115168,Poor,Acceptable,0
+11504,Rouse Hill - McGraths Hill,127,Macquarie,0.3054057,Good,Acceptable,0
+11504,Rouse Hill - McGraths Hill,129,Mitchell,0.6830776,Poor,Acceptable,0
+11601,Blacktown,108,Chifley,0.4206686,Poor,Acceptable,0
+11601,Blacktown,118,Greenway,0.5723329,Poor,Acceptable,0
+11601,Blacktown,128,McMahon,0.0004086,Poor,Acceptable,1
+11601,Blacktown,129,Mitchell,0.0065899,Poor,Acceptable,1
+11602,Blacktown - North,108,Chifley,0.0873844,Poor,Acceptable,0
+11602,Blacktown - North,118,Greenway,0.9126156,Poor,Acceptable,0
+11603,Mount Druitt,108,Chifley,0.9497532,Poor,Acceptable,0
+11603,Mount Druitt,128,McMahon,0.0502468,Poor,Acceptable,0
+11701,Botany,122,Kingsford Smith,1,Good,Acceptable,0
+11702,Marrickville - Sydenham - Petersham,102,Barton,0.2512776,Poor,Acceptable,0
+11702,Marrickville - Sydenham - Petersham,117,Grayndler,0.7483743,Poor,Acceptable,0
+11702,Marrickville - Sydenham - Petersham,142,Sydney,0.000348,Good,Acceptable,1
+11703,Sydney Inner City,117,Grayndler,0.0279103,Poor,Acceptable,0
+11703,Sydney Inner City,142,Sydney,0.9326393,Good,Acceptable,0
+11703,Sydney Inner City,145,Wentworth,0.0394505,Acceptable,Acceptable,0
+11801,Eastern Suburbs - North,145,Wentworth,1,Acceptable,Acceptable,0
+11802,Eastern Suburbs - South,122,Kingsford Smith,0.9208873,Good,Acceptable,0
+11802,Eastern Suburbs - South,145,Wentworth,0.0791127,Acceptable,Acceptable,0
+11901,Bankstown,101,Banks,0.306532,Poor,Acceptable,0
+11901,Bankstown,105,Blaxland,0.5228791,Poor,Acceptable,0
+11901,Bankstown,144,Watson,0.1705889,Poor,Acceptable,0
+11902,Canterbury,102,Barton,0.2181673,Poor,Acceptable,0
+11902,Canterbury,144,Watson,0.7818327,Poor,Acceptable,0
+11903,Hurstville,101,Banks,0.7270618,Poor,Acceptable,0
+11903,Hurstville,102,Barton,0.2137358,Poor,Acceptable,0
+11903,Hurstville,109,Cook,0.0592024,Acceptable,Acceptable,0
+11904,Kogarah - Rockdale,101,Banks,0.077751,Poor,Acceptable,0
+11904,Kogarah - Rockdale,102,Barton,0.7227737,Poor,Acceptable,0
+11904,Kogarah - Rockdale,109,Cook,0.1994753,Acceptable,Acceptable,0
+12001,Canada Bay,137,Reid,1,Poor,Acceptable,0
+12002,Leichhardt,117,Grayndler,1,Poor,Acceptable,0
+12003,Strathfield - Burwood - Ashfield,102,Barton,0.0194919,Poor,Acceptable,0
+12003,Strathfield - Burwood - Ashfield,117,Grayndler,0.3066606,Poor,Acceptable,0
+12003,Strathfield - Burwood - Ashfield,137,Reid,0.4426948,Poor,Acceptable,0
+12003,Strathfield - Burwood - Ashfield,144,Watson,0.2311527,Poor,Acceptable,0
+12101,Chatswood - Lane Cove,103,Bennelong,0.0031112,Acceptable,Acceptable,1
+12101,Chatswood - Lane Cove,106,Bradfield,0.1374893,Acceptable,Acceptable,0
+12101,Chatswood - Lane Cove,132,North Sydney,0.8593995,Poor,Acceptable,0
+12102,Hornsby,104,Berowra,0.6720644,Poor,Acceptable,0
+12102,Hornsby,106,Bradfield,0.3279356,Acceptable,Acceptable,0
+12103,Ku-ring-gai,106,Bradfield,1,Acceptable,Acceptable,0
+12104,North Sydney - Mosman,132,North Sydney,0.5427992,Poor,Acceptable,0
+12104,North Sydney - Mosman,143,Warringah,0.4572008,Poor,Acceptable,0
+12201,Manly,143,Warringah,1,Poor,Acceptable,0
+12202,Pittwater,126,Mackellar,1,Acceptable,Acceptable,0
+12203,Warringah,126,Mackellar,0.5853399,Acceptable,Acceptable,0
+12203,Warringah,143,Warringah,0.4146601,Poor,Acceptable,0
+12301,Camden,120,Hume,0.7435172,Acceptable,Acceptable,0
+12301,Camden,125,Macarthur,0.2564828,Poor,Acceptable,0
+12302,Campbelltown (NSW),125,Macarthur,0.822873,Poor,Acceptable,0
+12302,Campbelltown (NSW),146,Werriwa,0.177127,Poor,Acceptable,0
+12303,Wollondilly,120,Hume,1,Acceptable,Acceptable,0
+12401,Blue Mountains,127,Macquarie,1,Good,Acceptable,0
+12402,Blue Mountains - South,120,Hume,1,Acceptable,Acceptable,0
+12403,Penrith,120,Hume,0.0525984,Acceptable,Acceptable,0
+12403,Penrith,123,Lindsay,0.9474016,Acceptable,Acceptable,0
+12404,Richmond - Windsor,123,Lindsay,0.1786869,Acceptable,Acceptable,0
+12404,Richmond - Windsor,127,Macquarie,0.8213131,Good,Acceptable,0
+12405,St Marys,123,Lindsay,0.5125813,Acceptable,Acceptable,0
+12405,St Marys,128,McMahon,0.4874187,Poor,Acceptable,0
+12501,Auburn,105,Blaxland,0.6254527,Poor,Acceptable,0
+12501,Auburn,137,Reid,0.3206156,Poor,Acceptable,0
+12501,Auburn,144,Watson,0.0539318,Poor,Acceptable,0
+12502,Carlingford,103,Bennelong,0.3156099,Acceptable,Acceptable,0
+12502,Carlingford,104,Berowra,0.0444989,Poor,Acceptable,0
+12502,Carlingford,135,Parramatta,0.6398912,Poor,Acceptable,0
+12503,Merrylands - Guildford,105,Blaxland,0.1912659,Poor,Acceptable,0
+12503,Merrylands - Guildford,115,Fowler,0.0742772,Poor,Acceptable,0
+12503,Merrylands - Guildford,128,McMahon,0.4703692,Poor,Acceptable,0
+12503,Merrylands - Guildford,135,Parramatta,0.2640878,Poor,Acceptable,0
+12504,Parramatta,118,Greenway,0.0586328,Poor,Acceptable,0
+12504,Parramatta,128,McMahon,0.0124942,Poor,Acceptable,0
+12504,Parramatta,129,Mitchell,0.1921672,Poor,Acceptable,0
+12504,Parramatta,135,Parramatta,0.7367058,Poor,Acceptable,0
+12601,Pennant Hills - Epping,103,Bennelong,0.5687274,Acceptable,Acceptable,0
+12601,Pennant Hills - Epping,104,Berowra,0.4312726,Poor,Acceptable,0
+12602,Ryde - Hunters Hill,103,Bennelong,0.8957704,Acceptable,Acceptable,0
+12602,Ryde - Hunters Hill,132,North Sydney,0.1042296,Poor,Acceptable,0
+12701,Bringelly - Green Valley,120,Hume,0.0313975,Acceptable,Acceptable,0
+12701,Bringelly - Green Valley,125,Macarthur,0.1522198,Poor,Acceptable,0
+12701,Bringelly - Green Valley,146,Werriwa,0.8163827,Poor,Acceptable,0
+12702,Fairfield,115,Fowler,0.5975816,Poor,Acceptable,0
+12702,Fairfield,128,McMahon,0.3269609,Poor,Acceptable,0
+12702,Fairfield,146,Werriwa,0.0754575,Poor,Acceptable,0
+12703,Liverpool,115,Fowler,0.357641,Poor,Acceptable,0
+12703,Liverpool,119,Hughes,0.2595352,Acceptable,Acceptable,0
+12703,Liverpool,146,Werriwa,0.3828238,Poor,Acceptable,0
+12801,Cronulla - Miranda - Caringbah,109,Cook,0.9472428,Acceptable,Acceptable,0
+12801,Cronulla - Miranda - Caringbah,119,Hughes,0.0527572,Acceptable,Acceptable,0
+12802,Sutherland - Menai - Heathcote,119,Hughes,1,Acceptable,Acceptable,0
+20101,Ballarat,202,Ballarat,1,Acceptable,Acceptable,0
+20102,Creswick - Daylesford - Ballan,202,Ballarat,1,Acceptable,Acceptable,0
+20103,Maryborough - Pyrenees,202,Ballarat,0.0791555,Acceptable,Acceptable,0
+20103,Maryborough - Pyrenees,209,Corangamite,0.1068717,Poor,Acceptable,0
+20103,Maryborough - Pyrenees,236,Wannon,0.8139728,Acceptable,Acceptable,0
+20201,Bendigo,204,Bendigo,1,Good,Acceptable,0
+20202,Heathcote - Castlemaine - Kyneton,204,Bendigo,1,Good,Acceptable,0
+20203,Loddon - Elmore,204,Bendigo,0.4402406,Good,Acceptable,0
+20203,Loddon - Elmore,234,Murray,0.5597594,Good,Acceptable,0
+20301,Barwon - West,209,Corangamite,1,Poor,Acceptable,0
+20302,Geelong,209,Corangamite,0.3163502,Poor,Acceptable,0
+20302,Geelong,210,Corio,0.6836498,Poor,Acceptable,0
+20303,Surf Coast - Bellarine Peninsula,209,Corangamite,0.7034466,Poor,Acceptable,0
+20303,Surf Coast - Bellarine Peninsula,210,Corio,0.2965534,Poor,Acceptable,0
+20401,Upper Goulburn Valley,207,Casey,0.0034553,Poor,Acceptable,1
+20401,Upper Goulburn Valley,221,Indi,0.3479036,Acceptable,Acceptable,0
+20401,Upper Goulburn Valley,229,McEwen,0.4575245,Poor,Acceptable,0
+20401,Upper Goulburn Valley,234,Murray,0.1911166,Good,Acceptable,0
+20402,Wangaratta - Benalla,221,Indi,1,Acceptable,Acceptable,0
+20403,Wodonga - Alpine,221,Indi,1,Acceptable,Acceptable,0
+20501,Baw Baw,230,McMillan,1,Poor,Acceptable,0
+20502,Gippsland - East,215,Gippsland,1,Good,Acceptable,0
+20503,Gippsland - South West,213,Flinders,0.28994,Poor,Acceptable,0
+20503,Gippsland - South West,230,McMillan,0.71006,Poor,Acceptable,0
+20504,Latrobe Valley,215,Gippsland,0.7527242,Good,Acceptable,0
+20504,Latrobe Valley,230,McMillan,0.2472758,Poor,Acceptable,0
+20505,Wellington,215,Gippsland,1,Good,Acceptable,0
+20601,Brunswick - Coburg,237,Wills,1,Good,Acceptable,0
+20602,Darebin - South,203,Batman,1,Good,Acceptable,0
+20603,Essendon,228,Maribyrnong,0.6270318,Poor,Acceptable,0
+20603,Essendon,231,Melbourne,0.3729682,Acceptable,Acceptable,0
+20604,Melbourne City,231,Melbourne,0.8021927,Acceptable,Acceptable,0
+20604,Melbourne City,232,Melbourne Ports,0.1978073,Poor,Acceptable,0
+20605,Port Phillip,232,Melbourne Ports,1,Poor,Acceptable,0
+20606,Stonnington - West,218,Higgins,1,Poor,Acceptable,0
+20607,Yarra,203,Batman,0.103913,Good,Acceptable,0
+20607,Yarra,231,Melbourne,0.8526545,Acceptable,Acceptable,0
+20607,Yarra,237,Wills,0.0434325,Good,Acceptable,0
+20701,Boroondara,218,Higgins,0.1440945,Poor,Acceptable,0
+20701,Boroondara,224,Kooyong,0.8559055,Acceptable,Acceptable,0
+20702,Manningham - West,233,Menzies,1,Acceptable,Acceptable,0
+20703,Whitehorse - West,208,Chisholm,0.7679174,Poor,Acceptable,0
+20703,Whitehorse - West,211,Deakin,0.2100734,Poor,Acceptable,0
+20703,Whitehorse - West,224,Kooyong,0.0220092,Acceptable,Acceptable,0
+20801,Bayside,216,Goldstein,1,Acceptable,Acceptable,0
+20802,Glen Eira,216,Goldstein,0.3402349,Acceptable,Acceptable,0
+20802,Glen Eira,218,Higgins,0.1755951,Poor,Acceptable,0
+20802,Glen Eira,220,Hotham,0.2620047,Poor,Acceptable,0
+20802,Glen Eira,232,Melbourne Ports,0.2221653,Poor,Acceptable,0
+20803,Kingston,220,Hotham,0.280396,Poor,Acceptable,0
+20803,Kingston,222,Isaacs,0.719604,Poor,Acceptable,0
+20804,Stonnington - East,218,Higgins,1,Poor,Acceptable,0
+20901,Banyule,223,Jagajaga,0.9164171,Acceptable,Acceptable,0
+20901,Banyule,235,Scullin,0.0835829,Poor,Acceptable,0
+20902,Darebin - North,203,Batman,1,Good,Acceptable,0
+20903,Nillumbik - Kinglake,221,Indi,0.0587143,Acceptable,Acceptable,0
+20903,Nillumbik - Kinglake,223,Jagajaga,0.4548941,Acceptable,Acceptable,0
+20903,Nillumbik - Kinglake,229,McEwen,0.0792268,Poor,Acceptable,0
+20903,Nillumbik - Kinglake,235,Scullin,0.4071648,Poor,Acceptable,0
+20904,Whittlesea - Wallan,203,Batman,0.0289634,Good,Acceptable,0
+20904,Whittlesea - Wallan,229,McEwen,0.356785,Poor,Acceptable,0
+20904,Whittlesea - Wallan,235,Scullin,0.6142516,Poor,Acceptable,0
+21001,Keilor,206,Calwell,0.1448146,Poor,Acceptable,0
+21001,Keilor,228,Maribyrnong,0.7844695,Poor,Acceptable,0
+21001,Keilor,237,Wills,0.0707159,Good,Acceptable,0
+21002,Macedon Ranges,204,Bendigo,0.1254053,Good,Acceptable,0
+21002,Macedon Ranges,229,McEwen,0.8745947,Poor,Acceptable,0
+21003,Moreland - North,237,Wills,1,Good,Acceptable,0
+21004,Sunbury,217,Gorton,0.0597895,Poor,Acceptable,0
+21004,Sunbury,229,McEwen,0.9402105,Poor,Acceptable,0
+21005,Tullamarine - Broadmeadows,206,Calwell,0.7403259,Poor,Acceptable,0
+21005,Tullamarine - Broadmeadows,229,McEwen,0.2596741,Poor,Acceptable,0
+21101,Knox,201,Aston,0.8823514,Acceptable,Acceptable,0
+21101,Knox,225,La Trobe,0.1176486,Poor,Acceptable,0
+21102,Manningham - East,207,Casey,0.0125665,Poor,Acceptable,0
+21102,Manningham - East,233,Menzies,0.9874335,Acceptable,Acceptable,0
+21103,Maroondah,207,Casey,0.1721892,Poor,Acceptable,0
+21103,Maroondah,211,Deakin,0.6322355,Poor,Acceptable,0
+21103,Maroondah,233,Menzies,0.1955753,Acceptable,Acceptable,0
+21104,Whitehorse - East,208,Chisholm,0.0806057,Poor,Acceptable,0
+21104,Whitehorse - East,211,Deakin,0.9193943,Poor,Acceptable,0
+21105,Yarra Ranges,207,Casey,0.8292398,Poor,Acceptable,0
+21105,Yarra Ranges,225,La Trobe,0.1707602,Poor,Acceptable,0
+21201,Cardinia,213,Flinders,0.0764214,Poor,Acceptable,0
+21201,Cardinia,225,La Trobe,0.3209888,Poor,Acceptable,0
+21201,Cardinia,230,McMillan,0.6025898,Poor,Acceptable,0
+21202,Casey - North,219,Holt,0.4922056,Poor,Acceptable,0
+21202,Casey - North,225,La Trobe,0.5077944,Poor,Acceptable,0
+21203,Casey - South,213,Flinders,0.0969332,Poor,Acceptable,0
+21203,Casey - South,219,Holt,0.8046041,Poor,Acceptable,0
+21203,Casey - South,225,La Trobe,0.0984627,Poor,Acceptable,0
+21204,Dandenong,205,Bruce,0.3962124,Poor,Acceptable,0
+21204,Dandenong,208,Chisholm,0.0040565,Poor,Acceptable,1
+21204,Dandenong,220,Hotham,0.3640173,Poor,Acceptable,0
+21204,Dandenong,222,Isaacs,0.2357137,Poor,Acceptable,0
+21205,Monash,205,Bruce,0.4745577,Poor,Acceptable,0
+21205,Monash,208,Chisholm,0.4590634,Poor,Acceptable,0
+21205,Monash,220,Hotham,0.0663789,Poor,Acceptable,0
+21301,Brimbank,206,Calwell,0.2052184,Poor,Acceptable,0
+21301,Brimbank,214,Gellibrand,0.1950122,Poor,Acceptable,0
+21301,Brimbank,217,Gorton,0.318861,Poor,Acceptable,0
+21301,Brimbank,228,Maribyrnong,0.2809083,Poor,Acceptable,0
+21302,Hobsons Bay,214,Gellibrand,0.8798961,Poor,Acceptable,0
+21302,Hobsons Bay,226,Lalor,0.1201039,Good,Acceptable,0
+21303,Maribyrnong,214,Gellibrand,0.6774142,Poor,Acceptable,0
+21303,Maribyrnong,228,Maribyrnong,0.3225858,Poor,Acceptable,0
+21304,Melton - Bacchus Marsh,202,Ballarat,0.1327111,Acceptable,Acceptable,0
+21304,Melton - Bacchus Marsh,217,Gorton,0.8672889,Poor,Acceptable,0
+21305,Wyndham,226,Lalor,1,Good,Acceptable,0
+21401,Frankston,212,Dunkley,0.7716572,Poor,Acceptable,0
+21401,Frankston,222,Isaacs,0.2283428,Poor,Acceptable,0
+21402,Mornington Peninsula,212,Dunkley,0.276705,Poor,Acceptable,0
+21402,Mornington Peninsula,213,Flinders,0.723295,Poor,Acceptable,0
+21501,Grampians,227,Mallee,0.8051312,Good,Acceptable,0
+21501,Grampians,236,Wannon,0.1948688,Acceptable,Acceptable,0
+21502,Mildura,227,Mallee,1,Good,Acceptable,0
+21503,Murray River - Swan Hill,227,Mallee,1,Good,Acceptable,0
+21601,Campaspe,234,Murray,1,Good,Acceptable,0
+21602,Moira,221,Indi,0.0429926,Acceptable,Acceptable,0
+21602,Moira,234,Murray,0.9570074,Good,Acceptable,0
+21603,Shepparton,234,Murray,1,Good,Acceptable,0
+21701,Glenelg - Southern Grampians,236,Wannon,1,Acceptable,Acceptable,0
+21703,Colac - Corangamite,209,Corangamite,0.5663446,Poor,Acceptable,0
+21703,Colac - Corangamite,236,Wannon,0.4336554,Acceptable,Acceptable,0
+21704,Warrnambool,236,Wannon,1,Acceptable,Acceptable,0
+30101,Capalaba,302,Bonner,0.1032167,Poor,Acceptable,0
+30101,Capalaba,303,Bowman,0.8967833,Good,Acceptable,0
+30102,Cleveland - Stradbroke,303,Bowman,1,Good,Acceptable,0
+30103,Wynnum - Manly,302,Bonner,0.9748421,Poor,Acceptable,0
+30103,Wynnum - Manly,313,Griffith,0.0251579,Poor,Acceptable,0
+30201,Bald Hills - Everton Park,319,Lilley,0.5271025,Acceptable,Acceptable,0
+30201,Bald Hills - Everton Park,326,Petrie,0.4728975,Poor,Acceptable,0
+30202,Chermside,304,Brisbane,0.0843421,Poor,Acceptable,0
+30202,Chermside,319,Lilley,0.8738706,Acceptable,Acceptable,0
+30202,Chermside,326,Petrie,0.0417873,Poor,Acceptable,0
+30203,Nundah,304,Brisbane,0.014414,Poor,Acceptable,0
+30203,Nundah,319,Lilley,0.985586,Acceptable,Acceptable,0
+30204,Sandgate,319,Lilley,0.6102215,Acceptable,Acceptable,0
+30204,Sandgate,326,Petrie,0.3897785,Poor,Acceptable,0
+30301,Carindale,302,Bonner,0.3889531,Poor,Acceptable,0
+30301,Carindale,313,Griffith,0.6110469,Poor,Acceptable,0
+30302,Holland Park - Yeronga,302,Bonner,0.0559965,Poor,Acceptable,0
+30302,Holland Park - Yeronga,313,Griffith,0.6764896,Poor,Acceptable,0
+30302,Holland Park - Yeronga,324,Moreton,0.2675139,Poor,Acceptable,0
+30303,Mt Gravatt,302,Bonner,0.7225017,Poor,Acceptable,0
+30303,Mt Gravatt,313,Griffith,0.0300275,Poor,Acceptable,0
+30303,Mt Gravatt,324,Moreton,0.2474708,Poor,Acceptable,0
+30304,Nathan,313,Griffith,0.078741,Poor,Acceptable,0
+30304,Nathan,324,Moreton,0.921259,Poor,Acceptable,0
+30305,Rocklea - Acacia Ridge,324,Moreton,0.1634448,Poor,Acceptable,0
+30305,Rocklea - Acacia Ridge,325,Oxley,0.0763011,Acceptable,Acceptable,0
+30305,Rocklea - Acacia Ridge,327,Rankin,0.7602541,Acceptable,Acceptable,0
+30306,Sunnybank,324,Moreton,1,Poor,Acceptable,0
+30401,Centenary,325,Oxley,1,Acceptable,Acceptable,0
+30402,Kenmore - Brookfield - Moggill,328,Ryan,1,Acceptable,Acceptable,0
+30403,Sherwood - Indooroopilly,324,Moreton,0.350672,Poor,Acceptable,0
+30403,Sherwood - Indooroopilly,328,Ryan,0.649328,Acceptable,Acceptable,0
+30404,The Gap - Enoggera,304,Brisbane,0.1187109,Poor,Acceptable,0
+30404,The Gap - Enoggera,328,Ryan,0.8812891,Acceptable,Acceptable,0
+30501,Brisbane Inner,304,Brisbane,0.5350196,Poor,Acceptable,0
+30501,Brisbane Inner,313,Griffith,0.4649804,Poor,Acceptable,0
+30502,Brisbane Inner - East,313,Griffith,1,Poor,Acceptable,0
+30503,Brisbane Inner - North,304,Brisbane,1,Poor,Acceptable,0
+30504,Brisbane Inner - West,304,Brisbane,0.5230932,Poor,Acceptable,0
+30504,Brisbane Inner - West,328,Ryan,0.4769068,Acceptable,Acceptable,0
+30601,Cairns - North,318,Leichhardt,1,Acceptable,Acceptable,0
+30602,Cairns - South,317,Kennedy,0.1926842,Poor,Acceptable,0
+30602,Cairns - South,318,Leichhardt,0.8073158,Acceptable,Acceptable,0
+30603,Innisfail - Cassowary Coast,317,Kennedy,1,Poor,Acceptable,0
+30604,Port Douglas - Daintree,318,Leichhardt,1,Acceptable,Acceptable,0
+30605,Tablelands (East) - Kuranda,317,Kennedy,0.8888065,Poor,Acceptable,0
+30605,Tablelands (East) - Kuranda,318,Leichhardt,0.1111935,Acceptable,Acceptable,0
+30701,Darling Downs (West) - Maranoa,321,Maranoa,1,Acceptable,Acceptable,0
+30702,Darling Downs - East,314,Groom,0.3936046,Acceptable,Acceptable,0
+30702,Darling Downs - East,321,Maranoa,0.6063954,Acceptable,Acceptable,0
+30703,Granite Belt,314,Groom,0.0403962,Acceptable,Acceptable,0
+30703,Granite Belt,321,Maranoa,0.9596038,Acceptable,Acceptable,0
+30801,Central Highlands (Qld),311,Flynn,1,Acceptable,Acceptable,0
+30803,Rockhampton,305,Capricornia,0.8316367,Poor,Acceptable,0
+30803,Rockhampton,311,Flynn,0.1683633,Acceptable,Acceptable,0
+30804,Biloela,311,Flynn,1,Acceptable,Acceptable,0
+30805,Gladstone,311,Flynn,1,Acceptable,Acceptable,0
+30901,Broadbeach - Burleigh,322,McPherson,0.3723744,Acceptable,Acceptable,0
+30901,Broadbeach - Burleigh,323,Moncrieff,0.6276256,Poor,Acceptable,0
+30902,Coolangatta,322,McPherson,1,Acceptable,Acceptable,0
+30903,Gold Coast - North,308,Fadden,1,Poor,Acceptable,0
+30904,Gold Coast Hinterland,330,Wright,1,Poor,Acceptable,0
+30905,Mudgeeraba - Tallebudgera,322,McPherson,0.8228814,Acceptable,Acceptable,0
+30905,Mudgeeraba - Tallebudgera,330,Wright,0.1771186,Poor,Acceptable,0
+30906,Nerang,308,Fadden,0.2639354,Poor,Acceptable,0
+30906,Nerang,323,Moncrieff,0.5387305,Poor,Acceptable,0
+30906,Nerang,330,Wright,0.1973342,Poor,Acceptable,0
+30907,Ormeau - Oxenford,308,Fadden,0.5835312,Poor,Acceptable,0
+30907,Ormeau - Oxenford,312,Forde,0.3615286,Poor,Acceptable,0
+30907,Ormeau - Oxenford,330,Wright,0.0549402,Poor,Acceptable,0
+30908,Robina,322,McPherson,0.9698899,Acceptable,Acceptable,0
+30908,Robina,323,Moncrieff,0.0301101,Poor,Acceptable,0
+30909,Southport,308,Fadden,0.2621898,Poor,Acceptable,0
+30909,Southport,323,Moncrieff,0.7378102,Poor,Acceptable,0
+30910,Surfers Paradise,323,Moncrieff,1,Poor,Acceptable,0
+31001,Forest Lake - Oxley,324,Moreton,0.1134352,Poor,Acceptable,0
+31001,Forest Lake - Oxley,325,Oxley,0.8865648,Acceptable,Acceptable,0
+31002,Ipswich Hinterland,301,Blair,0.4945928,Poor,Acceptable,0
+31002,Ipswich Hinterland,328,Ryan,4.78e-05,Acceptable,Acceptable,1
+31002,Ipswich Hinterland,330,Wright,0.5053594,Poor,Acceptable,0
+31003,Ipswich Inner,301,Blair,0.9416134,Poor,Acceptable,0
+31003,Ipswich Inner,328,Ryan,0.0583866,Acceptable,Acceptable,0
+31004,Springfield - Redbank,301,Blair,0.2601543,Poor,Acceptable,0
+31004,Springfield - Redbank,325,Oxley,0.7398457,Acceptable,Acceptable,0
+31101,Beaudesert,330,Wright,1,Poor,Acceptable,0
+31102,Beenleigh,312,Forde,1,Poor,Acceptable,0
+31103,Browns Plains,312,Forde,0.254208,Poor,Acceptable,0
+31103,Browns Plains,327,Rankin,0.6940437,Acceptable,Acceptable,0
+31103,Browns Plains,330,Wright,0.0517483,Poor,Acceptable,0
+31104,Jimboomba,312,Forde,0.0445028,Poor,Acceptable,0
+31104,Jimboomba,330,Wright,0.9554972,Poor,Acceptable,0
+31105,Loganlea - Carbrook,312,Forde,0.9789738,Poor,Acceptable,0
+31105,Loganlea - Carbrook,327,Rankin,0.0210262,Acceptable,Acceptable,0
+31106,Springwood - Kingston,327,Rankin,1,Acceptable,Acceptable,0
+31201,Bowen Basin - North,305,Capricornia,0.6818263,Poor,Acceptable,0
+31201,Bowen Basin - North,306,Dawson,0.3181737,Poor,Acceptable,0
+31202,Mackay,305,Capricornia,0.272262,Poor,Acceptable,0
+31202,Mackay,306,Dawson,0.727738,Poor,Acceptable,0
+31203,Whitsunday,306,Dawson,1,Poor,Acceptable,0
+31301,Bribie - Beachmere,320,Longman,1,Acceptable,Acceptable,0
+31302,Caboolture,320,Longman,1,Acceptable,Acceptable,0
+31303,Caboolture Hinterland,301,Blair,0.4067643,Poor,Acceptable,0
+31303,Caboolture Hinterland,320,Longman,0.5932357,Acceptable,Acceptable,0
+31304,Narangba - Burpengary,320,Longman,0.643863,Acceptable,Acceptable,0
+31304,Narangba - Burpengary,326,Petrie,0.356137,Poor,Acceptable,0
+31305,Redcliffe,302,Bonner,0.0061432,Poor,Acceptable,1
+31305,Redcliffe,326,Petrie,0.9938568,Poor,Acceptable,0
+31401,The Hills District,307,Dickson,1,Acceptable,Acceptable,0
+31402,North Lakes,307,Dickson,0.3185039,Acceptable,Acceptable,0
+31402,North Lakes,320,Longman,0.1650523,Acceptable,Acceptable,0
+31402,North Lakes,326,Petrie,0.5164438,Poor,Acceptable,0
+31403,Strathpine,307,Dickson,1,Acceptable,Acceptable,0
+31501,Far North,317,Kennedy,0.2184425,Poor,Acceptable,0
+31501,Far North,318,Leichhardt,0.7815575,Acceptable,Acceptable,0
+31502,Outback - North,317,Kennedy,1,Poor,Acceptable,0
+31503,Outback - South,317,Kennedy,0.0244626,Poor,Acceptable,0
+31503,Outback - South,321,Maranoa,0.9755374,Acceptable,Acceptable,0
+31601,Buderim,309,Fairfax,0.8054883,Acceptable,Acceptable,0
+31601,Buderim,310,Fisher,0.1945117,Acceptable,Acceptable,0
+31602,Caloundra,310,Fisher,1,Acceptable,Acceptable,0
+31603,Maroochy,309,Fairfax,0.7972286,Acceptable,Acceptable,0
+31603,Maroochy,310,Fisher,0.2027714,Acceptable,Acceptable,0
+31605,Noosa,309,Fairfax,0.1790645,Acceptable,Acceptable,0
+31605,Noosa,329,Wide Bay,0.8209355,Acceptable,Acceptable,0
+31606,Sunshine Coast Hinterland,309,Fairfax,0.2423411,Acceptable,Acceptable,0
+31606,Sunshine Coast Hinterland,310,Fisher,0.7576589,Acceptable,Acceptable,0
+31607,Nambour,309,Fairfax,1,Acceptable,Acceptable,0
+31608,Noosa Hinterland,309,Fairfax,0.1278713,Acceptable,Acceptable,0
+31608,Noosa Hinterland,329,Wide Bay,0.8721287,Acceptable,Acceptable,0
+31701,Toowoomba,314,Groom,0.8740541,Acceptable,Acceptable,0
+31701,Toowoomba,330,Wright,0.1259459,Poor,Acceptable,0
+31801,Charters Towers - Ayr - Ingham,306,Dawson,0.3972116,Poor,Acceptable,0
+31801,Charters Towers - Ayr - Ingham,315,Herbert,0.0581875,Acceptable,Acceptable,0
+31801,Charters Towers - Ayr - Ingham,317,Kennedy,0.5446009,Poor,Acceptable,0
+31802,Townsville,306,Dawson,0.1284106,Poor,Acceptable,0
+31802,Townsville,315,Herbert,0.8435813,Acceptable,Acceptable,0
+31802,Townsville,317,Kennedy,0.028008,Poor,Acceptable,0
+31901,Bundaberg,311,Flynn,0.1218854,Acceptable,Acceptable,0
+31901,Bundaberg,316,Hinkler,0.8781146,Acceptable,Acceptable,0
+31902,Burnett,311,Flynn,0.416427,Acceptable,Acceptable,0
+31902,Burnett,321,Maranoa,0.4865455,Acceptable,Acceptable,0
+31902,Burnett,329,Wide Bay,0.0970276,Acceptable,Acceptable,0
+31903,Gympie - Cooloola,329,Wide Bay,1,Acceptable,Acceptable,0
+31904,Hervey Bay,316,Hinkler,0.9936255,Acceptable,Acceptable,0
+31904,Hervey Bay,329,Wide Bay,0.0063745,Acceptable,Acceptable,1
+31905,Maryborough,316,Hinkler,0.1844567,Acceptable,Acceptable,0
+31905,Maryborough,329,Wide Bay,0.8155433,Acceptable,Acceptable,0
+40101,Adelaide City,401,Adelaide,1,Poor,Acceptable,0
+40102,Adelaide Hills,408,Mayo,1,Acceptable,Acceptable,0
+40103,Burnside,401,Adelaide,0.1465425,Poor,Acceptable,0
+40103,Burnside,410,Sturt,0.8534575,Poor,Acceptable,0
+40104,Campbelltown (SA),408,Mayo,0.0070925,Acceptable,Acceptable,1
+40104,Campbelltown (SA),410,Sturt,0.9929075,Poor,Acceptable,0
+40105,Norwood - Payneham - St Peters,401,Adelaide,0.5201765,Poor,Acceptable,0
+40105,Norwood - Payneham - St Peters,410,Sturt,0.4798235,Poor,Acceptable,0
+40106,Prospect - Walkerville,401,Adelaide,1,Poor,Acceptable,0
+40107,Unley,401,Adelaide,0.8590795,Poor,Acceptable,0
+40107,Unley,410,Sturt,0.1409205,Poor,Acceptable,0
+40201,Gawler - Two Wells,411,Wakefield,1,Acceptable,Acceptable,0
+40202,Playford,409,Port Adelaide,0.0036062,Poor,Acceptable,1
+40202,Playford,411,Wakefield,0.9963938,Acceptable,Acceptable,0
+40203,Port Adelaide - East,401,Adelaide,0.5441109,Poor,Acceptable,0
+40203,Port Adelaide - East,407,Makin,0.1290787,Poor,Acceptable,0
+40203,Port Adelaide - East,409,Port Adelaide,0.0033643,Poor,Acceptable,1
+40203,Port Adelaide - East,410,Sturt,0.323446,Poor,Acceptable,0
+40204,Salisbury,407,Makin,0.4717912,Poor,Acceptable,0
+40204,Salisbury,409,Port Adelaide,0.4477867,Poor,Acceptable,0
+40204,Salisbury,411,Wakefield,0.080422,Acceptable,Acceptable,0
+40205,Tea Tree Gully,407,Makin,0.8154575,Poor,Acceptable,0
+40205,Tea Tree Gully,410,Sturt,0.1845425,Poor,Acceptable,0
+40301,Holdfast Bay,403,Boothby,0.4766242,Poor,Acceptable,0
+40301,Holdfast Bay,405,Hindmarsh,0.5233758,Poor,Acceptable,0
+40302,Marion,403,Boothby,0.4374105,Poor,Acceptable,0
+40302,Marion,405,Hindmarsh,0.3124424,Poor,Acceptable,0
+40302,Marion,406,Kingston,0.2501472,Poor,Acceptable,0
+40303,Mitcham,403,Boothby,1,Poor,Acceptable,0
+40304,Onkaparinga,403,Boothby,0.1600062,Poor,Acceptable,0
+40304,Onkaparinga,406,Kingston,0.7461542,Poor,Acceptable,0
+40304,Onkaparinga,408,Mayo,0.0938396,Acceptable,Acceptable,0
+40401,Charles Sturt,401,Adelaide,0.0734126,Poor,Acceptable,0
+40401,Charles Sturt,405,Hindmarsh,0.4593119,Poor,Acceptable,0
+40401,Charles Sturt,409,Port Adelaide,0.4672755,Poor,Acceptable,0
+40402,Port Adelaide - West,401,Adelaide,0.0945256,Poor,Acceptable,0
+40402,Port Adelaide - West,409,Port Adelaide,0.9054744,Poor,Acceptable,0
+40403,West Torrens,401,Adelaide,0.0904066,Poor,Acceptable,0
+40403,West Torrens,405,Hindmarsh,0.9095934,Poor,Acceptable,0
+40501,Barossa,402,Barker,0.4266215,Good,Acceptable,0
+40501,Barossa,408,Mayo,0.0540891,Acceptable,Acceptable,0
+40501,Barossa,411,Wakefield,0.5192893,Acceptable,Acceptable,0
+40502,Lower North,404,Grey,0.3671699,Good,Acceptable,0
+40502,Lower North,411,Wakefield,0.6328301,Acceptable,Acceptable,0
+40503,Mid North,404,Grey,1,Good,Acceptable,0
+40504,Yorke Peninsula,404,Grey,1,Good,Acceptable,0
+40601,Eyre Peninsula and South West,404,Grey,1,Good,Acceptable,0
+40602,Outback - North and East,404,Grey,1,Good,Acceptable,0
+40701,Fleurieu - Kangaroo Island,408,Mayo,1,Acceptable,Acceptable,0
+40702,Limestone Coast,402,Barker,1,Good,Acceptable,0
+40703,Murray and Mallee,402,Barker,1,Good,Acceptable,0
+50101,Augusta - Margaret River - Busselton,507,Forrest,1,Acceptable,Acceptable,0
+50102,Bunbury,503,Canning,0.0403077,Acceptable,Acceptable,0
+50102,Bunbury,507,Forrest,0.8738959,Acceptable,Acceptable,0
+50102,Bunbury,511,O'Connor,0.0857964,Good,Acceptable,0
+50103,Manjimup,507,Forrest,0.3152098,Acceptable,Acceptable,0
+50103,Manjimup,511,O'Connor,0.6847902,Good,Acceptable,0
+50201,Mandurah,503,Canning,1,Acceptable,Acceptable,0
+50301,Cottesloe - Claremont,505,Curtin,1,Poor,Acceptable,0
+50302,Perth City,505,Curtin,0.3372186,Poor,Acceptable,0
+50302,Perth City,513,Perth,0.6627814,Acceptable,Acceptable,0
+50401,Bayswater - Bassendean,513,Perth,0.9890007,Acceptable,Acceptable,0
+50401,Bayswater - Bassendean,514,Stirling,0.0109993,Acceptable,Acceptable,0
+50402,Mundaring,509,Hasluck,1,Poor,Acceptable,0
+50403,Swan,504,Cowan,0.2982172,Poor,Acceptable,0
+50403,Swan,509,Hasluck,0.2583828,Poor,Acceptable,0
+50403,Swan,512,Pearce,0.443361,Poor,Acceptable,0
+50403,Swan,515,Swan,3.89e-05,Acceptable,Acceptable,1
+50501,Joondalup,504,Cowan,0.0933737,Poor,Acceptable,0
+50501,Joondalup,510,Moore,0.9066263,Good,Acceptable,0
+50502,Stirling,505,Curtin,0.2140442,Poor,Acceptable,0
+50502,Stirling,513,Perth,0.0218049,Acceptable,Acceptable,0
+50502,Stirling,514,Stirling,0.7641508,Acceptable,Acceptable,0
+50503,Wanneroo,504,Cowan,0.5040691,Poor,Acceptable,0
+50503,Wanneroo,512,Pearce,0.4959309,Poor,Acceptable,0
+50601,Armadale,502,Burt,0.8490919,Acceptable,Acceptable,0
+50601,Armadale,503,Canning,0.1509081,Acceptable,Acceptable,0
+50602,Belmont - Victoria Park,515,Swan,1,Acceptable,Acceptable,0
+50603,Canning,502,Burt,0.106628,Acceptable,Acceptable,0
+50603,Canning,515,Swan,0.4072846,Acceptable,Acceptable,0
+50603,Canning,516,Tangney,0.4860873,Acceptable,Acceptable,0
+50604,Gosnells,502,Burt,0.772506,Acceptable,Acceptable,0
+50604,Gosnells,503,Canning,0.0192866,Acceptable,Acceptable,0
+50604,Gosnells,509,Hasluck,0.2082074,Poor,Acceptable,0
+50605,Kalamunda,503,Canning,0.0241781,Acceptable,Acceptable,0
+50605,Kalamunda,509,Hasluck,0.7615063,Poor,Acceptable,0
+50605,Kalamunda,515,Swan,0.2143155,Acceptable,Acceptable,0
+50606,Serpentine - Jarrahdale,503,Canning,1,Acceptable,Acceptable,0
+50607,South Perth,515,Swan,1,Acceptable,Acceptable,0
+50701,Cockburn,508,Fremantle,1,Good,Acceptable,0
+50702,Fremantle,508,Fremantle,1,Good,Acceptable,0
+50703,Kwinana,501,Brand,1,Good,Acceptable,0
+50704,Melville,508,Fremantle,0.1006916,Good,Acceptable,0
+50704,Melville,516,Tangney,0.8993084,Acceptable,Acceptable,0
+50705,Rockingham,501,Brand,1,Good,Acceptable,0
+50901,Albany,511,O'Connor,1,Good,Acceptable,0
+50902,Wheat Belt - North,506,Durack,0.4351715,Good,Acceptable,0
+50902,Wheat Belt - North,512,Pearce,0.5648285,Poor,Acceptable,0
+50903,Wheat Belt - South,503,Canning,0.1278147,Acceptable,Acceptable,0
+50903,Wheat Belt - South,511,O'Connor,0.8721853,Good,Acceptable,0
+51001,Kimberley,506,Durack,1,Good,Acceptable,0
+51002,East Pilbara,506,Durack,1,Good,Acceptable,0
+51003,West Pilbara,506,Durack,1,Good,Acceptable,0
+51101,Esperance,511,O'Connor,1,Good,Acceptable,0
+51102,Gascoyne,506,Durack,1,Good,Acceptable,0
+51103,Goldfields,511,O'Connor,1,Good,Acceptable,0
+51104,Mid West,506,Durack,1,Good,Acceptable,0
+60101,Brighton,604,Franklin,0.2528317,Good,Acceptable,0
+60101,Brighton,605,Lyons,0.7471683,Poor,Acceptable,0
+60102,Hobart - North East,604,Franklin,1,Good,Acceptable,0
+60103,Hobart - North West,603,Denison,0.8636971,Acceptable,Acceptable,0
+60103,Hobart - North West,605,Lyons,0.1363029,Poor,Acceptable,0
+60104,Hobart - South and West,603,Denison,0.187139,Acceptable,Acceptable,0
+60104,Hobart - South and West,604,Franklin,0.812861,Good,Acceptable,0
+60105,Hobart Inner,603,Denison,1,Acceptable,Acceptable,0
+60106,Sorell - Dodges Ferry,604,Franklin,0.1002671,Good,Acceptable,0
+60106,Sorell - Dodges Ferry,605,Lyons,0.8997329,Poor,Acceptable,0
+60201,Launceston,601,Bass,0.9962956,Acceptable,Acceptable,0
+60201,Launceston,605,Lyons,0.0037044,Poor,Acceptable,1
+60202,Meander Valley - West Tamar,601,Bass,0.1086017,Acceptable,Acceptable,0
+60202,Meander Valley - West Tamar,605,Lyons,0.8913983,Poor,Acceptable,0
+60203,North East,601,Bass,0.4937467,Acceptable,Acceptable,0
+60203,North East,605,Lyons,0.5062533,Poor,Acceptable,0
+60301,Central Highlands (Tas.),605,Lyons,1,Poor,Acceptable,0
+60302,Huon - Bruny Island,604,Franklin,1,Good,Acceptable,0
+60303,South East Coast,605,Lyons,1,Poor,Acceptable,0
+60401,Burnie - Ulverstone,602,Braddon,1,Good,Acceptable,0
+60402,Devonport,602,Braddon,0.7289265,Good,Acceptable,0
+60402,Devonport,605,Lyons,0.2710735,Poor,Acceptable,0
+60403,West Coast,602,Braddon,1,Good,Acceptable,0
+70101,Darwin City,702,Solomon,1,Good,Acceptable,0
+70102,Darwin Suburbs,702,Solomon,1,Good,Acceptable,0
+70103,Litchfield,701,Lingiari,0.9650866,Good,Acceptable,0
+70103,Litchfield,702,Solomon,0.0349134,Good,Acceptable,0
+70104,Palmerston,702,Solomon,1,Good,Acceptable,0
+70201,Alice Springs,701,Lingiari,1,Good,Acceptable,0
+70202,Barkly,701,Lingiari,1,Good,Acceptable,0
+70203,Daly - Tiwi - West Arnhem,701,Lingiari,1,Good,Acceptable,0
+70204,East Arnhem,701,Lingiari,1,Good,Acceptable,0
+70205,Katherine,701,Lingiari,1,Good,Acceptable,0
+80101,Belconnen,802,Fenner,1,Good,Acceptable,0
+80103,Canberra East,801,Canberra,0.8768939,Good,Acceptable,0
+80103,Canberra East,802,Fenner,0.1231061,Good,Acceptable,0
+80104,Gungahlin,802,Fenner,1,Good,Acceptable,0
+80105,North Canberra,801,Canberra,0.3364659,Good,Acceptable,0
+80105,North Canberra,802,Fenner,0.6635341,Good,Acceptable,0
+80106,South Canberra,801,Canberra,1,Good,Acceptable,0
+80107,Tuggeranong,801,Canberra,1,Good,Acceptable,0
+80108,Weston Creek,801,Canberra,1,Good,Acceptable,0
+80109,Woden Valley,801,Canberra,1,Good,Acceptable,0
+80110,Molonglo,801,Canberra,1,Good,Acceptable,0
+80111,Urriarra - Namadgi,801,Canberra,1,Good,Acceptable,0
+90101,Christmas Island,701,Lingiari,1,Good,Acceptable,0
+90102,Cocos (Keeling) Islands,701,Lingiari,1,Good,Acceptable,0
+90103,Jervis Bay,802,Fenner,1,Good,Acceptable,0
+90104,Norfolk Island,801,Canberra,1,Good,Acceptable,0

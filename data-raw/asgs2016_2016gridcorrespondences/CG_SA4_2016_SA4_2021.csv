@@ -1,0 +1,113 @@
+﻿SA4_CODE_2016,SA4_NAME_2016,SA4_CODE_2021,SA4_NAME_2021,RATIO_FROM_TO,INDIV_TO_REGION_QLTY_INDICATOR,OVERALL_QUALITY_INDICATOR,BMOS_NULL_FLAG
+101,Capital Region,101,Capital Region,1,Good,Good,0
+102,Central Coast,102,Central Coast,1,Good,Good,0
+103,Central West,103,Central West,1,Good,Good,0
+104,Coffs Harbour - Grafton,104,Coffs Harbour - Grafton,1,Good,Good,0
+105,Far West and Orana,105,Far West and Orana,1,Good,Good,0
+106,Hunter Valley exc Newcastle,106,Hunter Valley exc Newcastle,1,Good,Good,0
+107,Illawarra,107,Illawarra,1,Good,Good,0
+108,Mid North Coast,108,Mid North Coast,1,Good,Good,0
+109,Murray,109,Murray,1,Good,Good,0
+110,New England and North West,110,New England and North West,1,Good,Good,0
+111,Newcastle and Lake Macquarie,111,Newcastle and Lake Macquarie,1,Good,Good,0
+112,Richmond - Tweed,112,Richmond - Tweed,1,Good,Good,0
+113,Riverina,113,Riverina,1,Good,Good,0
+114,Southern Highlands and Shoalhaven,114,Southern Highlands and Shoalhaven,1,Good,Good,0
+115,Sydney - Baulkham Hills and Hawkesbury,115,Sydney - Baulkham Hills and Hawkesbury,1,Good,Good,0
+116,Sydney - Blacktown,116,Sydney - Blacktown,0.9999821,Good,Good,0
+116,Sydney - Blacktown,125,Sydney - Parramatta,1.79E-05,Good,Good,1
+117,Sydney - City and Inner South,117,Sydney - City and Inner South,1,Good,Good,0
+118,Sydney - Eastern Suburbs,118,Sydney - Eastern Suburbs,1,Good,Good,0
+119,Sydney - Inner South West,119,Sydney - Inner South West,1,Good,Good,0
+120,Sydney - Inner West,120,Sydney - Inner West,1,Good,Good,0
+121,Sydney - North Sydney and Hornsby,121,Sydney - North Sydney and Hornsby,1,Good,Good,0
+122,Sydney - Northern Beaches,122,Sydney - Northern Beaches,1,Good,Good,0
+123,Sydney - Outer South West,123,Sydney - Outer South West,0.9997551,Good,Good,0
+123,Sydney - Outer South West,127,Sydney - South West,0.0002449,Good,Good,1
+124,Sydney - Outer West and Blue Mountains,124,Sydney - Outer West and Blue Mountains,1,Good,Good,0
+125,Sydney - Parramatta,125,Sydney - Parramatta,1,Good,Good,0
+126,Sydney - Ryde,126,Sydney - Ryde,1,Good,Good,0
+127,Sydney - South West,123,Sydney - Outer South West,1.14E-05,Good,Good,1
+127,Sydney - South West,127,Sydney - South West,0.9999886,Good,Good,0
+128,Sydney - Sutherland,128,Sydney - Sutherland,0.9999772,Good,Good,0
+128,Sydney - Sutherland,,,2.28E-05,Poor,Good,4
+197,Migratory - Offshore - Shipping (NSW),197,Migratory - Offshore - Shipping (NSW),1,Good,Good,0
+199,No usual address (NSW),199,No usual address (NSW),1,Good,Good,0
+201,Ballarat,201,Ballarat,1,Good,Good,0
+202,Bendigo,202,Bendigo,1,Good,Good,0
+203,Geelong,203,Geelong,1,Good,Good,0
+204,Hume,204,Hume,1,Good,Good,0
+205,Latrobe - Gippsland,205,Latrobe - Gippsland,1,Good,Good,0
+206,Melbourne - Inner,206,Melbourne - Inner,1,Good,Good,0
+207,Melbourne - Inner East,207,Melbourne - Inner East,1,Good,Good,0
+208,Melbourne - Inner South,208,Melbourne - Inner South,1,Good,Good,0
+209,Melbourne - North East,209,Melbourne - North East,1,Good,Good,0
+210,Melbourne - North West,210,Melbourne - North West,1,Good,Good,0
+211,Melbourne - Outer East,211,Melbourne - Outer East,1,Good,Good,0
+212,Melbourne - South East,212,Melbourne - South East,1,Good,Good,0
+213,Melbourne - West,213,Melbourne - West,1,Good,Good,0
+214,Mornington Peninsula,214,Mornington Peninsula,1,Good,Good,0
+215,North West,215,North West,1,Good,Good,0
+216,Shepparton,216,Shepparton,1,Good,Good,0
+217,Warrnambool and South West,217,Warrnambool and South West,1,Good,Good,0
+297,Migratory - Offshore - Shipping (Vic.),297,Migratory - Offshore - Shipping (Vic.),1,Good,Good,0
+299,No usual address (Vic.),299,No usual address (Vic.),1,Good,Good,0
+301,Brisbane - East,301,Brisbane - East,1,Good,Good,0
+302,Brisbane - North,302,Brisbane - North,1,Good,Good,0
+303,Brisbane - South,303,Brisbane - South,1,Good,Good,0
+304,Brisbane - West,304,Brisbane - West,1,Good,Good,0
+305,Brisbane Inner City,305,Brisbane Inner City,1,Good,Good,0
+306,Cairns,306,Cairns,1,Good,Good,0
+307,Darling Downs - Maranoa,307,Darling Downs - Maranoa,1,Good,Good,0
+308,Central Queensland,308,Central Queensland,1,Good,Good,0
+309,Gold Coast,309,Gold Coast,1,Good,Good,0
+310,Ipswich,310,Ipswich,1,Good,Good,0
+311,Logan - Beaudesert,311,Logan - Beaudesert,1,Good,Good,0
+312,Mackay - Isaac - Whitsunday,312,Mackay - Isaac - Whitsunday,1,Good,Good,0
+313,Moreton Bay - North,313,Moreton Bay - North,1,Good,Good,0
+314,Moreton Bay - South,314,Moreton Bay - South,1,Good,Good,0
+315,Queensland - Outback,315,Queensland - Outback,1,Good,Good,0
+316,Sunshine Coast,316,Sunshine Coast,1,Good,Good,0
+317,Toowoomba,317,Toowoomba,1,Good,Good,0
+318,Townsville,318,Townsville,1,Good,Good,0
+319,Wide Bay,319,Wide Bay,1,Good,Good,0
+397,Migratory - Offshore - Shipping (Qld),397,Migratory - Offshore - Shipping (Qld),1,Good,Good,0
+399,No usual address (Qld),399,No usual address (Qld),1,Good,Good,0
+401,Adelaide - Central and Hills,401,Adelaide - Central and Hills,1,Good,Good,0
+402,Adelaide - North,402,Adelaide - North,1,Good,Good,0
+403,Adelaide - South,403,Adelaide - South,1,Good,Good,0
+404,Adelaide - West,404,Adelaide - West,1,Good,Good,0
+405,Barossa - Yorke - Mid North,405,Barossa - Yorke - Mid North,1,Good,Good,0
+406,South Australia - Outback,406,South Australia - Outback,1,Good,Good,0
+407,South Australia - South East,407,South Australia - South East,1,Good,Good,0
+497,Migratory - Offshore - Shipping (SA),497,Migratory - Offshore - Shipping (SA),1,Good,Good,0
+499,No usual address (SA),499,No usual address (SA),1,Good,Good,0
+501,Bunbury,501,Bunbury,1,Good,Good,0
+502,Mandurah,502,Mandurah,1,Good,Good,0
+503,Perth - Inner,503,Perth - Inner,1,Good,Good,0
+504,Perth - North East,504,Perth - North East,1,Good,Good,0
+505,Perth - North West,505,Perth - North West,1,Good,Good,0
+506,Perth - South East,506,Perth - South East,1,Good,Good,0
+507,Perth - South West,507,Perth - South West,1,Good,Good,0
+509,Western Australia - Wheat Belt,509,Western Australia - Wheat Belt,1,Good,Good,0
+510,Western Australia - Outback (North),510,Western Australia - Outback (North),1,Good,Good,0
+511,Western Australia - Outback (South),511,Western Australia - Outback (South),1,Good,Good,0
+597,Migratory - Offshore - Shipping (WA),597,Migratory - Offshore - Shipping (WA),1,Good,Good,0
+599,No usual address (WA),599,No usual address (WA),1,Good,Good,0
+601,Hobart,601,Hobart,1,Good,Good,0
+602,Launceston and North East,602,Launceston and North East,1,Good,Good,0
+603,South East,603,South East,1,Good,Good,0
+604,West and North West,604,West and North West,1,Good,Good,0
+697,Migratory - Offshore - Shipping (Tas.),697,Migratory - Offshore - Shipping (Tas.),1,Good,Good,0
+699,No usual address (Tas.),699,No usual address (Tas.),1,Good,Good,0
+701,Darwin,701,Darwin,1,Good,Good,0
+702,Northern Territory - Outback,702,Northern Territory - Outback,1,Good,Good,0
+797,Migratory - Offshore - Shipping (NT),797,Migratory - Offshore - Shipping (NT),1,Good,Good,0
+799,No usual address (NT),799,No usual address (NT),1,Good,Good,0
+801,Australian Capital Territory,801,Australian Capital Territory,1,Good,Good,0
+897,Migratory - Offshore - Shipping (ACT),897,Migratory - Offshore - Shipping (ACT),1,Good,Good,0
+899,No usual address (ACT),899,No usual address (ACT),1,Good,Good,0
+901,Other Territories,901,Other Territories,1,Good,Good,0
+997,Migratory - Offshore - Shipping (OT),997,Migratory - Offshore - Shipping (OT),1,Good,Good,0
+999,No usual address (OT),999,No usual address (OT),1,Good,Good,0
+,,ZZZ,Outside Australia,,NA,Good,3

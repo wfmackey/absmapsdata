@@ -1,0 +1,37 @@
+﻿GCCSA_CODE_2016,GCCSA_NAME_2016,GCCSA_CODE_2021,GCCSA_NAME_2021,RATIO_FROM_TO,INDIV_TO_REGION_QLTY_INDICATOR,OVERALL_QUALITY_INDICATOR,BMOS_NULL_FLAG
+1GSYD,Greater Sydney,1GSYD,Greater Sydney,0.999999,Good,Good,0
+1GSYD,Greater Sydney,,,1.00E-06,Poor,Good,4
+1RNSW,Rest of NSW,1RNSW,Rest of NSW,0.9999997,Good,Good,0
+19499,No usual address (NSW),19499,No usual address (NSW),1,Good,Good,0
+19799,Migratory - Offshore - Shipping (NSW),19799,Migratory - Offshore - Shipping (NSW),1,Good,Good,0
+2GMEL,Greater Melbourne,2GMEL,Greater Melbourne,1,Good,Good,0
+2RVIC,Rest of Vic.,2RVIC,Rest of Vic.,1,Good,Good,0
+29499,No usual address (Vic.),29499,No usual address (Vic.),1,Good,Good,0
+29799,Migratory - Offshore - Shipping (Vic.),29799,Migratory - Offshore - Shipping (Vic.),1,Good,Good,0
+3GBRI,Greater Brisbane,3GBRI,Greater Brisbane,1,Good,Good,0
+3RQLD,Rest of Qld,3RQLD,Rest of Qld,1,Good,Good,0
+39499,No usual address (Qld),39499,No usual address (Qld),1,Good,Good,0
+39799,Migratory - Offshore - Shipping (Qld),39799,Migratory - Offshore - Shipping (Qld),1,Good,Good,0
+4GADE,Greater Adelaide,4GADE,Greater Adelaide,1,Good,Good,0
+4RSAU,Rest of SA,4RSAU,Rest of SA,1,Good,Good,0
+49499,No usual address (SA),49499,No usual address (SA),1,Good,Good,0
+49799,Migratory - Offshore - Shipping (SA),49799,Migratory - Offshore - Shipping (SA),1,Good,Good,0
+5GPER,Greater Perth,5GPER,Greater Perth,1,Good,Good,0
+5RWAU,Rest of WA,5RWAU,Rest of WA,1,Good,Good,0
+59499,No usual address (WA),59499,No usual address (WA),1,Good,Good,0
+59799,Migratory - Offshore - Shipping (WA),59799,Migratory - Offshore - Shipping (WA),1,Good,Good,0
+6GHOB,Greater Hobart,6GHOB,Greater Hobart,1,Good,Good,0
+6RTAS,Rest of Tas.,6RTAS,Rest of Tas.,1,Good,Good,0
+69499,No usual address (Tas.),69499,No usual address (Tas.),1,Good,Good,0
+69799,Migratory - Offshore - Shipping (Tas.),69799,Migratory - Offshore - Shipping (Tas.),1,Good,Good,0
+7GDAR,Greater Darwin,7GDAR,Greater Darwin,1,Good,Good,0
+7RNTE,Rest of NT,7RNTE,Rest of NT,1,Good,Good,0
+79499,No usual address (NT),79499,No usual address (NT),1,Good,Good,0
+79799,Migratory - Offshore - Shipping (NT),79799,Migratory - Offshore - Shipping (NT),1,Good,Good,0
+8ACTE,Australian Capital Territory,8ACTE,Australian Capital Territory,1,Good,Good,0
+89499,No usual address (ACT),89499,No usual address (ACT),1,Good,Good,0
+89799,Migratory - Offshore - Shipping (ACT),89799,Migratory - Offshore - Shipping (ACT),1,Good,Good,0
+9OTER,Other Territories,9OTER,Other Territories,1,Good,Good,0
+99499,No usual address (OT),99499,No usual address (OT),1,Good,Good,0
+99799,Migratory - Offshore - Shipping (OT),99799,Migratory - Offshore - Shipping (OT),1,Good,Good,0
+,,ZZZZZ,Outside Australia,,NA,Good,3

@@ -1,0 +1,2505 @@
+﻿SA2_MAINCODE_2016,SA2_NAME_2016,SA2_CODE_2021,SA2_NAME_2021,RATIO_FROM_TO,INDIV_TO_REGION_QLTY_INDICATOR,OVERALL_QUALITY_INDICATOR,BMOS_NULL_FLAG
+101021007,Braidwood,101021007,Braidwood,1,Good,Good,0
+101021008,Karabar,101021008,Karabar,1,Good,Good,0
+101021009,Queanbeyan,101021009,Queanbeyan,1,Good,Good,0
+101021010,Queanbeyan - East,101021010,Queanbeyan - East,1,Good,Good,0
+101021011,Queanbeyan Region,101021610,Googong,0.0967097,Poor,Good,0
+101021011,Queanbeyan Region,101021611,Queanbeyan Surrounds,0.9032903,Good,Good,0
+101021012,Queanbeyan West - Jerrabomberra,101021012,Queanbeyan West - Jerrabomberra,1,Good,Good,0
+101031013,Bombala,101031013,Bombala,1,Good,Good,0
+101031014,Cooma,101031014,Cooma,1,Good,Good,0
+101031015,Cooma Region,101031015,Cooma Surrounds,1,Good,Good,0
+101031016,Jindabyne - Berridale,101031016,Jindabyne - Berridale,1,Good,Good,0
+101041017,Batemans Bay,101041017,Batemans Bay,1,Good,Good,0
+101041018,Batemans Bay - South,101041018,Batemans Bay - South,1,Good,Good,0
+101041019,Bega - Tathra,101041019,Bega - Tathra,1,Good,Good,0
+101041020,Bega-Eden Hinterland,101041020,Bega-Eden Hinterland,1,Good,Good,0
+101041021,Broulee - Tomakin,101041021,Broulee - Tomakin,1,Good,Good,0
+101041022,Deua - Wadbilliga,101041022,Deua - Wadbilliga,1,Good,Good,0
+101041023,Eden,101041023,Eden,1,Good,Good,0
+101041024,Eurobodalla Hinterland,101041024,Eurobodalla Hinterland,1,Good,Good,0
+101041025,Merimbula - Tura Beach,101041025,Merimbula - Tura Beach,1,Good,Good,0
+101041026,Moruya - Tuross Head,101041026,Moruya - Tuross Head,1,Good,Good,0
+101041027,Narooma - Bermagui,101041027,Narooma - Bermagui,1,Good,Good,0
+101051539,Goulburn,101051539,Goulburn,1,Good,Good,0
+101051540,Goulburn Region,101051540,Goulburn Surrounds,1,Good,Good,0
+101061541,Yass,101061541,Yass,1,Good,Good,0
+101061542,Yass Region,101061542,Yass Surrounds,1,Good,Good,0
+101061543,Young,101061543,Young,1,Good,Good,0
+101061544,Young Region,101061544,Young Surrounds,1,Good,Good,0
+102011028,Avoca Beach - Copacabana,102011028,Avoca Beach - Copacabana,1,Good,Good,0
+102011029,Box Head - MacMasters Beach,102011029,Box Head - MacMasters Beach,1,Good,Good,0
+102011030,Calga - Kulnura,102011030,Calga - Kulnura,1,Good,Good,0
+102011031,Erina - Green Point,102011031,Erina - Green Point,1,Good,Good,0
+102011032,Gosford - Springfield,102011032,Gosford - Springfield,1,Good,Good,0
+102011033,Kariong,102011033,Kariong,1,Good,Good,0
+102011034,Kincumber - Picketts Valley,102011034,Kincumber - Picketts Valley,0.9990335,Good,Good,0
+102011034,Kincumber - Picketts Valley,102011039,Terrigal - North Avoca,0.0009665,Good,Good,1
+102011035,Narara,102011035,Narara,1,Good,Good,0
+102011036,Niagara Park - Lisarow,102011036,Niagara Park - Lisarow,1,Good,Good,0
+102011037,Point Clare - Koolewong,102011037,Point Clare - Koolewong,1,Good,Good,0
+102011038,Saratoga - Davistown,102011038,Saratoga - Davistown,1,Good,Good,0
+102011039,Terrigal - North Avoca,102011039,Terrigal - North Avoca,1,Good,Good,0
+102011040,Umina - Booker Bay - Patonga,102011040,Umina - Booker Bay - Patonga,1,Good,Good,0
+102011041,Wamberal - Forresters Beach,102011041,Wamberal - Forresters Beach,1,Good,Good,0
+102011042,Woy Woy - Blackwall,102011042,Woy Woy - Blackwall,1,Good,Good,0
+102011043,Wyoming,102011043,Wyoming,1,Good,Good,0
+102021044,Bateau Bay - Killarney Vale,102021044,Bateau Bay - Killarney Vale,1,Good,Good,0
+102021045,Blue Haven - San Remo,102021045,Blue Haven - San Remo,1,Good,Good,0
+102021046,Budgewoi - Buff Point - Halekulani,102021046,Budgewoi - Buff Point - Halekulani,1,Good,Good,0
+102021047,Chittaway Bay - Tumbi Umbi,102021047,Chittaway Bay - Tumbi Umbi,1,Good,Good,0
+102021048,Gorokan - Kanwal - Charmhaven,102021048,Gorokan - Kanwal - Charmhaven,1,Good,Good,0
+102021049,Jilliby - Yarramalong,102021049,Jilliby - Yarramalong,1,Good,Good,0
+102021050,Lake Munmorah - Mannering Park,102021050,Lake Munmorah - Mannering Park,1,Good,Good,0
+102021051,Ourimbah - Fountaindale,102021051,Ourimbah - Fountaindale,1,Good,Good,0
+102021052,Summerland Point - Gwandalan,102021052,Summerland Point - Gwandalan,1,Good,Good,0
+102021053,The Entrance,102021053,The Entrance,1,Good,Good,0
+102021054,Toukley - Norah Head,102021054,Toukley - Norah Head,1,Good,Good,0
+102021055,Tuggerah - Kangy Angy,102021055,Tuggerah - Kangy Angy,1,Good,Good,0
+102021056,Warnervale - Wadalba,102021056,Warnervale - Wadalba,1,Good,Good,0
+102021057,Wyong,102021057,Wyong,1,Good,Good,0
+103011058,Bathurst,103011612,Bathurst - South,0.4526202,Poor,Good,0
+103011058,Bathurst,103011613,Bathurst - West,0.5473798,Poor,Good,0
+103011059,Bathurst - East,103011059,Bathurst - East,1,Good,Good,0
+103011060,Bathurst Region,103011060,Bathurst Surrounds,1,Good,Good,0
+103011061,Oberon,103011061,Oberon,1,Good,Good,0
+103021062,Condobolin,103021062,Condobolin,1,Good,Good,0
+103021063,Cowra,103021063,Cowra,1,Good,Good,0
+103021064,Cowra Region,103021064,Cowra Surrounds,1,Good,Good,0
+103021065,Forbes,103021065,Forbes,1,Good,Good,0
+103021066,Grenfell,103021066,Grenfell,1,Good,Good,0
+103021067,Parkes (NSW),103021067,Parkes (NSW),1,Good,Good,0
+103021068,Parkes Region,103021068,Parkes Surrounds,1,Good,Good,0
+103021069,West Wyalong,103021069,West Wyalong,1,Good,Good,0
+103031070,Lithgow,103031070,Lithgow,1,Good,Good,0
+103031071,Lithgow Region,103031071,Lithgow Surrounds,1,Good,Good,0
+103031072,Mudgee,103031072,Mudgee,1,Good,Good,0
+103031073,Mudgee Region - East,103031073,Mudgee Surrounds - East,1,Good,Good,0
+103031074,Mudgee Region - West,103031074,Mudgee Surrounds - West,1,Good,Good,0
+103031075,Wollangambe - Wollemi,103031075,Wollangambe - Wollemi,1,Good,Good,0
+103041076,Blayney,103041076,Blayney,1,Good,Good,0
+103041077,Orange,103041077,Orange,1,Good,Good,0
+103041078,Orange - North,103041078,Orange - North,1,Good,Good,0
+103041079,Orange Region,103041079,Orange Surrounds,1,Good,Good,0
+104011080,Grafton,104011080,Grafton,1,Good,Good,0
+104011081,Grafton Region,104011081,Grafton Surrounds,1,Good,Good,0
+104011082,Maclean - Yamba - Iluka,104011082,Maclean - Yamba - Iluka,1,Good,Good,0
+104021083,Bellingen,104021083,Bellingen,1,Good,Good,0
+104021084,Coffs Harbour - North,104021084,Coffs Harbour - North,1,Good,Good,0
+104021085,Coffs Harbour - South,104021085,Coffs Harbour - South,1,Good,Good,0
+104021086,Coramba - Nana Glen - Bucca,104021086,Coramba - Nana Glen - Bucca,1,Good,Good,0
+104021087,Dorrigo,104021087,Dorrigo,1,Good,Good,0
+104021088,Korora - Emerald Beach,104021088,Korora - Emerald Beach,1,Good,Good,0
+104021089,Sawtell - Boambee,104021089,Sawtell - Boambee,1,Good,Good,0
+104021090,Urunga,104021090,Urunga,1,Good,Good,0
+104021091,Woolgoolga - Arrawarra,104021091,Woolgoolga - Arrawarra,1,Good,Good,0
+105011092,Bourke - Brewarrina,105011092,Bourke - Brewarrina,1,Good,Good,0
+105011093,Cobar,105011093,Cobar,1,Good,Good,0
+105011094,Coonamble,105011094,Coonamble,1,Good,Good,0
+105011095,Nyngan - Warren,105011095,Nyngan - Warren,1,Good,Good,0
+105011096,Walgett - Lightning Ridge,105011096,Walgett - Lightning Ridge,1,Good,Good,0
+105021097,Broken Hill,105021097,Broken Hill,1,Good,Good,0
+105021098,Far West,105021098,Far West,1,Good,Good,0
+105031099,Coonabarabran,105031099,Coonabarabran,1,Good,Good,0
+105031100,Dubbo - East,105031100,Dubbo - East,1,Good,Good,0
+105031101,Dubbo - South,105031101,Dubbo - South,1,Good,Good,0
+105031102,Dubbo - West,105031102,Dubbo - West,1,Good,Good,0
+105031103,Dubbo Region,105031103,Dubbo Surrounds,1,Good,Good,0
+105031104,Gilgandra,105031104,Gilgandra,1,Good,Good,0
+105031105,Narromine,105031105,Narromine,1,Good,Good,0
+105031106,Wellington,105031106,Wellington,1,Good,Good,0
+106011107,Branxton - Greta - Pokolbin,106011107,Branxton - Greta - Pokolbin,1,Good,Good,0
+106011108,Cessnock,106011108,Cessnock,1,Good,Good,0
+106011109,Cessnock Region,106011109,Cessnock Surrounds,1,Good,Good,0
+106011110,Dungog,106011110,Dungog,1,Good,Good,0
+106011111,Kurri Kurri - Abermain,106011111,Kurri Kurri - Abermain,1,Good,Good,0
+106011112,Singleton,106011112,Singleton,1,Good,Good,0
+106011113,Singleton Region,106011113,Singleton Surrounds,1,Good,Good,0
+106021114,Maitland,106021114,Maitland,1,Good,Good,0
+106021115,Maitland - East,106021614,East Maitland - Metford,0.6570794,Poor,Good,0
+106021115,Maitland - East,106021617,Tenambit - East Maitland,0.3394406,Poor,Good,0
+106021115,Maitland - East,106021618,Thornton - Millers Forest,0.00348,Good,Good,1
+106021116,Maitland - North,106021116,Maitland - North,1,Good,Good,0
+106021117,Maitland - West,106021615,Rutherford (North) - Aberglasslyn,0.6980665,Poor,Good,0
+106021117,Maitland - West,106021616,Rutherford (South) - Telarah,0.3019335,Poor,Good,0
+106021118,Thornton - Millers Forest,106021618,Thornton - Millers Forest,1,Good,Good,0
+106031119,Anna Bay,106031119,Anna Bay,1,Good,Good,0
+106031120,Lemon Tree Passage - Tanilba Bay,106031120,Lemon Tree Passage - Tanilba Bay,1,Good,Good,0
+106031121,Nelson Bay Peninsula,106031121,Nelson Bay Peninsula,1,Good,Good,0
+106031122,Raymond Terrace,106031122,Raymond Terrace,1,Good,Good,0
+106031123,Seaham - Woodville,106031123,Seaham - Woodville,1,Good,Good,0
+106031124,Tea Gardens - Hawks Nest,106031124,Tea Gardens - Hawks Nest,1,Good,Good,0
+106031125,Williamtown - Medowie - Karuah,106031125,Williamtown - Medowie - Karuah,1,Good,Good,0
+106041126,Muswellbrook,106041126,Muswellbrook,1,Good,Good,0
+106041127,Muswellbrook Region,106041127,Muswellbrook Surrounds,1,Good,Good,0
+106041128,Scone,106041128,Scone,1,Good,Good,0
+106041129,Scone Region,106041129,Scone Surrounds,1,Good,Good,0
+107011131,Dapto - Avondale,107011131,Dapto - Avondale,1,Good,Good,0
+107011132,Horsley - Kembla Grange,107011132,Horsley - Kembla Grange,1,Good,Good,0
+107011133,Port Kembla Industrial,107011133,Port Kembla Industrial,1,Good,Good,0
+107011134,Unanderra - Mount Kembla,107011134,Unanderra - Mount Kembla,1,Good,Good,0
+107011545,Berkeley - Lake Heights - Cringila,107011545,Berkeley - Lake Heights - Cringila,1,Good,Good,0
+107011546,Port Kembla - Warrawong,107011546,Port Kembla - Warrawong,1,Good,Good,0
+107011547,Windang - Primbee,107011547,Windang - Primbee,1,Good,Good,0
+107021135,Illawarra Catchment Reserve,107021135,Illawarra Catchment Reserve,1,Good,Good,0
+107031136,Albion Park - Macquarie Pass,107031136,Albion Park - Macquarie Pass,1,Good,Good,0
+107031137,Albion Park Rail,107031137,Albion Park Rail,1,Good,Good,0
+107031138,Kiama,107031138,Kiama,1,Good,Good,0
+107031139,Kiama Downs - Minnamurra,107031139,Kiama Downs - Minnamurra,1,Good,Good,0
+107031140,Kiama Hinterland - Gerringong,107031140,Kiama Hinterland - Gerringong,1,Good,Good,0
+107031141,Shellharbour - Flinders,107031141,Shellharbour - Flinders,1,Good,Good,0
+107031142,Shellharbour - Oak Flats,107031142,Shellharbour - Oak Flats,1,Good,Good,0
+107031143,Warilla,107031143,Warilla,1,Good,Good,0
+107041144,Balgownie - Fairy Meadow,107041144,Balgownie - Fairy Meadow,1,Good,Good,0
+107041145,Corrimal - Tarrawanna - Bellambi,107041145,Corrimal - Tarrawanna - Bellambi,1,Good,Good,0
+107041146,Figtree - Keiraville,107041146,Figtree - Keiraville,1,Good,Good,0
+107041147,Helensburgh,107041147,Helensburgh,1,Good,Good,0
+107041148,Thirroul - Austinmer - Coalcliff,107041148,Thirroul - Austinmer - Coalcliff,1,Good,Good,0
+107041150,Woonona - Bulli - Russell Vale,107041150,Woonona - Bulli - Russell Vale,1,Good,Good,0
+107041548,Wollongong - East,107041548,Wollongong - East,1,Good,Good,0
+107041549,Wollongong - West,107041549,Wollongong - West,1,Good,Good,0
+108011151,Bulahdelah - Stroud,108011151,Bulahdelah - Stroud,1,Good,Good,0
+108011152,Forster,108011152,Forster,1,Good,Good,0
+108011153,Forster-Tuncurry Region,108011153,Forster-Tuncurry Surrounds,1,Good,Good,0
+108011154,Tuncurry,108011154,Tuncurry,1,Good,Good,0
+108021155,Kempsey,108021155,Kempsey,1,Good,Good,0
+108021156,Kempsey Region,108021156,Kempsey Surrounds,1,Good,Good,0
+108021157,Macksville - Scotts Head,108021157,Macksville - Scotts Head,1,Good,Good,0
+108021158,Nambucca Heads,108021158,Nambucca Heads,1,Good,Good,0
+108021159,Nambucca Heads Region,108021159,Nambucca Heads Surrounds,1,Good,Good,0
+108021160,South West Rocks,108021160,South West Rocks,1,Good,Good,0
+108031161,Lord Howe Island,108031161,Lord Howe Island,1,Good,Good,0
+108041162,Laurieton - Bonny Hills,108041162,Laurieton - Bonny Hills,1,Good,Good,0
+108041163,Port Macquarie - East,108041619,Port Macquarie - East,0.408173,Poor,Good,0
+108041163,Port Macquarie - East,108041620,Port Macquarie - South,0.591827,Poor,Good,0
+108041164,Port Macquarie - West,108041164,Port Macquarie - West,1,Good,Good,0
+108041165,Port Macquarie Region,108041165,Port Macquarie Surrounds,1,Good,Good,0
+108041166,Wauchope,108041166,Wauchope,1,Good,Good,0
+108051167,Gloucester,108051167,Gloucester,1,Good,Good,0
+108051168,Old Bar - Manning Point - Red Head,108051168,Old Bar - Manning Point - Red Head,1,Good,Good,0
+108051169,Taree,108051169,Taree,1,Good,Good,0
+108051170,Taree Region,108051170,Taree Surrounds,1,Good,Good,0
+108051171,Wingham,108051171,Wingham,1,Good,Good,0
+109011172,Albury - East,109011172,Albury - East,1,Good,Good,0
+109011173,Albury - North,109011173,Albury - North,1,Good,Good,0
+109011174,Albury - South,109011174,Albury - South,1,Good,Good,0
+109011175,Albury Region,109011175,Albury Surrounds,1,Good,Good,0
+109011176,Lavington,109011176,Lavington,1,Good,Good,0
+109021177,Hay,109021177,Hay,1,Good,Good,0
+109021178,Wentworth - Buronga,109021178,Wentworth - Buronga,1,Good,Good,0
+109021179,Wentworth-Balranald Region,109021179,Wentworth-Balranald Region,1,Good,Good,0
+109031180,Corowa,109031180,Corowa,1,Good,Good,0
+109031181,Corowa Region,109031181,Corowa Surrounds,1,Good,Good,0
+109031182,Deniliquin,109031182,Deniliquin,1,Good,Good,0
+109031183,Deniliquin Region,109031183,Deniliquin Surrounds,1,Good,Good,0
+109031184,Moama,109031184,Moama,1,Good,Good,0
+109031185,Tocumwal - Finley - Jerilderie,109031185,Tocumwal - Finley - Jerilderie,1,Good,Good,0
+110011186,Armidale,110011186,Armidale,1,Good,Good,0
+110011187,Armidale Region - North,110011187,Armidale Surrounds - North,1,Good,Good,0
+110011188,Armidale Region - South,110011188,Armidale Surrounds - South,1,Good,Good,0
+110011189,Walcha,110011189,Walcha,1,Good,Good,0
+110021190,Glen Innes,110021190,Glen Innes,1,Good,Good,0
+110021191,Inverell,110021191,Inverell,1,Good,Good,0
+110021192,Inverell Region - East,110021192,Inverell Surrounds - East,1,Good,Good,0
+110021193,Inverell Region - West,110021193,Inverell Surrounds - West,1,Good,Good,0
+110021194,Tenterfield,110021194,Tenterfield,1,Good,Good,0
+110031195,Moree,110031195,Moree,1,Good,Good,0
+110031196,Moree Region,110031196,Moree Surrounds,1,Good,Good,0
+110031197,Narrabri,110031197,Narrabri,1,Good,Good,0
+110031198,Narrabri Region,110031198,Narrabri Surrounds,1,Good,Good,0
+110041199,Gunnedah,110041199,Gunnedah,1,Good,Good,0
+110041200,Gunnedah Region,110041200,Gunnedah Surrounds,1,Good,Good,0
+110041201,Quirindi,110041201,Quirindi,1,Good,Good,0
+110041202,Tamworth - East,110041202,Tamworth - East,1,Good,Good,0
+110041203,Tamworth - North,110041203,Tamworth - North,1,Good,Good,0
+110041204,Tamworth - West,110041204,Tamworth - West,1,Good,Good,0
+110041205,Tamworth Region,110041205,Tamworth Surrounds,1,Good,Good,0
+111011206,Belmont - Bennetts Green,111011206,Belmont - Bennetts Green,1,Good,Good,0
+111011207,Belmont South - Blacksmiths,111011207,Belmont South - Blacksmiths,1,Good,Good,0
+111011208,Charlestown - Dudley,111011208,Charlestown - Dudley,1,Good,Good,0
+111011209,Glendale - Cardiff - Hillsborough,111011209,Glendale - Cardiff - Hillsborough,1,Good,Good,0
+111011210,Mount Hutton - Windale,111011210,Mount Hutton - Windale,1,Good,Good,0
+111011211,Redhead,111011211,Redhead,1,Good,Good,0
+111011212,Swansea - Caves Beach,111011212,Swansea - Caves Beach,1,Good,Good,0
+111011213,Valentine - Eleebana,111011213,Valentine - Eleebana,1,Good,Good,0
+111011214,Warners Bay - Boolaroo,111011214,Warners Bay - Boolaroo,1,Good,Good,0
+111021215,Bolton Point - Teralba,111021215,Bolton Point - Teralba,1,Good,Good,0
+111021216,Bonnells Bay - Silverwater,111021216,Bonnells Bay - Silverwater,1,Good,Good,0
+111021217,Edgeworth - Cameron Park,111021217,Edgeworth - Cameron Park,1,Good,Good,0
+111021218,Morisset - Cooranbong,111021218,Morisset - Cooranbong,1,Good,Good,0
+111021219,Toronto - Awaba,111021219,Toronto - Awaba,1,Good,Good,0
+111021220,Wangi Wangi - Rathmines,111021220,Wangi Wangi - Rathmines,1,Good,Good,0
+111021221,West Wallsend - Barnsley - Killingworth,111021221,West Wallsend - Barnsley - Killingworth,1,Good,Good,0
+111031222,Adamstown - Kotara,111031222,Adamstown - Kotara,1,Good,Good,0
+111031223,Beresfield - Hexham,111031223,Beresfield - Hexham,1,Good,Good,0
+111031224,Hamilton - Broadmeadow,111031224,Hamilton - Broadmeadow,1,Good,Good,0
+111031225,Lambton - New Lambton,111031225,Lambton - New Lambton,1,Good,Good,0
+111031226,Maryland - Fletcher - Minmi,111031226,Maryland - Fletcher - Minmi,1,Good,Good,0
+111031227,Mayfield - Warabrook,111031227,Mayfield - Warabrook,1,Good,Good,0
+111031228,Merewether - The Junction,111031228,Merewether - The Junction,1,Good,Good,0
+111031229,Newcastle - Cooks Hill,111031229,Newcastle - Cooks Hill,1,Good,Good,0
+111031230,Newcastle Port - Kooragang,111031230,Newcastle Port - Kooragang,1,Good,Good,0
+111031231,Shortland - Jesmond,111031231,Shortland - Jesmond,1,Good,Good,0
+111031232,Stockton - Fullerton Cove,111031232,Stockton - Fullerton Cove,1,Good,Good,0
+111031233,Wallsend - Elermore Vale,111031233,Wallsend - Elermore Vale,1,Good,Good,0
+111031234,Waratah - North Lambton,111031234,Waratah - North Lambton,1,Good,Good,0
+111031235,Wickham - Carrington - Tighes Hill,111031235,Wickham - Carrington - Tighes Hill,1,Good,Good,0
+112011236,Ballina,112011236,Ballina,1,Good,Good,0
+112011237,Ballina Region,112011237,Ballina Surrounds,1,Good,Good,0
+112011238,Bangalow,112011238,Bangalow,1,Good,Good,0
+112011239,Brunswick Heads - Ocean Shores,112011239,Brunswick Heads - Ocean Shores,1,Good,Good,0
+112011240,Byron Bay,112011240,Byron Bay,1,Good,Good,0
+112011241,Evans Head,112011241,Evans Head,1,Good,Good,0
+112011242,Lennox Head - Skennars Head,112011242,Lennox Head - Skennars Head,1,Good,Good,0
+112011243,Mullumbimby,112011243,Mullumbimby,1,Good,Good,0
+112021244,Casino,112021244,Casino,1,Good,Good,0
+112021245,Casino Region,112021245,Casino Surrounds,1,Good,Good,0
+112021246,Goonellabah,112021246,Goonellabah,1,Good,Good,0
+112021247,Kyogle,112021247,Kyogle,1,Good,Good,0
+112021248,Lismore,112021248,Lismore,1,Good,Good,0
+112021249,Lismore Region,112021249,Lismore Surrounds,1,Good,Good,0
+112031250,Kingscliff - Fingal Head,112031250,Kingscliff - Fingal Head,1,Good,Good,0
+112031251,Murwillumbah,112031251,Murwillumbah,1,Good,Good,0
+112031252,Murwillumbah Region,112031252,Murwillumbah Surrounds,1,Good,Good,0
+112031253,Pottsville,112031253,Pottsville,1,Good,Good,0
+112031254,Tweed Heads,112031254,Tweed Heads,1,Good,Good,0
+112031550,Banora Point,112031550,Banora Point,1,Good,Good,0
+112031551,Terranora - North Tumblegum,112031551,Terranora - North Tumbulgum,1,Good,Good,0
+112031552,Tweed Heads South,112031552,Tweed Heads South,1,Good,Good,0
+113011256,Griffith (NSW),113011256,Griffith (NSW),1,Good,Good,0
+113011257,Griffith Region,113011257,Griffith Surrounds,1,Good,Good,0
+113011258,Leeton,113011258,Leeton,1,Good,Good,0
+113011259,Narrandera,113011259,Narrandera,1,Good,Good,0
+113021260,Tumbarumba,113021260,Tumbarumba,1,Good,Good,0
+113021261,Tumut,113021261,Tumut,1,Good,Good,0
+113021262,Tumut Region,113021262,Tumut Surrounds,1,Good,Good,0
+113031263,Cootamundra,113031263,Cootamundra,1,Good,Good,0
+113031264,Gundagai,113031264,Gundagai,1,Good,Good,0
+113031265,Junee,113031265,Junee,1,Good,Good,0
+113031266,Temora,113031266,Temora,1,Good,Good,0
+113031267,Wagga Wagga - East,113031267,Wagga Wagga - East,1,Good,Good,0
+113031268,Wagga Wagga - North,113031268,Wagga Wagga - North,1,Good,Good,0
+113031269,Wagga Wagga - South,113031269,Wagga Wagga - South,1,Good,Good,0
+113031270,Wagga Wagga - West,113031270,Wagga Wagga - West,1,Good,Good,0
+113031271,Wagga Wagga Region,113031271,Wagga Wagga Surrounds,1,Good,Good,0
+114011272,Berry - Kangaroo Valley,114011272,Berry - Kangaroo Valley,1,Good,Good,0
+114011273,Callala Bay - Currarong,114011273,Callala Bay - Currarong,1,Good,Good,0
+114011274,Culburra Beach,114011274,Culburra Beach,1,Good,Good,0
+114011275,Ettrema - Sassafras - Budawang,114011275,Ettrema - Sassafras - Budawang,1,Good,Good,0
+114011276,Huskisson - Vincentia,114011276,Huskisson - Vincentia,1,Good,Good,0
+114011277,North Nowra - Bomaderry,114011277,North Nowra - Bomaderry,1,Good,Good,0
+114011278,Nowra,114011278,Nowra,1,Good,Good,0
+114011279,St Georges Basin - Erowal Bay,114011279,St Georges Basin - Erowal Bay,1,Good,Good,0
+114011280,Sussex Inlet - Berrara,114011280,Sussex Inlet - Berrara,1,Good,Good,0
+114011281,Tomerong - Wandandian - Woollamia,114011281,Tomerong - Wandandian - Woollamia,1,Good,Good,0
+114011282,Ulladulla,114011282,Ulladulla,1,Good,Good,0
+114011283,Ulladulla Region,114011283,Ulladulla Surrounds,1,Good,Good,0
+114021284,Bowral,114021284,Bowral,1,Good,Good,0
+114021285,Hill Top - Colo Vale,114021285,Hill Top - Colo Vale,1,Good,Good,0
+114021286,Mittagong,114021286,Mittagong,1,Good,Good,0
+114021287,Moss Vale - Berrima,114021287,Moss Vale - Berrima,1,Good,Good,0
+114021288,Robertson - Fitzroy Falls,114021288,Robertson - Fitzroy Falls,1,Good,Good,0
+114021289,Southern Highlands,114021289,Southern Highlands,1,Good,Good,0
+115011290,Baulkham Hills (East),115011290,Baulkham Hills - East,1,Good,Good,0
+115011291,Baulkham Hills (West) - Bella Vista,115011291,Baulkham Hills (West) - Bella Vista,0.9999995,Good,Good,0
+115011291,Baulkham Hills (West) - Bella Vista,115011622,Kellyville - West,5.00E-07,Poor,Good,1
+115011294,Glenhaven,115011294,Glenhaven,1,Good,Good,0
+115011296,West Pennant Hills,115011296,West Pennant Hills,1,Good,Good,0
+115011553,Castle Hill - Central,115011553,Castle Hill - Central,1,Good,Good,0
+115011554,Castle Hill - East,115011554,Castle Hill - East,1,Good,Good,0
+115011555,Castle Hill - North,115011555,Castle Hill - North,1,Good,Good,0
+115011556,Castle Hill - South,115011556,Castle Hill - South,1,Good,Good,0
+115011557,Castle Hill - West,115011557,Castle Hill - West,1,Good,Good,0
+115011558,Cherrybrook,115011558,Cherrybrook,1,Good,Good,0
+115011559,Kellyville,115011621,Kellyville - East,0.7559909,Acceptable,Good,0
+115011559,Kellyville,115011622,Kellyville - West,0.2440091,Poor,Good,0
+115021297,Dural - Kenthurst - Wisemans Ferry,115021297,Dural - Kenthurst - Wisemans Ferry,1,Good,Good,0
+115021298,Galston - Laughtondale,115021298,Galston - Laughtondale,1,Good,Good,0
+115031299,Bilpin - Colo - St Albans,115031299,Bilpin - Colo - St Albans,1,Good,Good,0
+115031300,Kurrajong Heights - Ebenezer,115031300,Kurrajong Heights - Ebenezer,1,Good,Good,0
+115041301,Pitt Town - McGraths Hill,115041301,Pitt Town - McGraths Hill,0.9965636,Good,Good,0
+115041301,Pitt Town - McGraths Hill,115041623,Box Hill - Nelson,0.0034364,Poor,Good,1
+115041302,Rouse Hill - Beaumont Hills,115041623,Box Hill - Nelson,0.0602784,Poor,Good,0
+115041302,Rouse Hill - Beaumont Hills,115041624,North Kellyville,0.2083259,Poor,Good,0
+115041302,Rouse Hill - Beaumont Hills,115041625,Rouse Hill - Beaumont Hills,0.7313957,Poor,Good,0
+116011303,Blacktown (East) - Kings Park,116011303,Blacktown (East) - Kings Park,1,Good,Good,0
+116011304,Blacktown (North) - Marayong,116011304,Blacktown (North) - Marayong,1,Good,Good,0
+116011306,Doonside - Woodcroft,116011306,Doonside - Woodcroft,1,Good,Good,0
+116011307,Lalor Park - Kings Langley,116011307,Lalor Park - Kings Langley,1,Good,Good,0
+116011308,Seven Hills - Toongabbie,116011626,Seven Hills - Prospect,0.5807167,Poor,Good,0
+116011308,Seven Hills - Toongabbie,116011627,Toongabbie - West,0.4190312,Poor,Good,0
+116011308,Seven Hills - Toongabbie,125031715,Pemulwuy - Greystanes (North),0.0002521,Poor,Good,1
+116011560,Blacktown (South),116011560,Blacktown - South,1,Good,Good,0
+116011561,Blacktown (West),116011561,Blacktown - West,1,Good,Good,0
+116021309,Glenwood,116021309,Glenwood,1,Good,Good,0
+116021310,Parklea - Kellyville Ridge,116021628,Kellyville Ridge - The Ponds,0.6327158,Poor,Good,0
+116021310,Parklea - Kellyville Ridge,116021633,Stanhope Gardens - Parklea,0.3672842,Poor,Good,0
+116021312,Riverstone - Marsden Park,116021629,Marsden Park - Shanes Park,0.0430564,Poor,Good,0
+116021312,Riverstone - Marsden Park,116021630,Riverstone,0.4582552,Poor,Good,0
+116021312,Riverstone - Marsden Park,116021631,Schofields (West) - Colebee,0.176805,Poor,Good,0
+116021312,Riverstone - Marsden Park,116021632,Schofields - East,0.3218834,Poor,Good,0
+116021562,Acacia Gardens,116021562,Acacia Gardens,1,Good,Good,0
+116021563,Quakers Hill,116021563,Quakers Hill,1,Good,Good,0
+116031313,Bidwill - Hebersham - Emerton,116031313,Bidwill - Hebersham - Emerton,1,Good,Good,0
+116031314,Glendenning - Dean Park,116031314,Glendenning - Dean Park,1,Good,Good,0
+116031315,Hassall Grove - Plumpton,116031315,Hassall Grove - Plumpton,1,Good,Good,0
+116031316,Lethbridge Park - Tregear,116031316,Lethbridge Park - Tregear,1,Good,Good,0
+116031317,Mount Druitt - Whalan,116031317,Mount Druitt - Whalan,1,Good,Good,0
+116031318,Prospect Reservoir,116031318,Prospect Reservoir,1,Good,Good,0
+116031319,Rooty Hill - Minchinbury,116031319,Rooty Hill - Minchinbury,1,Good,Good,0
+117011320,Banksmeadow,117011320,Banksmeadow,1,Good,Good,0
+117011321,Botany,117011321,Botany,1,Good,Good,0
+117011322,Mascot - Eastlakes,117011634,Eastlakes,0.4008494,Poor,Good,0
+117011322,Mascot - Eastlakes,117011635,Mascot,0.5991506,Poor,Good,0
+117011323,Pagewood - Hillsdale - Daceyville,117011323,Pagewood - Hillsdale - Daceyville,1,Good,Good,0
+117011324,Port Botany Industrial,117011324,Port Botany Industrial,1,Good,Good,0
+117011325,Sydney Airport,117011325,Sydney Airport,1,Good,Good,0
+117021326,Marrickville,117021636,Marrickville - North,0.4439296,Poor,Good,0
+117021326,Marrickville,117021637,Marrickville - South,0.5560704,Poor,Good,0
+117021327,Petersham - Stanmore,117021327,Petersham - Stanmore,1,Good,Good,0
+117021328,Sydenham - Tempe - St Peters,117021328,Sydenham - Tempe - St Peters,1,Good,Good,0
+117031329,Darlinghurst,117031329,Darlinghurst,1,Good,Good,0
+117031330,Erskineville - Alexandria,117031330,Erskineville - Alexandria,1,Good,Good,0
+117031331,Glebe - Forest Lodge,117031331,Glebe - Forest Lodge,1,Good,Good,0
+117031332,Newtown - Camperdown - Darlington,117031638,Camperdown - Darlington,0.3979693,Poor,Good,0
+117031332,Newtown - Camperdown - Darlington,117031640,Newtown (NSW),0.6020307,Poor,Good,0
+117031333,Potts Point - Woolloomooloo,117031333,Potts Point - Woolloomooloo,1,Good,Good,0
+117031334,Pyrmont - Ultimo,117031641,Pyrmont,0.5951357,Poor,Good,0
+117031334,Pyrmont - Ultimo,117031646,Ultimo,0.4048643,Poor,Good,0
+117031335,Redfern - Chippendale,117031639,Chippendale,0.3738271,Poor,Good,0
+117031335,Redfern - Chippendale,117031642,Redfern,0.6261729,Poor,Good,0
+117031336,Surry Hills,117031336,Surry Hills,1,Good,Good,0
+117031337,Sydney - Haymarket - The Rocks,117031644,Sydney (North) - Millers Point,0.2798611,Poor,Good,0
+117031337,Sydney - Haymarket - The Rocks,117031645,Sydney (South) - Haymarket,0.7201389,Poor,Good,0
+117031338,Waterloo - Beaconsfield,117031643,Rosebery - Beaconsfield,0.2535504,Poor,Good,0
+117031338,Waterloo - Beaconsfield,117031647,Waterloo,0.4451852,Poor,Good,0
+117031338,Waterloo - Beaconsfield,117031648,Zetland,0.3012644,Poor,Good,0
+118011339,Bondi - Tamarama - Bronte,118011339,Bondi - Tamarama - Bronte,1,Good,Good,0
+118011340,Bondi Beach - North Bondi,118011340,Bondi Beach - North Bondi,1,Good,Good,0
+118011341,Bondi Junction - Waverly,118011341,Bondi Junction - Waverly,1,Good,Good,0
+118011342,Centennial Park,118011342,Centennial Park,1,Good,Good,0
+118011343,Double Bay - Bellevue Hill,118011649,Bellevue Hill,0.5869197,Poor,Good,0
+118011343,Double Bay - Bellevue Hill,118011650,Double Bay - Darling Point,0.4130803,Poor,Good,0
+118011344,Dover Heights,118011344,Dover Heights,1,Good,Good,0
+118011345,Paddington - Moore Park,118011345,Paddington - Moore Park,1,Good,Good,0
+118011346,Rose Bay - Vaucluse - Watsons Bay,118011346,Rose Bay - Vaucluse - Watsons Bay,1,Good,Good,0
+118011347,Woollahra,118011347,Woollahra,1,Good,Good,0
+118021348,Coogee - Clovelly,118021651,Coogee - Clovelly,0.7836822,Acceptable,Good,0
+118021348,Coogee - Clovelly,118021654,South Coogee,0.2163178,Poor,Good,0
+118021350,Malabar - La Perouse - Chifley,118021652,Malabar - La Perouse,0.4565794,Poor,Good,0
+118021350,Malabar - La Perouse - Chifley,118021653,Matraville - Chifley,0.5434206,Poor,Good,0
+118021564,Kensington (NSW),118021564,Kensington (NSW),1,Good,Good,0
+118021565,Kingsford,118021565,Kingsford,1,Good,Good,0
+118021566,Maroubra - North,118021566,Maroubra - North,1,Good,Good,0
+118021567,Maroubra - South,118021567,Maroubra - South,1,Good,Good,0
+118021568,Maroubra - West,118021568,Maroubra - West,1,Good,Good,0
+118021569,Randwick - North,118021569,Randwick - North,1,Good,Good,0
+118021570,Randwick - South,118021570,Randwick - South,1,Good,Good,0
+119011354,Bass Hill - Georges Hall,119011354,Bass Hill - Georges Hall,1,Good,Good,0
+119011355,Chullora,119011355,Chullora,1,Good,Good,0
+119011356,Condell Park,119011356,Condell Park,1,Good,Good,0
+119011357,Greenacre - Mount Lewis,119011655,Greenacre - North,0.528426,Poor,Good,0
+119011357,Greenacre - Mount Lewis,119011656,Greenacre - South,0.471574,Poor,Good,0
+119011358,Padstow,119011358,Padstow,1,Good,Good,0
+119011359,Panania - Milperra - Picnic Point,119011657,Panania (North) - Milperra,0.4105695,Poor,Good,0
+119011359,Panania - Milperra - Picnic Point,119011658,Panania (South) - Picnic Point,0.5894305,Poor,Good,0
+119011360,Revesby,119011360,Revesby,1,Good,Good,0
+119011361,Yagoona - Birrong,119011361,Yagoona - Birrong,1,Good,Good,0
+119011571,Bankstown - North,119011571,Bankstown - North,1,Good,Good,0
+119011572,Bankstown - South,119011572,Bankstown - South,1,Good,Good,0
+119021362,Belmore - Belfield,119021362,Belmore - Belfield,1,Good,Good,0
+119021363,Canterbury (South) - Campsie,119021659,Campsie - North,0.4007006,Poor,Good,0
+119021363,Canterbury (South) - Campsie,119021660,Campsie - South,0.293065,Poor,Good,0
+119021363,Canterbury (South) - Campsie,119021661,Canterbury - South,0.3062343,Poor,Good,0
+119021364,Kingsgrove (North) - Earlwood,119021662,Earlwood,0.7447701,Poor,Good,0
+119021364,Kingsgrove (North) - Earlwood,119021663,Kingsgrove - North,0.2552299,Poor,Good,0
+119021366,Punchbowl,119021366,Punchbowl,1,Good,Good,0
+119021367,Roselands,119021367,Roselands,1,Good,Good,0
+119021573,Lakemba,119021573,Lakemba,1,Good,Good,0
+119021574,Wiley Park,119021574,Wiley Park,1,Good,Good,0
+119031368,Hurstville,119031664,Hurstville - Central,0.4654897,Poor,Good,0
+119031368,Hurstville,119031665,Hurstville - North,0.5345103,Poor,Good,0
+119031369,Mortdale - Penshurst,119031666,Mortdale - Oatley,0.5944027,Poor,Good,0
+119031369,Mortdale - Penshurst,119031667,Penshurst,0.4055973,Poor,Good,0
+119031370,Narwee - Beverly Hills,119031370,Narwee - Beverly Hills,1,Good,Good,0
+119031371,Oatley - Hurstville Grove,119031371,Oatley - Hurstville Grove,1,Good,Good,0
+119031372,Peakhurst - Lugarno,119031372,Peakhurst - Lugarno,1,Good,Good,0
+119031373,Riverwood,119031372,Peakhurst - Lugarno,0.0155939,Good,Good,0
+119031373,Riverwood,119031373,Riverwood,0.9844061,Good,Good,0
+119031374,South Hurstville - Blakehurst,119031374,South Hurstville - Blakehurst,1,Good,Good,0
+119041375,Arncliffe - Bardwell Valley,119041668,Arncliffe - Bardwell Valley,0.7040622,Poor,Good,0
+119041375,Arncliffe - Bardwell Valley,119041671,Wolli Creek,0.2959378,Poor,Good,0
+119041376,Bexley,119041669,Bexley - North,0.3739827,Poor,Good,0
+119041376,Bexley,119041670,Bexley - South,0.6260173,Poor,Good,0
+119041377,Kingsgrove (South) - Bardwell Park,119041377,Kingsgrove (South) - Bardwell Park,1,Good,Good,0
+119041378,Kogarah,119041378,Kogarah,1,Good,Good,0
+119041379,Kogarah Bay - Carlton - Allawah,119041379,Kogarah Bay - Carlton - Allawah,1,Good,Good,0
+119041380,Monterey - Brighton-le-Sands - Kyeemagh,119041380,Monterey - Brighton-le-Sands - Kyeemagh,1,Good,Good,0
+119041381,Rockdale - Banksia,119041381,Rockdale - Banksia,1,Good,Good,0
+119041382,Sans Souci - Ramsgate,119041382,Sans Souci - Ramsgate,1,Good,Good,0
+120011383,Concord - Mortlake - Cabarita,120011383,Concord - Mortlake - Cabarita,1,Good,Good,0
+120011384,Concord West - North Strathfield,120011672,Concord West - North Strathfield,0.5057513,Poor,Good,0
+120011384,Concord West - North Strathfield,120011673,Rhodes,0.4942487,Poor,Good,0
+120011385,Drummoyne - Rodd Point,120011385,Drummoyne - Rodd Point,1,Good,Good,0
+120011386,Five Dock - Abbotsford,120011386,Five Dock - Abbotsford,1,Good,Good,0
+120021387,Balmain,120021387,Balmain,1,Good,Good,0
+120021388,Leichhardt - Annandale,120021674,Annandale (NSW),0.3557375,Poor,Good,0
+120021388,Leichhardt - Annandale,120021675,Leichhardt,0.6442625,Poor,Good,0
+120021389,Lilyfield - Rozelle,120021389,Lilyfield - Rozelle,1,Good,Good,0
+120031390,Ashfield,120031676,Ashfield - North,0.5325969,Poor,Good,0
+120031390,Ashfield,120031677,Ashfield - South,0.4674031,Poor,Good,0
+120031391,Burwood - Croydon,120031678,Burwood (NSW),0.5493864,Poor,Good,0
+120031391,Burwood - Croydon,120031679,Croydon,0.4506136,Poor,Good,0
+120031392,Canterbury (North) - Ashbury,120031392,Canterbury (North) - Ashbury,1,Good,Good,0
+120031393,Croydon Park - Enfield,120031393,Croydon Park - Enfield,1,Good,Good,0
+120031394,Dulwich Hill - Lewisham,120031394,Dulwich Hill - Lewisham,1,Good,Good,0
+120031395,Haberfield - Summer Hill,120031395,Haberfield - Summer Hill,1,Good,Good,0
+120031396,Homebush,120031396,Homebush,1,Good,Good,0
+120031575,Strathfield,120031680,Strathfield - East,0.6647257,Poor,Good,0
+120031575,Strathfield,120031681,Strathfield - West,0.3352743,Poor,Good,0
+120031576,Strathfield South,120031576,Strathfield South,1,Good,Good,0
+121011398,Chatswood (East) - Artarmon,121011682,Artarmon,0.3320511,Poor,Good,0
+121011398,Chatswood (East) - Artarmon,121011684,Chatswood - East,0.6679489,Poor,Good,0
+121011399,Chatswood (West) - Lane Cove North,121011399,Chatswood (West) - Lane Cove North,1,Good,Good,0
+121011400,Lane Cove - Greenwich,121011685,Greenwich - Riverview,0.485053,Poor,Good,0
+121011400,Lane Cove - Greenwich,121011686,Lane Cove,0.514947,Poor,Good,0
+121011401,St Leonards - Naremburn,121011401,St Leonards - Naremburn,1,Good,Good,0
+121011402,Willoughby - Castle Cove - Northbridge,121011683,Castle Cove - Northbridge,0.5165186,Poor,Good,0
+121011402,Willoughby - Castle Cove - Northbridge,121011687,Willoughby,0.4834814,Poor,Good,0
+121021403,Asquith - Mount Colah,121021403,Asquith - Mount Colah,1,Good,Good,0
+121021404,Berowra - Brooklyn - Cowan,121021404,Berowra - Brooklyn - Cowan,1,Good,Good,0
+121021406,Normanhurst - Thornleigh - Westleigh,121021406,Normanhurst - Thornleigh - Westleigh,1,Good,Good,0
+121021577,Hornsby - East,121021577,Hornsby - East,1,Good,Good,0
+121021578,Hornsby - West,121021403,Asquith - Mount Colah,0.0009536,Good,Good,1
+121021578,Hornsby - West,121021578,Hornsby - West,0.9990464,Good,Good,0
+121021579,Waitara - Wahroonga (West),121021579,Wahroonga (West) - Waitara,1,Good,Good,0
+121031407,Gordon - Killara,121031407,Gordon - Killara,1,Good,Good,0
+121031408,Lindfield - Roseville,121031408,Lindfield - Roseville,1,Good,Good,0
+121031409,Pymble,121031409,Pymble,1,Good,Good,0
+121031410,St Ives,121031410,St Ives,1,Good,Good,0
+121031411,Turramurra,121031411,Turramurra,1,Good,Good,0
+121031412,Wahroonga (East) - Warrawee,121031412,Wahroonga (East) - Warrawee,1,Good,Good,0
+121041413,Cremorne - Cammeray,121041413,Cremorne - Cammeray,0.9977561,Good,Good,0
+121041413,Cremorne - Cammeray,121041416,Neutral Bay - Kirribilli,0.0022439,Good,Good,1
+121041414,Crows Nest - Waverton,121041414,Crows Nest - Waverton,1,Good,Good,0
+121041415,Mosman,121041688,Mosman - North,0.4884647,Poor,Good,0
+121041415,Mosman,121041689,Mosman - South,0.5115353,Poor,Good,0
+121041416,Neutral Bay - Kirribilli,121041416,Neutral Bay - Kirribilli,1,Good,Good,0
+121041417,North Sydney - Lavender Bay,121041417,North Sydney - Lavender Bay,1,Good,Good,0
+122011418,Balgowlah - Clontarf - Seaforth,122011418,Balgowlah - Clontarf - Seaforth,1,Good,Good,0
+122011419,Manly - Fairlight,122011419,Manly - Fairlight,1,Good,Good,0
+122021420,Avalon - Palm Beach,122021420,Avalon - Palm Beach,1,Good,Good,0
+122021421,Bayview - Elanora Heights,122021421,Bayview - Elanora Heights,1,Good,Good,0
+122021422,Newport - Bilgola,122021422,Newport - Bilgola,1,Good,Good,0
+122021423,Warriewood - Mona Vale,122021690,Mona Vale - Warriewood (North),0.5655973,Poor,Good,0
+122021423,Warriewood - Mona Vale,122021691,North Narrabeen - Warriewood (South),0.4344027,Poor,Good,0
+122031424,Beacon Hill - Narraweena,122031424,Beacon Hill - Narraweena,1,Good,Good,0
+122031425,Cromer,122031425,Cromer,1,Good,Good,0
+122031426,Dee Why - North Curl Curl,122031694,Dee Why (South) - North Curl Curl,0.3537426,Poor,Good,0
+122031426,Dee Why - North Curl Curl,122031695,Dee Why - North,0.6462574,Poor,Good,0
+122031427,Forestville - Killarney Heights,122031427,Forestville - Killarney Heights,1,Good,Good,0
+122031428,Frenchs Forest - Belrose,122031692,Belrose,0.3435914,Poor,Good,0
+122031428,Frenchs Forest - Belrose,122031696,Frenchs Forest - Oxford Falls,0.6564086,Poor,Good,0
+122031429,Freshwater - Brookvale,122031429,Freshwater - Brookvale,1,Good,Good,0
+122031430,Manly Vale - Allambie Heights,122031430,Manly Vale - Allambie Heights,1,Good,Good,0
+122031431,Narrabeen - Collaroy,122031693,Collaroy - Collaroy Plateau,0.5545385,Poor,Good,0
+122031431,Narrabeen - Collaroy,122031697,Narrabeen - Wheeler Heights,0.4454615,Poor,Good,0
+122031432,Terrey Hills - Duffys Forest,122031432,Terrey Hills - Duffys Forest,1,Good,Good,0
+123011433,Camden - Ellis Lane,123011433,Camden - Ellis Lane,1,Good,Good,0
+123011434,Elderslie - Harrington Park,123011699,Elderslie - Narellan,0.4988418,Poor,Good,0
+123011434,Elderslie - Harrington Park,123011700,Harrington Park,0.5011582,Poor,Good,0
+123011435,Mount Annan - Currans Hill,123011698,Currans Hill,0.1865491,Poor,Good,0
+123011435,Mount Annan - Currans Hill,123011701,Mount Annan,0.6677616,Poor,Good,0
+123011435,Mount Annan - Currans Hill,123011702,Spring Farm,0.1456893,Poor,Good,0
+123021436,Bradbury - Wedderburn,123021436,Bradbury - Wedderburn,1,Good,Good,0
+123021437,Campbelltown - Woodbine,123021437,Campbelltown - Woodbine,1,Good,Good,0
+123021438,Claymore - Eagle Vale - Raby,123021438,Claymore - Eagle Vale - Raby,1,Good,Good,0
+123021439,Holsworthy Military Area,123021439,Holsworthy Military Area,1,Good,Good,0
+123021440,Ingleburn - Denham Court,123021703,Denham Court - Bardia,0.158187,Poor,Good,0
+123021440,Ingleburn - Denham Court,123021705,Ingleburn,0.8385377,Acceptable,Good,0
+123021440,Ingleburn - Denham Court,127011728,Leppington - Catherine Field,0.0032753,Poor,Good,1
+123021441,Leumeah - Minto Heights,123021441,Leumeah - Minto Heights,1,Good,Good,0
+123021442,Macquarie Fields - Glenfield,123021704,Glenfield,0.4069515,Poor,Good,0
+123021442,Macquarie Fields - Glenfield,123021706,Macquarie Fields,0.5930485,Poor,Good,0
+123021443,Minto - St Andrews,123021443,Minto - St Andrews,1,Good,Good,0
+123021444,Rosemeadow - Glen Alpine,123021444,Rosemeadow - Glen Alpine,1,Good,Good,0
+123031445,Bargo,123031445,Bargo,1,Good,Good,0
+123031446,Douglas Park - Appin,123031446,Douglas Park - Appin,1,Good,Good,0
+123031447,Picton - Tahmoor - Buxton,123031447,Picton - Tahmoor - Buxton,1,Good,Good,0
+123031448,The Oaks - Oakdale,123031448,The Oaks - Oakdale,1,Good,Good,0
+124011449,Blackheath - Megalong Valley,124011449,Blackheath - Megalong Valley,1,Good,Good,0
+124011450,Blaxland - Warrimoo - Lapstone,124011450,Blaxland - Warrimoo - Lapstone,1,Good,Good,0
+124011451,Blue Mountains - North,124011451,Blue Mountains - North,1,Good,Good,0
+124011452,Katoomba - Leura,124011452,Katoomba - Leura,1,Good,Good,0
+124011453,Lawson - Hazelbrook - Linden,124011453,Lawson - Hazelbrook - Linden,1,Good,Good,0
+124011454,Springwood - Winmalee,124011454,Springwood - Winmalee,1,Good,Good,0
+124011455,Wentworth Falls,124011455,Wentworth Falls,1,Good,Good,0
+124021456,Blue Mountains - South,124021456,Blue Mountains - South,1,Good,Good,0
+124031457,Cambridge Park,124031457,Cambridge Park,1,Good,Good,0
+124031458,Castlereagh - Cranebrook,124031707,Cranebrook - Castlereagh,0.7135297,Poor,Good,0
+124031458,Castlereagh - Cranebrook,124031708,Jordan Springs - Llandilo,0.2864703,Poor,Good,0
+124031459,Emu Plains - Leonay,124031459,Emu Plains - Leonay,1,Good,Good,0
+124031460,Glenmore Park - Regentville,124031460,Glenmore Park - Regentville,1,Good,Good,0
+124031461,Jamisontown - South Penrith,124031461,Jamisontown - South Penrith,1,Good,Good,0
+124031462,Kingswood - Werrington,124031462,Kingswood - Werrington,1,Good,Good,0
+124031463,Mulgoa - Luddenham - Orchard Hills,124031463,Mulgoa - Luddenham - Orchard Hills,1,Good,Good,0
+124031464,Penrith,124031464,Penrith,1,Good,Good,0
+124031465,Warragamba - Silverdale,124031465,Warragamba - Silverdale,1,Good,Good,0
+124041466,Richmond - Clarendon,124041466,Richmond - Clarendon,1,Good,Good,0
+124041467,Windsor - Bligh Park,124041467,Windsor - Bligh Park,1,Good,Good,0
+124041468,Yarramundi - Londonderry,124041468,Yarramundi - Londonderry,1,Good,Good,0
+124051469,Erskine Park,124051469,Erskine Park,1,Good,Good,0
+124051470,St Clair,124051470,St Clair,1,Good,Good,0
+124051580,Colyton - Oxley Park,124051580,Colyton - Oxley Park,1,Good,Good,0
+124051581,St Marys - North St Marys,124051581,St Marys - North St Marys,1,Good,Good,0
+125011473,Homebush Bay - Silverwater,125011709,Silverwater - Newington,0.4831594,Poor,Good,0
+125011473,Homebush Bay - Silverwater,125011710,Wentworth Point - Sydney Olympic Park,0.5168406,Poor,Good,0
+125011475,Rookwood Cemetery,125011475,Rookwood Cemetery,1,Good,Good,0
+125011582,Auburn - Central,125011582,Auburn - Central,1,Good,Good,0
+125011583,Auburn - North,125011583,Auburn - North,1,Good,Good,0
+125011584,Auburn - South,125011584,Auburn - South,1,Good,Good,0
+125011585,Berala,125011585,Berala,1,Good,Good,0
+125011586,Lidcombe,125011586,Lidcombe,1,Good,Good,0
+125011587,Regents Park,125011587,Regents Park,1,Good,Good,0
+125021476,Carlingford,125021711,Carlingford - East,0.4035695,Poor,Good,0
+125021476,Carlingford,125021712,Carlingford - West,0.5964305,Poor,Good,0
+125021477,Ermington - Rydalmere,125021477,Ermington - Rydalmere,1,Good,Good,0
+125021478,Oatlands - Dundas Valley,125021478,Oatlands - Dundas Valley,1,Good,Good,0
+125031479,Chester Hill - Sefton,125031479,Chester Hill - Sefton,1,Good,Good,0
+125031480,Fairfield - East,125031480,Fairfield - East,1,Good,Good,0
+125031481,Granville - Clyde,125031481,Granville - Clyde,1,Good,Good,0
+125031482,Greystanes - Pemulwuy,125031713,Greystanes - South,0.614023,Poor,Good,0
+125031482,Greystanes - Pemulwuy,125031715,Pemulwuy - Greystanes (North),0.385977,Poor,Good,0
+125031483,Guildford - South Granville,125031483,Guildford - South Granville,1,Good,Good,0
+125031484,Guildford West - Merrylands West,125031484,Guildford West - Merrylands West,1,Good,Good,0
+125031485,Merrylands - Holroyd,125031714,Merrylands - Holroyd,0.7624893,Acceptable,Good,0
+125031485,Merrylands - Holroyd,125031716,South Wentworthville,0.2375107,Poor,Good,0
+125031486,Smithfield Industrial,125031486,Smithfield Industrial,1,Good,Good,0
+125031487,Yennora Industrial,125031487,Yennora Industrial,1,Good,Good,0
+125041489,North Parramatta,125041489,North Parramatta,1,Good,Good,0
+125041490,North Rocks,125041490,North Rocks,1,Good,Good,0
+125041491,Northmead,125041491,Northmead,1,Good,Good,0
+125041492,Parramatta - Rosehill,125041717,Parramatta - North,0.29305,Poor,Good,0
+125041492,Parramatta - Rosehill,125041718,Parramatta - South,0.3767675,Poor,Good,0
+125041492,Parramatta - Rosehill,125041719,Rosehill - Harris Park,0.3301825,Poor,Good,0
+125041493,Toongabbie - Constitution Hill,125041493,Toongabbie - Constitution Hill,1,Good,Good,0
+125041494,Winston Hills,125041494,Winston Hills,1,Good,Good,0
+125041588,Pendle Hill - Girraween,125041588,Pendle Hill - Girraween,1,Good,Good,0
+125041589,Wentworthville - Westmead,125041589,Wentworthville - Westmead,1,Good,Good,0
+126011495,Epping - North Epping,126011720,Epping (East) - North Epping,0.3943932,Poor,Good,0
+126011495,Epping - North Epping,126011721,Epping (NSW) - West,0.6056068,Poor,Good,0
+126011496,Pennant Hills - Cheltenham,126011496,Pennant Hills - Cheltenham,1,Good,Good,0
+126021497,Eastwood - Denistone,126021722,Denistone,0.2767404,Poor,Good,0
+126021497,Eastwood - Denistone,126021723,Eastwood,0.7232596,Poor,Good,0
+126021498,Gladesville - Huntleys Point,126021498,Gladesville - Huntleys Point,1,Good,Good,0
+126021499,Hunters Hill - Woolwich,126021499,Hunters Hill - Woolwich,1,Good,Good,0
+126021500,Macquarie Park - Marsfield,126021500,Macquarie Park - Marsfield,1,Good,Good,0
+126021501,North Ryde - East Ryde,126021501,North Ryde - East Ryde,1,Good,Good,0
+126021503,West Ryde - Meadowbank,126021503,West Ryde - Meadowbank,1,Good,Good,0
+126021590,Putney,126021590,Putney,1,Good,Good,0
+126021591,Ryde,126021724,Ryde - North,0.7399246,Poor,Good,0
+126021591,Ryde,126021725,Ryde - South,0.2600754,Poor,Good,0
+127011504,Ashcroft - Busby - Miller,127011504,Ashcroft - Busby - Miller,1,Good,Good,0
+127011505,Austral - Greendale,127011505,Austral - Greendale,1,Good,Good,0
+127011506,Cobbitty - Leppington,123021703,Denham Court - Bardia,0.0002597,Poor,Good,1
+127011506,Cobbitty - Leppington,127011726,Cobbitty - Bringelly,0.1437274,Poor,Good,0
+127011506,Cobbitty - Leppington,127011727,Gledswood Hills - Gregory Hills,0.2678513,Poor,Good,0
+127011506,Cobbitty - Leppington,127011728,Leppington - Catherine Field,0.3207333,Poor,Good,0
+127011506,Cobbitty - Leppington,127011729,Oran Park,0.2674283,Poor,Good,0
+127011592,Badgerys Creek,127011592,Badgerys Creek,1,Good,Good,0
+127011593,Cecil Hills,127011593,Cecil Hills,1,Good,Good,0
+127011594,Green Valley,127011594,Green Valley,1,Good,Good,0
+127011595,Hinchinbrook,127011595,Hinchinbrook,1,Good,Good,0
+127011596,Hoxton Park - Carnes Hill - Horningsea Park,127011596,Hoxton Park - Carnes Hill - Horningsea Park,1,Good,Good,0
+127011597,West Hoxton - Middleton Grange,127011597,West Hoxton - Middleton Grange,1,Good,Good,0
+127021509,Bonnyrigg Heights - Bonnyrigg,127021509,Bonnyrigg Heights - Bonnyrigg,1,Good,Good,0
+127021510,Bossley Park - Abbotsbury,127021510,Bossley Park - Abbotsbury,1,Good,Good,0
+127021511,Cabramatta - Lansvale,127021511,Cabramatta - Lansvale,1,Good,Good,0
+127021512,Cabramatta West - Mount Pritchard,127021512,Cabramatta West - Mount Pritchard,1,Good,Good,0
+127021513,Canley Vale - Canley Heights,127021513,Canley Vale - Canley Heights,1,Good,Good,0
+127021514,Edensor Park,127021514,Edensor Park,1,Good,Good,0
+127021515,Fairfield,127021515,Fairfield,1,Good,Good,0
+127021516,Fairfield - West,127021516,Fairfield - West,1,Good,Good,0
+127021517,Greenfield Park - Prairiewood,127021517,Greenfield Park - Prairiewood,1,Good,Good,0
+127021518,Horsley Park - Kemps Creek,127021518,Horsley Park - Kemps Creek,1,Good,Good,0
+127021519,Smithfield - Wetherill Park,127021519,Smithfield - Wetherill Park,1,Good,Good,0
+127021520,St Johns Park - Wakeley,127021520,St Johns Park - Wakeley,1,Good,Good,0
+127021521,Wetherill Park Industrial,127021521,Wetherill Park Industrial,1,Good,Good,0
+127031522,Casula,127031522,Casula,1,Good,Good,0
+127031523,Chipping Norton - Moorebank,127031523,Chipping Norton - Moorebank,1,Good,Good,0
+127031524,Holsworthy - Wattle Grove,127031524,Holsworthy - Wattle Grove,1,Good,Good,0
+127031598,Liverpool,127031731,Liverpool - East,0.5141273,Poor,Good,0
+127031598,Liverpool,127031732,Liverpool - West,0.4858727,Poor,Good,0
+127031599,Lurnea - Cartwright,127031599,Lurnea - Cartwright,1,Good,Good,0
+127031600,Prestons - Edmondson Park,127031730,Edmondson Park,0.1282382,Poor,Good,0
+127031600,Prestons - Edmondson Park,127031733,Prestons,0.8717618,Acceptable,Good,0
+127031601,Warwick Farm,127031601,Warwick Farm,1,Good,Good,0
+128011529,Gymea - Grays Point,128011529,Gymea - Grays Point,1,Good,Good,0
+128011530,Miranda - Yowie Bay,128011530,Miranda - Yowie Bay,1,Good,Good,0
+128011531,Sylvania - Taren Point,128011531,Sylvania - Taren Point,0.9996893,Good,Good,0
+128011531,Sylvania - Taren Point,,,0.0003107,Poor,Good,4
+128011602,Caringbah,128011602,Caringbah,1,Good,Good,0
+128011603,Caringbah South,128011603,Caringbah South,1,Good,Good,0
+128011604,Cronulla - Kurnell - Bundeena,128011604,Cronulla - Kurnell - Bundeena,1,Good,Good,0
+128011605,Lilli Pilli - Port Hacking - Dolans Bay,128011605,Lilli Pilli - Port Hacking - Dolans Bay,1,Good,Good,0
+128011606,Woolaware - Burraneer,128011606,Woolooware - Burraneer,1,Good,Good,0
+128021533,Heathcote - Waterfall,128021533,Heathcote - Waterfall,1,Good,Good,0
+128021534,Illawong - Alfords Point,128021534,Illawong - Alfords Point,1,Good,Good,0
+128021535,Menai - Lucas Heights - Woronora,128021535,Menai - Lucas Heights - Woronora,1,Good,Good,0
+128021536,Oyster Bay - Como - Jannali,128021536,Oyster Bay - Como - Jannali,1,Good,Good,0
+128021537,Royal National Park,128021537,Royal National Park,1,Good,Good,0
+128021538,Sutherland - Kirrawee,128021538,Sutherland - Kirrawee,1,Good,Good,0
+128021607,Engadine,128021607,Engadine,1,Good,Good,0
+128021608,Loftus - Yarrawarrah,128021608,Loftus - Yarrawarrah,1,Good,Good,0
+128021609,Woronora Heights,128021609,Woronora Heights,1,Good,Good,0
+197979799,Migratory - Offshore - Shipping (NSW),197979799,Migratory - Offshore - Shipping (NSW),1,Good,Good,0
+199999499,No usual address (NSW),199999499,No usual address (NSW),1,Good,Good,0
+201011001,Alfredton,201011001,Alfredton,1,Good,Good,0
+201011002,Ballarat,201011002,Ballarat,1,Good,Good,0
+201011003,Ballarat - North,201011481,Ballarat East - Warrenheip,0.3956269,Poor,Good,0
+201011003,Ballarat - North,201011482,Ballarat North - Invermay,0.6043731,Poor,Good,0
+201011004,Ballarat - South,201011483,Canadian - Mount Clear,0.467037,Poor,Good,0
+201011004,Ballarat - South,201011484,Sebastopol - Redan,0.532963,Poor,Good,0
+201011005,Buninyong,201011005,Buninyong,1,Good,Good,0
+201011006,Delacombe,201011006,Delacombe,1,Good,Good,0
+201011007,Smythes Creek,201011007,Smythes Creek,1,Good,Good,0
+201011008,Wendouree - Miners Rest,201011008,Wendouree - Miners Rest,1,Good,Good,0
+201021009,Bacchus Marsh Region,201021009,Bacchus Marsh Surrounds,1,Good,Good,0
+201021010,Creswick - Clunes,201021010,Creswick - Clunes,1,Good,Good,0
+201021011,Daylesford,201021011,Daylesford,1,Good,Good,0
+201021012,Gordon (Vic.),201021012,Gordon (Vic.),1,Good,Good,0
+201031013,Avoca,201031013,Avoca,1,Good,Good,0
+201031014,Beaufort,201031014,Beaufort,1,Good,Good,0
+201031015,Golden Plains - North,201031015,Golden Plains - North,1,Good,Good,0
+201031016,Maryborough (Vic.),201031016,Maryborough (Vic.),1,Good,Good,0
+201031017,Maryborough Region,201031017,Maryborough Surrounds,1,Good,Good,0
+202011018,Bendigo,202011018,Bendigo,1,Good,Good,0
+202011019,California Gully - Eaglehawk,202011019,California Gully - Eaglehawk,1,Good,Good,0
+202011020,East Bendigo - Kennington,202011020,East Bendigo - Kennington,1,Good,Good,0
+202011021,Flora Hill - Spring Gully,202011021,Flora Hill - Spring Gully,1,Good,Good,0
+202011022,Kangaroo Flat - Golden Square,202011022,Kangaroo Flat - Golden Square,1,Good,Good,0
+202011023,Maiden Gully,202011023,Maiden Gully,1,Good,Good,0
+202011024,Strathfieldsaye,202011024,Strathfieldsaye,1,Good,Good,0
+202011025,White Hills - Ascot,202011025,White Hills - Ascot,1,Good,Good,0
+202021026,Bendigo Region - South,202021026,Bendigo Surrounds - South,1,Good,Good,0
+202021027,Castlemaine,202021027,Castlemaine,1,Good,Good,0
+202021028,Castlemaine Region,202021028,Castlemaine Surrounds,1,Good,Good,0
+202021029,Heathcote,202021029,Heathcote,1,Good,Good,0
+202021030,Kyneton,202021030,Kyneton,1,Good,Good,0
+202021031,Woodend,202021031,Woodend,1,Good,Good,0
+202031032,Bendigo Region - North,202031032,Bendigo Surrounds - North,1,Good,Good,0
+202031033,Loddon,202031033,Loddon,1,Good,Good,0
+203011034,Bannockburn,203011034,Bannockburn,1,Good,Good,0
+203011035,Golden Plains - South,203011035,Golden Plains - South,1,Good,Good,0
+203011036,Winchelsea,203011036,Winchelsea,1,Good,Good,0
+203021037,Belmont,203021037,Belmont,1,Good,Good,0
+203021038,Corio - Norlane,203021486,Corio - Lovely Banks,0.6694257,Poor,Good,0
+203021038,Corio - Norlane,203021488,Norlane,0.3305743,Poor,Good,0
+203021039,Geelong,203021039,Geelong,1,Good,Good,0
+203021040,Geelong West - Hamlyn Heights,203021040,Geelong West - Hamlyn Heights,1,Good,Good,0
+203021041,Grovedale,203021485,Charlemont,0.1532204,Poor,Good,0
+203021041,Grovedale,203021487,Grovedale - Mount Duneed,0.8467796,Acceptable,Good,0
+203021042,Highton,203021042,Highton,1,Good,Good,0
+203021043,Lara,203021043,Lara,1,Good,Good,0
+203021044,Leopold,203021044,Leopold,1,Good,Good,0
+203021045,Newcomb - Moolap,203021045,Newcomb - Moolap,1,Good,Good,0
+203021046,Newtown (Vic.),203021046,Newtown (Vic.),1,Good,Good,0
+203021047,North Geelong - Bell Park,203021047,North Geelong - Bell Park,1,Good,Good,0
+203031048,Clifton Springs,203031048,Clifton Springs,1,Good,Good,0
+203031049,Lorne - Anglesea,203031049,Lorne - Anglesea,1,Good,Good,0
+203031050,Ocean Grove - Barwon Heads,203031489,Barwon Heads - Armstrong Creek,0.3298878,Poor,Good,0
+203031050,Ocean Grove - Barwon Heads,203031490,Ocean Grove,0.6701122,Poor,Good,0
+203031051,Portarlington,203031051,Portarlington,1,Good,Good,0
+203031052,Point Lonsdale - Queenscliff,203031052,Point Lonsdale - Queenscliff,1,Good,Good,0
+203031053,Torquay,203031053,Torquay,1,Good,Good,0
+204011054,Alexandra,204011054,Alexandra,1,Good,Good,0
+204011055,Euroa,204011055,Euroa,1,Good,Good,0
+204011056,Kilmore - Broadford,204011056,Kilmore - Broadford,1,Good,Good,0
+204011057,Mansfield (Vic.),204011057,Mansfield (Vic.),1,Good,Good,0
+204011058,Nagambie,204011058,Nagambie,1,Good,Good,0
+204011059,Seymour,204011059,Seymour,1,Good,Good,0
+204011060,Seymour Region,204011060,Seymour Surrounds,1,Good,Good,0
+204011061,Upper Yarra Valley,204011061,Upper Yarra Valley,1,Good,Good,0
+204011062,Yea,204011062,Yea,1,Good,Good,0
+204021063,Benalla,204021063,Benalla,1,Good,Good,0
+204021064,Benalla Region,204021064,Benalla Surrounds,1,Good,Good,0
+204021065,Rutherglen,204021065,Rutherglen,1,Good,Good,0
+204021066,Wangaratta,204021066,Wangaratta,1,Good,Good,0
+204021067,Wangaratta Region,204021067,Wangaratta Surrounds,1,Good,Good,0
+204031068,Beechworth,204031068,Beechworth,1,Good,Good,0
+204031069,Bright - Mount Beauty,204031069,Bright - Mount Beauty,1,Good,Good,0
+204031070,Chiltern - Indigo Valley,204031070,Chiltern - Indigo Valley,1,Good,Good,0
+204031071,Myrtleford,204031071,Myrtleford,1,Good,Good,0
+204031072,Towong,204031072,Towong,1,Good,Good,0
+204031073,West Wodonga,204031073,West Wodonga,1,Good,Good,0
+204031074,Wodonga,204031491,Baranduda - Leneva,0.3693245,Poor,Good,0
+204031074,Wodonga,204031492,Wodonga,0.6306755,Poor,Good,0
+204031075,Yackandandah,204031075,Yackandandah,1,Good,Good,0
+205011076,Drouin,205011076,Drouin,1,Good,Good,0
+205011077,Mount Baw Baw Region,205011077,Mount Baw Baw Region,1,Good,Good,0
+205011078,Trafalgar (Vic.),205011078,Trafalgar (Vic.),1,Good,Good,0
+205011079,Warragul,205011079,Warragul,1,Good,Good,0
+205021080,Alps - East,205021080,Alps - East,1,Good,Good,0
+205021081,Bairnsdale,205021081,Bairnsdale,1,Good,Good,0
+205021082,Bruthen - Omeo,205021082,Bruthen - Omeo,1,Good,Good,0
+205021083,Lake King,205021083,Lake King,1,Good,Good,0
+205021084,Lakes Entrance,205021084,Lakes Entrance,1,Good,Good,0
+205021085,Orbost,205021085,Orbost,1,Good,Good,0
+205021086,Paynesville,205021086,Paynesville,1,Good,Good,0
+205031087,Foster,205031087,Foster,1,Good,Good,0
+205031088,French Island,205031088,French Island,1,Good,Good,0
+205031089,Korumburra,205031089,Korumburra,1,Good,Good,0
+205031090,Leongatha,205031090,Leongatha,1,Good,Good,0
+205031091,Phillip Island,205031091,Phillip Island,1,Good,Good,0
+205031092,Wilsons Promontory,205031092,Wilsons Promontory,1,Good,Good,0
+205031093,Wonthaggi - Inverloch,205031093,Wonthaggi - Inverloch,1,Good,Good,0
+205041094,Churchill,205041094,Churchill,1,Good,Good,0
+205041095,Moe - Newborough,205041095,Moe - Newborough,1,Good,Good,0
+205041096,Morwell,205041096,Morwell,1,Good,Good,0
+205041097,Traralgon,205041493,Traralgon - East,0.4238406,Poor,Good,0
+205041097,Traralgon,205041494,Traralgon - West,0.5761594,Poor,Good,0
+205041098,Yallourn North - Glengarry,205041098,Yallourn North - Glengarry,1,Good,Good,0
+205051099,Alps - West,205051099,Alps - West,1,Good,Good,0
+205051100,Longford - Loch Sport,205051100,Longford - Loch Sport,1,Good,Good,0
+205051101,Maffra,205051101,Maffra,1,Good,Good,0
+205051102,Rosedale,205051102,Rosedale,1,Good,Good,0
+205051103,Sale,205051103,Sale,1,Good,Good,0
+205051104,Yarram,205051104,Yarram,1,Good,Good,0
+206011105,Brunswick,206011495,Brunswick - North,0.4937474,Poor,Good,0
+206011105,Brunswick,206011496,Brunswick - South,0.5062526,Poor,Good,0
+206011106,Brunswick East,206011106,Brunswick East,1,Good,Good,0
+206011107,Brunswick West,206011107,Brunswick West,1,Good,Good,0
+206011108,Coburg,206011497,Coburg - East,0.4777148,Poor,Good,0
+206011108,Coburg,206011498,Coburg - West,0.5222852,Poor,Good,0
+206011109,Pascoe Vale South,206011109,Pascoe Vale South,1,Good,Good,0
+206021110,Alphington - Fairfield,206021110,Alphington - Fairfield,1,Good,Good,0
+206021111,Northcote,206021499,Northcote - East,0.6041131,Poor,Good,0
+206021111,Northcote,206021500,Northcote - West,0.3958869,Poor,Good,0
+206021112,Thornbury,206021112,Thornbury,1,Good,Good,0
+206031113,Ascot Vale,206031113,Ascot Vale,1,Good,Good,0
+206031114,Essendon - Aberfeldie,206031501,Essendon (West) - Aberfeldie,0.5768626,Poor,Good,0
+206031114,Essendon - Aberfeldie,206031502,Essendon - East,0.4231374,Poor,Good,0
+206031115,Flemington,206031115,Flemington,1,Good,Good,0
+206031116,Moonee Ponds,206031116,Moonee Ponds,1,Good,Good,0
+206041117,Carlton,206041117,Carlton,1,Good,Good,0
+206041118,Docklands,206041118,Docklands,1,Good,Good,0
+206041119,East Melbourne,206041119,East Melbourne,1,Good,Good,0
+206041120,Flemington Racecourse,206041120,Flemington Racecourse,1,Good,Good,0
+206041121,Kensington (Vic.),206041121,Kensington (Vic.),1,Good,Good,0
+206041122,Melbourne,206041503,Melbourne CBD - East,0.2923955,Poor,Good,0
+206041122,Melbourne,206041504,Melbourne CBD - North,0.3675187,Poor,Good,0
+206041122,Melbourne,206041505,Melbourne CBD - West,0.3400858,Poor,Good,0
+206041123,North Melbourne,206041506,North Melbourne,0.7577579,Acceptable,Good,0
+206041123,North Melbourne,206041510,West Melbourne - Residential,0.2422421,Poor,Good,0
+206041124,Parkville,206041124,Parkville,1,Good,Good,0
+206041125,South Yarra - West,206041125,South Yarra - West,1,Good,Good,0
+206041126,Southbank,206041507,Royal Botanic Gardens Victoria,0.0001677,Poor,Good,1
+206041126,Southbank,206041508,Southbank (West) - South Wharf,0.3497044,Poor,Good,0
+206041126,Southbank,206041509,Southbank - East,0.6501277,Poor,Good,0
+206041126,Southbank,206051511,Port Melbourne Industrial,2.00E-07,Poor,Good,1
+206041127,West Melbourne,206041127,West Melbourne - Industrial,1,Good,Good,0
+206051128,Albert Park,206051128,Albert Park,1,Good,Good,0
+206051129,Elwood,206051129,Elwood,1,Good,Good,0
+206051130,Port Melbourne,206051130,Port Melbourne,1,Good,Good,0
+206051131,Port Melbourne Industrial,206051511,Port Melbourne Industrial,1,Poor,Good,0
+206051132,South Melbourne,206051511,Port Melbourne Industrial,0.00716,Poor,Good,1
+206051132,South Melbourne,206051512,South Melbourne,0.99284,Good,Good,0
+206051133,St Kilda,206051513,St Kilda - Central,0.4630655,Poor,Good,0
+206051133,St Kilda,206051514,St Kilda - West,0.5369345,Poor,Good,0
+206051134,St Kilda East,206051134,St Kilda East,1,Good,Good,0
+206061135,Armadale,206061135,Armadale,1,Good,Good,0
+206061136,Prahran - Windsor,206061136,Prahran - Windsor,1,Good,Good,0
+206061137,South Yarra - East,206061515,South Yarra - North,0.4993093,Poor,Good,0
+206061137,South Yarra - East,206061516,South Yarra - South,0.5006907,Poor,Good,0
+206061138,Toorak,206061138,Toorak,1,Good,Good,0
+206071139,Abbotsford,206071139,Abbotsford,1,Good,Good,0
+206071140,Carlton North - Princes Hill,206071140,Carlton North - Princes Hill,1,Good,Good,0
+206071141,Collingwood,206071141,Collingwood,1,Good,Good,0
+206071142,Fitzroy,206071142,Fitzroy,1,Good,Good,0
+206071143,Fitzroy North,206071143,Fitzroy North,1,Good,Good,0
+206071144,Richmond (Vic.),206071517,Richmond (South) - Cremorne,0.5654703,Poor,Good,0
+206071144,Richmond (Vic.),206071518,Richmond - North,0.4345297,Poor,Good,0
+206071145,Yarra - North,206071145,Clifton Hill - Alphington,1,Good,Good,0
+207011146,Ashburton (Vic.),207011146,Ashburton (Vic.),1,Good,Good,0
+207011147,Balwyn,207011147,Balwyn,1,Good,Good,0
+207011148,Balwyn North,207011148,Balwyn North,1,Good,Good,0
+207011149,Camberwell,207011149,Camberwell,1,Good,Good,0
+207011150,Glen Iris - East,207011150,Glen Iris - East,1,Good,Good,0
+207011151,Hawthorn,207011519,Hawthorn - North,0.4664317,Poor,Good,0
+207011151,Hawthorn,207011520,Hawthorn - South,0.5335683,Poor,Good,0
+207011152,Hawthorn East,207011152,Hawthorn East,1,Good,Good,0
+207011153,Kew,207011521,Kew - South,0.4721433,Poor,Good,0
+207011153,Kew,207011522,Kew - West,0.5278567,Poor,Good,0
+207011154,Kew East,207011154,Kew East,1,Good,Good,0
+207011155,Surrey Hills (West) - Canterbury,207011155,Surrey Hills (West) - Canterbury,1,Good,Good,0
+207021156,Bulleen,207021156,Bulleen,1,Good,Good,0
+207021157,Doncaster,207021157,Doncaster,1,Good,Good,0
+207021159,Templestowe,207021159,Templestowe,1,Good,Good,0
+207021160,Templestowe Lower,207021160,Templestowe Lower,1,Good,Good,0
+207021424,Doncaster East (North),207021424,Doncaster East - North,1,Good,Good,0
+207021425,Doncaster East (South),207021425,Doncaster East - South,1,Good,Good,0
+207031161,Blackburn,207031161,Blackburn,1,Good,Good,0
+207031162,Blackburn South,207031162,Blackburn South,1,Good,Good,0
+207031163,Box Hill,207031163,Box Hill,1,Good,Good,0
+207031164,Box Hill North,207031164,Box Hill North,1,Good,Good,0
+207031165,Burwood,207031165,Burwood (Vic.),1,Good,Good,0
+207031166,Burwood East,207031166,Burwood East,1,Good,Good,0
+207031167,Surrey Hills (East) - Mont Albert,207031167,Surrey Hills (East) - Mont Albert,1,Good,Good,0
+208011168,Beaumaris,208011168,Beaumaris,1,Good,Good,0
+208011169,Brighton (Vic.),208011169,Brighton (Vic.),1,Good,Good,0
+208011170,Brighton East,208011170,Brighton East,1,Good,Good,0
+208011171,Cheltenham - Highett (West),208011171,Highett (West) - Cheltenham,1,Good,Good,0
+208011172,Hampton,208011172,Hampton,1,Good,Good,0
+208011173,Sandringham - Black Rock,208011173,Sandringham - Black Rock,1,Good,Good,0
+208021174,Bentleigh - McKinnon,208021174,Bentleigh - McKinnon,1,Good,Good,0
+208021176,Carnegie,208021176,Carnegie,1,Good,Good,0
+208021177,Caulfield - North,208021177,Caulfield - North,1,Good,Good,0
+208021178,Caulfield - South,208021178,Caulfield - South,1,Good,Good,0
+208021179,Elsternwick,208021179,Elsternwick,1,Good,Good,0
+208021180,Hughesdale,208021180,Hughesdale,1,Good,Good,0
+208021181,Murrumbeena,208021181,Murrumbeena,1,Good,Good,0
+208021182,Ormond - Glen Huntly,208021182,Ormond - Glen Huntly,1,Good,Good,0
+208021426,Bentleigh East (North),208021426,Bentleigh East - North,1,Good,Good,0
+208021427,Bentleigh East (South),208021427,Bentleigh East - South,1,Good,Good,0
+208031183,Aspendale Gardens - Waterways,208031183,Aspendale Gardens - Waterways,1,Good,Good,0
+208031184,Braeside,208031184,Braeside,1,Good,Good,0
+208031185,Carrum - Patterson Lakes,208031185,Carrum - Patterson Lakes,1,Good,Good,0
+208031186,Chelsea - Bonbeach,208031186,Chelsea - Bonbeach,1,Good,Good,0
+208031187,Chelsea Heights,208031187,Chelsea Heights,1,Good,Good,0
+208031188,Cheltenham - Highett (East),208031188,Highett (East) - Cheltenham,1,Good,Good,0
+208031189,Edithvale - Aspendale,208031189,Edithvale - Aspendale,1,Good,Good,0
+208031190,Mentone,208031190,Mentone,1,Good,Good,0
+208031191,Moorabbin - Heatherton,208031191,Moorabbin - Heatherton,1,Good,Good,0
+208031192,Moorabbin Airport,208031192,Moorabbin Airport,1,Good,Good,0
+208031193,Mordialloc - Parkdale,208031193,Mordialloc - Parkdale,1,Good,Good,0
+208041194,Malvern - Glen Iris,208041194,Malvern - Glen Iris,1,Good,Good,0
+208041195,Malvern East,208041195,Malvern East,1,Good,Good,0
+209011196,Bundoora - East,209011196,Bundoora - East,1,Good,Good,0
+209011197,Greensborough,209011197,Greensborough,1,Good,Good,0
+209011198,Heidelberg - Rosanna,209011198,Heidelberg - Rosanna,1,Good,Good,0
+209011199,Heidelberg West,209011199,Heidelberg West,1,Good,Good,0
+209011200,Ivanhoe,209011200,Ivanhoe,1,Good,Good,0
+209011201,Ivanhoe East - Eaglemont,209011201,Ivanhoe East - Eaglemont,1,Good,Good,0
+209011202,Montmorency - Briar Hill,209011202,Montmorency - Briar Hill,1,Good,Good,0
+209011203,Viewbank - Yallambie,209011203,Viewbank - Yallambie,1,Good,Good,0
+209011204,Watsonia,209011204,Watsonia,1,Good,Good,0
+209021205,Kingsbury,209021205,Kingsbury,1,Good,Good,0
+209021207,Reservoir - East,209021523,Reservoir - North East,0.5307731,Poor,Good,0
+209021207,Reservoir - East,209021525,Reservoir - South East,0.4692269,Poor,Good,0
+209021208,Reservoir - West,209021524,Reservoir - North West,0.4109534,Poor,Good,0
+209021208,Reservoir - West,209021526,Reservoir - South West,0.5890466,Poor,Good,0
+209021428,Preston - East,209021428,Preston - East,1,Good,Good,0
+209021429,Preston - West,209021429,Preston - West,1,Good,Good,0
+209031209,Eltham,209031209,Eltham,1,Good,Good,0
+209031210,Hurstbridge,209031210,Hurstbridge,1,Good,Good,0
+209031211,Kinglake,209031211,Kinglake,1,Good,Good,0
+209031212,Panton Hill - St Andrews,209031212,Panton Hill - St Andrews,1,Good,Good,0
+209031213,Plenty - Yarrambat,209031213,Plenty - Yarrambat,1,Good,Good,0
+209031214,Research - North Warrandyte,209031214,Research - North Warrandyte,1,Good,Good,0
+209031215,Wattle Glen - Diamond Creek,209031215,Wattle Glen - Diamond Creek,1,Good,Good,0
+209041216,Bundoora - North,209041216,Bundoora - North,1,Good,Good,0
+209041217,Bundoora - West,209041217,Bundoora - West,1,Good,Good,0
+209041219,Lalor,209041529,Lalor - East,0.4408899,Poor,Good,0
+209041219,Lalor,209041530,Lalor - West,0.5591101,Poor,Good,0
+209041220,Mill Park - North,209041220,Mill Park - North,1,Good,Good,0
+209041221,Mill Park - South,209041221,Mill Park - South,1,Good,Good,0
+209041223,Thomastown,209041223,Thomastown,1,Good,Good,0
+209041224,Wallan,209041224,Wallan,1,Good,Good,0
+209041225,Whittlesea,209041225,Whittlesea,1,Good,Good,0
+209041430,Doreen,209041527,Doreen - North,0.6707869,Poor,Good,0
+209041430,Doreen,209041528,Doreen - South,0.3292131,Poor,Good,0
+209041431,Epping - East,209041431,Epping - East,1,Good,Good,0
+209041432,Epping - South,209041432,Epping - South,1,Good,Good,0
+209041433,Epping - West,209041433,Epping (Vic.) - West,1,Good,Good,0
+209041434,Mernda,209041531,Mernda - North,0.5118091,Poor,Good,0
+209041434,Mernda,209041532,Mernda - South,0.4881909,Poor,Good,0
+209041435,South Morang (North),209041435,South Morang - North,1,Good,Good,0
+209041436,South Morang (South),209041436,South Morang - South,1,Good,Good,0
+209041437,Wollert,209041437,Wollert,1,Good,Good,0
+210011226,Airport West,210011226,Airport West,1,Good,Good,0
+210011227,Essendon Airport,210011227,Essendon Airport,1,Good,Good,0
+210011228,Keilor,210011228,Keilor,1,Good,Good,0
+210011229,Keilor East,210011533,Avondale Heights,0.4437834,Poor,Good,0
+210011229,Keilor East,210011534,Keilor East,0.5562166,Poor,Good,0
+210011230,Niddrie - Essendon West,210011230,Niddrie - Essendon West,1,Good,Good,0
+210011231,Strathmore,210011231,Strathmore,1,Good,Good,0
+210021232,Gisborne,210021232,Gisborne,1,Good,Good,0
+210021233,Macedon,210021233,Macedon,1,Good,Good,0
+210021234,Riddells Creek,210021234,Riddells Creek,1,Good,Good,0
+210021235,Romsey,210021235,Romsey,1,Good,Good,0
+210031236,Coburg North,210031236,Coburg North,1,Good,Good,0
+210031237,Fawkner,210031237,Fawkner,1,Good,Good,0
+210031239,Pascoe Vale,210031537,Oak Park,0.307104,Poor,Good,0
+210031239,Pascoe Vale,210031538,Pascoe Vale,0.692896,Poor,Good,0
+210031438,Glenroy,210031535,Glenroy - East,0.6373562,Poor,Good,0
+210031438,Glenroy,210031536,Glenroy - West,0.3626438,Poor,Good,0
+210031439,Gowanbrae,210031439,Gowanbrae,1,Good,Good,0
+210031440,Hadfield,210031440,Hadfield,1,Good,Good,0
+210041240,Sunbury,210041240,Sunbury,1,Good,Good,0
+210041241,Sunbury - South,210041539,Diggers Rest,0.0886963,Poor,Good,0
+210041241,Sunbury - South,210041540,Sunbury - South,0.4898164,Poor,Good,0
+210041241,Sunbury - South,210041541,Sunbury - West,0.4214873,Poor,Good,0
+210051242,Broadmeadows,210051242,Broadmeadows,1,Good,Good,0
+210051243,Campbellfield - Coolaroo,210051243,Campbellfield - Coolaroo,1,Good,Good,0
+210051245,Gladstone Park - Westmeadows,210051245,Gladstone Park - Westmeadows,1,Good,Good,0
+210051246,Greenvale - Bulla,210051246,Greenvale - Bulla,1,Good,Good,0
+210051247,Meadow Heights,210051247,Meadow Heights,1,Good,Good,0
+210051248,Melbourne Airport,210051248,Melbourne Airport,1,Good,Good,0
+210051249,Roxburgh Park - Somerton,210051544,Roxburgh Park (South) - Somerton,0.4449367,Poor,Good,0
+210051249,Roxburgh Park - Somerton,210051545,Roxburgh Park - North,0.5550633,Poor,Good,0
+210051250,Tullamarine,210051250,Tullamarine,1,Good,Good,0
+210051441,Craigieburn - Central,210051441,Craigieburn - Central,1,Good,Good,0
+210051442,Craigieburn - North,210051442,Craigieburn - North,1,Good,Good,0
+210051443,Craigieburn - South,210051443,Craigieburn - South,1,Good,Good,0
+210051444,Craigieburn - West,210051445,Mickleham - Yuroke,0.0006206,Good,Good,1
+210051444,Craigieburn - West,210051542,Craigieburn - North West,0.3904751,Poor,Good,0
+210051444,Craigieburn - West,210051543,Craigieburn - West,0.6089043,Poor,Good,0
+210051445,Mickleham - Yuroke,210051445,Mickleham - Yuroke,1,Good,Good,0
+211011251,Bayswater,211011251,Bayswater,1,Good,Good,0
+211011254,Knoxfield - Scoresby,211011254,Knoxfield - Scoresby,1,Good,Good,0
+211011255,Lysterfield,211011255,Lysterfield,1,Good,Good,0
+211011256,Rowville - Central,211011256,Rowville - Central,1,Good,Good,0
+211011257,Rowville - North,211011257,Rowville - North,1,Good,Good,0
+211011258,Rowville - South,211011258,Rowville - South,1,Good,Good,0
+211011259,Wantirna,211011259,Wantirna,1,Good,Good,0
+211011260,Wantirna South,211011260,Wantirna South,1,Good,Good,0
+211011446,Boronia,211011446,Boronia,1,Good,Good,0
+211011447,Ferntree Gully (North),211011447,Ferntree Gully - North,1,Good,Good,0
+211011448,Ferntree Gully (South) - Upper Ferntree Gully,211011448,Ferntree Gully (South) - Upper Ferntree Gully,1,Good,Good,0
+211011449,The Basin,211011449,The Basin,1,Good,Good,0
+211021261,Donvale - Park Orchards,211021261,Donvale - Park Orchards,1,Good,Good,0
+211021262,Warrandyte - Wonga Park,211021262,Warrandyte - Wonga Park,1,Good,Good,0
+211031263,Bayswater North,211031263,Bayswater North,1,Good,Good,0
+211031265,Croydon Hills - Warranwood,211031265,Croydon Hills - Warranwood,1,Good,Good,0
+211031266,Ringwood,211031266,Ringwood,1,Good,Good,0
+211031267,Ringwood East,211031267,Ringwood East,1,Good,Good,0
+211031268,Ringwood North,211031268,Ringwood North,1,Good,Good,0
+211031450,Croydon - East,211031450,Croydon - East,1,Good,Good,0
+211031451,Croydon - West,211031451,Croydon - West,1,Good,Good,0
+211031452,Croydon South,211031452,Croydon South,1,Good,Good,0
+211041269,Forest Hill,211041269,Forest Hill,1,Good,Good,0
+211041270,Mitcham (Vic.),211041270,Mitcham (Vic.),1,Good,Good,0
+211041271,Nunawading,211041271,Nunawading,1,Good,Good,0
+211041272,Vermont,211041272,Vermont,1,Good,Good,0
+211041273,Vermont South,211041273,Vermont South,1,Good,Good,0
+211051274,Belgrave - Selby,211051274,Belgrave - Selby,1,Good,Good,0
+211051275,Chirnside Park,211051275,Chirnside Park,1,Good,Good,0
+211051276,Healesville - Yarra Glen,211051276,Healesville - Yarra Glen,1,Good,Good,0
+211051277,Kilsyth,211051277,Kilsyth,1,Good,Good,0
+211051278,Lilydale - Coldstream,211051278,Lilydale - Coldstream,1,Good,Good,0
+211051279,Monbulk - Silvan,211051279,Monbulk - Silvan,1,Good,Good,0
+211051280,Montrose,211051280,Montrose,1,Good,Good,0
+211051281,Mooroolbark,211051281,Mooroolbark,1,Good,Good,0
+211051282,Mount Dandenong - Olinda,211051282,Mount Dandenong - Olinda,1,Good,Good,0
+211051283,Mount Evelyn,211051283,Mount Evelyn,1,Good,Good,0
+211051284,Upwey - Tecoma,211051284,Upwey - Tecoma,1,Good,Good,0
+211051285,Wandin - Seville,211051285,Wandin - Seville,1,Good,Good,0
+211051286,Yarra Valley,211051286,Yarra Valley,1,Good,Good,0
+212011287,Beaconsfield - Officer,212011546,Beaconsfield - Officer,0.991505,Good,Good,0
+212011287,Beaconsfield - Officer,212011548,Koo Wee Rup,0.0032367,Good,Good,1
+212011287,Beaconsfield - Officer,212011550,Pakenham - North West,0.0052583,Poor,Good,1
+212011288,Bunyip - Garfield,212011547,Bunyip - Garfield,0.9801687,Good,Good,0
+212011288,Bunyip - Garfield,212011549,Pakenham - North East,0.0144002,Poor,Good,0
+212011288,Bunyip - Garfield,212011551,Pakenham - South East,0.0054311,Poor,Good,1
+212011289,Emerald - Cockatoo,212011289,Emerald - Cockatoo,1,Good,Good,0
+212011290,Koo Wee Rup,212011548,Koo Wee Rup,1,Good,Good,0
+212011291,Pakenham - North,212011549,Pakenham - North East,0.7411182,Poor,Good,0
+212011291,Pakenham - North,212011550,Pakenham - North West,0.2588818,Poor,Good,0
+212011292,Pakenham - South,212011548,Koo Wee Rup,0.0002463,Good,Good,1
+212011292,Pakenham - South,212011551,Pakenham - South East,0.1643697,Poor,Good,0
+212011292,Pakenham - South,212011552,Pakenham - South West,0.835384,Acceptable,Good,0
+212021293,Berwick - North,212021293,Berwick - North,1,Good,Good,0
+212021294,Berwick - South,212021553,Berwick - South East,0.6408804,Poor,Good,0
+212021294,Berwick - South,212021554,Berwick - South West,0.3591196,Poor,Good,0
+212021295,Doveton,212021295,Doveton,1,Good,Good,0
+212021297,Hallam,212021297,Hallam,1,Good,Good,0
+212021299,Narre Warren North,212021299,Narre Warren North,1,Good,Good,0
+212021453,Endeavour Hills - North,212021453,Endeavour Hills - North,1,Good,Good,0
+212021454,Endeavour Hills - South,212021454,Endeavour Hills - South,1,Good,Good,0
+212021455,Narre Warren - North East,212021455,Narre Warren - North East,1,Good,Good,0
+212021456,Narre Warren - South West,212021456,Narre Warren - South West,1,Good,Good,0
+212031300,Cranbourne,212031300,Cranbourne,1,Good,Good,0
+212031301,Cranbourne East,212031555,Clyde North - North,0.108983,Poor,Good,0
+212031301,Cranbourne East,212031556,Clyde North - South,0.0122343,Poor,Good,0
+212031301,Cranbourne East,212031557,Cranbourne East - North,0.7173087,Poor,Good,0
+212031301,Cranbourne East,212031558,Cranbourne East - South,0.1614741,Poor,Good,0
+212031302,Cranbourne North,212031559,Cranbourne North - East,0.4135078,Poor,Good,0
+212031302,Cranbourne North,212031560,Cranbourne North - West,0.5864922,Poor,Good,0
+212031303,Cranbourne South,212031303,Cranbourne South,1,Good,Good,0
+212031304,Cranbourne West,212031304,Cranbourne West,1,Good,Good,0
+212031305,Hampton Park - Lynbrook,212031561,Hampton Park - East,0.4866122,Poor,Good,0
+212031305,Hampton Park - Lynbrook,212031562,Hampton Park - West,0.5133878,Poor,Good,0
+212031306,Lynbrook - Lyndhurst,212031306,Lynbrook - Lyndhurst,1,Good,Good,0
+212031308,Pearcedale - Tooradin,212031308,Pearcedale - Tooradin,1,Good,Good,0
+212031457,Narre Warren South (East),212031457,Narre Warren South - East,1,Good,Good,0
+212031458,Narre Warren South (West),212031458,Narre Warren South - West,1,Good,Good,0
+212041309,Clarinda - Oakleigh South,212041309,Clarinda - Oakleigh South,1,Good,Good,0
+212041310,Clayton South,212041310,Clayton South,1,Good,Good,0
+212041311,Dandenong,212041563,Dandenong - North,0.7048519,Poor,Good,0
+212041311,Dandenong,212041564,Dandenong - South,0.2951481,Poor,Good,0
+212041312,Dandenong North,212041312,Dandenong North,1,Good,Good,0
+212041313,Dingley Village,212041313,Dingley Village,1,Good,Good,0
+212041314,Keysborough,212041565,Keysborough - North,0.5778649,Poor,Good,0
+212041314,Keysborough,212041566,Keysborough - South,0.4221351,Poor,Good,0
+212041316,Noble Park North,212041316,Noble Park North,1,Good,Good,0
+212041317,Springvale,212041317,Springvale,1,Good,Good,0
+212041318,Springvale South,212041318,Springvale South,1,Good,Good,0
+212041459,Noble Park - East,212041459,Noble Park - East,1,Good,Good,0
+212041460,Noble Park - West,212041460,Noble Park - West,1,Good,Good,0
+212051319,Ashwood - Chadstone,212051319,Ashwood - Chadstone,1,Good,Good,0
+212051320,Clayton,212051567,Clayton (North) - Notting Hill,0.4035626,Poor,Good,0
+212051320,Clayton,212051568,Clayton - Central,0.5964374,Poor,Good,0
+212051321,Glen Waverley - East,212051321,Glen Waverley - East,1,Good,Good,0
+212051322,Glen Waverley - West,212051322,Glen Waverley - West,1,Good,Good,0
+212051323,Mount Waverley - North,212051323,Mount Waverley - North,1,Good,Good,0
+212051324,Mount Waverley - South,212051324,Mount Waverley - South,1,Good,Good,0
+212051325,Mulgrave,212051325,Mulgrave,1,Good,Good,0
+212051326,Oakleigh - Huntingdale,212051326,Oakleigh - Huntingdale,1,Good,Good,0
+212051327,Wheelers Hill,212051327,Wheelers Hill,1,Good,Good,0
+213011328,Ardeer - Albion,213011328,Ardeer - Albion,1,Good,Good,0
+213011329,Cairnlea,213011329,Cairnlea,1,Good,Good,0
+213011330,Deer Park - Derrimut,213011569,Deer Park,0.6854995,Poor,Good,0
+213011330,Deer Park - Derrimut,213011570,Derrimut,0.3145005,Poor,Good,0
+213011331,Delahey,213011331,Delahey,1,Good,Good,0
+213011332,Keilor Downs,213011332,Keilor Downs,1,Good,Good,0
+213011333,Kings Park (Vic.),213011333,Kings Park (Vic.),1,Good,Good,0
+213011334,St Albans - North,213011334,St Albans - North,1,Good,Good,0
+213011335,St Albans - South,213011335,St Albans - South,1,Good,Good,0
+213011336,Sunshine,213011336,Sunshine,1,Good,Good,0
+213011337,Sunshine North,213011337,Sunshine North,1,Good,Good,0
+213011338,Sunshine West,213011338,Sunshine West,1,Good,Good,0
+213011339,Sydenham,213011339,Sydenham,1,Good,Good,0
+213011340,Taylors Lakes,213011340,Taylors Lakes,1,Good,Good,0
+213021341,Altona,213021341,Altona,1,Good,Good,0
+213021342,Altona Meadows,213021342,Altona Meadows,1,Good,Good,0
+213021343,Altona North,213021343,Altona North,1,Good,Good,0
+213021344,Newport,213021344,Newport,1,Good,Good,0
+213021345,Seabrook,213021345,Seabrook,1,Good,Good,0
+213021346,Williamstown,213021346,Williamstown,1,Good,Good,0
+213031347,Braybrook,213031347,Braybrook,1,Good,Good,0
+213031348,Footscray,213031348,Footscray,1,Good,Good,0
+213031349,Maribyrnong,213031349,Maribyrnong,1,Good,Good,0
+213031350,Seddon - Kingsville,213031350,Seddon - Kingsville,1,Good,Good,0
+213031351,West Footscray - Tottenham,213031351,West Footscray - Tottenham,1,Good,Good,0
+213031352,Yarraville,213031352,Yarraville,1,Good,Good,0
+213041353,Bacchus Marsh,213041353,Bacchus Marsh,1,Good,Good,0
+213041355,Hillside,213041574,Fraser Rise - Plumpton,0.2130916,Poor,Good,0
+213041355,Hillside,213041575,Hillside,0.7869084,Acceptable,Good,0
+213041356,Melton,213041576,Kurunjang - Toolern Vale,0.5769149,Poor,Good,0
+213041356,Melton,213041577,Melton,0.4230851,Poor,Good,0
+213041357,Melton South,213041571,Brookfield,0.3804057,Poor,Good,0
+213041357,Melton South,213041572,Cobblebank - Strathtulloh,0.0403635,Poor,Good,0
+213041357,Melton South,213041573,Eynesbury - Exford,0.115126,Poor,Good,0
+213041357,Melton South,213041578,Melton South - Weir Views,0.4641048,Poor,Good,0
+213041358,Melton West,213041358,Melton West,1,Good,Good,0
+213041359,Rockbank - Mount Cottrell,213041359,Rockbank - Mount Cottrell,1,Good,Good,0
+213041360,Taylors Hill,213041360,Taylors Hill,1,Good,Good,0
+213041461,Burnside,213041461,Burnside,1,Good,Good,0
+213041462,Burnside Heights,213041462,Burnside Heights,1,Good,Good,0
+213041463,Caroline Springs,213041463,Caroline Springs,1,Good,Good,0
+213051361,Hoppers Crossing - North,213051361,Hoppers Crossing - North,1,Good,Good,0
+213051362,Hoppers Crossing - South,213051362,Hoppers Crossing - South,1,Good,Good,0
+213051363,Laverton,213051363,Laverton,1,Good,Good,0
+213051365,Tarneit,213051582,Tarneit (West) - Mount Cottrell,0.0078902,Poor,Good,1
+213051365,Tarneit,213051583,Tarneit - Central,0.6960964,Poor,Good,0
+213051365,Tarneit,213051584,Tarneit - North,0.0047993,Poor,Good,1
+213051365,Tarneit,213051585,Tarneit - South,0.2912141,Poor,Good,0
+213051366,Truganina,213051586,Truganina - North,0.0008384,Poor,Good,1
+213051366,Truganina,213051587,Truganina - South East,0.2573492,Poor,Good,0
+213051366,Truganina,213051588,Truganina - South West,0.7418123,Poor,Good,0
+213051368,Werribee - South,213051368,Werribee - South,1,Good,Good,0
+213051369,Wyndham Vale,213051579,Manor Lakes - Quandong,0.126619,Poor,Good,0
+213051369,Wyndham Vale,213051589,Wyndham Vale - North,0.2119933,Poor,Good,0
+213051369,Wyndham Vale,213051590,Wyndham Vale - South,0.6613877,Poor,Good,0
+213051464,Point Cook - East,213051464,Point Cook - East,1,Good,Good,0
+213051465,Point Cook - North,213051580,Point Cook - North East,0.621779,Poor,Good,0
+213051465,Point Cook - North,213051581,Point Cook - North West,0.378221,Poor,Good,0
+213051466,Point Cook - South,213051466,Point Cook - South,1,Good,Good,0
+213051467,Werribee - East,213051467,Werribee - East,1,Good,Good,0
+213051468,Werribee - West,213051468,Werribee - West,1,Good,Good,0
+214011370,Carrum Downs,214011370,Carrum Downs,1,Good,Good,0
+214011371,Frankston,214011371,Frankston,1,Good,Good,0
+214011372,Frankston North,214011372,Frankston North,1,Good,Good,0
+214011373,Frankston South,214011373,Frankston South,1,Good,Good,0
+214011374,Langwarrin,214011374,Langwarrin,1,Good,Good,0
+214011375,Seaford (Vic.),214011375,Seaford (Vic.),1,Good,Good,0
+214011376,Skye - Sandhurst,214011376,Skye - Sandhurst,1,Good,Good,0
+214021377,Dromana,214021377,Dromana,1,Good,Good,0
+214021378,Flinders,214021378,Flinders,1,Good,Good,0
+214021379,Hastings - Somers,214021379,Hastings - Somers,1,Good,Good,0
+214021380,Mornington,214021591,Mornington - East,0.6026377,Poor,Good,0
+214021380,Mornington,214021592,Mornington - West,0.3973623,Poor,Good,0
+214021381,Mount Eliza,214021381,Mount Eliza,1,Good,Good,0
+214021382,Mount Martha,214021382,Mount Martha,1,Good,Good,0
+214021383,Point Nepean,214021383,Point Nepean,1,Good,Good,0
+214021384,Rosebud - McCrae,214021384,Rosebud - McCrae,1,Good,Good,0
+214021385,Somerville,214021385,Somerville,1,Good,Good,0
+215011386,Ararat,215011386,Ararat,1,Good,Good,0
+215011387,Ararat Region,215011387,Ararat Surrounds,1,Good,Good,0
+215011388,Horsham,215011388,Horsham,1,Good,Good,0
+215011389,Horsham Region,215011389,Horsham Surrounds,1,Good,Good,0
+215011390,Nhill Region,215011390,Nhill Region,1,Good,Good,0
+215011391,St Arnaud,215011391,St Arnaud,1,Good,Good,0
+215011392,Stawell,215011392,Stawell,1,Good,Good,0
+215011393,West Wimmera,215011393,West Wimmera,1,Good,Good,0
+215011394,Yarriambiack,215011394,Yarriambiack,1,Good,Good,0
+215021395,Irymple,215021395,Irymple,1,Good,Good,0
+215021396,Merbein,215021396,Merbein,1,Good,Good,0
+215021398,Mildura Region,215021398,Mildura Surrounds,1,Good,Good,0
+215021399,Red Cliffs,215021399,Red Cliffs,1,Good,Good,0
+215021469,Mildura - North,215021469,Mildura - North,1,Good,Good,0
+215021470,Mildura - South,215021470,Mildura - South,1,Good,Good,0
+215031400,Buloke,215031400,Buloke,1,Good,Good,0
+215031401,Gannawarra,215031401,Gannawarra,1,Good,Good,0
+215031402,Kerang,215031402,Kerang,1,Good,Good,0
+215031403,Robinvale,215031403,Robinvale,1,Good,Good,0
+215031404,Swan Hill,215031404,Swan Hill,1,Good,Good,0
+215031405,Swan Hill Region,215031405,Swan Hill Surrounds,1,Good,Good,0
+216011406,Echuca,216011406,Echuca,1,Good,Good,0
+216011407,Kyabram,216011407,Kyabram,1,Good,Good,0
+216011408,Lockington - Gunbower,216011408,Lockington - Gunbower,1,Good,Good,0
+216011409,Rochester,216011409,Rochester,1,Good,Good,0
+216011410,Rushworth,216011410,Rushworth,1,Good,Good,0
+216021411,Cobram,216021411,Cobram,1,Good,Good,0
+216021412,Moira,216021412,Moira,1,Good,Good,0
+216021413,Numurkah,216021413,Numurkah,1,Good,Good,0
+216021414,Yarrawonga,216021414,Yarrawonga,1,Good,Good,0
+216031415,Mooroopna,216031415,Mooroopna,1,Good,Good,0
+216031416,Shepparton - North,216031416,Shepparton - North,1,Good,Good,0
+216031417,Shepparton - South,216031593,Kialla,0.312333,Poor,Good,0
+216031417,Shepparton - South,216031594,Shepparton - South East,0.687667,Poor,Good,0
+216031418,Shepparton Region - East,216031418,Shepparton Surrounds - East,1,Good,Good,0
+216031419,Shepparton Region - West,216031419,Shepparton Surrounds - West,1,Good,Good,0
+217011420,Glenelg (Vic.),217011420,Glenelg (Vic.),1,Good,Good,0
+217011421,Hamilton (Vic.),217011421,Hamilton (Vic.),1,Good,Good,0
+217011422,Portland,217011422,Portland,1,Good,Good,0
+217011423,Southern Grampians,217011423,Southern Grampians,1,Good,Good,0
+217031471,Camperdown,217031471,Camperdown,1,Good,Good,0
+217031472,Colac,217031472,Colac,1,Good,Good,0
+217031473,Colac Region,217031473,Colac Surrounds,1,Good,Good,0
+217031474,Corangamite - North,217031474,Corangamite - North,1,Good,Good,0
+217031475,Corangamite - South,217031475,Corangamite - South,1,Good,Good,0
+217031476,Otway,217031476,Otway,1,Good,Good,0
+217041477,Moyne - East,217041477,Moyne - East,1,Good,Good,0
+217041478,Moyne - West,217041478,Moyne - West,1,Good,Good,0
+217041479,Warrnambool - North,217041479,Warrnambool - North,1,Good,Good,0
+217041480,Warrnambool - South,217041480,Warrnambool - South,1,Good,Good,0
+297979799,Migratory - Offshore - Shipping (Vic.),297979799,Migratory - Offshore - Shipping (Vic.),1,Good,Good,0
+299999499,No usual address (Vic.),299999499,No usual address (Vic.),1,Good,Good,0
+301011001,Alexandra Hills,301011001,Alexandra Hills,1,Good,Good,0
+301011002,Belmont - Gumdale,301011002,Belmont - Gumdale,1,Good,Good,0
+301011003,Birkdale,301011003,Birkdale,1,Good,Good,0
+301011004,Capalaba,301011004,Capalaba,1,Good,Good,0
+301011005,Thorneside,301011005,Thorneside,1,Good,Good,0
+301011006,Wellington Point,301011006,Wellington Point,1,Good,Good,0
+301021007,Cleveland,301021007,Cleveland,1,Good,Good,0
+301021008,Ormiston,301021008,Ormiston,1,Good,Good,0
+301021009,Redland Bay,301021009,Redland Bay,1,Good,Good,0
+301021011,Sheldon - Mount Cotton,301021011,Sheldon - Mount Cotton,1,Good,Good,0
+301021012,Thornlands,301021012,Thornlands,1,Good,Good,0
+301021013,Victoria Point,301021013,Victoria Point,1,Good,Good,0
+301021527,Redland Islands,301021550,North Stradbroke Island,0.2258812,Poor,Good,0
+301021527,Redland Islands,301021551,Southern Moreton Bay Islands,0.7741188,Acceptable,Good,0
+301031014,Brisbane Port - Lytton,301031014,Brisbane Port - Lytton,1,Good,Good,0
+301031015,Manly - Lota,301031015,Manly - Lota,1,Good,Good,0
+301031016,Manly West,301031016,Manly West,1,Good,Good,0
+301031017,Murarrie,301031017,Murarrie,1,Good,Good,0
+301031018,Tingalpa,301031018,Tingalpa,1,Good,Good,0
+301031019,Wakerley,301031019,Wakerley,1,Good,Good,0
+301031020,Wynnum,301031020,Wynnum,1,Good,Good,0
+301031021,Wynnum West - Hemmant,301031021,Wynnum West - Hemmant,1,Good,Good,0
+302011022,Bald Hills,302011022,Bald Hills,1,Good,Good,0
+302011023,Bridgeman Downs,302011023,Bridgeman Downs,1,Good,Good,0
+302011024,Carseldine,302011024,Carseldine,1,Good,Good,0
+302011025,Everton Park,302011025,Everton Park,1,Good,Good,0
+302011026,McDowall,302011026,McDowall,1,Good,Good,0
+302021027,Aspley,302021027,Aspley,1,Good,Good,0
+302021028,Chermside,302021028,Chermside,1,Good,Good,0
+302021029,Chermside West,302021029,Chermside West,1,Good,Good,0
+302021030,Geebung,302021030,Geebung,1,Good,Good,0
+302021031,Kedron - Gordon Park,302021031,Kedron - Gordon Park,1,Good,Good,0
+302021032,Stafford,302021032,Stafford,1,Good,Good,0
+302021033,Stafford Heights,302021033,Stafford Heights,1,Good,Good,0
+302021034,Wavell Heights,302021034,Wavell Heights,1,Good,Good,0
+302031035,Boondall,302031035,Boondall,1,Good,Good,0
+302031036,Brisbane Airport,302031036,Brisbane Airport,0.4016157,Poor,Good,0
+302031036,Brisbane Airport,302031039,Nudgee - Banyo,0.5983843,Good,Good,0
+302031037,Eagle Farm - Pinkenba,302031037,Eagle Farm - Pinkenba,1,Good,Good,0
+302031038,Northgate - Virginia,302031038,Northgate - Virginia,1,Good,Good,0
+302031039,Nudgee - Banyo,302031039,Nudgee - Banyo,1,Good,Good,0
+302031040,Nundah,302031040,Nundah,1,Good,Good,0
+302041041,Bracken Ridge,302041041,Bracken Ridge,1,Good,Good,0
+302041042,Brighton (Qld),302041042,Brighton (Qld),1,Good,Good,0
+302041043,Deagon,302041043,Deagon,1,Good,Good,0
+302041044,Sandgate - Shorncliffe,302041044,Sandgate - Shorncliffe,1,Good,Good,0
+302041045,Taigum - Fitzgibbon,302041045,Taigum - Fitzgibbon,1,Good,Good,0
+302041046,Zillmere,302041046,Zillmere,1,Good,Good,0
+303011047,Camp Hill,303011047,Camp Hill,1,Good,Good,0
+303011048,Cannon Hill,303011048,Cannon Hill,1,Good,Good,0
+303011049,Carina,303011049,Carina,1,Good,Good,0
+303011050,Carina Heights,303011050,Carina Heights,1,Good,Good,0
+303011051,Carindale,303011051,Carindale,1,Good,Good,0
+303021052,Annerley,303021052,Annerley,1,Good,Good,0
+303021053,Coorparoo,303021053,Coorparoo,1,Good,Good,0
+303021054,Fairfield - Dutton Park,303021054,Fairfield - Dutton Park,1,Good,Good,0
+303021055,Greenslopes,303021055,Greenslopes,1,Good,Good,0
+303021056,Holland Park,303021056,Holland Park,1,Good,Good,0
+303021057,Holland Park West,303021057,Holland Park West,1,Good,Good,0
+303021058,Woolloongabba,303021058,Woolloongabba,1,Good,Good,0
+303021059,Yeronga,303021059,Yeronga,1,Good,Good,0
+303031060,Eight Mile Plains,303031060,Eight Mile Plains,1,Good,Good,0
+303031061,Macgregor (Qld),303031061,Macgregor (Qld),1,Good,Good,0
+303031062,Mansfield (Qld),303031062,Mansfield (Qld),1,Good,Good,0
+303031063,Mount Gravatt,303031063,Mount Gravatt,1,Good,Good,0
+303031064,Rochedale - Burbank,303031064,Rochedale - Burbank,1,Good,Good,0
+303031065,Upper Mount Gravatt,303031065,Upper Mount Gravatt,1,Good,Good,0
+303031066,Wishart,303031066,Wishart,1,Good,Good,0
+303041067,Coopers Plains,303041067,Coopers Plains,1,Good,Good,0
+303041068,Moorooka,303041068,Moorooka,1,Good,Good,0
+303041069,Robertson,303041069,Robertson,1,Good,Good,0
+303041070,Salisbury - Nathan,303041070,Salisbury - Nathan,1,Good,Good,0
+303041071,Tarragindi,303041071,Tarragindi,1,Good,Good,0
+303051072,Algester,303051072,Algester,1,Good,Good,0
+303051073,Calamvale - Stretton,303051073,Calamvale - Stretton,1,Good,Good,0
+303051074,Pallara - Willawong,303051074,Pallara - Willawong,1,Good,Good,0
+303051075,Parkinson - Drewvale,303051075,Parkinson - Drewvale,1,Good,Good,0
+303051076,Rocklea - Acacia Ridge,303051076,Rocklea - Acacia Ridge,1,Good,Good,0
+303061077,Kuraby,303061077,Kuraby,1,Good,Good,0
+303061078,Runcorn,303061078,Runcorn,1,Good,Good,0
+303061079,Sunnybank,303061079,Sunnybank,1,Good,Good,0
+303061080,Sunnybank Hills,303061080,Sunnybank Hills,1,Good,Good,0
+304011081,Jindalee - Mount Ommaney,304011081,Jindalee - Mount Ommaney,1,Good,Good,0
+304011082,Middle Park - Jamboree Heights,304011082,Middle Park - Jamboree Heights,1,Good,Good,0
+304011083,Riverhills,304011083,Riverhills,1,Good,Good,0
+304011084,Seventeen Mile Rocks - Sinnamon Park,304011084,Seventeen Mile Rocks - Sinnamon Park,1,Good,Good,0
+304011085,Westlake,304011085,Westlake,1,Good,Good,0
+304021086,Bellbowrie - Moggill,304021086,Bellbowrie - Moggill,1,Good,Good,0
+304021087,Brookfield - Kenmore Hills,304021087,Brookfield - Kenmore Hills,1,Good,Good,0
+304021088,Chapel Hill,304021088,Chapel Hill,1,Good,Good,0
+304021089,Fig Tree Pocket,304021089,Fig Tree Pocket,1,Good,Good,0
+304021090,Kenmore,304021090,Kenmore,1,Good,Good,0
+304021091,Pinjarra Hills - Pullenvale,304021091,Pinjarra Hills - Pullenvale,1,Good,Good,0
+304031092,Chelmer - Graceville,304031092,Chelmer - Graceville,1,Good,Good,0
+304031093,Corinda,304031093,Corinda,1,Good,Good,0
+304031094,Indooroopilly,304031094,Indooroopilly,1,Good,Good,0
+304031095,Sherwood,304031095,Sherwood,1,Good,Good,0
+304031096,St Lucia,304031096,St Lucia,1,Good,Good,0
+304031097,Taringa,304031097,Taringa,1,Good,Good,0
+304041098,Enoggera,304041098,Enoggera,1,Good,Good,0
+304041099,Enoggera Reservoir,304041099,Enoggera Reservoir,1,Good,Good,0
+304041100,Keperra,304041100,Keperra,1,Good,Good,0
+304041101,Mitchelton,304041101,Mitchelton,1,Good,Good,0
+304041102,Mount Coot-tha,304041102,Mount Coot-tha,1,Good,Good,0
+304041103,The Gap,304041103,The Gap,1,Good,Good,0
+304041104,Upper Kedron - Ferny Grove,304041104,Upper Kedron - Ferny Grove,1,Good,Good,0
+305011105,Brisbane City,305011105,Brisbane City,1,Good,Good,0
+305011106,Fortitude Valley,305011106,Fortitude Valley,1,Good,Good,0
+305011107,Highgate Hill,305011107,Highgate Hill,1,Good,Good,0
+305011108,Kangaroo Point,305011108,Kangaroo Point,1,Good,Good,0
+305011109,New Farm,305011109,New Farm,1,Good,Good,0
+305011110,South Brisbane,305011110,South Brisbane,1,Good,Good,0
+305011111,Spring Hill,305011111,Spring Hill,1,Good,Good,0
+305011112,West End,305011112,West End,1,Good,Good,0
+305021113,Balmoral,305021113,Balmoral,1,Good,Good,0
+305021114,Bulimba,305021114,Bulimba,1,Good,Good,0
+305021115,East Brisbane,305021115,East Brisbane,1,Good,Good,0
+305021116,Hawthorne,305021116,Hawthorne,1,Good,Good,0
+305021117,Morningside - Seven Hills,305021117,Morningside - Seven Hills,1,Good,Good,0
+305021118,Norman Park,305021118,Norman Park,1,Good,Good,0
+305031119,Albion,305031119,Albion,1,Good,Good,0
+305031120,Alderley,305031120,Alderley,1,Good,Good,0
+305031121,Ascot,305031121,Ascot,1,Good,Good,0
+305031122,Clayfield,305031122,Clayfield,1,Good,Good,0
+305031123,Grange,305031123,Grange,1,Good,Good,0
+305031124,Hamilton (Qld),305031124,Hamilton (Qld),1,Good,Good,0
+305031125,Hendra,305031125,Hendra,1,Good,Good,0
+305031126,Kelvin Grove - Herston,305031126,Kelvin Grove - Herston,1,Good,Good,0
+305031127,Newmarket,305031127,Newmarket,1,Good,Good,0
+305031128,Newstead - Bowen Hills,305031128,Newstead - Bowen Hills,1,Good,Good,0
+305031129,Wilston,305031129,Wilston,1,Good,Good,0
+305031130,Windsor,305031130,Windsor,1,Good,Good,0
+305031131,Wooloowin - Lutwyche,305031131,Wooloowin - Lutwyche,1,Good,Good,0
+305041132,Ashgrove,305041132,Ashgrove,1,Good,Good,0
+305041133,Auchenflower,305041133,Auchenflower,1,Good,Good,0
+305041134,Bardon,305041134,Bardon,1,Good,Good,0
+305041135,Paddington - Milton,305041135,Paddington - Milton,1,Good,Good,0
+305041136,Red Hill (Qld),305041136,Red Hill (Qld),1,Good,Good,0
+305041137,Toowong,305041137,Toowong,1,Good,Good,0
+306011138,Brinsmead,306011138,Brinsmead,1,Good,Good,0
+306011139,Clifton Beach - Kewarra Beach,306011139,Clifton Beach - Kewarra Beach,1,Good,Good,0
+306011140,Freshwater - Stratford,306011140,Freshwater - Stratford,1,Good,Good,0
+306011141,Redlynch,306011141,Redlynch,1,Good,Good,0
+306011142,Trinity Beach - Smithfield,306011139,Clifton Beach - Kewarra Beach,0.0032018,Good,Good,1
+306011142,Trinity Beach - Smithfield,306011142,Trinity Beach - Smithfield,0.9967982,Good,Good,0
+306011143,Yorkeys Knob - Machans Beach,306011143,Yorkeys Knob - Machans Beach,1,Good,Good,0
+306021144,Bentley Park,306021144,Bentley Park,1,Good,Good,0
+306021145,Cairns City,306021145,Cairns City,1,Good,Good,0
+306021146,Earlville - Bayview Heights,306021146,Earlville - Bayview Heights,1,Good,Good,0
+306021147,Edmonton,306021147,Edmonton,1,Good,Good,0
+306021148,Gordonvale - Trinity,306021148,Gordonvale - Trinity,1,Good,Good,0
+306021149,Kanimbla - Mooroobool,306021149,Kanimbla - Mooroobool,1,Good,Good,0
+306021150,Lamb Range,306021150,Lamb Range,1,Good,Good,0
+306021151,Manoora,306021151,Manoora,1,Good,Good,0
+306021152,Manunda,306021152,Manunda,1,Good,Good,0
+306021153,Mount Sheridan,306021153,Mount Sheridan,1,Good,Good,0
+306021154,Westcourt - Bungalow,306021154,Westcourt - Bungalow,1,Good,Good,0
+306021155,White Rock,306021155,White Rock,1,Good,Good,0
+306021156,Whitfield - Edge Hill,306021156,Whitfield - Edge Hill,1,Good,Good,0
+306021157,Woree,306021157,Woree,1,Good,Good,0
+306031158,Babinda,306031158,Babinda,1,Good,Good,0
+306031159,Innisfail,306031159,Innisfail,1,Good,Good,0
+306031160,Johnstone,306031160,Johnstone,1,Good,Good,0
+306031161,Tully,306031161,Tully,1,Good,Good,0
+306031162,Wooroonooran,306031162,Wooroonooran,1,Good,Good,0
+306031163,Yarrabah,306031163,Yarrabah,1,Good,Good,0
+306041164,Daintree,306041164,Daintree,1,Good,Good,0
+306041165,Port Douglas,306041165,Port Douglas,1,Good,Good,0
+306051166,Atherton,306051166,Atherton,1,Good,Good,0
+306051167,Herberton,306051167,Herberton,1,Good,Good,0
+306051168,Kuranda,306051168,Kuranda,1,Good,Good,0
+306051169,Malanda - Yungaburra,306051169,Malanda - Yungaburra,1,Good,Good,0
+306051170,Mareeba,306051170,Mareeba,1,Good,Good,0
+307011171,Balonne,307011171,Balonne,1,Good,Good,0
+307011172,Chinchilla,307011172,Chinchilla,1,Good,Good,0
+307011173,Goondiwindi,307011173,Goondiwindi,1,Good,Good,0
+307011174,Inglewood - Waggamba,307011174,Inglewood - Waggamba,1,Good,Good,0
+307011175,Miles - Wandoan,307011175,Miles - Wandoan,1,Good,Good,0
+307011176,Roma,307011176,Roma,1,Good,Good,0
+307011177,Roma Region,307011177,Roma Surrounds,1,Good,Good,0
+307011178,Tara,307011178,Tara,1,Good,Good,0
+307021179,Crows Nest - Rosalie,307021179,Crows Nest - Rosalie,1,Good,Good,0
+307021180,Jondaryan,307021180,Jondaryan,1,Good,Good,0
+307021181,Millmerran,307021181,Millmerran,1,Good,Good,0
+307021182,Pittsworth,307021182,Pittsworth,1,Good,Good,0
+307021183,Wambo,307021183,Wambo,1,Good,Good,0
+307031184,Clifton - Greenmount,307031184,Clifton - Greenmount,1,Good,Good,0
+307031185,Southern Downs - East,307031185,Southern Downs - East,1,Good,Good,0
+307031186,Southern Downs - West,307031186,Southern Downs - West,1,Good,Good,0
+307031187,Stanthorpe,307031187,Stanthorpe,1,Good,Good,0
+307031188,Stanthorpe Region,307031188,Stanthorpe Surrounds,1,Good,Good,0
+307031189,Warwick,307031189,Warwick,1,Good,Good,0
+308011190,Central Highlands - East,308011190,Central Highlands - East,1,Good,Good,0
+308011191,Central Highlands - West,308011191,Central Highlands - West,1,Good,Good,0
+308011192,Emerald,308011192,Emerald,1,Good,Good,0
+308031205,Berserker,308031205,Berserker,1,Good,Good,0
+308031206,Bouldercombe,308031206,Bouldercombe,1,Good,Good,0
+308031207,Emu Park,308031207,Emu Park,1,Good,Good,0
+308031208,Frenchville - Mount Archer,308031208,Frenchville - Mount Archer,1,Good,Good,0
+308031209,Glenlee - Rockyview,308031209,Glenlee - Rockyview,1,Good,Good,0
+308031210,Gracemere,308031210,Gracemere,1,Good,Good,0
+308031211,Lakes Creek,308031211,Lakes Creek,1,Good,Good,0
+308031212,Mount Morgan,308031212,Mount Morgan,1,Good,Good,0
+308031213,Norman Gardens,308031213,Norman Gardens,1,Good,Good,0
+308031214,Park Avenue,308031214,Park Avenue,1,Good,Good,0
+308031215,Parkhurst - Kawana,308031215,Parkhurst - Kawana,1,Good,Good,0
+308031216,Rockhampton - West,308031216,Rockhampton - West,1,Good,Good,0
+308031217,Rockhampton City,308031217,Rockhampton City,1,Good,Good,0
+308031218,Rockhampton Region - East,308031218,Rockhampton Surrounds - East,1,Good,Good,0
+308031219,Rockhampton Region - North,308031219,Rockhampton Surrounds - North,1,Good,Good,0
+308031220,Rockhampton Region - West,308031220,Rockhampton Surrounds - West,1,Good,Good,0
+308031221,Shoalwater Bay,308031221,Shoalwater Bay,1,Good,Good,0
+308031222,The Range - Allenstown,308031222,The Range - Allenstown,1,Good,Good,0
+308031223,Yeppoon,308031223,Yeppoon,1,Good,Good,0
+308041528,Banana,308041528,Banana,1,Good,Good,0
+308041529,Biloela,308041529,Biloela,1,Good,Good,0
+308051530,Agnes Water - Miriam Vale,308051530,Agnes Water - Miriam Vale,1,Good,Good,0
+308051531,Boyne Island - Tannum Sands,308051531,Boyne Island - Tannum Sands,1,Good,Good,0
+308051532,Callemondah,308051532,Callemondah,1,Good,Good,0
+308051533,Clinton - New Auckland,308051533,Clinton - New Auckland,1,Good,Good,0
+308051534,Gladstone,308051534,Gladstone,1,Good,Good,0
+308051535,Gladstone Hinterland,308051535,Gladstone Hinterland,1,Good,Good,0
+308051536,Kin Kora - Sun Valley,308051536,Kin Kora - Sun Valley,1,Good,Good,0
+308051537,South Trees,308051537,South Trees,1,Good,Good,0
+308051538,Telina - Toolooa,308051538,Telina - Toolooa,1,Good,Good,0
+308051539,West Gladstone,308051539,West Gladstone,1,Good,Good,0
+309011224,Broadbeach Waters,309011224,Broadbeach Waters,1,Good,Good,0
+309011225,Burleigh Heads,309011225,Burleigh Heads,1,Good,Good,0
+309011226,Burleigh Waters,309011226,Burleigh Waters,1,Good,Good,0
+309011227,Mermaid Beach - Broadbeach,309011227,Mermaid Beach - Broadbeach,1,Good,Good,0
+309011228,Mermaid Waters,309011228,Mermaid Waters,1,Good,Good,0
+309011229,Miami,309011229,Miami,1,Good,Good,0
+309021230,Coolangatta,309021230,Coolangatta,1,Good,Good,0
+309021231,Currumbin - Tugun,309021231,Currumbin - Tugun,1,Good,Good,0
+309021232,Currumbin Waters,309021232,Currumbin Waters,1,Good,Good,0
+309021233,Elanora,309021233,Elanora,1,Good,Good,0
+309021234,Palm Beach,309021234,Palm Beach,1,Good,Good,0
+309031235,Arundel,309031235,Arundel,1,Good,Good,0
+309031236,Biggera Waters,309031236,Biggera Waters,1,Good,Good,0
+309031237,Coombabah,309031237,Coombabah,1,Good,Good,0
+309031238,Labrador,309031238,Labrador,1,Good,Good,0
+309031239,Paradise Point - Hollywell,309031239,Paradise Point - Hollywell,1,Good,Good,0
+309031240,Runaway Bay,309031240,Runaway Bay,1,Good,Good,0
+309041241,Guanaba - Springbrook,309041241,Guanaba - Springbrook,1,Good,Good,0
+309041242,Tamborine - Canungra,309041242,Tamborine - Canungra,1,Good,Good,0
+309051243,Currumbin Valley - Tallebudgera,309051243,Currumbin Valley - Tallebudgera,1,Good,Good,0
+309051244,Mudgeeraba - Bonogin,309051244,Mudgeeraba - Bonogin,1,Good,Good,0
+309051245,Reedy Creek - Andrews,309051245,Reedy Creek - Andrews,1,Good,Good,0
+309061246,Carrara,309061246,Carrara,1,Good,Good,0
+309061247,Highland Park,309061247,Highland Park,1,Good,Good,0
+309061248,Nerang - Mount Nathan,309061248,Nerang - Mount Nathan,1,Good,Good,0
+309061249,Pacific Pines - Gaven,309061249,Pacific Pines - Gaven,1,Good,Good,0
+309061250,Worongary - Tallai,309061250,Worongary - Tallai,1,Good,Good,0
+309071251,Coomera,309071251,Coomera,1,Good,Good,0
+309071252,Helensvale,309071252,Helensvale,1,Good,Good,0
+309071253,Hope Island,309071253,Hope Island,1,Good,Good,0
+309071254,Jacobs Well - Alberton,309071254,Jacobs Well - Alberton,1,Good,Good,0
+309071255,Ormeau - Yatala,309071552,Ormeau (East) - Stapylton,0.4729791,Poor,Good,0
+309071255,Ormeau - Yatala,309071553,Ormeau (West) - Yatala,0.5270209,Poor,Good,0
+309071256,Oxenford - Maudsland,309071256,Oxenford - Maudsland,1,Good,Good,0
+309071257,Pimpama,309071554,Pimpama - North,0.3856511,Poor,Good,0
+309071257,Pimpama,309071555,Pimpama - South,0.3835676,Poor,Good,0
+309071257,Pimpama,309071558,Willow Vale - Pimpama (West),0.2307813,Poor,Good,0
+309071258,Upper Coomera - Willow Vale,309071556,Upper Coomera (South) - Wongawallan,0.3073564,Poor,Good,0
+309071258,Upper Coomera - Willow Vale,309071557,Upper Coomera - North,0.6167364,Poor,Good,0
+309071258,Upper Coomera - Willow Vale,309071558,Willow Vale - Pimpama (West),0.0759071,Poor,Good,0
+309081259,Clear Island Waters,309081259,Clear Island Waters,1,Good,Good,0
+309081260,Merrimac,309081260,Merrimac,1,Good,Good,0
+309081261,Robina,309081559,Robina - East,0.6929743,Poor,Good,0
+309081261,Robina,309081560,Robina - West,0.3070257,Poor,Good,0
+309081262,Varsity Lakes,309081262,Varsity Lakes,1,Good,Good,0
+309091263,Ashmore,309091263,Ashmore,1,Good,Good,0
+309091264,Molendinar,309091264,Molendinar,1,Good,Good,0
+309091265,Parkwood,309091265,Parkwood,1,Good,Good,0
+309091540,Southport - North,309091540,Southport - North,1,Good,Good,0
+309091541,Southport - South,309091541,Southport - South,1,Good,Good,0
+309101267,Benowa,309101267,Benowa,1,Good,Good,0
+309101268,Bundall,309101268,Bundall,1,Good,Good,0
+309101269,Main Beach,309101269,Main Beach,1,Good,Good,0
+309101270,Surfers Paradise,309101561,Surfers Paradise - North,0.465283,Poor,Good,0
+309101270,Surfers Paradise,309101562,Surfers Paradise - South,0.534717,Poor,Good,0
+310011271,Darra - Sumner,310011271,Darra - Sumner,1,Good,Good,0
+310011272,Durack,310011272,Durack,1,Good,Good,0
+310011273,Forest Lake - Doolandella,310011563,Doolandella,0.2272251,Poor,Good,0
+310011273,Forest Lake - Doolandella,310011564,Forest Lake - Ellen Grove,0.7727749,Acceptable,Good,0
+310011274,Inala - Richlands,310011274,Inala - Richlands,1,Good,Good,0
+310011275,Oxley (Qld),310011275,Oxley (Qld),1,Good,Good,0
+310011276,Wacol,310011276,Wacol,1,Good,Good,0
+310021277,Boonah,310021277,Boonah,1,Good,Good,0
+310021278,Esk,310021278,Esk,1,Good,Good,0
+310021279,Lake Manchester - England Creek,310021279,Lake Manchester - England Creek,1,Good,Good,0
+310021280,Lockyer Valley - East,310021280,Lockyer Valley - East,1,Good,Good,0
+310021281,Lowood,310021281,Lowood,1,Good,Good,0
+310021282,Rosewood,310021282,Rosewood,1,Good,Good,0
+310031283,Brassall,310031283,Brassall,1,Good,Good,0
+310031284,Bundamba,310031284,Bundamba,1,Good,Good,0
+310031285,Churchill - Yamanto,310031285,Churchill - Yamanto,1,Good,Good,0
+310031286,Ipswich - Central,310031286,Ipswich - Central,1,Good,Good,0
+310031287,Ipswich - East,310031287,Ipswich - East,1,Good,Good,0
+310031288,Ipswich - North,310031288,Ipswich - North,1,Good,Good,0
+310031289,Karalee - Barellan Point,310031289,Karalee - Barellan Point,1,Good,Good,0
+310031290,Karana Downs,310031290,Karana Downs,1,Good,Good,0
+310031291,Leichhardt - One Mile,310031291,Leichhardt - One Mile,1,Good,Good,0
+310031292,North Ipswich - Tivoli,310031292,North Ipswich - Tivoli,1,Good,Good,0
+310031293,Raceview,310031293,Raceview,1,Good,Good,0
+310031294,Ripley,310031294,Ripley,1,Good,Good,0
+310031295,Riverview,310031295,Riverview,1,Good,Good,0
+310041296,Bellbird Park - Brookwater,310041565,Augustine Heights - Brookwater,0.5067528,Poor,Good,0
+310041296,Bellbird Park - Brookwater,310041566,Bellbird Park,0.4932472,Poor,Good,0
+310041297,Camira - Gailes,310041297,Camira - Gailes,1,Good,Good,0
+310041298,Carole Park,310041298,Carole Park,1,Good,Good,0
+310041299,Collingwood Park - Redbank,310041299,Collingwood Park - Redbank,1,Good,Good,0
+310041300,Goodna,310041300,Goodna,1,Good,Good,0
+310041301,New Chum,310041301,New Chum,1,Good,Good,0
+310041302,Redbank Plains,310041302,Redbank Plains,1,Good,Good,0
+310041303,Springfield,310041303,Springfield,1,Good,Good,0
+310041304,Springfield Lakes,310041304,Springfield Lakes,1,Good,Good,0
+311011305,Beaudesert,311011305,Beaudesert,1,Good,Good,0
+311021306,Beenleigh,311021306,Beenleigh,1,Good,Good,0
+311021307,Eagleby,311021307,Eagleby,1,Good,Good,0
+311021308,Edens Landing - Holmview,311021308,Edens Landing - Holmview,1,Good,Good,0
+311021309,Mount Warren Park,311021309,Mount Warren Park,1,Good,Good,0
+311021310,Wolffdene - Bahrs Scrub,311021310,Wolffdene - Bahrs Scrub,1,Good,Good,0
+311031311,Boronia Heights - Park Ridge,311031311,Boronia Heights - Park Ridge,1,Good,Good,0
+311031312,Browns Plains,311031312,Browns Plains,1,Good,Good,0
+311031313,Chambers Flat - Logan Reserve,311031313,Chambers Flat - Logan Reserve,1,Good,Good,0
+311031314,Crestmead,311031314,Crestmead,1,Good,Good,0
+311031315,Greenbank Military Camp,311031315,Greenbank Military Camp,1,Good,Good,0
+311031316,Hillcrest,311031316,Hillcrest,1,Good,Good,0
+311031317,Marsden,311031317,Marsden,1,Good,Good,0
+311031318,Munruben - Park Ridge South,311031318,Munruben - Park Ridge South,1,Good,Good,0
+311031319,Regents Park - Heritage Park,311031319,Regents Park - Heritage Park,1,Good,Good,0
+311041320,Greenbank,311041568,Flagstone (West) - New Beith,0.5112815,Poor,Good,0
+311041320,Greenbank,311041569,Greenbank - North Maclean,0.4887185,Poor,Good,0
+311041321,Jimboomba,311041567,Flagstone (East) - Riverbend,0.2375178,Poor,Good,0
+311041321,Jimboomba,311041570,Jimboomba - Glenlogan,0.6090748,Poor,Good,0
+311041321,Jimboomba,311041571,Yarrabilba,0.1534074,Poor,Good,0
+311041322,Logan Village,311041322,Logan Village,1,Good,Good,0
+311051323,Bethania - Waterford,311051323,Bethania - Waterford,1,Good,Good,0
+311051324,Cornubia - Carbrook,311051324,Cornubia - Carbrook,1,Good,Good,0
+311051325,Loganholme - Tanah Merah,311051325,Loganholme - Tanah Merah,1,Good,Good,0
+311051326,Loganlea,311051326,Loganlea,1,Good,Good,0
+311051327,Shailer Park,311051327,Shailer Park,1,Good,Good,0
+311051328,Waterford West,311051328,Waterford West,1,Good,Good,0
+311061329,Daisy Hill,311061329,Daisy Hill,1,Good,Good,0
+311061330,Kingston (Qld.),311061330,Kingston (Qld),1,Good,Good,0
+311061331,Logan Central,311061331,Logan Central,1,Good,Good,0
+311061332,Rochedale South - Priestdale,311061332,Rochedale South - Priestdale,1,Good,Good,0
+311061333,Slacks Creek,311061333,Slacks Creek,1,Good,Good,0
+311061334,Springwood,311061334,Springwood,1,Good,Good,0
+311061335,Underwood,311061335,Underwood,1,Good,Good,0
+311061336,Woodridge,311061336,Woodridge,1,Good,Good,0
+312011337,Bowen,312011337,Bowen,1,Good,Good,0
+312011338,Broadsound - Nebo,312011338,Broadsound - Nebo,1,Good,Good,0
+312011339,Clermont,312011339,Clermont,1,Good,Good,0
+312011340,Collinsville,312011340,Collinsville,1,Good,Good,0
+312011341,Moranbah,312011341,Moranbah,1,Good,Good,0
+312021342,Andergrove - Beaconsfield,312021342,Andergrove - Beaconsfield,1,Good,Good,0
+312021343,East Mackay,312021343,East Mackay,1,Good,Good,0
+312021344,Eimeo - Rural View,312021344,Eimeo - Rural View,1,Good,Good,0
+312021345,Eungella Hinterland,312021345,Eungella Hinterland,1,Good,Good,0
+312021346,Mackay,312021346,Mackay,1,Good,Good,0
+312021347,Mackay Harbour,312021347,Mackay Harbour,1,Good,Good,0
+312021348,Mount Pleasant - Glenella,312021348,Mount Pleasant - Glenella,1,Good,Good,0
+312021349,North Mackay,312021349,North Mackay,1,Good,Good,0
+312021350,Ooralea - Bakers Creek,312021350,Ooralea - Bakers Creek,1,Good,Good,0
+312021351,Pioneer Valley,312021351,Pioneer Valley,1,Good,Good,0
+312021352,Sarina,312021352,Sarina,1,Good,Good,0
+312021353,Seaforth - Calen,312021353,Seaforth - Calen,1,Good,Good,0
+312021354,Shoal Point - Bucasia,312021354,Shoal Point - Bucasia,1,Good,Good,0
+312021355,Slade Point,312021355,Slade Point,1,Good,Good,0
+312021356,South Mackay,312021356,South Mackay,1,Good,Good,0
+312021357,Walkerston - Eton,312021357,Walkerston - Eton,1,Good,Good,0
+312021358,West Mackay,312021358,West Mackay,1,Good,Good,0
+312031359,Airlie - Whitsundays,312031359,Airlie - Whitsundays,1,Good,Good,0
+312031360,Cape Conway,312031360,Cape Conway,1,Good,Good,0
+312031361,Proserpine,312031361,Proserpine,1,Good,Good,0
+313011362,Beachmere - Sandstone Point,313011362,Beachmere - Sandstone Point,1,Good,Good,0
+313011363,Bribie Island,313011363,Bribie Island,1,Good,Good,0
+313021364,Burpengary - East,313021364,Burpengary - East,1,Good,Good,0
+313021365,Caboolture,313021572,Caboolture - East,0.5921669,Poor,Good,0
+313021365,Caboolture,313021573,Caboolture - West,0.4078331,Poor,Good,0
+313021366,Caboolture - South,313021366,Caboolture - South,1,Good,Good,0
+313021367,Elimbah,313021367,Elimbah,1,Good,Good,0
+313021368,Morayfield - East,313021368,Morayfield - East,1,Good,Good,0
+313021369,Wamuran,313021369,Wamuran,1,Good,Good,0
+313031370,Kilcoy,313031370,Kilcoy,1,Good,Good,0
+313031371,Woodford - D'Aguilar,313031371,Woodford - D'Aguilar,1,Good,Good,0
+313041372,Burpengary,313041372,Burpengary,1,Good,Good,0
+313041373,Deception Bay,313041373,Deception Bay,1,Good,Good,0
+313041374,Morayfield,313041374,Morayfield,1,Good,Good,0
+313041375,Narangba,313041375,Narangba,1,Good,Good,0
+313041376,Upper Caboolture,313041376,Upper Caboolture,1,Good,Good,0
+313051377,Clontarf,313051377,Clontarf,1,Good,Good,0
+313051378,Margate - Woody Point,313051378,Margate - Woody Point,1,Good,Good,0
+313051379,Redcliffe,313051379,Redcliffe,1,Good,Good,0
+313051380,Rothwell - Kippa-Ring,313051380,Rothwell - Kippa-Ring,1,Good,Good,0
+313051542,Scarborough - Newport - Moreton Island,313051574,Moreton Island,0.0311014,Poor,Good,0
+313051542,Scarborough - Newport - Moreton Island,313051575,Scarborough - Newport,0.9688986,Good,Good,0
+314011382,Albany Creek,314011382,Albany Creek,1,Good,Good,0
+314011383,Cashmere,314011383,Cashmere,1,Good,Good,0
+314011384,Dayboro,314011384,Dayboro,1,Good,Good,0
+314011385,Eatons Hill,314011385,Eatons Hill,1,Good,Good,0
+314011386,The Hills District,314011386,The Hills District,1,Good,Good,0
+314011387,Samford Valley,314011387,Samford Valley,1,Good,Good,0
+314021388,Dakabin - Kallangur,314021576,Dakabin,0.149261,Poor,Good,0
+314021388,Dakabin - Kallangur,314021577,Kallangur,0.850739,Acceptable,Good,0
+314021389,Murrumba Downs - Griffin,314021389,Murrumba Downs - Griffin,1,Good,Good,0
+314021390,North Lakes - Mango Hill,314021578,Mango Hill,0.2798332,Poor,Good,0
+314021390,North Lakes - Mango Hill,314021579,North Lakes,0.7201668,Poor,Good,0
+314031391,Bray Park,314031391,Bray Park,1,Good,Good,0
+314031392,Lawnton,314031392,Lawnton,1,Good,Good,0
+314031393,Petrie,314031393,Petrie,1,Good,Good,0
+314031394,Strathpine - Brendale,314031394,Strathpine - Brendale,1,Good,Good,0
+315011395,Aurukun,315011395,Aurukun,1,Good,Good,0
+315011396,Cape York,315011396,Cape York,0.9999997,Good,Good,0
+315011396,Cape York,315021404,Carpentaria,3.00E-07,Good,Good,1
+315011397,Croydon - Etheridge,315011397,Croydon - Etheridge,1,Good,Good,0
+315011398,Kowanyama - Pormpuraaw,315011398,Kowanyama - Pormpuraaw,1,Good,Good,0
+315011399,Northern Peninsula,315011399,Northern Peninsula,1,Good,Good,0
+315011400,Tablelands,315011400,Tablelands,1,Good,Good,0
+315011401,Torres,315011401,Torres,1,Good,Good,0
+315011402,Torres Strait Islands,315011402,Torres Strait Islands,1,Good,Good,0
+315011403,Weipa,315011403,Weipa,1,Good,Good,0
+315021404,Carpentaria,315021404,Carpentaria,1,Good,Good,0
+315021405,Mount Isa,315021405,Mount Isa,1,Good,Good,0
+315021406,Mount Isa Region,315021405,Mount Isa,0.0078296,Good,Good,1
+315021406,Mount Isa Region,315021406,Mount Isa Surrounds,0.9921704,Good,Good,0
+315021407,Northern Highlands,315021407,Northern Highlands,1,Good,Good,0
+315031408,Barcaldine - Blackall,315031408,Barcaldine - Blackall,1,Good,Good,0
+315031409,Charleville,315031409,Charleville,1,Good,Good,0
+315031410,Far Central West,315031410,Far Central West,1,Good,Good,0
+315031411,Far South West,315031411,Far South West,1,Good,Good,0
+315031412,Longreach,315031412,Longreach,1,Good,Good,0
+316011413,Buderim - North,316011413,Buderim - North,1,Good,Good,0
+316011414,Buderim - South,316011414,Buderim - South,1,Good,Good,0
+316011415,Mountain Creek,316011415,Mountain Creek,1,Good,Good,0
+316011416,Sippy Downs,316011416,Sippy Downs,1,Good,Good,0
+316021417,Aroona - Currimundi,316021417,Aroona - Currimundi,1,Good,Good,0
+316021418,Buddina - Minyama,316021418,Buddina - Minyama,1,Good,Good,0
+316021419,Caloundra - Kings Beach,316021419,Caloundra - Kings Beach,1,Good,Good,0
+316021420,Caloundra - West,316021424,Wurtulla - Birtinya,0.0001909,Good,Good,1
+316021420,Caloundra - West,316021580,Caloundra West - Baringa,0.3671805,Poor,Good,0
+316021420,Caloundra - West,316021581,Meridan Plains - Little Mountain (North),0.6326285,Poor,Good,0
+316021421,Golden Beach - Pelican Waters,316021421,Golden Beach - Pelican Waters,1,Good,Good,0
+316021422,Moffat Beach - Battery Hill,316021422,Moffat Beach - Battery Hill,1,Good,Good,0
+316021423,Parrearra - Warana,316021423,Parrearra - Warana,1,Good,Good,0
+316021424,Wurtulla - Birtinya,316021424,Wurtulla - Birtinya,1,Good,Good,0
+316031425,Coolum Beach,316031425,Coolum Beach,1,Good,Good,0
+316031426,Marcoola - Mudjimba,316031426,Marcoola - Mudjimba,1,Good,Good,0
+316031427,Maroochydore - Kuluin,316031427,Maroochydore - Kuluin,1,Good,Good,0
+316031428,Mooloolaba - Alexandra Headland,316031428,Mooloolaba - Alexandra Headland,1,Good,Good,0
+316051434,Noosa Heads,316051434,Noosa Heads,1,Good,Good,0
+316051435,Noosaville,316051435,Noosaville,1,Good,Good,0
+316051437,Sunshine Beach,316051437,Sunshine Beach,1,Good,Good,0
+316051438,Tewantin,316051438,Tewantin,1,Good,Good,0
+316051543,Peregian Beach - Marcus Beach,316051543,Peregian Beach - Marcus Beach,1,Good,Good,0
+316051544,Peregian Springs,316051544,Peregian Springs,1,Good,Good,0
+316061439,Beerwah,316061439,Beerwah,1,Good,Good,0
+316061440,Caloundra Hinterland,316061440,Caloundra Hinterland,1,Good,Good,0
+316061441,Glass House Mountains,316061441,Glass House Mountains,1,Good,Good,0
+316061442,Landsborough,316061442,Landsborough,1,Good,Good,0
+316061443,Maroochy Hinterland,316061443,Maroochy Hinterland,1,Good,Good,0
+316061444,Palmwoods,316061444,Palmwoods,1,Good,Good,0
+316071545,Bli Bli,316071545,Bli Bli,1,Good,Good,0
+316071546,Diddillibah - Rosemount,316071546,Diddillibah - Rosemount,1,Good,Good,0
+316071547,Eumundi - Yandina,316071547,Eumundi - Yandina,1,Good,Good,0
+316071548,Nambour,316071548,Nambour,1,Good,Good,0
+316081549,Noosa Hinterland,316081549,Noosa Hinterland,1,Good,Good,0
+317011445,Cambooya - Wyreema,317011445,Cambooya - Wyreema,1,Good,Good,0
+317011446,Darling Heights,317011446,Darling Heights,1,Good,Good,0
+317011447,Drayton - Harristown,317011447,Drayton - Harristown,1,Good,Good,0
+317011448,Gatton,317011448,Gatton,1,Good,Good,0
+317011449,Gowrie (Qld),317011449,Gowrie (Qld),1,Good,Good,0
+317011450,Highfields,317011450,Highfields,1,Good,Good,0
+317011451,Lockyer Valley - West,317011451,Lockyer Valley - West,1,Good,Good,0
+317011452,Middle Ridge,317011452,Middle Ridge,1,Good,Good,0
+317011453,Newtown (Qld),317011453,Newtown (Qld),1,Good,Good,0
+317011454,North Toowoomba - Harlaxton,317011454,North Toowoomba - Harlaxton,1,Good,Good,0
+317011455,Rangeville,317011455,Rangeville,1,Good,Good,0
+317011456,Toowoomba - Central,317011456,Toowoomba - Central,1,Good,Good,0
+317011457,Toowoomba - East,317011457,Toowoomba - East,1,Good,Good,0
+317011458,Toowoomba - West,317011458,Toowoomba - West,1,Good,Good,0
+317011459,Wilsonton,317011459,Wilsonton,1,Good,Good,0
+318011460,Ayr,318011460,Ayr,1,Good,Good,0
+318011461,Burdekin,318011461,Burdekin,1,Good,Good,0
+318011462,Charters Towers,318011462,Charters Towers,1,Good,Good,0
+318011463,Dalrymple,318011463,Dalrymple,1,Good,Good,0
+318011464,Ingham,318011464,Ingham,1,Good,Good,0
+318011465,Ingham Region,318011465,Ingham Surrounds,1,Good,Good,0
+318011466,Palm Island,318011466,Palm Island,1,Good,Good,0
+318021467,Aitkenvale,318021467,Aitkenvale,1,Good,Good,0
+318021468,Annandale,318021468,Annandale (Qld),1,Good,Good,0
+318021469,Belgian Gardens - Pallarenda,318021469,Belgian Gardens - Pallarenda,1,Good,Good,0
+318021470,Bohle Plains,318021470,Bohle Plains,1,Good,Good,0
+318021471,Condon - Rasmussen,318021471,Condon - Rasmussen,1,Good,Good,0
+318021472,Cranbrook,318021472,Cranbrook,1,Good,Good,0
+318021473,Deeragun,318021582,Burdell - Mount Low,0.7441595,Poor,Good,0
+318021473,Deeragun,318021583,Deeragun - Jensen,0.2558405,Poor,Good,0
+318021474,Douglas,318021474,Douglas,1,Good,Good,0
+318021475,Garbutt - West End,318021475,Garbutt - West End,1,Good,Good,0
+318021476,Gulliver - Currajong - Vincent,318021476,Gulliver - Currajong - Vincent,1,Good,Good,0
+318021477,Heatley,318021477,Heatley,1,Good,Good,0
+318021478,Hermit Park - Rosslea,318021478,Hermit Park - Rosslea,1,Good,Good,0
+318021479,Hyde Park - Pimlico,318021479,Hyde Park - Pimlico,1,Good,Good,0
+318021480,Kelso,318021480,Kelso,1,Good,Good,0
+318021481,Kirwan - East,318021481,Kirwan - East,1,Good,Good,0
+318021482,Kirwan - West,318021482,Kirwan - West,1,Good,Good,0
+318021483,Magnetic Island,318021483,Magnetic Island,1,Good,Good,0
+318021484,Mount Louisa,318021484,Mount Louisa,1,Good,Good,0
+318021485,Mundingburra,318021485,Mundingburra,1,Good,Good,0
+318021486,Northern Beaches,318021486,Northern Beaches,1,Good,Good,0
+318021487,Oonoonba,318021487,Oonoonba,1,Good,Good,0
+318021488,South Townsville - Railway Estate,318021488,South Townsville - Railway Estate,1,Good,Good,0
+318021489,Townsville - South,318021489,Townsville - South,1,Good,Good,0
+318021490,Townsville City - North Ward,318021490,Townsville City - North Ward,1,Good,Good,0
+318021491,Wulguru - Roseneath,318021491,Wulguru - Roseneath,1,Good,Good,0
+319011492,Ashfield - Kepnock,319011492,Ashfield - Kepnock,1,Good,Good,0
+319011493,Bargara - Burnett Heads,319011493,Bargara - Burnett Heads,1,Good,Good,0
+319011494,Branyan - Kensington,319011494,Branyan - Kensington,1,Good,Good,0
+319011495,Bundaberg,319011495,Bundaberg,1,Good,Good,0
+319011496,Bundaberg East - Kalkie,319011496,Bundaberg East - Kalkie,1,Good,Good,0
+319011497,Bundaberg North - Gooburrum,319011497,Bundaberg North - Gooburrum,1,Good,Good,0
+319011498,Bundaberg Region - North,319011498,Bundaberg Surrounds - North,1,Good,Good,0
+319011499,Bundaberg Region - South,319011499,Bundaberg Surrounds - South,1,Good,Good,0
+319011500,Millbank - Avoca,319011500,Millbank - Avoca,1,Good,Good,0
+319011501,Svensson Heights - Norville,319011501,Svensson Heights - Norville,1,Good,Good,0
+319011502,Walkervale - Avenell Heights,319011502,Walkervale - Avenell Heights,1,Good,Good,0
+319021503,Gayndah - Mundubbera,319021503,Gayndah - Mundubbera,1,Good,Good,0
+319021504,Gin Gin,319021504,Gin Gin,1,Good,Good,0
+319021505,Kingaroy,319021505,Kingaroy,1,Good,Good,0
+319021506,Kingaroy Region - North,319021506,Kingaroy Surrounds - North,1,Good,Good,0
+319021507,Kingaroy Region - South,319021507,Kingaroy Surrounds - South,1,Good,Good,0
+319021508,Monto - Eidsvold,319021508,Monto - Eidsvold,1,Good,Good,0
+319021509,Nanango,319021509,Nanango,1,Good,Good,0
+319021510,North Burnett,319021510,North Burnett,1,Good,Good,0
+319031511,Cooloola,319031511,Cooloola,1,Good,Good,0
+319031512,Gympie - North,319031512,Gympie - North,1,Good,Good,0
+319031513,Gympie - South,319031513,Gympie - South,1,Good,Good,0
+319031514,Gympie Region,319031514,Gympie Surrounds,1,Good,Good,0
+319031515,Kilkivan,319031515,Kilkivan,1,Good,Good,0
+319041516,Booral - River Heads,319041516,Booral - River Heads,1,Good,Good,0
+319041517,Craignish - Dundowran Beach,319041517,Craignish - Dundowran Beach,1,Good,Good,0
+319041518,Pialba - Eli Waters,319041518,Pialba - Eli Waters,1,Good,Good,0
+319041519,Point Vernon,319041519,Point Vernon,1,Good,Good,0
+319041520,Torquay - Scarness - Kawungan,319041520,Torquay - Scarness - Kawungan,1,Good,Good,0
+319041521,Urangan - Wondunna,319041521,Urangan - Wondunna,1,Good,Good,0
+319051522,Burrum - Fraser,319051522,Burrum - Fraser,1,Good,Good,0
+319051523,Granville,319051523,Granville,1,Good,Good,0
+319051524,Maryborough (Qld),319051524,Maryborough (Qld),1,Good,Good,0
+319051525,Maryborough Region - South,319051525,Maryborough Surrounds - South,1,Good,Good,0
+319051526,Tinana,319051526,Tinana,1,Good,Good,0
+397979799,Migratory - Offshore - Shipping (Qld),397979799,Migratory - Offshore - Shipping (Qld),1,Good,Good,0
+399999499,No usual address (Qld),399999499,No usual address (Qld),1,Good,Good,0
+401011001,Adelaide,401011001,Adelaide,1,Good,Good,0
+401011002,North Adelaide,401011002,North Adelaide,1,Good,Good,0
+401021003,Adelaide Hills,401021003,Adelaide Hills,1,Good,Good,0
+401021004,Aldgate - Stirling,401021004,Aldgate - Stirling,1,Good,Good,0
+401021005,Hahndorf - Echunga,401021005,Hahndorf - Echunga,1,Good,Good,0
+401021006,Lobethal - Woodside,401021006,Lobethal - Woodside,1,Good,Good,0
+401021007,Mount Barker,401021007,Mount Barker,1,Good,Good,0
+401021008,Mount Barker Region,401021008,Mount Barker Surrounds,1,Good,Good,0
+401021009,Nairne,401021009,Nairne,1,Good,Good,0
+401021010,Uraidla - Summertown,401021010,Uraidla - Summertown,1,Good,Good,0
+401031011,Burnside - Wattle Park,401031011,Burnside - Wattle Park,1,Good,Good,0
+401031012,Glenside - Beaumont,401031012,Beaumont - Glen Osmond,1,Good,Good,0
+401031013,Toorak Gardens,401031013,Toorak Gardens,1,Good,Good,0
+401041014,Athelstone,401041014,Athelstone,1,Good,Good,0
+401041015,Paradise - Newton,401041015,Paradise - Newton,1,Good,Good,0
+401041016,Rostrevor - Magill,401041016,Rostrevor - Magill,1,Good,Good,0
+401051017,Norwood (SA),401051017,Norwood (SA),1,Good,Good,0
+401051018,Payneham - Felixstow,401051018,Payneham - Felixstow,1,Good,Good,0
+401051019,St Peters - Marden,401051019,St Peters - Marden,1,Good,Good,0
+401061020,Nailsworth - Broadview,401061020,Nailsworth - Broadview,1,Good,Good,0
+401061021,Prospect,401061021,Prospect,1,Good,Good,0
+401061022,Walkerville,401061022,Walkerville,1,Good,Good,0
+401071023,Goodwood - Millswood,401071023,Goodwood - Millswood,1,Good,Good,0
+401071024,Unley - Parkside,401071024,Unley - Parkside,1,Good,Good,0
+402011025,Gawler - North,402011025,Gawler - North,1,Good,Good,0
+402011026,Gawler - South,402011026,Gawler - South,1,Good,Good,0
+402011027,Lewiston - Two Wells,402011027,Lewiston - Two Wells,1,Good,Good,0
+402021028,Craigmore - Blakeview,402021028,Craigmore - Blakeview,1,Good,Good,0
+402021029,Davoren Park,402021029,Davoren Park,1,Good,Good,0
+402021030,Elizabeth,402021030,Elizabeth,1,Good,Good,0
+402021031,Elizabeth East,402021031,Elizabeth East,1,Good,Good,0
+402021032,Munno Para West - Angle Vale,402021032,Munno Para West - Angle Vale,1,Good,Good,0
+402021033,One Tree Hill,402021033,One Tree Hill,1,Good,Good,0
+402021034,Smithfield - Elizabeth North,402021034,Smithfield - Elizabeth North,1,Good,Good,0
+402021035,Virginia - Waterloo Corner,402021035,Virginia - Waterloo Corner,1,Good,Good,0
+402031036,Enfield - Blair Athol,402031036,Enfield - Blair Athol,1,Good,Good,0
+402031037,Northgate - Oakden - Gilles Plains,402031175,Northgate - Northfield,0.5863112,Poor,Good,0
+402031037,Northgate - Oakden - Gilles Plains,402031176,Valley View - Gilles Plains,0.4136888,Poor,Good,0
+402031038,Windsor Gardens,402031038,Windsor Gardens,1,Good,Good,0
+402041039,Dry Creek - North,402041039,Dry Creek - North,1,Good,Good,0
+402041040,Ingle Farm,402041040,Ingle Farm,1,Good,Good,0
+402041041,Para Hills,402041041,Para Hills,1,Good,Good,0
+402041042,Parafield,402041042,Parafield,1,Good,Good,0
+402041043,Parafield Gardens,402041043,Parafield Gardens,1,Good,Good,0
+402041044,Paralowie,402041044,Paralowie,1,Good,Good,0
+402041046,Salisbury,402041046,Salisbury,1,Good,Good,0
+402041047,Salisbury East,402041047,Salisbury East,1,Good,Good,0
+402041048,Salisbury North,402041048,Salisbury North,1,Good,Good,0
+402041171,Mawson Lakes - Globe Derby Park,402041171,Mawson Lakes - Globe Derby Park,1,Good,Good,0
+402041172,Pooraka - Cavan,402041172,Pooraka - Cavan,1,Good,Good,0
+402051049,Golden Grove,402051049,Golden Grove,1,Good,Good,0
+402051050,Greenwith,402051050,Greenwith,1,Good,Good,0
+402051051,Highbury - Dernancourt,402051051,Highbury - Dernancourt,1,Good,Good,0
+402051052,Hope Valley - Modbury,402051052,Hope Valley - Modbury,1,Good,Good,0
+402051053,Modbury Heights,402051053,Modbury Heights,1,Good,Good,0
+402051054,Redwood Park,402051054,Redwood Park,1,Good,Good,0
+402051055,St Agnes - Ridgehaven,402051055,St Agnes - Ridgehaven,1,Good,Good,0
+403011056,Brighton (SA),403011056,Brighton (SA),1,Good,Good,0
+403011057,Glenelg (SA),403011057,Glenelg (SA),1,Good,Good,0
+403021058,Edwardstown,403021058,Edwardstown,1,Good,Good,0
+403021059,Hallett Cove,403021059,Hallett Cove,1,Good,Good,0
+403021060,Marino - Seaview Downs,403021060,Marino - Seaview Downs,1,Good,Good,0
+403021061,Mitchell Park,403021061,Mitchell Park,1,Good,Good,0
+403021062,Morphettville,403021062,Morphettville,1,Good,Good,0
+403021063,Sheidow Park - Trott Park,403021063,Sheidow Park - Trott Park,1,Good,Good,0
+403021064,Warradale,403021064,Warradale,1,Good,Good,0
+403031065,Belair,403031065,Belair,1,Good,Good,0
+403031066,Bellevue Heights,403031066,Bellevue Heights,1,Good,Good,0
+403031067,Blackwood,403031067,Blackwood,1,Good,Good,0
+403031068,Colonel Light Gardens,403031068,Colonel Light Gardens,1,Good,Good,0
+403031069,Mitcham (SA),403031069,Mitcham (SA),1,Good,Good,0
+403031070,Panorama,403031070,Panorama,1,Good,Good,0
+403041071,Aberfoyle Park,403041071,Aberfoyle Park,1,Good,Good,0
+403041072,Aldinga,403041072,Aldinga,1,Good,Good,0
+403041073,Christie Downs,403041073,Christie Downs,1,Good,Good,0
+403041074,Christies Beach,403041074,Christies Beach,1,Good,Good,0
+403041075,Clarendon,403041075,Clarendon,1,Good,Good,0
+403041076,Coromandel Valley,403041076,Coromandel Valley,1,Good,Good,0
+403041077,Flagstaff Hill,403041077,Flagstaff Hill,1,Good,Good,0
+403041078,Hackham - Onkaparinga Hills,403041078,Hackham - Onkaparinga Hills,1,Good,Good,0
+403041079,Hackham West - Huntfield Heights,403041079,Hackham West - Huntfield Heights,1,Good,Good,0
+403041080,Happy Valley,403041080,Happy Valley,1,Good,Good,0
+403041081,Happy Valley Reservoir,403041081,Happy Valley Reservoir,1,Good,Good,0
+403041082,Lonsdale,403041082,Lonsdale,1,Good,Good,0
+403041083,McLaren Vale,403041083,McLaren Vale,1,Good,Good,0
+403041084,Morphett Vale - East,403041084,Morphett Vale - East,1,Good,Good,0
+403041085,Morphett Vale - West,403041085,Morphett Vale - West,1,Good,Good,0
+403041086,Reynella,403041086,Reynella,1,Good,Good,0
+403041087,Seaford (SA),403041177,Seaford - Seaford Meadows,0.5559514,Poor,Good,0
+403041087,Seaford (SA),403041178,Seaford Rise - Moana,0.4440486,Poor,Good,0
+403041088,Willunga,403041088,Willunga,1,Good,Good,0
+403041089,Woodcroft,403041089,Woodcroft,1,Good,Good,0
+404011090,Beverley,404011090,Beverley,0.9979007,Good,Good,0
+404011090,Beverley,404011091,Flinders Park,0.0020993,Good,Good,1
+404011091,Flinders Park,404011091,Flinders Park,1,Good,Good,0
+404011092,Henley Beach,404011092,Henley Beach,1,Good,Good,0
+404011093,Hindmarsh - Brompton,404011093,Hindmarsh - Brompton,1,Good,Good,0
+404011094,Royal Park - Hendon - Albert Park,404011094,Royal Park - Hendon - Albert Park,1,Good,Good,0
+404011095,Seaton - Grange,404011095,Seaton - Grange,1,Good,Good,0
+404011096,West Lakes,404011096,West Lakes,1,Good,Good,0
+404011097,Woodville - Cheltenham,404011097,Woodville - Cheltenham,1,Good,Good,0
+404021098,Dry Creek - South,404021098,Dry Creek - South,1,Good,Good,0
+404021099,Largs Bay - Semaphore,404021099,Largs Bay - Semaphore,1,Good,Good,0
+404021100,North Haven,404021100,North Haven,1,Good,Good,0
+404021101,Port Adelaide,404021101,Port Adelaide,1,Good,Good,0
+404021102,The Parks,404021102,The Parks,1,Good,Good,0
+404021103,Torrens Island,404021103,Torrens Island,1,Good,Good,0
+404031104,Adelaide Airport,404031104,Adelaide Airport,1,Good,Good,0
+404031105,Fulham,404031105,Fulham,1,Good,Good,0
+404031106,Lockleys,404031106,Lockleys,1,Good,Good,0
+404031107,Plympton,404031107,Plympton,1,Good,Good,0
+404031108,Richmond (SA),404031108,Richmond (SA),1,Good,Good,0
+404031109,West Beach,404031109,West Beach,1,Good,Good,0
+405011110,Barossa - Angaston,405011110,Barossa - Angaston,1,Good,Good,0
+405011111,Light,405011111,Light,1,Good,Good,0
+405011112,Lyndoch,405011112,Lyndoch,1,Good,Good,0
+405011113,Mallala,405011113,Mallala,1,Good,Good,0
+405011114,Nuriootpa,405011114,Nuriootpa,1,Good,Good,0
+405011115,Tanunda,405011115,Tanunda,1,Good,Good,0
+405021116,Clare,405021116,Clare,1,Good,Good,0
+405021117,Gilbert Valley,405021117,Gilbert Valley,1,Good,Good,0
+405021118,Goyder,405021118,Goyder,1,Good,Good,0
+405021119,Wakefield - Barunga West,405021119,Wakefield - Barunga West,1,Good,Good,0
+405031120,Jamestown,405031120,Jamestown,1,Good,Good,0
+405031121,Peterborough - Mount Remarkable,405031121,Peterborough - Mount Remarkable,1,Good,Good,0
+405031122,Port Pirie,405031122,Port Pirie,1,Good,Good,0
+405031123,Port Pirie Region,405031123,Port Pirie Surrounds,1,Good,Good,0
+405041124,Kadina,405041124,Kadina,1,Good,Good,0
+405041125,Moonta,405041125,Moonta,1,Good,Good,0
+405041126,Wallaroo,405041126,Wallaroo,1,Good,Good,0
+405041127,Yorke Peninsula - North,405041127,Yorke Peninsula - North,1,Good,Good,0
+405041128,Yorke Peninsula - South,405041128,Yorke Peninsula - South,1,Good,Good,0
+406011129,Ceduna,406011129,Ceduna,1,Good,Good,0
+406011130,Eyre Peninsula,406011130,Eyre Peninsula,1,Good,Good,0
+406011131,Kimba - Cleve - Franklin Harbour,406011131,Kimba - Cleve - Franklin Harbour,1,Good,Good,0
+406011132,Le Hunte - Elliston,406011132,Le Hunte - Elliston,1,Good,Good,0
+406011133,Port Lincoln,406011133,Port Lincoln,1,Good,Good,0
+406011134,West Coast (SA),406011134,West Coast (SA),1,Good,Good,0
+406011135,Western,406011135,Western,1,Good,Good,0
+406011136,Whyalla,406011136,Whyalla,1,Good,Good,0
+406011137,Whyalla - North,406011137,Whyalla - North,1,Good,Good,0
+406021138,APY Lands,406021138,APY Lands,1,Good,Good,0
+406021139,Coober Pedy,406021139,Coober Pedy,1,Good,Good,0
+406021140,Quorn - Lake Gilles,406021140,Quorn - Lake Gilles,1,Good,Good,0
+406021141,Outback,406021141,Outback,1,Good,Good,0
+406021142,Port Augusta,406021142,Port Augusta,1,Good,Good,0
+406021143,Roxby Downs,406021143,Roxby Downs,1,Good,Good,0
+407011144,Goolwa - Port Elliot,407011144,Goolwa - Port Elliot,1,Good,Good,0
+407011145,Kangaroo Island,407011145,Kangaroo Island,1,Good,Good,0
+407011146,Strathalbyn,407011146,Strathalbyn,1,Good,Good,0
+407011147,Strathalbyn Region,407011147,Strathalbyn Surrounds,1,Good,Good,0
+407011148,Victor Harbor,407011148,Victor Harbor,1,Good,Good,0
+407011149,Yankalilla,407011149,Yankalilla,1,Good,Good,0
+407021150,Grant,407021150,Grant,1,Good,Good,0
+407021151,Kingston - Robe,407021151,Kingston - Robe,1,Good,Good,0
+407021152,Millicent,407021152,Millicent,1,Good,Good,0
+407021154,Naracoorte,407021154,Naracoorte,1,Good,Good,0
+407021155,Naracoorte Region,407021155,Naracoorte Surrounds,1,Good,Good,0
+407021156,Penola,407021156,Penola,1,Good,Good,0
+407021157,Tatiara,407021157,Tatiara,1,Good,Good,0
+407021158,Wattle Range,407021158,Wattle Range,1,Good,Good,0
+407021173,Mount Gambier - East,407021173,Mount Gambier - East,1,Good,Good,0
+407021174,Mount Gambier - West,407021174,Mount Gambier - West,1,Good,Good,0
+407031159,Barmera,407031159,Barmera,1,Good,Good,0
+407031160,Berri,407031160,Berri,1,Good,Good,0
+407031161,Karoonda - Lameroo,407031161,Karoonda - Lameroo,1,Good,Good,0
+407031162,Loxton,407031162,Loxton,1,Good,Good,0
+407031163,Loxton Region,407031163,Loxton Surrounds,1,Good,Good,0
+407031164,Mannum,407031164,Mannum,1,Good,Good,0
+407031165,Murray Bridge,407031165,Murray Bridge,1,Good,Good,0
+407031166,Murray Bridge Region,407031166,Murray Bridge Surrounds,1,Good,Good,0
+407031167,Renmark,407031167,Renmark,1,Good,Good,0
+407031168,Renmark Region,407031168,Renmark Surrounds,1,Good,Good,0
+407031169,The Coorong,407031169,The Coorong,1,Good,Good,0
+407031170,Waikerie,407031170,Waikerie,1,Good,Good,0
+497979799,Migratory - Offshore - Shipping (SA),497979799,Migratory - Offshore - Shipping (SA),1,Good,Good,0
+499999499,No usual address (SA),499999499,No usual address (SA),1,Good,Good,0
+501011001,Augusta,501011001,Augusta,1,Good,Good,0
+501011002,Busselton,501011293,Busselton - East,0.3286241,Poor,Good,0
+501011002,Busselton,501011294,Busselton - West,0.6713759,Poor,Good,0
+501011003,Busselton Region,501011003,Busselton Surrounds,1,Good,Good,0
+501011004,Margaret River,501011004,Margaret River,1,Good,Good,0
+501021005,Australind - Leschenault,501021005,Australind - Leschenault,1,Good,Good,0
+501021007,Capel,501021007,Capel,1,Good,Good,0
+501021008,College Grove - Carey Park,501021008,College Grove - Carey Park,1,Good,Good,0
+501021009,Collie,501021009,Collie,1,Good,Good,0
+501021010,Dardanup,501021010,Dardanup,1,Good,Good,0
+501021011,Davenport,501021011,Davenport,1,Good,Good,0
+501021012,Eaton - Pelican Point,501021012,Eaton - Pelican Point,1,Good,Good,0
+501021014,Harvey,501021014,Harvey,1,Good,Good,0
+501021015,East Bunbury - Glen Iris,501021015,East Bunbury - Glen Iris,1,Good,Good,0
+501021016,Waroona,501021016,Waroona,1,Good,Good,0
+501021251,Dalyellup,501021251,Dalyellup,1,Good,Good,0
+501021252,Gelorup - Stratham,501021252,Gelorup - Stratham,1,Good,Good,0
+501021253,South Bunbury - Bunbury,501021253,South Bunbury - Bunbury,1,Good,Good,0
+501021254,Withers - Usher,501021254,Withers - Usher,1,Good,Good,0
+501031017,Bridgetown - Boyup Brook,501031017,Bridgetown - Boyup Brook,1,Good,Good,0
+501031018,Donnybrook - Balingup,501031018,Donnybrook - Balingup,1,Good,Good,0
+501031019,Manjimup,501031019,Manjimup,1,Good,Good,0
+501031020,Pemberton,501031020,Pemberton,1,Good,Good,0
+502011021,Dawesville - Bouvard,502011021,Dawesville - Bouvard,1,Good,Good,0
+502011022,Falcon - Wannanup,502011022,Falcon - Wannanup,1,Good,Good,0
+502011023,Greenfields,502011023,Greenfields,1,Good,Good,0
+502011024,Halls Head - Erskine,502011024,Halls Head - Erskine,1,Good,Good,0
+502011025,Mandurah,502011025,Mandurah,1,Good,Good,0
+502011026,Mandurah - East,502011026,Mandurah - East,1,Good,Good,0
+502011027,Mandurah - North,502011027,Mandurah - North,1,Good,Good,0
+502011028,Mandurah - South,502011028,Mandurah - South,1,Good,Good,0
+502011029,Pinjarra,502011029,Pinjarra,1,Good,Good,0
+503011030,City Beach,503011030,City Beach,1,Good,Good,0
+503011031,Claremont (WA),503011031,Claremont (WA),1,Good,Good,0
+503011032,Cottesloe,503011032,Cottesloe,1,Good,Good,0
+503011033,Floreat,503011033,Floreat,1,Good,Good,0
+503011034,Mosman Park - Peppermint Grove,503011034,Mosman Park - Peppermint Grove,1,Good,Good,0
+503011035,Nedlands - Dalkeith - Crawley,503011035,Nedlands - Dalkeith - Crawley,1,Good,Good,0
+503011036,Swanbourne - Mount Claremont,503011036,Swanbourne - Mount Claremont,1,Good,Good,0
+503021037,Kings Park (WA),503021037,Kings Park (WA),1,Good,Good,0
+503021038,Mount Hawthorn - Leederville,503021038,Mount Hawthorn - Leederville,1,Good,Good,0
+503021039,Mount Lawley - Inglewood,503021039,Mount Lawley - Inglewood,1,Good,Good,0
+503021040,North Perth,503021040,North Perth,1,Good,Good,0
+503021041,Perth City,503021295,East Perth,0.3493915,Poor,Good,0
+503021041,Perth City,503021296,Perth (North) - Highgate,0.3560715,Poor,Good,0
+503021041,Perth City,503021297,Perth (West) - Northbridge,0.294537,Poor,Good,0
+503021042,Subiaco - Shenton Park,503021042,Subiaco - Shenton Park,1,Good,Good,0
+503021043,Wembley - West Leederville - Glendalough,503021043,Wembley - West Leederville - Glendalough,1,Good,Good,0
+504011044,Bassendean - Eden Hill - Ashfield,504011044,Bassendean - Eden Hill - Ashfield,1,Good,Good,0
+504011045,Bayswater - Embleton - Bedford,504011045,Bayswater - Embleton - Bedford,1,Good,Good,0
+504011046,Maylands,504011046,Maylands,1,Good,Good,0
+504011047,Morley,504011047,Morley,1,Good,Good,0
+504011048,Noranda,504011048,Noranda,1,Good,Good,0
+504021049,Chidlow,504021049,Chidlow,1,Good,Good,0
+504021050,Glen Forrest - Darlington,504021050,Glen Forrest - Darlington,1,Good,Good,0
+504021051,Helena Valley - Koongamia,504021051,Helena Valley - Koongamia,1,Good,Good,0
+504021052,Malmalling - Reservoir,504021052,Malmalling - Reservoir,1,Good,Good,0
+504021053,Mundaring,504021053,Mundaring,1,Good,Good,0
+504021054,Swan View - Greenmount - Midvale,504021054,Swan View - Greenmount - Midvale,1,Good,Good,0
+504031055,Avon Valley National Park,504031055,Avon Valley National Park,1,Good,Good,0
+504031056,Ballajura,504031056,Ballajura,1,Good,Good,0
+504031057,Beechboro,504031057,Beechboro,1,Good,Good,0
+504031058,Bullsbrook,504031058,Bullsbrook,1,Good,Good,0
+504031059,Ellenbrook,504031298,Aveley,0.3300987,Poor,Good,0
+504031059,Ellenbrook,504031299,Brabham - Henley Brook,0.1610479,Poor,Good,0
+504031059,Ellenbrook,504031300,Ellenbrook,0.5088534,Poor,Good,0
+504031060,Gidgegannup,504031060,Gidgegannup,1,Good,Good,0
+504031061,Hazelmere - Guildford,504031061,Hazelmere - Guildford,1,Good,Good,0
+504031062,Lockridge - Kiara,504031062,Lockridge - Kiara,1,Good,Good,0
+504031063,Malaga,504031063,Malaga,1,Good,Good,0
+504031064,Melaleuca - Lexia,504031064,Melaleuca - Lexia,1,Good,Good,0
+504031065,Middle Swan - Herne Hill,504031065,Middle Swan - Herne Hill,1,Good,Good,0
+504031066,Midland - Guildford,504031066,Midland - Guildford,1,Good,Good,0
+504031067,Stratton - Jane Brook,504031067,Stratton - Jane Brook,1,Good,Good,0
+504031068,The Vines,504031068,The Vines,1,Good,Good,0
+504031069,Walyunga National Park,504031069,Walyunga National Park,1,Good,Good,0
+505011070,Craigie - Beldon,505011070,Craigie - Beldon,1,Good,Good,0
+505011071,Currambine - Kinross,505011071,Currambine - Kinross,1,Good,Good,0
+505011072,Duncraig,505011072,Duncraig,1,Good,Good,0
+505011073,Greenwood - Warwick,505011073,Greenwood - Warwick,1,Good,Good,0
+505011074,Heathridge - Connolly,505011074,Heathridge - Connolly,1,Good,Good,0
+505011075,Hillarys,505011075,Hillarys,1,Good,Good,0
+505011076,Iluka - Burns Beach,505011076,Iluka - Burns Beach,1,Good,Good,0
+505011077,Joondalup - Edgewater,505011077,Joondalup - Edgewater,1,Good,Good,0
+505011078,Kingsley,505011078,Kingsley,1,Good,Good,0
+505011079,Mullaloo - Kallaroo,505011079,Mullaloo - Kallaroo,1,Good,Good,0
+505011080,Ocean Reef,505011080,Ocean Reef,1,Good,Good,0
+505011081,Padbury,505011081,Padbury,1,Good,Good,0
+505011082,Sorrento - Marmion,505011082,Sorrento - Marmion,1,Good,Good,0
+505011083,Woodvale,505011083,Woodvale,1,Good,Good,0
+505021084,Balcatta - Hamersley,505021084,Balcatta - Hamersley,1,Good,Good,0
+505021085,Balga - Mirrabooka,505021085,Balga - Mirrabooka,1,Good,Good,0
+505021086,Dianella,505021301,Dianella - North,0.4800172,Poor,Good,0
+505021086,Dianella,505021302,Dianella - South,0.5199828,Poor,Good,0
+505021087,Herdsman,505021087,Herdsman,1,Good,Good,0
+505021088,Innaloo - Doubleview,505021088,Innaloo - Doubleview,1,Good,Good,0
+505021089,Karrinyup - Gwelup - Carine,505021089,Karrinyup - Gwelup - Carine,1,Good,Good,0
+505021090,Nollamara - Westminster,505021090,Nollamara - Westminster,1,Good,Good,0
+505021091,Osborne Park Industrial,505021091,Osborne Park Industrial,1,Good,Good,0
+505021092,Scarborough,505021092,Scarborough,1,Good,Good,0
+505021093,Stirling - Osborne Park,505021093,Stirling - Osborne Park,1,Good,Good,0
+505021094,Trigg - North Beach - Watermans Bay,505021094,Trigg - North Beach - Watermans Bay,1,Good,Good,0
+505021095,Tuart Hill - Joondanna,505021095,Tuart Hill - Joondanna,1,Good,Good,0
+505021096,Wembley Downs - Churchlands - Woodlands,505021096,Wembley Downs - Churchlands - Woodlands,1,Good,Good,0
+505021097,Yokine - Coolbinia - Menora,505021097,Yokine - Coolbinia - Menora,1,Good,Good,0
+505031098,Alexander Heights - Koondoola,505031098,Alexander Heights - Koondoola,1,Good,Good,0
+505031099,Butler - Merriwa - Ridgewood,505031099,Butler - Merriwa - Ridgewood,1,Good,Good,0
+505031100,Carramar,505031100,Carramar,1,Good,Good,0
+505031101,Clarkson,505031101,Clarkson,1,Good,Good,0
+505031102,Girrawheen,505031102,Girrawheen,1,Good,Good,0
+505031103,Madeley - Darch - Landsdale,505031304,Landsdale,0.4818861,Poor,Good,0
+505031103,Madeley - Darch - Landsdale,505031305,Madeley - Darch,0.5181139,Poor,Good,0
+505031104,Marangaroo,505031104,Marangaroo,1,Good,Good,0
+505031105,Mindarie - Quinns Rocks - Jindalee,505031105,Mindarie - Quinns Rocks - Jindalee,1,Good,Good,0
+505031106,Neerabup National Park,505031099,Butler - Merriwa - Ridgewood,0.0003169,Good,Good,1
+505031106,Neerabup National Park,505031106,Neerabup National Park,0.9996831,Good,Good,0
+505031107,Tapping - Ashby - Sinagra,505031107,Tapping - Ashby - Sinagra,1,Good,Good,0
+505031108,Wanneroo,505031303,Hocking - Pearsall,0.4470989,Poor,Good,0
+505031108,Wanneroo,505031306,Wanneroo - Sinagra,0.5529011,Poor,Good,0
+505031255,Alkimos - Eglinton,505031255,Alkimos - Eglinton,1,Good,Good,0
+505031256,Carabooda - Pinjar,505031256,Carabooda - Pinjar,1,Good,Good,0
+505031257,Two Rocks,505031257,Two Rocks,1,Good,Good,0
+505031258,Yanchep,505031258,Yanchep,1,Good,Good,0
+506011110,Armadale - Wungong - Brookdale,506011110,Armadale - Wungong - Brookdale,1,Good,Good,0
+506011111,Ashendon - Lesley,506011111,Ashendon - Lesley,1,Good,Good,0
+506011112,Camillo - Champion Lakes,506011112,Camillo - Champion Lakes,1,Good,Good,0
+506011113,Forrestdale - Harrisdale - Piara Waters,506011307,Harrisdale,0.4727953,Poor,Good,0
+506011113,Forrestdale - Harrisdale - Piara Waters,506011308,Piara Waters - Forrestdale,0.5272047,Poor,Good,0
+506011114,Kelmscott,506011114,Kelmscott,1,Good,Good,0
+506011115,Mount Nasura - Mount Richon - Bedfordale,506011115,Mount Nasura - Mount Richon - Bedfordale,1,Good,Good,0
+506011116,Roleystone,506011116,Roleystone,1,Good,Good,0
+506011117,Seville Grove,506011117,Seville Grove,1,Good,Good,0
+506021118,Belmont - Ascot - Redcliffe,506021118,Belmont - Ascot - Redcliffe,1,Good,Good,0
+506021119,East Victoria Park - Carlisle,506021119,East Victoria Park - Carlisle,1,Good,Good,0
+506021120,Kewdale Commercial,506021120,Kewdale Commercial,1,Good,Good,0
+506021121,Perth Airport,506021121,Perth Airport,1,Good,Good,0
+506021122,Rivervale - Kewdale - Cloverdale,506021309,Cloverdale,0.3184433,Poor,Good,0
+506021122,Rivervale - Kewdale - Cloverdale,506021310,Kewdale,0.2719537,Poor,Good,0
+506021122,Rivervale - Kewdale - Cloverdale,506021311,Rivervale,0.409603,Poor,Good,0
+506021123,Victoria Park - Lathlain - Burswood,506021123,Victoria Park - Lathlain - Burswood,1,Good,Good,0
+506031124,Bentley - Wilson - St James,506031124,Bentley - Wilson - St James,1,Good,Good,0
+506031125,Canning Vale - West,506031125,Canning Vale - West,1,Good,Good,0
+506031126,Canning Vale Commercial,506031126,Canning Vale Commercial,1,Good,Good,0
+506031127,Cannington - Queens Park,506031127,Cannington - Queens Park,1,Good,Good,0
+506031128,Parkwood - Ferndale - Lynwood,506031128,Parkwood - Ferndale - Lynwood,1,Good,Good,0
+506031129,Riverton - Shelley - Rossmoyne,506031129,Riverton - Shelley - Rossmoyne,1,Good,Good,0
+506031130,Welshpool,506031130,Welshpool,1,Good,Good,0
+506031131,Willetton,506031131,Willetton,1,Good,Good,0
+506041132,Beckenham - Kenwick - Langford,506041132,Beckenham - Kenwick - Langford,1,Good,Good,0
+506041133,Canning Vale - East,506041133,Canning Vale - East,1,Good,Good,0
+506041134,Gosnells,506041134,Gosnells,1,Good,Good,0
+506041135,Huntingdale - Southern River,506041135,Huntingdale - Southern River,1,Good,Good,0
+506041136,Maddington - Orange Grove - Martin,506041136,Maddington - Orange Grove - Martin,1,Good,Good,0
+506041137,Thornlie,506041137,Thornlie,1,Good,Good,0
+506051138,Forrestfield - Wattle Grove,506051138,Forrestfield - Wattle Grove,1,Good,Good,0
+506051139,High Wycombe,506051139,High Wycombe,1,Good,Good,0
+506051140,Kalamunda - Maida Vale - Gooseberry Hill,506051140,Kalamunda - Maida Vale - Gooseberry Hill,1,Good,Good,0
+506051141,Lesmurdie - Bickley - Carmel,506051141,Lesmurdie - Bickley - Carmel,1,Good,Good,0
+506061142,Byford,506061142,Byford,1,Good,Good,0
+506061143,Mundijong,506061143,Mundijong,1,Good,Good,0
+506061144,Serpentine - Jarrahdale,506061144,Serpentine - Jarrahdale,1,Good,Good,0
+506071145,Como,506071145,Como,1,Good,Good,0
+506071146,Manning - Waterford,506071146,Manning - Waterford,1,Good,Good,0
+506071147,South Perth - Kensington,506071147,South Perth - Kensington,1,Good,Good,0
+507011148,Banjup,507011148,Banjup,1,Good,Good,0
+507011150,Bibra Industrial,507011150,Bibra Industrial,1,Good,Good,0
+507011151,Bibra Lake,507011151,Bibra Lake,1,Good,Good,0
+507011152,Coogee,507011152,Coogee,1,Good,Good,0
+507011153,Coolbellup,507011153,Coolbellup,1,Good,Good,0
+507011154,Hamilton Hill,507011154,Hamilton Hill,1,Good,Good,0
+507011155,Henderson,507011155,Henderson,1,Good,Good,0
+507011158,North Coogee,507011158,North Coogee,1,Good,Good,0
+507011159,South Lake - Cockburn Central,507011159,South Lake - Cockburn Central,1,Good,Good,0
+507011160,Spearwood,507011160,Spearwood,1,Good,Good,0
+507011161,Success - Hammond Park,507011161,Success - Hammond Park,1,Good,Good,0
+507011163,Yangebup,507011163,Yangebup,1,Good,Good,0
+507011259,Beeliar - Wattleup,507011259,Beeliar - Wattleup,1,Good,Good,0
+507011260,Jandakot,507011260,Jandakot,1,Good,Good,0
+507021164,East Fremantle,507021164,East Fremantle,1,Good,Good,0
+507021165,Fremantle,507021165,Fremantle,1,Good,Good,0
+507021166,Fremantle - South,507021166,Fremantle - South,1,Good,Good,0
+507021167,O'Connor (WA),507021167,O'Connor (WA),1,Good,Good,0
+507031169,Bertram - Wellard (West),507031169,Wellard (West) - Bertram,1,Good,Good,0
+507031170,Calista,507031170,Calista,1,Good,Good,0
+507031172,Hope Valley - Postans,507031172,Hope Valley - Postans,1,Good,Good,0
+507031173,Kwinana Industrial,507031173,Kwinana Industrial,1,Good,Good,0
+507031174,Parmelia - Orelia,507031174,Parmelia - Orelia,1,Good,Good,0
+507031261,Casuarina - Wandi,507031261,Casuarina - Wandi,1,Good,Good,0
+507041175,Applecross - Ardross,507041175,Applecross - Ardross,1,Good,Good,0
+507041176,Bateman,507041176,Bateman,1,Good,Good,0
+507041177,Bicton - Palmyra,507041177,Bicton - Palmyra,1,Good,Good,0
+507041178,Booragoon,507041178,Booragoon,1,Good,Good,0
+507041179,Bull Creek,507041179,Bull Creek,1,Good,Good,0
+507041180,Leeming,507041180,Leeming,1,Good,Good,0
+507041181,Melville,507041181,Melville,1,Good,Good,0
+507041182,Murdoch - Kardinya,507041182,Murdoch - Kardinya,1,Good,Good,0
+507041183,Willagee,507041183,Willagee,1,Good,Good,0
+507041184,Winthrop,507041184,Winthrop,1,Good,Good,0
+507051185,Baldivis,507051312,Baldivis - North,0.2534717,Poor,Good,0
+507051185,Baldivis,507051313,Baldivis - South,0.7052911,Poor,Good,0
+507051185,Baldivis,507051314,Karnup,0.0412372,Poor,Good,0
+507051186,Cooloongup,507051186,Cooloongup,1,Good,Good,0
+507051187,Port Kennedy,507051187,Port Kennedy,1,Good,Good,0
+507051188,Rockingham,507051188,Rockingham,1,Good,Good,0
+507051189,Rockingham Lakes,507051189,Rockingham Lakes,1,Good,Good,0
+507051190,Safety Bay - Shoalwater,507051190,Safety Bay - Shoalwater,1,Good,Good,0
+507051191,Singleton - Golden Bay - Secret Harbour,507051191,Singleton - Golden Bay - Secret Harbour,1,Good,Good,0
+507051192,Waikiki,507051192,Waikiki,1,Good,Good,0
+507051193,Warnbro,507051193,Warnbro,1,Good,Good,0
+509011225,Albany,509011225,Albany,1,Good,Good,0
+509011226,Albany Region,509011226,Albany Surrounds,1,Good,Good,0
+509011227,Bayonet Head - Lower King,509011227,Bayonet Head - Lower King,1,Good,Good,0
+509011228,Denmark,509011228,Denmark,1,Good,Good,0
+509011229,Gnowangerup,509011229,Gnowangerup,1,Good,Good,0
+509011230,Katanning,509011230,Katanning,1,Good,Good,0
+509011231,Kojonup,509011231,Kojonup,1,Good,Good,0
+509011232,Little Grove - Elleker,509011232,Little Grove - Elleker,1,Good,Good,0
+509011233,McKail - Willyung,509011233,McKail - Willyung,1,Good,Good,0
+509011234,Plantagenet,509011234,Plantagenet,1,Good,Good,0
+509011235,Stirling Range National Park,509011235,Stirling Range National Park,1,Good,Good,0
+509021236,Chittering,509021236,Chittering,1,Good,Good,0
+509021237,Cunderdin,509021237,Cunderdin,1,Good,Good,0
+509021238,Dowerin,509021238,Dowerin,1,Good,Good,0
+509021239,Gingin - Dandaragan,509021239,Gingin - Dandaragan,1,Good,Good,0
+509021240,Merredin,509021240,Merredin,1,Good,Good,0
+509021241,Moora,509021241,Moora,1,Good,Good,0
+509021242,Mukinbudin,509021242,Mukinbudin,1,Good,Good,0
+509021243,Northam,509021243,Northam,1,Good,Good,0
+509021244,Toodyay,509021244,Toodyay,1,Good,Good,0
+509021245,York - Beverley,509021245,York - Beverley,1,Good,Good,0
+509031246,Brookton,509031246,Brookton,1,Good,Good,0
+509031247,Kulin,509031247,Kulin,1,Good,Good,0
+509031248,Murray,509031248,Murray,1,Good,Good,0
+509031249,Narrogin,509031249,Narrogin,1,Good,Good,0
+509031250,Wagin,509031250,Wagin,1,Good,Good,0
+510011262,Broome,510011262,Broome,1,Good,Good,0
+510011263,Derby - West Kimberley,510011263,Derby - West Kimberley,1,Good,Good,0
+510011264,Halls Creek,510011264,Halls Creek,1,Good,Good,0
+510011265,Kununurra,510011265,Kununurra,1,Good,Good,0
+510011266,Roebuck,510011266,Roebuck,1,Good,Good,0
+510021267,East Pilbara,510021267,East Pilbara,1,Good,Good,0
+510021268,Newman,510021268,Newman,1,Good,Good,0
+510021269,Port Hedland,510021269,Port Hedland,1,Good,Good,0
+510021270,South Hedland,510021270,South Hedland,1,Good,Good,0
+510031271,Ashburton (WA),510031271,Ashburton (WA),1,Good,Good,0
+510031272,Karratha,510031272,Karratha,1,Good,Good,0
+510031273,Roebourne,510031273,Roebourne,1,Good,Good,0
+511011274,Esperance,511011274,Esperance,1,Good,Good,0
+511011275,Esperance Region,511011275,Esperance Surrounds,1,Good,Good,0
+511021276,Carnarvon,511021276,Carnarvon,1,Good,Good,0
+511021277,Exmouth,511021277,Exmouth,1,Good,Good,0
+511031278,Boulder,511031278,Boulder,1,Good,Good,0
+511031279,Kalgoorlie,511031279,Kalgoorlie,1,Good,Good,0
+511031280,Kalgoorlie - North,511031280,Kalgoorlie - North,1,Good,Good,0
+511031281,Kalgoorlie Airport,511031281,Kalgoorlie Airport,1,Good,Good,0
+511031282,Kambalda - Coolgardie - Norseman,511031282,Kambalda - Coolgardie - Norseman,1,Good,Good,0
+511031283,Leinster - Leonora,511031283,Leinster - Leonora,1,Good,Good,0
+511031284,Trafalgar (WA),511031284,Trafalgar (WA),1,Good,Good,0
+511041285,Geraldton,511041285,Geraldton,1,Good,Good,0
+511041286,Geraldton - East,511041286,Geraldton - East,1,Good,Good,0
+511041287,Geraldton - North,511041287,Geraldton - North,1,Good,Good,0
+511041288,Geraldton - South,511041288,Geraldton - South,1,Good,Good,0
+511041289,Irwin,511041289,Irwin,1,Good,Good,0
+511041290,Meekatharra,511041290,Meekatharra,1,Good,Good,0
+511041291,Morawa,511041291,Morawa,1,Good,Good,0
+511041292,Northampton - Mullewa - Greenough,511041292,Northampton - Mullewa - Greenough,1,Good,Good,0
+597979799,Migratory - Offshore - Shipping (WA),597979799,Migratory - Offshore - Shipping (WA),1,Good,Good,0
+599999499,No usual address (WA),599999499,No usual address (WA),1,Good,Good,0
+601011001,Bridgewater - Gagebrook,601011001,Bridgewater - Gagebrook,1,Good,Good,0
+601011002,Brighton - Pontville,601011002,Brighton - Pontville,1,Good,Good,0
+601011003,Old Beach - Otago,601011003,Old Beach - Otago,1,Good,Good,0
+601021004,Bellerive - Rosny,601021004,Bellerive - Rosny,1,Good,Good,0
+601021005,Cambridge,601021005,Cambridge,1,Good,Good,0
+601021006,Geilston Bay - Risdon,601021006,Geilston Bay - Risdon,1,Good,Good,0
+601021007,Howrah - Tranmere,601021007,Howrah - Tranmere,1,Good,Good,0
+601021008,Lindisfarne - Rose Bay,601021008,Lindisfarne - Rose Bay,1,Good,Good,0
+601021009,Mornington - Warrane,601021009,Mornington - Warrane,1,Good,Good,0
+601021010,Risdon Vale,601021010,Risdon Vale,1,Good,Good,0
+601021011,Rokeby,601021011,Rokeby,1,Good,Good,0
+601021012,South Arm,601021012,South Arm,1,Good,Good,0
+601031013,Austins Ferry - Granton,601031013,Austins Ferry - Granton,1,Good,Good,0
+601031014,Berriedale - Chigwell,601031014,Berriedale - Chigwell,1,Good,Good,0
+601031015,Claremont (Tas.),601031015,Claremont (Tas.),1,Good,Good,0
+601031016,Derwent Park - Lutana,601031016,Derwent Park - Lutana,1,Good,Good,0
+601031017,Glenorchy,601031017,Glenorchy,1,Good,Good,0
+601031018,Montrose - Rosetta,601031018,Montrose - Rosetta,1,Good,Good,0
+601031019,Moonah,601031019,Moonah,1,Good,Good,0
+601031020,New Norfolk,601031020,New Norfolk,1,Good,Good,0
+601031021,West Moonah,601031021,West Moonah,1,Good,Good,0
+601041022,Kingston - Huntingfield,601041022,Kingston - Huntingfield,1,Good,Good,0
+601041023,Kingston Beach - Blackmans Bay,601041023,Kingston Beach - Blackmans Bay,1,Good,Good,0
+601041024,Margate - Snug,601041024,Margate - Snug,1,Good,Good,0
+601041025,Mount Wellington,601041025,Mount Wellington,1,Good,Good,0
+601041026,Taroona - Bonnet Hill,601041026,Taroona - Bonnet Hill,1,Good,Good,0
+601051027,Hobart,601051027,Hobart,1,Good,Good,0
+601051028,Lenah Valley - Mount Stuart,601031021,West Moonah,0.000268,Good,Good,1
+601051028,Lenah Valley - Mount Stuart,601051028,Lenah Valley - Mount Stuart,0.999732,Good,Good,0
+601051029,Mount Nelson - Dynnyrne,601051029,Mount Nelson - Dynnyrne,1,Good,Good,0
+601051030,New Town,601051028,Lenah Valley - Mount Stuart,0.0104376,Good,Good,0
+601051030,New Town,601051030,New Town,0.9895624,Good,Good,0
+601051031,Sandy Bay,601051031,Sandy Bay,1,Good,Good,0
+601051032,South Hobart - Fern Tree,601051032,South Hobart - Fern Tree,1,Good,Good,0
+601051033,West Hobart,601051033,West Hobart,1,Good,Good,0
+601061034,Dodges Ferry - Lewisham,601061034,Dodges Ferry - Lewisham,1,Good,Good,0
+601061035,Sorell - Richmond,601061035,Sorell - Richmond,1,Good,Good,0
+602011036,Invermay,602011036,Invermay,1,Good,Good,0
+602011037,Kings Meadows - Punchbowl,602011037,Kings Meadows - Punchbowl,1,Good,Good,0
+602011038,Launceston,602011038,Launceston,1,Good,Good,0
+602011039,Legana,602011039,Legana,1,Good,Good,0
+602011040,Mowbray,602011040,Mowbray,1,Good,Good,0
+602011041,Newnham - Mayfield,602011041,Newnham - Mayfield,1,Good,Good,0
+602011042,Newstead,602011042,Newstead,1,Good,Good,0
+602011043,Norwood (Tas.),602011043,Norwood (Tas.),1,Good,Good,0
+602011044,Prospect Vale - Blackstone,602011044,Prospect Vale - Blackstone,1,Good,Good,0
+602011045,Ravenswood,602011045,Ravenswood,1,Good,Good,0
+602011046,Riverside,602011046,Riverside,1,Good,Good,0
+602011047,South Launceston,602011047,South Launceston,1,Good,Good,0
+602011048,Summerhill - Prospect,602011048,Summerhill - Prospect,1,Good,Good,0
+602011049,Trevallyn,602011049,Trevallyn,1,Good,Good,0
+602011050,Waverley - St Leonards,602011050,Waverley - St Leonards,1,Good,Good,0
+602011051,West Launceston,602011051,West Launceston,1,Good,Good,0
+602011052,Youngtown - Relbia,602011052,Youngtown - Relbia,1,Good,Good,0
+602021053,Beauty Point - Beaconsfield,602021053,Beauty Point - Beaconsfield,1,Good,Good,0
+602021054,Deloraine,602021054,Deloraine,1,Good,Good,0
+602021055,Grindelwald - Lanena,602021055,Grindelwald - Lanena,1,Good,Good,0
+602021056,Hadspen - Carrick,602021056,Hadspen - Carrick,1,Good,Good,0
+602021057,Westbury,602021057,Westbury,1,Good,Good,0
+602031058,Dilston - Lilydale,602031058,Dilston - Lilydale,1,Good,Good,0
+602031059,George Town,602031059,George Town,1,Good,Good,0
+602031060,Longford,602031060,Longford,1,Good,Good,0
+602031061,Northern Midlands,602031061,Northern Midlands,1,Good,Good,0
+602031062,Perth - Evandale,602031062,Perth - Evandale,1,Good,Good,0
+602031064,St Helens - Scamander,602031064,St Helens - Scamander,1,Good,Good,0
+602031099,Flinders and Cape Barren Islands,602031099,Flinders and Cape Barren Islands,1,Good,Good,0
+602031100,Scottsdale - Bridport,602031100,Scottsdale - Bridport,1,Good,Good,0
+603011065,Central Highlands,603011065,Central Highlands,1,Good,Good,0
+603011066,Derwent Valley,603011066,Derwent Valley,1,Good,Good,0
+603011067,Southern Midlands,603011067,Southern Midlands,1,Good,Good,0
+603011068,Wilderness - East,603011068,Wilderness - East,1,Good,Good,0
+603021069,Bruny Island - Kettering,603021069,Bruny Island - Kettering,1,Good,Good,0
+603021070,Cygnet,603021070,Cygnet,1,Good,Good,0
+603021071,Geeveston - Dover,603021071,Geeveston - Dover,1,Good,Good,0
+603021072,Huonville - Franklin,603021072,Huonville - Franklin,1,Good,Good,0
+603031073,Forestier - Tasman,603031073,Forestier - Tasman,1,Good,Good,0
+603031074,Triabunna - Bicheno,603031074,Triabunna - Bicheno,1,Good,Good,0
+604011075,Acton - Upper Burnie,604011075,Acton - Upper Burnie,1,Good,Good,0
+604011076,Burnie - Ulverstone Region,604011076,Burnie - Ulverstone Surrounds,1,Good,Good,0
+604011077,Burnie - Wivenhoe,604011077,Burnie - Wivenhoe,1,Good,Good,0
+604011078,Parklands - Camdale,604011078,Parklands - Camdale,1,Good,Good,0
+604011079,Penguin - Sulphur Creek,604011079,Penguin - Sulphur Creek,1,Good,Good,0
+604011080,Romaine - Havenview,604011080,Romaine - Havenview,1,Good,Good,0
+604011081,Somerset,604011081,Somerset,1,Good,Good,0
+604011082,Ulverstone,604011082,Ulverstone,1,Good,Good,0
+604011083,West Ulverstone,604011083,West Ulverstone,1,Good,Good,0
+604011084,Wynyard,604011084,Wynyard,1,Good,Good,0
+604021085,Devonport,604021085,Devonport,1,Good,Good,0
+604021086,East Devonport,604021086,East Devonport,1,Good,Good,0
+604021087,Latrobe,604021087,Latrobe,1,Good,Good,0
+604021088,Miandetta - Don,604021088,Miandetta - Don,1,Good,Good,0
+604021089,Port Sorell,604021089,Port Sorell,1,Good,Good,0
+604021090,Quoiba - Spreyton,604021090,Quoiba - Spreyton,1,Good,Good,0
+604021091,Sheffield - Railton,604021091,Sheffield - Railton,1,Good,Good,0
+604021092,Turners Beach - Forth,604021092,Turners Beach - Forth,1,Good,Good,0
+604031093,King Island,604031093,King Island,1,Good,Good,0
+604031094,North West,604031094,North West,0.9999992,Good,Good,0
+604031094,North West,,,8.00E-07,Poor,Good,4
+604031095,Smithton,604031095,Smithton,1,Good,Good,0
+604031096,Waratah,604031096,Waratah,1,Good,Good,0
+604031097,West Coast (Tas.),604031097,West Coast (Tas.),1,Good,Good,0
+604031098,Wilderness - West,604031098,Wilderness - West,1,Good,Good,0
+697979799,Migratory - Offshore - Shipping (Tas.),697979799,Migratory - Offshore - Shipping (Tas.),1,Good,Good,0
+699999499,No usual address (Tas.),699999499,No usual address (Tas.),1,Good,Good,0
+701011001,Darwin Airport,701011001,Darwin Airport,1,Good,Good,0
+701011002,Darwin City,701011002,Darwin City,1,Good,Good,0
+701011003,East Point,701011003,East Point,1,Good,Good,0
+701011004,Fannie Bay - The Gardens,701011004,Fannie Bay - The Gardens,1,Good,Good,0
+701011005,Larrakeyah,701011005,Larrakeyah,1,Good,Good,0
+701011006,Ludmilla - The Narrows,701011006,Ludmilla - The Narrows,1,Good,Good,0
+701011007,Parap,701011007,Parap,1,Good,Good,0
+701011008,Stuart Park,701011008,Stuart Park,1,Good,Good,0
+701011009,Woolner - Bayview - Winnellie,701011009,Woolner - Bayview - Winnellie,1,Good,Good,0
+701021010,Alawa,701021010,Alawa,1,Good,Good,0
+701021011,Anula,701021011,Anula,1,Good,Good,0
+701021012,Berrimah,701021012,Berrimah,1,Good,Good,0
+701021013,Brinkin - Nakara,701021013,Brinkin - Nakara,1,Good,Good,0
+701021014,Buffalo Creek,701021014,Buffalo Creek,1,Good,Good,0
+701021015,Charles Darwin,701021015,Charles Darwin,1,Good,Good,0
+701021016,Coconut Grove,701021016,Coconut Grove,1,Good,Good,0
+701021017,East Arm,701021017,East Arm,1,Good,Good,0
+701021018,Jingili,701021018,Jingili,1,Good,Good,0
+701021019,Karama,701021019,Karama,1,Good,Good,0
+701021020,Leanyer,701021020,Leanyer,1,Good,Good,0
+701021021,Lyons (NT),701021021,Lyons (NT),1,Good,Good,0
+701021022,Malak - Marrara,701021022,Malak - Marrara,1,Good,Good,0
+701021023,Millner,701021023,Millner,1,Good,Good,0
+701021024,Moil,701021024,Moil,1,Good,Good,0
+701021025,Nightcliff,701021025,Nightcliff,1,Good,Good,0
+701021026,Rapid Creek,701021026,Rapid Creek,1,Good,Good,0
+701021027,Tiwi,701021027,Tiwi,1,Good,Good,0
+701021028,Wagaman,701021028,Wagaman,1,Good,Good,0
+701021029,Wanguri,701021029,Wanguri,1,Good,Good,0
+701021030,Wulagi,701021030,Wulagi,1,Good,Good,0
+701031031,Howard Springs,701031031,Howard Springs,1,Good,Good,0
+701031032,Humpty Doo,701031032,Humpty Doo,1,Good,Good,0
+701031033,Koolpinyah,701031033,Koolpinyah,1,Good,Good,0
+701031034,Virginia,701031034,Virginia,1,Good,Good,0
+701031035,Weddell,701031035,Weddell,1,Good,Good,0
+701041036,Bakewell,701041036,Bakewell,1,Good,Good,0
+701041037,Driver,701041037,Driver,1,Good,Good,0
+701041038,Durack - Marlow Lagoon,701041038,Durack - Marlow Lagoon,1,Good,Good,0
+701041039,Gray,701041039,Gray,1,Good,Good,0
+701041040,Moulden,701041040,Moulden,1,Good,Good,0
+701041041,Palmerston - North,701041041,Palmerston - North,1,Good,Good,0
+701041042,Palmerston - South,701041042,Palmerston - South,1,Good,Good,0
+701041043,Rosebery - Bellamack,701041043,Rosebery - Bellamack,1,Good,Good,0
+701041044,Woodroffe,701041044,Woodroffe,1,Good,Good,0
+702011045,Charles,702011045,Charles,1,Good,Good,0
+702011046,East Side,702011046,East Side,1,Good,Good,0
+702011047,Flynn (NT),702011047,Flynn (NT),1,Good,Good,0
+702011048,Larapinta,702011048,Larapinta,1,Good,Good,0
+702011049,Mount Johns,702011049,Mount Johns,1,Good,Good,0
+702011050,Petermann - Simpson,702011050,Petermann - Simpson,1,Good,Good,0
+702011051,Ross,702011051,Ross,1,Good,Good,0
+702011052,Sandover - Plenty,702011052,Sandover - Plenty,1,Good,Good,0
+702011053,Tanami,702011053,Tanami,1,Good,Good,0
+702011054,Yuendumu - Anmatjere,702011054,Yuendumu - Anmatjere,1,Good,Good,0
+702021055,Barkly,702021055,Barkly,1,Good,Good,0
+702021056,Tennant Creek,702021056,Tennant Creek,1,Good,Good,0
+702031057,Alligator,702031057,Alligator,1,Good,Good,0
+702031058,Daly,702031058,Daly,1,Good,Good,0
+702031059,Thamarrurr,702031059,Thamarrurr,1,Good,Good,0
+702031060,Tiwi Islands,702031060,Tiwi Islands,1,Good,Good,0
+702031061,West Arnhem,702031061,West Arnhem,1,Good,Good,0
+702041062,Anindilyakwa,702041062,Anindilyakwa,1,Good,Good,0
+702041063,East Arnhem,702041063,East Arnhem,1,Good,Good,0
+702041064,Nhulunbuy,702041064,Nhulunbuy,1,Good,Good,0
+702051065,Elsey,702051065,Elsey,1,Good,Good,0
+702051066,Gulf,702051066,Gulf,1,Good,Good,0
+702051067,Katherine,702051067,Katherine,1,Good,Good,0
+702051068,Victoria River,702051068,Victoria River,1,Good,Good,0
+797979799,Migratory - Offshore - Shipping (NT),797979799,Migratory - Offshore - Shipping (NT),1,Good,Good,0
+799999499,No usual address (NT),799999499,No usual address (NT),1,Good,Good,0
+801011001,Aranda,801011001,Aranda,1,Good,Good,0
+801011002,Belconnen,801011002,Belconnen,1,Good,Good,0
+801011003,Bruce,801011003,Bruce,1,Good,Good,0
+801011004,Charnwood,801011004,Charnwood,1,Good,Good,0
+801011005,Cook,801011005,Cook,1,Good,Good,0
+801011006,Dunlop,801011006,Dunlop,1,Good,Good,0
+801011007,Evatt,801011007,Evatt,1,Good,Good,0
+801011008,Florey,801011008,Florey,1,Good,Good,0
+801011009,Flynn (ACT),801011009,Flynn (ACT),1,Good,Good,0
+801011010,Fraser,801011010,Fraser,1,Good,Good,0
+801011011,Giralang,801011011,Giralang,1,Good,Good,0
+801011012,Gooromon,801011012,Gooromon,1,Good,Good,0
+801011013,Hawker,801011013,Hawker,1,Good,Good,0
+801011014,Higgins,801011014,Higgins,1,Good,Good,0
+801011015,Holt,801011015,Holt,1,Good,Good,0
+801011016,Kaleen,801011016,Kaleen,1,Good,Good,0
+801011017,Latham,801011017,Latham,1,Good,Good,0
+801011018,Lawson,801011018,Lawson,1,Good,Good,0
+801011019,Macgregor (ACT),801011019,Macgregor (ACT),1,Good,Good,0
+801011020,Macquarie,801011020,Macquarie,1,Good,Good,0
+801011021,McKellar,801011021,McKellar,1,Good,Good,0
+801011022,Melba,801011022,Melba,1,Good,Good,0
+801011023,Page,801011023,Page,1,Good,Good,0
+801011024,Scullin,801011024,Scullin,1,Good,Good,0
+801011025,Spence,801011025,Spence,1,Good,Good,0
+801011026,Weetangera,801011026,Weetangera,1,Good,Good,0
+801011111,Molonglo Corridor,801011111,Molonglo Corridor,1,Good,Good,0
+801011112,West Belconnen,801011142,Macnamara,0.0666664,Poor,Good,0
+801011112,West Belconnen,801011143,Strathnairn,0.8,Acceptable,Good,0
+801011112,West Belconnen,801011144,West Belconnen,0.1333336,Poor,Good,0
+801031031,Hume,801031031,Hume,1,Good,Good,0
+801031032,Kowen,801031032,Kowen,1,Good,Good,0
+801031113,Canberra East,801031113,Canberra East,1,Good,Good,0
+801031114,Canberra Airport,801031114,Canberra Airport,1,Good,Good,0
+801031115,Majura,801031115,Majura,1,Good,Good,0
+801041034,Amaroo,801041034,Amaroo,1,Good,Good,0
+801041035,Bonner,801041035,Bonner,1,Good,Good,0
+801041036,Casey,801041036,Casey,1,Good,Good,0
+801041037,Crace,801041037,Crace,1,Good,Good,0
+801041038,Forde,801041038,Forde,1,Good,Good,0
+801041039,Franklin,801041039,Franklin,1,Good,Good,0
+801041040,Gungahlin,801041040,Gungahlin,1,Good,Good,0
+801041043,Hall,801041043,Hall,1,Good,Good,0
+801041044,Harrison,801041044,Harrison,1,Good,Good,0
+801041045,Mitchell,801041045,Mitchell,1,Good,Good,0
+801041046,Ngunnawal,801041046,Ngunnawal,1,Good,Good,0
+801041047,Nicholls,801041047,Nicholls,1,Good,Good,0
+801041048,Palmerston,801041048,Palmerston,1,Good,Good,0
+801041116,Gungahlin - East,801041116,Gungahlin - East,1,Good,Good,0
+801041117,Gungahlin - West,801041117,Gungahlin - West,1.70E-06,Poor,Good,1
+801041117,Gungahlin - West,801041121,Taylor,0.9999983,Good,Good,0
+801041118,Jacka,801041118,Jacka,1,Good,Good,0
+801041119,Kenny,801041119,Kenny,1,Good,Good,0
+801041120,Moncrieff,801041120,Moncrieff,1,Good,Good,0
+801041121,Taylor,801041121,Taylor,1,Good,Good,0
+801041122,Throsby,801041122,Throsby,1,Good,Good,0
+801051049,Acton,801051049,Acton,1,Good,Good,0
+801051050,Ainslie,801051050,Ainslie,1,Good,Good,0
+801051051,Braddon,801051051,Braddon,1,Good,Good,0
+801051053,Civic,801051053,Civic,1,Good,Good,0
+801051054,Dickson,801051054,Dickson,1,Good,Good,0
+801051055,Downer,801051055,Downer,1,Good,Good,0
+801051056,Hackett,801051056,Hackett,1,Good,Good,0
+801051057,Lyneham,801051057,Lyneham,1,Good,Good,0
+801051058,O'Connor (ACT),801051058,O'Connor (ACT),1,Good,Good,0
+801051060,Turner,801051060,Turner,1,Good,Good,0
+801051061,Watson,801051061,Watson,1,Good,Good,0
+801051123,Black Mountain,801051123,Black Mountain,1,Good,Good,0
+801051124,Campbell,801051124,Campbell,1,Good,Good,0
+801051125,Duntroon,801051125,Duntroon,1,Good,Good,0
+801051126,Parkes (ACT) - North,801051126,Parkes (ACT) - North,1,Good,Good,0
+801051127,Reid,801051127,Reid,1,Good,Good,0
+801051128,Russell,801051128,Russell,1,Good,Good,0
+801061062,Deakin,801061062,Deakin,1,Good,Good,0
+801061063,Forrest,801061063,Forrest,1,Good,Good,0
+801061064,Griffith (ACT),801061064,Griffith (ACT),1,Good,Good,0
+801061066,Lake Burley Griffin,801061066,Lake Burley Griffin,1,Good,Good,0
+801061067,Narrabundah,801061067,Narrabundah,1,Good,Good,0
+801061068,Parkes (ACT) - South,801061068,Parkes (ACT) - South,1,Good,Good,0
+801061069,Red Hill (ACT),801061069,Red Hill (ACT),1,Good,Good,0
+801061070,Yarralumla,801061070,Yarralumla,1,Good,Good,0
+801061129,Barton,801061129,Barton,1,Good,Good,0
+801061130,Fyshwick,801061130,Fyshwick,1,Good,Good,0
+801061131,Kingston (ACT),801061131,Kingston (ACT),1,Good,Good,0
+801071071,Banks,801071071,Banks,1,Good,Good,0
+801071072,Bonython,801071072,Bonython,1,Good,Good,0
+801071073,Calwell,801071073,Calwell,1,Good,Good,0
+801071074,Chisholm,801071074,Chisholm,1,Good,Good,0
+801071075,Conder,801071075,Conder,1,Good,Good,0
+801071076,Fadden,801071076,Fadden,1,Good,Good,0
+801071077,Gilmore,801071077,Gilmore,1,Good,Good,0
+801071078,Gordon (ACT),801071078,Gordon (ACT),1,Good,Good,0
+801071079,Gowrie (ACT),801071079,Gowrie (ACT),1,Good,Good,0
+801071080,Greenway,801071080,Greenway,1,Good,Good,0
+801071081,Isabella Plains,801071081,Isabella Plains,1,Good,Good,0
+801071082,Kambah,801071082,Kambah,1,Good,Good,0
+801071083,Macarthur,801071083,Macarthur,1,Good,Good,0
+801071084,Monash,801071084,Monash,1,Good,Good,0
+801071085,Mount Taylor,801071085,Mount Taylor,1,Good,Good,0
+801071086,Oxley (ACT),801071086,Oxley (ACT),1,Good,Good,0
+801071087,Richardson,801071087,Richardson,1,Good,Good,0
+801071088,Theodore,801071088,Theodore,1,Good,Good,0
+801071089,Tuggeranong,801071089,Tuggeranong,1,Good,Good,0
+801071090,Wanniassa,801071090,Wanniassa,1,Good,Good,0
+801071132,Tuggeranong - West,801071132,Tuggeranong - West,1,Good,Good,0
+801081091,Chapman,801081091,Chapman,1,Good,Good,0
+801081092,Duffy,801081092,Duffy,1,Good,Good,0
+801081093,Fisher,801081093,Fisher,1,Good,Good,0
+801081094,Holder,801081094,Holder,1,Good,Good,0
+801081095,Rivett,801081095,Rivett,1,Good,Good,0
+801081096,Stirling,801081096,Stirling,1,Good,Good,0
+801081097,Waramanga,801081097,Waramanga,1,Good,Good,0
+801081098,Weston,801081098,Weston,1,Good,Good,0
+801081133,Scrivener,801081133,Scrivener,1,Good,Good,0
+801091099,Chifley,801091099,Chifley,1,Good,Good,0
+801091100,Curtin,801091100,Curtin,1,Good,Good,0
+801091101,Farrer,801091101,Farrer,1,Good,Good,0
+801091102,Garran,801091102,Garran,1,Good,Good,0
+801091103,Hughes,801091103,Hughes,1,Good,Good,0
+801091104,Isaacs,801091104,Isaacs,1,Good,Good,0
+801091105,Lyons (ACT),801091105,Lyons (ACT),1,Good,Good,0
+801091106,Mawson,801091106,Mawson,1,Good,Good,0
+801091107,O'Malley,801091107,O'Malley,1,Good,Good,0
+801091108,Pearce,801091108,Pearce,1,Good,Good,0
+801091109,Phillip,801091109,Phillip,1,Good,Good,0
+801091110,Torrens,801091110,Torrens,1,Good,Good,0
+801101134,Arboretum,801101134,Arboretum,1,Good,Good,0
+801101135,Coombs,801101135,Coombs,1,Good,Good,0
+801101136,Denman Prospect,801101136,Denman Prospect,1,Good,Good,0
+801101137,Molonglo,801101137,Molonglo,1,Good,Good,0
+801101138,Molonglo - North,801101145,Molonglo - East,0.3157892,Poor,Good,0
+801101138,Molonglo - North,801101146,Whitlam,0.6842108,Poor,Good,0
+801101139,Wright,801101139,Wright,1,Good,Good,0
+801111140,ACT - South West,801111140,ACT - South West,1,Good,Good,0
+801111141,Namadgi,801111141,Namadgi,1,Good,Good,0
+897979799,Migratory - Offshore - Shipping (ACT),897979799,Migratory - Offshore - Shipping (ACT),1,Good,Good,0
+899999499,No usual address (ACT),899999499,No usual address (ACT),1,Good,Good,0
+901011001,Christmas Island,901011001,Christmas Island,1,Good,Good,0
+901021002,Cocos (Keeling) Islands,901021002,Cocos (Keeling) Islands,1,Good,Good,0
+901031003,Jervis Bay,901031003,Jervis Bay,1,Good,Good,0
+901041004,Norfolk Island,901041004,Norfolk Island,1,Good,Good,0
+997979799,Migratory - Offshore - Shipping (OT),997979799,Migratory - Offshore - Shipping (OT),1,Good,Good,0
+999999499,No usual address (OT),999999499,No usual address (OT),1,Good,Good,0
+,,ZZZZZZZZZ,Outside Australia,,NA,Good,3
