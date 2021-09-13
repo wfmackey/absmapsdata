@@ -13,8 +13,8 @@ read_shape <- function(folder_path,
 
   # Set variables to keep
   select_vars <- c(
-    "sa1_main_2021" = "SA1_CODE21",
-    "sa2_main_2016" = "SA2_CODE21",
+    "sa1_code_2021" = "SA1_CODE21",
+    "sa2_code_2016" = "SA2_CODE21",
     "sa2_name_2021" = "SA2_NAME21",
     "sa3_code_2021" = "SA3_CODE21",
     "sa3_name_2021" = "SA3_NAME21",

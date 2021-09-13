@@ -51,6 +51,33 @@
 "sa12016"
 
 
+#' Statistical Area 1, 2021
+#'
+#' Geospatial data provided by the ABS for Statistical Area 1 in 2021. Note that the Geocentric Datum of Australia 2020 (GDA2020) is used.
+#' See [ABS explanation](https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files).
+#'
+#' @format An \code{sf} object with 17 variables:
+#' \describe{
+#' \item{\code{sa1_code_2021}}{The full 11 digit SA1 code numeric}
+#' \item{\code{sa1_7dig_2021}}{The 7 digit SA1 code numeric}
+#' \item{\code{sa2_code_2021}}{The full 9 digit SA2 code numeric}
+#' \item{\code{sa2_shortcode_2021}}{The 5 digit SA2 code numeric}
+#' \item{\code{sa2_name_2021}}{The SA2 name character}
+#' \item{\code{sa3_code_2021}}{The full 5 digit SA3 code numeric}
+#' \item{\code{sa3_name_2021}}{The SA3 name character}
+#' \item{\code{sa4_code_2021}}{The full 3 digit SA4 code numeric}
+#' \item{\code{sa4_name_2021}}{The SA4 name character}
+#' \item{\code{gcc_code_2021}}{The alphanumeric Greater Capital City (GCC) code character}
+#' \item{\code{gcc_name_2021}}{The GCC name}
+#' \item{\code{state_name_2021}}{The full state name}
+#' \item{\code{areasqkm_2021}}{The area in square kilometres}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"sa12021"
+
+
 
 #' Statistical Area 2, 2011
 #'
@@ -99,6 +126,30 @@
 #' }
 "sa22016"
 
+#' Statistical Area 2, 2021
+#'
+#' Geospatial data provided by the ABS for Statistical Area 2 in 2021. Note that the Geocentric Datum of Australia 2020 (GDA2020) is used.
+#' See [ABS explanation](https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files).
+#'
+#' @format An \code{sf} object with 15 variables:
+#' \describe{
+#' \item{\code{sa2_code_2021}}{The full 9 digit SA2 code numeric}
+#' \item{\code{sa2_shortcode_2021}}{The 5 digit SA2 code numeric}
+#' \item{\code{sa2_name_2021}}{The SA2 name character}
+#' \item{\code{sa3_code_2021}}{The full 5 digit SA3 code numeric}
+#' \item{\code{sa3_name_2021}}{The SA3 name character}
+#' \item{\code{sa4_code_2021}}{The full 3 digit SA4 code numeric}
+#' \item{\code{sa4_name_2021}}{The SA4 name character}
+#' \item{\code{gcc_code_2021}}{The alphanumeric Greater Capital City (GCC) code character}
+#' \item{\code{gcc_name_2021}}{The GCC name}
+#' \item{\code{state_name_2021}}{The full state name}
+#' \item{\code{areasqkm_2021}}{The area in square kilometres}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"sa22021"
+
 
 #' Statistical Area 3, 2011
 #'
@@ -142,6 +193,28 @@
 "sa32016"
 
 
+#' Statistical Area 3, 2021
+#'
+#' Geospatial data provided by the ABS for Statistical Area 3 in 2021. Note that the Geocentric Datum of Australia 2020 (GDA2020) is used.
+#' See [ABS explanation](https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files).
+#'
+#' @format An \code{sf} object with 12 variables:
+#' \describe{
+#' \item{\code{sa3_code_2021}}{The full 5 digit SA3 code numeric}
+#' \item{\code{sa3_name_2021}}{The SA3 name character}
+#' \item{\code{sa4_code_2021}}{The full 3 digit SA4 code numeric}
+#' \item{\code{sa4_name_2021}}{The SA4 name character}
+#' \item{\code{gcc_code_2021}}{The alphanumeric Greater Capital City (GCC) code character}
+#' \item{\code{gcc_name_2021}}{The GCC name}
+#' \item{\code{state_name_2021}}{The full state name}
+#' \item{\code{areasqkm_2021}}{The area in square kilometres}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"sa32021"
+
+
 
 #' Statistical Area 4, 2011
 #'
@@ -181,6 +254,25 @@
 "sa42016"
 
 
+#' Statistical Area 4, 2021
+#'
+#' Geospatial data provided by the ABS for Statistical Area 4 in 2021. Note that the Geocentric Datum of Australia 2020 (GDA2020) is used.
+#' See [ABS explanation](https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files).
+#'
+#' @format An \code{sf} object with 10 variables:
+#' \describe{
+#' \item{\code{sa4_code_2021}}{The full 3 digit SA4 code numeric}
+#' \item{\code{sa4_name_2021}}{The SA4 name character}
+#' \item{\code{gcc_code_2021}}{The alphanumeric Greater Capital City (GCC) code character}
+#' \item{\code{gcc_name_2021}}{The GCC name}
+#' \item{\code{state_name_2021}}{The full state name}
+#' \item{\code{areasqkm_2021}}{The area in square kilometres}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"sa42021"
+
 
 #' Greater Capital Cities, 2011
 #'
@@ -217,6 +309,24 @@
 
 
 
+#' Greater Capital Cities, 2021
+#'
+#' Geospatial data provided by the ABS for Greater Capital Cities (GCC) in 2021. Note that the Geocentric Datum of Australia 2020 (GDA2020) is used.
+#' See [ABS explanation](https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files).
+#'
+#' @format An \code{sf} object with 12 variables:
+#' \describe{
+#' \item{\code{gcc_code_2021}}{The alphanumeric Greater Capital City (GCC) code character}
+#' \item{\code{gcc_name_2021}}{The GCC name}
+#' \item{\code{state_name_2021}}{The full state name}
+#' \item{\code{areasqkm_2021}}{The area in square kilometres}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"gcc2021"
+
+
 #' States, 2011
 #'
 #' Geospatial data provided by the ABS for states in 2011.
@@ -245,6 +355,39 @@
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
 #' }
 "state2016"
+
+#' States, 2021
+#'
+#' Geospatial data provided by the ABS for states in 2021. Note that the Geocentric Datum of Australia 2020 (GDA2020) is used.
+#' See [ABS explanation](https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files).
+#'
+#' @format An \code{sf} object with 10 variables:
+#' \describe{
+#' \item{\code{state_name_2021}}{The full state name}
+#' \item{\code{areasqkm_2021}}{The area in square kilometres}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"state2021"
+
+
+#' Australia, 2021
+#'
+#' Geospatial data provided by the ABS for Australia in 2021. Note that the Geocentric Datum of Australia 2020 (GDA2020) is used.
+#' See [ABS explanation](https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files).
+#'
+#' @format An \code{sf} object with 6 variables:
+#' \describe{
+#' \item{\code{aus_code_2021}}{The full Australia code}
+#' \item{\code{aus_name_2021}}{The full Australia name}
+#' \item{\code{areasqkm_2021}}{The area in square kilometres}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"australia2021"
+
 
 
 #' Remoteness areas, 2011
