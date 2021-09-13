@@ -1,3 +1,7 @@
+# absmapsdata 1.3.0, 2021-09-13
+- Adds 2021 ASGS standard data (SA1-4, GCC, State and Australia).
+- Fixes naming convention error in `sa12011`, `sa22011`, `sa12016`, `sa22016` objects where `sa1_code_201X` and `sa2_code_201X` was *incorrectly* named `saX_main_201X`. This was correct in the data documentation but not the actual variable names. This may cause some issues with backwards-compatibility, for which I am sorry.
+
 # absmapsdata 1.2.4, 2021-08-25
 - Add Employment Regions. Thanks @mattcowgill for the suggestion.
 - Note that this is the first instance of a non-ABS government structure in the package.

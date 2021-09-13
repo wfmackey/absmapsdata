@@ -42,7 +42,7 @@ You can install `absmapsdata` from github with:
 remotes::install_github("wfmackey/absmapsdata")
 ```
 
-`absmapsdata` contains a lot of data, so installing using `remotes::install_github` may fail if the download times out. If this happens, set the timeout option to a large value and try again, i.e. run
+`absmapsdata` contains a lot of data, so installing using `remotes::install_github` may fail if the download times out. If this happens, set the timeout option to a large value and try again, i.e. run:
 
 ```{r set_timeout, eval=FALSE}
 options(timeout=1000)
@@ -65,18 +65,24 @@ If you would like to request a map to be added, let me know via an issue on this
 
 * Statistical Area 1 2011: `sa12011`
 * Statistical Area 1 2016: `sa12016`
+* Statistical Area 1 2021: `sa12021`
 * Statistical Area 2 2011: `sa22011`
 * Statistical Area 2 2016: `sa22016`
+* Statistical Area 2 2021: `sa22021`
 * Statistical Area 3 2011: `sa32011`
 * Statistical Area 3 2016: `sa32016`
+* Statistical Area 3 2021: `sa32021`
 * Statistical Area 4 2011: `sa42011`
 * Statistical Area 4 2016: `sa42016`
+* Statistical Area 4 2021: `sa42021`
 * Greater Capital Cities 2011: `gcc2011`
 * Greater Capital Cities 2016: `gcc2016`
+* Greater Capital Cities 2021: `gcc2021`
 * Remoteness Areas 2011: `ra2011`
 * Remoteness Areas 2016: `ra2016`
 * State 2011: `state2011`
 * State 2016: `state2016`
+* State 2021: `state2021`
 
 **ASGS Non-ABS Structures**
 
