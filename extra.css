@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #3a496a;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-link {
+    color: #3a496a;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-link:hover {
+    color: white;
+}
+
+.navbar, .navbar-default, .navbar-fixed-top, .navbar-nav, .navbar-brand, .navbar-collapse, .navbar-right {
+  background-color: #a8c5da;
+  color: #3a496a;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #71add8;
+}
+
+.section {
+  opacity: 100;
+}
+
+
