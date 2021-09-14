@@ -220,6 +220,8 @@ map <- combined_data %>%
           lwd = 0) +                 # remove borders
   theme_void() +                     # clears other plot elements
   labs(fill = "Median income")
+
+map
 ```
 
 ## Get correspondence files
