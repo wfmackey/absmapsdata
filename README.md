@@ -280,7 +280,11 @@ map <- combined_data %>%
           lwd = 0) +                 # remove borders
   theme_void() +                     # clears other plot elements
   labs(fill = "Median income")
+
+map
 ```
+
+<img src="man/figures/README-unnamed-chunk-11-1.png" width="100%" />
 
 ## Get correspondence files
 
