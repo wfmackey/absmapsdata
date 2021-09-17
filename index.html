@@ -95,6 +95,7 @@
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/base/options.html">options</a></span><span class="op">(</span>timeout<span class="op">=</span><span class="fl">1000</span><span class="op">)</span>
 <span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span><span class="op">(</span><span class="st">"wfmackey/absmapsdata"</span><span class="op">)</span></code></pre></div>
+<p>Note: to download and read <code>absmapsdata</code> files <strong>without installing the whole absmapsdata package</strong>, please see <a href="https://github.com/runapp-aus/strayr"><code>strayr::read_absmaps</code></a>.</p>
 <p>The <code>sf</code> package is required to handle the <code>sf</code> objects:</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co"># install.packages("sf")</span>
@@ -106,46 +107,14 @@
 <p>Available maps are listed below. These will be added to over time. If you would like to request a map to be added, let me know via an issue on this Github repo.</p>
 <p><strong>ASGS Main Structures</strong></p>
 <ul>
-<li>Statistical Area 1 2011: <code>sa12011</code>
+<li>Statistical Area 1 2011: <code>sa12011</code>; 2016: <code>sa12016</code>; and 2021: <code>sa12021</code>.</li>
+<li>Statistical Area 2 2011: <code>sa22011</code>; 2016: <code>sa22016</code>; and 2021: <code>sa22021</code>.</li>
+<li>Statistical Area 3 2011: <code>sa32011</code>; 2016: <code>sa32016</code>; and 2021: <code>sa32021</code>.</li>
+<li>Statistical Area 4 2011: <code>sa42011</code>; 2016: <code>sa42016</code>; and 2021: <code>sa42021</code>.</li>
+<li>Greater Capital Cities 2011: <code>gcc2011</code>; 2016: <code>gcc2016</code>; and 2021: <code>gcc2021</code>.</li>
+<li>Remoteness Areas 2011: <code>ra2011</code>; and 2016: <code>ra2016</code>
 </li>
-<li>Statistical Area 1 2016: <code>sa12016</code>
-</li>
-<li>Statistical Area 1 2021: <code>sa12021</code>
-</li>
-<li>Statistical Area 2 2011: <code>sa22011</code>
-</li>
-<li>Statistical Area 2 2016: <code>sa22016</code>
-</li>
-<li>Statistical Area 2 2021: <code>sa22021</code>
-</li>
-<li>Statistical Area 3 2011: <code>sa32011</code>
-</li>
-<li>Statistical Area 3 2016: <code>sa32016</code>
-</li>
-<li>Statistical Area 3 2021: <code>sa32021</code>
-</li>
-<li>Statistical Area 4 2011: <code>sa42011</code>
-</li>
-<li>Statistical Area 4 2016: <code>sa42016</code>
-</li>
-<li>Statistical Area 4 2021: <code>sa42021</code>
-</li>
-<li>Greater Capital Cities 2011: <code>gcc2011</code>
-</li>
-<li>Greater Capital Cities 2016: <code>gcc2016</code>
-</li>
-<li>Greater Capital Cities 2021: <code>gcc2021</code>
-</li>
-<li>Remoteness Areas 2011: <code>ra2011</code>
-</li>
-<li>Remoteness Areas 2016: <code>ra2016</code>
-</li>
-<li>State 2011: <code>state2011</code>
-</li>
-<li>State 2016: <code>state2016</code>
-</li>
-<li>State 2021: <code>state2021</code>
-</li>
+<li>State 2011: <code>state2011</code>; 2016: <code>state2016</code>; and <code>state2021</code>.</li>
 </ul>
 <p><strong>ASGS Non-ABS Structures</strong></p>
 <ul>
@@ -153,18 +122,13 @@
 </li>
 <li>State Electoral Divisions 2018:<code>sed2018</code>
 </li>
-<li>Local Government Areas 2016: <code>lga2016</code>
-</li>
-<li>Local Government Areas 2018: <code>lga2018</code>
+<li>Local Government Areas 2016: <code>lga2016</code>; and 2018: <code>lga2018</code>
 </li>
 <li>Regions for the Internet Vacancy Index 2008: <code>regional_ivi2008</code>
 </li>
 <li>Postcodes 2016: <code>postcodes2016</code>
 </li>
-<li>Census of Population and Housing Destination Zones 2011: <code>dz2011</code>
-</li>
-<li>Census of Population and Housing Destination Zones 2016: <code>dz2016</code>
-</li>
+<li>Census of Population and Housing Destination Zones 2011: <code>dz2011</code>; and 2016: <code>dz2016</code>.</li>
 </ul>
 <p><strong>Non-ABS Australian Government Structures</strong></p>
 <ul>
@@ -183,7 +147,7 @@
 <code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va">tidyverse</span><span class="op">)</span>
 <span class="co">#&gt; ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──</span>
 <span class="co">#&gt; ✓ ggplot2 3.3.5     ✓ purrr   0.3.4</span>
-<span class="co">#&gt; ✓ tibble  3.1.3     ✓ dplyr   1.0.7</span>
+<span class="co">#&gt; ✓ tibble  3.1.4     ✓ dplyr   1.0.7</span>
 <span class="co">#&gt; ✓ tidyr   1.1.3     ✓ stringr 1.4.0</span>
 <span class="co">#&gt; ✓ readr   2.0.0     ✓ forcats 0.5.1</span>
 <span class="co">#&gt; ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──</span>
@@ -217,7 +181,7 @@
 <span class="fu">glimpse</span><span class="op">(</span><span class="va">mapdata2</span><span class="op">)</span>
 <span class="co">#&gt; Rows: 2,310</span>
 <span class="co">#&gt; Columns: 15</span>
-<span class="co">#&gt; $ sa2_main_2016   &lt;chr&gt; "101021007", "101021008", "101021009", "101021010", "1…</span>
+<span class="co">#&gt; $ sa2_code_2016   &lt;chr&gt; "101021007", "101021008", "101021009", "101021010", "1…</span>
 <span class="co">#&gt; $ sa2_5dig_2016   &lt;chr&gt; "11007", "11008", "11009", "11010", "11011", "11012", …</span>
 <span class="co">#&gt; $ sa2_name_2016   &lt;chr&gt; "Braidwood", "Karabar", "Queanbeyan", "Queanbeyan - Ea…</span>
 <span class="co">#&gt; $ sa3_code_2016   &lt;chr&gt; "10102", "10102", "10102", "10102", "10102", "10102", …</span>
@@ -356,7 +320,7 @@
 <li>Clean up any inconsistencies and apply consistent variable naming/values across areas and years.</li>
 <li>Find an appropriate compression function and level to optimise output.</li>
 </ul>
-<p>For me, at least, finding the correct information and developing the best set of steps was a little bit interesting but mostly tedious and annoying. The <code>absmapsdata</code> package holds this data for you, so you can spend more time making maps, and less time on Stack Overflow, the ABS website, and <a href="https://www.neonscience.org/dc-open-shapefiles-r">lovely-people’s wonderful blogs</a>.</p>
+<p>For me at least, finding the correct information and developing the best set of steps was a little bit interesting but mostly tedious and annoying. The <code>absmapsdata</code> package holds this data for you, so you can spend more time making maps, and less time on Stack Overflow, the ABS website, and <a href="https://www.neonscience.org/dc-open-shapefiles-r">lovely-people’s wonderful blogs</a>.</p>
 </div>
 <div id="commentscomplaintsrequeststhoughts" class="section level2">
 <h2 class="hasAnchor">
