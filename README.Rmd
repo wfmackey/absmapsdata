@@ -49,6 +49,8 @@ options(timeout=1000)
 remotes::install_github("wfmackey/absmapsdata")
 ```
 
+Note: to download and read `absmapsdata` files **without installing the whole absmapsdata package**, please see [`strayr::read_absmaps`](https://github.com/runapp-aus/strayr). 
+
 The `sf` package is required to handle the `sf` objects:
 ```{r, eval=FALSE}
 # install.packages("sf")
@@ -63,37 +65,22 @@ If you would like to request a map to be added, let me know via an issue on this
 
 **ASGS Main Structures**
 
-* Statistical Area 1 2011: `sa12011`
-* Statistical Area 1 2016: `sa12016`
-* Statistical Area 1 2021: `sa12021`
-* Statistical Area 2 2011: `sa22011`
-* Statistical Area 2 2016: `sa22016`
-* Statistical Area 2 2021: `sa22021`
-* Statistical Area 3 2011: `sa32011`
-* Statistical Area 3 2016: `sa32016`
-* Statistical Area 3 2021: `sa32021`
-* Statistical Area 4 2011: `sa42011`
-* Statistical Area 4 2016: `sa42016`
-* Statistical Area 4 2021: `sa42021`
-* Greater Capital Cities 2011: `gcc2011`
-* Greater Capital Cities 2016: `gcc2016`
-* Greater Capital Cities 2021: `gcc2021`
-* Remoteness Areas 2011: `ra2011`
-* Remoteness Areas 2016: `ra2016`
-* State 2011: `state2011`
-* State 2016: `state2016`
-* State 2021: `state2021`
+* Statistical Area 1 2011: `sa12011`; 2016: `sa12016`; and 2021: `sa12021`. 
+* Statistical Area 2 2011: `sa22011`; 2016: `sa22016`; and 2021: `sa22021`. 
+* Statistical Area 3 2011: `sa32011`; 2016: `sa32016`; and 2021: `sa32021`. 
+* Statistical Area 4 2011: `sa42011`; 2016: `sa42016`; and 2021: `sa42021`. 
+* Greater Capital Cities 2011: `gcc2011`; 2016: `gcc2016`; and 2021: `gcc2021`. 
+* Remoteness Areas 2011: `ra2011`; and 2016: `ra2016`
+* State 2011: `state2011`; 2016: `state2016`; and `state2021`.
 
 **ASGS Non-ABS Structures**
 
 * Commonwealth Electoral Divisions 2018: `ced2018`
 * State Electoral Divisions 2018:`sed2018`
-* Local Government Areas 2016: `lga2016`
-* Local Government Areas 2018: `lga2018`
+* Local Government Areas 2016: `lga2016`; and 2018: `lga2018`
 * Regions for the Internet Vacancy Index 2008: `regional_ivi2008`
 * Postcodes 2016: `postcodes2016`
-* Census of Population and Housing Destination Zones 2011: `dz2011`
-* Census of Population and Housing Destination Zones 2016: `dz2016`
+* Census of Population and Housing Destination Zones 2011: `dz2011`; and 2016: `dz2016`.
 
 **Non-ABS Australian Government Structures**
 
@@ -256,7 +243,7 @@ research into the best-thing-to-do at each of the following steps:
   - Find an appropriate compression function and level to optimise
     output.
 
-For me, at least, finding the correct information and developing the
+For me at least, finding the correct information and developing the
 best set of steps was a little bit interesting but mostly tedious and
 annoying. The `absmapsdata` package holds this data for you, so you can
 spend more time making maps, and less time on Stack Overflow, the ABS

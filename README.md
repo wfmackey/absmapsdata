@@ -45,6 +45,10 @@ options(timeout=1000)
 remotes::install_github("wfmackey/absmapsdata")
 ```
 
+Note: to download and read `absmapsdata` files **without installing the
+whole absmapsdata package**, please see
+[`strayr::read_absmaps`](https://github.com/runapp-aus/strayr).
+
 The `sf` package is required to handle the `sf` objects:
 
 ``` r
@@ -60,37 +64,28 @@ this Github repo.
 
 **ASGS Main Structures**
 
--   Statistical Area 1 2011: `sa12011`
--   Statistical Area 1 2016: `sa12016`
--   Statistical Area 1 2021: `sa12021`
--   Statistical Area 2 2011: `sa22011`
--   Statistical Area 2 2016: `sa22016`
--   Statistical Area 2 2021: `sa22021`
--   Statistical Area 3 2011: `sa32011`
--   Statistical Area 3 2016: `sa32016`
--   Statistical Area 3 2021: `sa32021`
--   Statistical Area 4 2011: `sa42011`
--   Statistical Area 4 2016: `sa42016`
--   Statistical Area 4 2021: `sa42021`
--   Greater Capital Cities 2011: `gcc2011`
--   Greater Capital Cities 2016: `gcc2016`
--   Greater Capital Cities 2021: `gcc2021`
--   Remoteness Areas 2011: `ra2011`
--   Remoteness Areas 2016: `ra2016`
--   State 2011: `state2011`
--   State 2016: `state2016`
--   State 2021: `state2021`
+-   Statistical Area 1 2011: `sa12011`; 2016: `sa12016`; and 2021:
+    `sa12021`.
+-   Statistical Area 2 2011: `sa22011`; 2016: `sa22016`; and 2021:
+    `sa22021`.
+-   Statistical Area 3 2011: `sa32011`; 2016: `sa32016`; and 2021:
+    `sa32021`.
+-   Statistical Area 4 2011: `sa42011`; 2016: `sa42016`; and 2021:
+    `sa42021`.
+-   Greater Capital Cities 2011: `gcc2011`; 2016: `gcc2016`; and 2021:
+    `gcc2021`.
+-   Remoteness Areas 2011: `ra2011`; and 2016: `ra2016`
+-   State 2011: `state2011`; 2016: `state2016`; and `state2021`.
 
 **ASGS Non-ABS Structures**
 
 -   Commonwealth Electoral Divisions 2018: `ced2018`
 -   State Electoral Divisions 2018:`sed2018`
--   Local Government Areas 2016: `lga2016`
--   Local Government Areas 2018: `lga2018`
+-   Local Government Areas 2016: `lga2016`; and 2018: `lga2018`
 -   Regions for the Internet Vacancy Index 2008: `regional_ivi2008`
 -   Postcodes 2016: `postcodes2016`
--   Census of Population and Housing Destination Zones 2011: `dz2011`
--   Census of Population and Housing Destination Zones 2016: `dz2016`
+-   Census of Population and Housing Destination Zones 2011: `dz2011`;
+    and 2016: `dz2016`.
 
 **Non-ABS Australian Government Structures**
 
@@ -108,7 +103,7 @@ call the object (see list above for object names).
 library(tidyverse)
 #> ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──
 #> ✓ ggplot2 3.3.5     ✓ purrr   0.3.4
-#> ✓ tibble  3.1.3     ✓ dplyr   1.0.7
+#> ✓ tibble  3.1.4     ✓ dplyr   1.0.7
 #> ✓ tidyr   1.1.3     ✓ stringr 1.4.0
 #> ✓ readr   2.0.0     ✓ forcats 0.5.1
 #> ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
@@ -145,7 +140,7 @@ mapdata2 <- sa22016
 glimpse(mapdata2)
 #> Rows: 2,310
 #> Columns: 15
-#> $ sa2_main_2016   <chr> "101021007", "101021008", "101021009", "101021010", "1…
+#> $ sa2_code_2016   <chr> "101021007", "101021008", "101021009", "101021010", "1…
 #> $ sa2_5dig_2016   <chr> "11007", "11008", "11009", "11010", "11011", "11012", …
 #> $ sa2_name_2016   <chr> "Braidwood", "Karabar", "Queanbeyan", "Queanbeyan - Ea…
 #> $ sa3_code_2016   <chr> "10102", "10102", "10102", "10102", "10102", "10102", …
@@ -333,8 +328,8 @@ research into the best-thing-to-do at each of the following steps:
 -   Find an appropriate compression function and level to optimise
     output.
 
-For me, at least, finding the correct information and developing the
-best set of steps was a little bit interesting but mostly tedious and
+For me at least, finding the correct information and developing the best
+set of steps was a little bit interesting but mostly tedious and
 annoying. The `absmapsdata` package holds this data for you, so you can
 spend more time making maps, and less time on Stack Overflow, the ABS
 website, and [lovely-people’s wonderful
