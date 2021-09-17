@@ -53,8 +53,6 @@
 
 
 
-
-
 <!-- mathjax -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script>
@@ -66,15 +64,9 @@
 
 
 
-  
-
-  
-
   </head>
 
   <body data-spy="scroll" data-target="#toc">
-    
-
     <div class="container template-news">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -95,6 +87,12 @@
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
+  <a href="../index.html">
+    <span class="fas fa-home fa-lg"></span>
+     
+  </a>
+</li>
+<li>
   <a href="../reference/index.html">Reference</a>
 </li>
 <li>
@@ -127,44 +125,58 @@
 
     <div id="absmapsdata-130-2021-09-13" class="section level1">
 <h1 class="page-header" data-toc-text="1.3.0">
-<a href="#absmapsdata-130-2021-09-13" class="anchor" aria-hidden="true"></a>absmapsdata 1.3.0, 2021-09-13</h1>
-<ul><li>Adds 2021 ASGS standard data (SA1-4, GCC, State and Australia).</li>
+<a href="#absmapsdata-130-2021-09-13" class="anchor"></a>absmapsdata 1.3.0, 2021-09-13</h1>
+<ul>
+<li>Adds 2021 ASGS standard data (SA1-4, GCC, State and Australia).</li>
 <li>Fixes naming convention error in <code>sa12011</code>, <code>sa22011</code>, <code>sa12016</code>, <code>sa22016</code> objects where <code>sa1_code_201X</code> and <code>sa2_code_201X</code> was <em>incorrectly</em> named <code>saX_main_201X</code>. This was correct in the data documentation but not the actual variable names. This may cause some issues with backwards-compatibility, for which I am sorry.</li>
-</ul></div>
+</ul>
+</div>
     <div id="absmapsdata-124-2021-08-25" class="section level1">
 <h1 class="page-header" data-toc-text="1.2.4">
-<a href="#absmapsdata-124-2021-08-25" class="anchor" aria-hidden="true"></a>absmapsdata 1.2.4, 2021-08-25</h1>
-<ul><li>Add Employment Regions. Thanks <a href='https://github.com/wfmackey/mattcowgill'>@mattcowgill</a> for the suggestion.</li>
+<a href="#absmapsdata-124-2021-08-25" class="anchor"></a>absmapsdata 1.2.4, 2021-08-25</h1>
+<ul>
+<li>Add Employment Regions. Thanks <a href='https://github.com/wfmackey/mattcowgill'>@mattcowgill</a> for the suggestion.</li>
 <li>Note that this is the first instance of a non-ABS government structure in the package.</li>
-</ul></div>
+</ul>
+</div>
     <div id="absmapsdata-123-2021-06-03" class="section level1">
 <h1 class="page-header" data-toc-text="1.2.3">
-<a href="#absmapsdata-123-2021-06-03" class="anchor" aria-hidden="true"></a>absmapsdata 1.2.3, 2021-06-03</h1>
-<ul><li>Set all <code>sf</code> objects to CS <code>4326</code>. Thanks <a href='https://github.com/wfmackey/ellisp'>@ellisp</a> and <a href='https://github.com/wfmackey/daviddiviny'>@daviddiviny</a> for the suggestion.</li>
+<a href="#absmapsdata-123-2021-06-03" class="anchor"></a>absmapsdata 1.2.3, 2021-06-03</h1>
+<ul>
+<li>Set all <code>sf</code> objects to CS <code>4326</code>. Thanks <a href='https://github.com/wfmackey/ellisp'>@ellisp</a> and <a href='https://github.com/wfmackey/daviddiviny'>@daviddiviny</a> for the suggestion.</li>
 <li>Adds some tests ffs.</li>
-</ul></div>
+</ul>
+</div>
     <div id="absmapsdata-122-2021-06-02" class="section level1">
 <h1 class="page-header" data-toc-text="1.2.2">
-<a href="#absmapsdata-122-2021-06-02" class="anchor" aria-hidden="true"></a>absmapsdata 1.2.2, 2021-06-02</h1>
-<ul><li>Add Significant Urban Areas, Urban Centres and Localities, Section of State. Thanks to <a href='https://github.com/wfmackey/baslat'>@baslat</a></li>
+<a href="#absmapsdata-122-2021-06-02" class="anchor"></a>absmapsdata 1.2.2, 2021-06-02</h1>
+<ul>
+<li>Add Significant Urban Areas, Urban Centres and Localities, Section of State. Thanks to <a href='https://github.com/wfmackey/baslat'>@baslat</a></li>
 <li>Add Tourism Regions. Thanks to <a href='https://github.com/wfmackey/charlescoverdale'>@charlescoverdale</a>.</li>
-</ul></div>
+</ul>
+</div>
     <div id="absmapsdata-121-2019-11-04" class="section level1">
 <h1 class="page-header" data-toc-text="1.2.1">
-<a href="#absmapsdata-121-2019-11-04" class="anchor" aria-hidden="true"></a>absmapsdata 1.2.1, 2019-11-04</h1>
-<ul><li>Added more correspondences from 2016 population-weighted file. Thanks to <a href='https://github.com/wfmackey/gdickens'>@gdickens</a> for flagging that I’d missed some (many).</li>
-</ul></div>
+<a href="#absmapsdata-121-2019-11-04" class="anchor"></a>absmapsdata 1.2.1, 2019-11-04</h1>
+<ul>
+<li>Added more correspondences from 2016 population-weighted file. Thanks to <a href='https://github.com/wfmackey/gdickens'>@gdickens</a> for flagging that I’d missed some (many).</li>
+</ul>
+</div>
     <div id="absmapsdata-12-2019-09-19" class="section level1">
 <h1 class="page-header" data-toc-text="1.2">
-<a href="#absmapsdata-12-2019-09-19" class="anchor" aria-hidden="true"></a>absmapsdata 1.2, 2019-09-19</h1>
-<ul><li>Added 2011 and 2016 destination zones. Thanks to <a href='https://github.com/wfmackey/gabyd'>@gabyd</a> for suggesting this.</li>
-</ul></div>
+<a href="#absmapsdata-12-2019-09-19" class="anchor"></a>absmapsdata 1.2, 2019-09-19</h1>
+<ul>
+<li>Added 2011 and 2016 destination zones. Thanks to <a href='https://github.com/wfmackey/gabyd'>@gabyd</a> for suggesting this.</li>
+</ul>
+</div>
     <div id="absmapsdata-11-2019-08-06" class="section level1">
 <h1 class="page-header" data-toc-text="1.1">
-<a href="#absmapsdata-11-2019-08-06" class="anchor" aria-hidden="true"></a>absmapsdata 1.1, 2019-08-06</h1>
-<ul><li>Requires R &gt;= 3.5.</li>
+<a href="#absmapsdata-11-2019-08-06" class="anchor"></a>absmapsdata 1.1, 2019-08-06</h1>
+<ul>
+<li>Requires R &gt;= 3.5.</li>
 <li>Correct <code>cent_lat</code> and <code>cent_long</code> variables in <code>sf</code> objects. Thanks to <a href='https://github.com/wfmackey/jamesha95'>@jamesha95</a> for noticing this.</li>
-</ul></div>
+</ul>
+</div>
   </div>
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
@@ -178,11 +190,11 @@
 
       <footer>
       <div class="copyright">
-  <p><p>Developed by Will Mackey.</p></p>
+  <p>Developed by Will Mackey.</p>
 </div>
 
 <div class="pkgdown">
-  <p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 1.6.1.9001.</p></p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.6.1.</p>
 </div>
 
       </footer>
@@ -190,8 +202,6 @@
 
   
 
-
-  
 
   </body>
 </html>

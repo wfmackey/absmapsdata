@@ -26,8 +26,6 @@
 <![endif]-->
 </head>
 <body data-spy="scroll" data-target="#toc">
-    
-
     <div class="container template-home">
       <header><div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -46,6 +44,12 @@
 
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
+<li>
+  <a href="index.html">
+    <span class="fas fa-home fa-lg"></span>
+     
+  </a>
+</li>
 <li>
   <a href="reference/index.html">Reference</a>
 </li>
@@ -74,31 +78,31 @@
   <div class="contents col-md-9">
 <div id="absmapsdata" class="section level1">
 <div class="page-header"><h1 class="hasAnchor">
-<a href="#absmapsdata" class="anchor" aria-hidden="true"></a>absmapsdata</h1></div>
+<a href="#absmapsdata" class="anchor"></a>absmapsdata</h1></div>
 <!-- badges: start -->
 
 <p>The <code>absmapsdata</code> package exists to make it easier to produce maps from ABS data in R. The package contains compressed, tidied, and lazily-loadable <code>sf</code> objects that hold geometric information about ABS data structures.</p>
-<p>It also contains a vast number of 2016 population-weighted ABS correspondences (the most recent) that you can access with the <code>get_correspondence_absmaps</code> function. The correspondences available can be found at the <a href="https://data.gov.au/data/dataset/asgs-geographic-correspondences-2016/resource/951e18c7-f187-4c86-a73f-fcabcd19af16" class="external-link">data.gov.au website</a>.</p>
+<p>It also contains a vast number of 2016 population-weighted ABS correspondences (the most recent) that you can access with the <code>get_correspondence_absmaps</code> function. The correspondences available can be found at the <a href="https://data.gov.au/data/dataset/asgs-geographic-correspondences-2016/resource/951e18c7-f187-4c86-a73f-fcabcd19af16">data.gov.au website</a>.</p>
 <p>Before we get into the ‘what problem is this package solving’ details, let’s look at some examples so that you can copy-paste into your own script and replicate out-of-the-box (and impress your friends).</p>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
-<a href="#installation" class="anchor" aria-hidden="true"></a>Installation</h2>
+<a href="#installation" class="anchor"></a>Installation</h2>
 <p>You can install <code>absmapsdata</code> from github with:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co"># install.packages("remotes")</span>
-<span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"wfmackey/absmapsdata"</span><span class="op">)</span></code></pre></div>
-<p><code>absmapsdata</code> contains a lot of data, so installing using <code><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">remotes::install_github</a></code> may fail if the download times out. If this happens, set the timeout option to a large value and try again, i.e. run:</p>
+<span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span><span class="op">(</span><span class="st">"wfmackey/absmapsdata"</span><span class="op">)</span></code></pre></div>
+<p><code>absmapsdata</code> contains a lot of data, so installing using <code><a href="https://remotes.r-lib.org/reference/install_github.html">remotes::install_github</a></code> may fail if the download times out. If this happens, set the timeout option to a large value and try again, i.e. run:</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/base/options.html" class="external-link">options</a></span><span class="op">(</span>timeout<span class="op">=</span><span class="fl">1000</span><span class="op">)</span>
-<span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"wfmackey/absmapsdata"</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/base/options.html">options</a></span><span class="op">(</span>timeout<span class="op">=</span><span class="fl">1000</span><span class="op">)</span>
+<span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span><span class="op">(</span><span class="st">"wfmackey/absmapsdata"</span><span class="op">)</span></code></pre></div>
 <p>The <code>sf</code> package is required to handle the <code>sf</code> objects:</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co"># install.packages("sf")</span>
-<span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://r-spatial.github.io/sf/" class="external-link">sf</a></span><span class="op">)</span></code></pre></div>
+<span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://r-spatial.github.io/sf/">sf</a></span><span class="op">)</span></code></pre></div>
 </div>
 <div id="maps-loaded-with-this-package" class="section level2">
 <h2 class="hasAnchor">
-<a href="#maps-loaded-with-this-package" class="anchor" aria-hidden="true"></a>Maps loaded with this package</h2>
+<a href="#maps-loaded-with-this-package" class="anchor"></a>Maps loaded with this package</h2>
 <p>Available maps are listed below. These will be added to over time. If you would like to request a map to be added, let me know via an issue on this Github repo.</p>
 <p><strong>ASGS Main Structures</strong></p>
 <ul>
@@ -170,13 +174,13 @@
 </div>
 <div id="just-show-me-how-to-make-a-map-with-this-package" class="section level2">
 <h2 class="hasAnchor">
-<a href="#just-show-me-how-to-make-a-map-with-this-package" class="anchor" aria-hidden="true"></a>Just show me how to make a map with this package</h2>
+<a href="#just-show-me-how-to-make-a-map-with-this-package" class="anchor"></a>Just show me how to make a map with this package</h2>
 <div id="using-the-packages-pre-loaded-data" class="section level3">
 <h3 class="hasAnchor">
-<a href="#using-the-packages-pre-loaded-data" class="anchor" aria-hidden="true"></a>Using the package’s pre-loaded data</h3>
+<a href="#using-the-packages-pre-loaded-data" class="anchor"></a>Using the package’s pre-loaded data</h3>
 <p>The <code>absmapsdata</code> package comes with pre-downloaded and pre-processed data. To load a particular geospatial object: load the <strong>package</strong>, then call the object (see list above for object names).</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org" class="external-link">tidyverse</a></span><span class="op">)</span>
+<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va">tidyverse</span><span class="op">)</span>
 <span class="co">#&gt; ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──</span>
 <span class="co">#&gt; ✓ ggplot2 3.3.5     ✓ purrr   0.3.4</span>
 <span class="co">#&gt; ✓ tibble  3.1.3     ✓ dplyr   1.0.7</span>
@@ -185,13 +189,13 @@
 <span class="co">#&gt; ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──</span>
 <span class="co">#&gt; x dplyr::filter() masks stats::filter()</span>
 <span class="co">#&gt; x dplyr::lag()    masks stats::lag()</span>
-<span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://r-spatial.github.io/sf/" class="external-link">sf</a></span><span class="op">)</span>
+<span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://r-spatial.github.io/sf/">sf</a></span><span class="op">)</span>
 <span class="co">#&gt; Linking to GEOS 3.8.1, GDAL 3.2.1, PROJ 7.2.1</span>
-<span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va">absmapsdata</span><span class="op">)</span>
+<span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va">absmapsdata</span><span class="op">)</span>
 
 <span class="va">mapdata1</span> <span class="op">&lt;-</span> <span class="va">sa32011</span>
 
-<span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html" class="external-link">glimpse</a></span><span class="op">(</span><span class="va">mapdata1</span><span class="op">)</span>
+<span class="fu">glimpse</span><span class="op">(</span><span class="va">mapdata1</span><span class="op">)</span>
 <span class="co">#&gt; Rows: 351</span>
 <span class="co">#&gt; Columns: 12</span>
 <span class="co">#&gt; $ sa3_code_2011   &lt;chr&gt; "10101", "10102", "10103", "10104", "10201", "10202", …</span>
@@ -210,7 +214,7 @@
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">mapdata2</span> <span class="op">&lt;-</span> <span class="va">sa22016</span>
 
-<span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html" class="external-link">glimpse</a></span><span class="op">(</span><span class="va">mapdata2</span><span class="op">)</span>
+<span class="fu">glimpse</span><span class="op">(</span><span class="va">mapdata2</span><span class="op">)</span>
 <span class="co">#&gt; Rows: 2,310</span>
 <span class="co">#&gt; Columns: 15</span>
 <span class="co">#&gt; $ sa2_main_2016   &lt;chr&gt; "101021007", "101021008", "101021009", "101021010", "1…</span>
@@ -232,41 +236,41 @@
 </div>
 <div id="creating-maps-with-your-sf-object" class="section level3">
 <h3 class="hasAnchor">
-<a href="#creating-maps-with-your-sf-object" class="anchor" aria-hidden="true"></a>Creating maps with your <code>sf</code> object</h3>
+<a href="#creating-maps-with-your-sf-object" class="anchor"></a>Creating maps with your <code>sf</code> object</h3>
 <p>We do all this so we can create gorgeous maps. And with the <code>sf</code> object in hand, plotting a map via <code>ggplot</code> and <code>geom_sf</code> is simple.</p>
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">map</span> <span class="op">&lt;-</span>
-<span class="va">sa32016</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span>
-  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html" class="external-link">filter</a></span><span class="op">(</span><span class="va">gcc_name_2016</span> <span class="op">==</span> <span class="st">"Greater Melbourne"</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span>   <span class="co"># let's just look Melbourne</span>
-  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html" class="external-link">ggplot</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span>
-  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggsf.html" class="external-link">geom_sf</a></span><span class="op">(</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html" class="external-link">aes</a></span><span class="op">(</span>geometry <span class="op">=</span> <span class="va">geometry</span><span class="op">)</span><span class="op">)</span>  <span class="co"># use the geometry variable</span>
+<span class="va">sa32016</span> <span class="op">%&gt;%</span>
+  <span class="fu"><a href="https://rdrr.io/r/stats/filter.html">filter</a></span><span class="op">(</span><span class="va">gcc_name_2016</span> <span class="op">==</span> <span class="st">"Greater Melbourne"</span><span class="op">)</span> <span class="op">%&gt;%</span>   <span class="co"># let's just look Melbourne</span>
+  <span class="fu">ggplot</span><span class="op">(</span><span class="op">)</span> <span class="op">+</span>
+  <span class="fu">geom_sf</span><span class="op">(</span><span class="fu">aes</span><span class="op">(</span>geometry <span class="op">=</span> <span class="va">geometry</span><span class="op">)</span><span class="op">)</span>  <span class="co"># use the geometry variable</span>
 
 <span class="va">map</span></code></pre></div>
 <p><img src="reference/figures/README-unnamed-chunk-6-1.png" width="100%"></p>
 <p>The data also include centroids of each area, and we can add these points to the map with the <code>cent_lat</code> and <code>cent_long</code> variables using <code>geom_point</code>.</p>
 <div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="va">map</span> <span class="op">&lt;-</span> <span class="va">sa32016</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span>
-  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html" class="external-link">filter</a></span><span class="op">(</span><span class="va">gcc_name_2016</span> <span class="op">==</span> <span class="st">"Greater Melbourne"</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span>   <span class="co"># let's just look Melbourne</span>
-  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html" class="external-link">ggplot</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span>
-  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggsf.html" class="external-link">geom_sf</a></span><span class="op">(</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html" class="external-link">aes</a></span><span class="op">(</span>geometry <span class="op">=</span> <span class="va">geometry</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span>   <span class="co"># use the geometry variable</span>
-  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_point.html" class="external-link">geom_point</a></span><span class="op">(</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html" class="external-link">aes</a></span><span class="op">(</span><span class="va">cent_long</span>, <span class="va">cent_lat</span><span class="op">)</span><span class="op">)</span>  <span class="co"># use the centroid long (x) and lats (y)</span>
+<code class="sourceCode R"><span class="va">map</span> <span class="op">&lt;-</span> <span class="va">sa32016</span> <span class="op">%&gt;%</span>
+  <span class="fu"><a href="https://rdrr.io/r/stats/filter.html">filter</a></span><span class="op">(</span><span class="va">gcc_name_2016</span> <span class="op">==</span> <span class="st">"Greater Melbourne"</span><span class="op">)</span> <span class="op">%&gt;%</span>   <span class="co"># let's just look Melbourne</span>
+  <span class="fu">ggplot</span><span class="op">(</span><span class="op">)</span> <span class="op">+</span>
+  <span class="fu">geom_sf</span><span class="op">(</span><span class="fu">aes</span><span class="op">(</span>geometry <span class="op">=</span> <span class="va">geometry</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span>   <span class="co"># use the geometry variable</span>
+  <span class="fu">geom_point</span><span class="op">(</span><span class="fu">aes</span><span class="op">(</span><span class="va">cent_long</span>, <span class="va">cent_lat</span><span class="op">)</span><span class="op">)</span>  <span class="co"># use the centroid long (x) and lats (y)</span>
 
 <span class="va">map</span></code></pre></div>
 <p><img src="reference/figures/README-unnamed-chunk-7-1.png" width="100%"></p>
 <p>Cool. But this all looks a bit ugly. We can pretty it up using <code>ggplot</code> tweaks. See the comments on each line for its objective. Also note that we’re filling the areas by their <code>areasqkm</code> size, another variable included in the <code>sf</code> object (we’ll replace this with more interesting data in the next section).</p>
 <div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="va">map</span> <span class="op">&lt;-</span> <span class="va">sa32016</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span>
-  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html" class="external-link">filter</a></span><span class="op">(</span><span class="va">gcc_name_2016</span> <span class="op">==</span> <span class="st">"Greater Melbourne"</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span>   <span class="co"># let's just look Melbourne</span>
-  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html" class="external-link">ggplot</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span>
-  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggsf.html" class="external-link">geom_sf</a></span><span class="op">(</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html" class="external-link">aes</a></span><span class="op">(</span>geometry <span class="op">=</span> <span class="va">geometry</span>,  <span class="co"># use the geometry variable</span>
+<code class="sourceCode R"><span class="va">map</span> <span class="op">&lt;-</span> <span class="va">sa32016</span> <span class="op">%&gt;%</span>
+  <span class="fu"><a href="https://rdrr.io/r/stats/filter.html">filter</a></span><span class="op">(</span><span class="va">gcc_name_2016</span> <span class="op">==</span> <span class="st">"Greater Melbourne"</span><span class="op">)</span> <span class="op">%&gt;%</span>   <span class="co"># let's just look Melbourne</span>
+  <span class="fu">ggplot</span><span class="op">(</span><span class="op">)</span> <span class="op">+</span>
+  <span class="fu">geom_sf</span><span class="op">(</span><span class="fu">aes</span><span class="op">(</span>geometry <span class="op">=</span> <span class="va">geometry</span>,  <span class="co"># use the geometry variable</span>
               fill <span class="op">=</span> <span class="va">areasqkm_2016</span><span class="op">)</span>,     <span class="co"># fill by area size</span>
           lwd <span class="op">=</span> <span class="fl">0</span>,                  <span class="co"># remove borders</span>
           show.legend <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span> <span class="op">+</span>    <span class="co"># remove legend</span>
-  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_point.html" class="external-link">geom_point</a></span><span class="op">(</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html" class="external-link">aes</a></span><span class="op">(</span><span class="va">cent_long</span>,
+  <span class="fu">geom_point</span><span class="op">(</span><span class="fu">aes</span><span class="op">(</span><span class="va">cent_long</span>,
                  <span class="va">cent_lat</span><span class="op">)</span>,        <span class="co"># use the centroid long (x) and lats (y)</span>
              colour <span class="op">=</span> <span class="st">"white"</span><span class="op">)</span> <span class="op">+</span>    <span class="co"># make the points white</span>
-  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggtheme.html" class="external-link">theme_void</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span>                    <span class="co"># clears other plot elements</span>
-  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggsf.html" class="external-link">coord_sf</a></span><span class="op">(</span><span class="op">)</span>
+  <span class="fu">theme_void</span><span class="op">(</span><span class="op">)</span> <span class="op">+</span>                    <span class="co"># clears other plot elements</span>
+  <span class="fu">coord_sf</span><span class="op">(</span><span class="op">)</span>
 
 <span class="va">map</span></code></pre></div>
 <p><img src="reference/figures/README-unnamed-chunk-8-1.png" width="100%"></p>
@@ -274,12 +278,12 @@
 </div>
 <div id="joining-with-other-datasets" class="section level2">
 <h2 class="hasAnchor">
-<a href="#joining-with-other-datasets" class="anchor" aria-hidden="true"></a>Joining with other datasets</h2>
+<a href="#joining-with-other-datasets" class="anchor"></a>Joining with other datasets</h2>
 <p>At some point, we’ll want to join our spatial data with data-of-interest. The variables in our mapping data—stating the numeric code and name of each area and parent area—will make this <em>relatively</em> easy.</p>
 <p>For example: suppose we had a simple dataset of median income by SA3 over time.</p>
 <div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co"># Read data in some data</span>
-<span class="va">income</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://readr.tidyverse.org/reference/read_delim.html" class="external-link">read_csv</a></span><span class="op">(</span><span class="st">"https://raw.githubusercontent.com/wfmackey/absmapsdata/master/img/data/median_income_sa3.csv"</span><span class="op">)</span>
+<span class="va">income</span> <span class="op">&lt;-</span> <span class="fu">read_csv</span><span class="op">(</span><span class="st">"https://raw.githubusercontent.com/wfmackey/absmapsdata/master/img/data/median_income_sa3.csv"</span><span class="op">)</span>
 <span class="co">#&gt; Rows: 2148 Columns: 3</span>
 <span class="co">#&gt; ── Column specification ────────────────────────────────────────────────────────</span>
 <span class="co">#&gt; Delimiter: ","</span>
@@ -288,7 +292,7 @@
 <span class="co">#&gt; </span>
 <span class="co">#&gt; ℹ Use `spec()` to retrieve the full column specification for this data.</span>
 <span class="co">#&gt; ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</span>
-<span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">income</span><span class="op">)</span>
+<span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span><span class="op">(</span><span class="va">income</span><span class="op">)</span>
 <span class="co">#&gt; # A tibble: 6 × 3</span>
 <span class="co">#&gt;   sa3_name_2016       year    median_income</span>
 <span class="co">#&gt;   &lt;chr&gt;               &lt;chr&gt;           &lt;dbl&gt;</span>
@@ -298,26 +302,29 @@
 <span class="co">#&gt; 4 Goulburn - Mulwaree 2010-11         38269</span>
 <span class="co">#&gt; 5 Young - Yass        2010-11         39489</span>
 <span class="co">#&gt; 6 Gosford             2010-11         38189</span></code></pre></div>
-<p>This income data contains a variable <code>sa3_name_2016</code>, and we can use <code><a href="https://dplyr.tidyverse.org/reference/mutate-joins.html" class="external-link">dplyr::left_join()</a></code> to combine with our mapping data.</p>
+<p>This income data contains a variable <code>sa3_name_2016</code>, and we can use <code>dplyr::left_join()</code> to combine with our mapping data.</p>
 <div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="va">combined_data</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate-joins.html" class="external-link">left_join</a></span><span class="op">(</span><span class="va">income</span>, 
+<code class="sourceCode R"><span class="va">combined_data</span> <span class="op">&lt;-</span> <span class="fu">left_join</span><span class="op">(</span><span class="va">income</span>, 
                            <span class="va">sa32016</span>, 
                            by <span class="op">=</span> <span class="st">"sa3_name_2016"</span><span class="op">)</span></code></pre></div>
 <p>Now that we have a tidy dataset with 1) the income data we want to plot, and 2) the geometry of the areas, we can plot income by area:</p>
 <div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="va">map</span> <span class="op">&lt;-</span> <span class="va">combined_data</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span>
-  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html" class="external-link">filter</a></span><span class="op">(</span><span class="va">gcc_name_2016</span> <span class="op">==</span> <span class="st">"Greater Melbourne"</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span>   <span class="co"># let's just look Melbourne</span>
-  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html" class="external-link">ggplot</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span>
-  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggsf.html" class="external-link">geom_sf</a></span><span class="op">(</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html" class="external-link">aes</a></span><span class="op">(</span>geometry <span class="op">=</span> <span class="va">geometry</span>,   <span class="co"># use the geometry variable</span>
+<code class="sourceCode R"><span class="va">map</span> <span class="op">&lt;-</span> <span class="va">combined_data</span> <span class="op">%&gt;%</span>
+  <span class="fu"><a href="https://rdrr.io/r/stats/filter.html">filter</a></span><span class="op">(</span><span class="va">gcc_name_2016</span> <span class="op">==</span> <span class="st">"Greater Melbourne"</span><span class="op">)</span> <span class="op">%&gt;%</span>   <span class="co"># let's just look Melbourne</span>
+  <span class="fu">ggplot</span><span class="op">(</span><span class="op">)</span> <span class="op">+</span>
+  <span class="fu">geom_sf</span><span class="op">(</span><span class="fu">aes</span><span class="op">(</span>geometry <span class="op">=</span> <span class="va">geometry</span>,   <span class="co"># use the geometry variable</span>
               fill <span class="op">=</span> <span class="va">median_income</span><span class="op">)</span>, <span class="co"># fill by unemployment rate</span>
           lwd <span class="op">=</span> <span class="fl">0</span><span class="op">)</span> <span class="op">+</span>                 <span class="co"># remove borders</span>
-  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggtheme.html" class="external-link">theme_void</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span>                     <span class="co"># clears other plot elements</span>
-  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/labs.html" class="external-link">labs</a></span><span class="op">(</span>fill <span class="op">=</span> <span class="st">"Median income"</span><span class="op">)</span></code></pre></div>
+  <span class="fu">theme_void</span><span class="op">(</span><span class="op">)</span> <span class="op">+</span>                     <span class="co"># clears other plot elements</span>
+  <span class="fu">labs</span><span class="op">(</span>fill <span class="op">=</span> <span class="st">"Median income"</span><span class="op">)</span>
+
+<span class="va">map</span></code></pre></div>
+<p><img src="reference/figures/README-unnamed-chunk-11-1.png" width="100%"></p>
 </div>
 <div id="get-correspondence-files" class="section level2">
 <h2 class="hasAnchor">
-<a href="#get-correspondence-files" class="anchor" aria-hidden="true"></a>Get correspondence files</h2>
-<p>You can use the <code>get_correspondence_absmaps</code> function to get population-weighted correspondence tables provided <a href="https://data.gov.au/data/dataset/asgs-geographic-correspondences-2016/resource/951e18c7-f187-4c86-a73f-fcabcd19af16" class="external-link">by the ABS</a>. Note that while there are lots of correspondence tables, not every combination is available.</p>
+<a href="#get-correspondence-files" class="anchor"></a>Get correspondence files</h2>
+<p>You can use the <code>get_correspondence_absmaps</code> function to get population-weighted correspondence tables provided <a href="https://data.gov.au/data/dataset/asgs-geographic-correspondences-2016/resource/951e18c7-f187-4c86-a73f-fcabcd19af16">by the ABS</a>. Note that while there are lots of correspondence tables, not every combination is available.</p>
 <p>For example:</p>
 <div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="reference/get_correspondence_absmaps.html">get_correspondence_absmaps</a></span><span class="op">(</span><span class="st">"cd"</span>, <span class="fl">2006</span>,
@@ -339,7 +346,7 @@
 </div>
 <div id="why-does-this-package-exist" class="section level2">
 <h2 class="hasAnchor">
-<a href="#why-does-this-package-exist" class="anchor" aria-hidden="true"></a>Why does this package exist?</h2>
+<a href="#why-does-this-package-exist" class="anchor"></a>Why does this package exist?</h2>
 <p>The motivation for this package is that maps are cool and fun and are, sometimes, the best way to communicate data. And making maps is <code>R</code> with <code>ggplot</code> is relatively easy <em>when you have the right <code>object</code></em>.</p>
 <p>Getting the right <code>object</code> is not technically difficult, but requires research into the best-thing-to-do at each of the following steps:</p>
 <ul>
@@ -349,60 +356,54 @@
 <li>Clean up any inconsistencies and apply consistent variable naming/values across areas and years.</li>
 <li>Find an appropriate compression function and level to optimise output.</li>
 </ul>
-<p>For me, at least, finding the correct information and developing the best set of steps was a little bit interesting but mostly tedious and annoying. The <code>absmapsdata</code> package holds this data for you, so you can spend more time making maps, and less time on Stack Overflow, the ABS website, and <a href="https://www.neonscience.org/dc-open-shapefiles-r" class="external-link">lovely-people’s wonderful blogs</a>.</p>
+<p>For me, at least, finding the correct information and developing the best set of steps was a little bit interesting but mostly tedious and annoying. The <code>absmapsdata</code> package holds this data for you, so you can spend more time making maps, and less time on Stack Overflow, the ABS website, and <a href="https://www.neonscience.org/dc-open-shapefiles-r">lovely-people’s wonderful blogs</a>.</p>
 </div>
 <div id="commentscomplaintsrequeststhoughts" class="section level2">
 <h2 class="hasAnchor">
-<a href="#commentscomplaintsrequeststhoughts" class="anchor" aria-hidden="true"></a>Comments/complaints/requests/THOUGHTS</h2>
-<p>Fair enough! The best avenue is via a Github issue at <a href="https://github.com/wfmackey/absmapsdata/issues" class="external-link">wfmackey/absmapsdata/issues</a>. This is also the best place to request data that isn’t yet available in the package.</p>
+<a href="#commentscomplaintsrequeststhoughts" class="anchor"></a>Comments/complaints/requests/THOUGHTS</h2>
+<p>Fair enough! The best avenue is via a Github issue at <a href="https://github.com/wfmackey/absmapsdata/issues">wfmackey/absmapsdata/issues</a>. This is also the best place to request data that isn’t yet available in the package.</p>
 </div>
 </div>
   </div>
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <div class="links">
-<h2 data-toc-skip>Links</h2>
+<h2>Links</h2>
 <ul class="list-unstyled">
 <li>Browse source code at <br><a href="https://github.com/wfmackey/absmapsdata/">https://​github.com/​wfmackey/​absmapsdata/​</a>
 </li>
 </ul>
 </div>
-
 <div class="license">
-<h2 data-toc-skip>License</h2>
+<h2>License</h2>
 <ul class="list-unstyled">
 <li><a href="https://www.r-project.org/Licenses/GPL-3">GPL-3</a></li>
 </ul>
 </div>
-
-
 <div class="developers">
-<h2 data-toc-skip>Developers</h2>
+<h2>Developers</h2>
 <ul class="list-unstyled">
 <li>Will Mackey <br><small class="roles"> Author, maintainer </small>  </li>
 </ul>
 </div>
 
-<div class="dev-status">
-<h2 data-toc-skip>Dev status</h2>
+  <div class="dev-status">
+<h2>Dev status</h2>
 <ul class="list-unstyled">
-<li><a href="https://www.tidyverse.org/lifecycle/#stable" class="external-link"><img src="https://img.shields.io/badge/lifecycle-stable-green.svg" alt="Lifecycle: stable"></a></li>
-<li><a href="https://github.com/wfmackey/absmapsdata/actions" class="external-link"><img src="https://github.com/wfmackey/absmapsdata/workflows/R-CMD-check/badge.svg" alt="R build status"></a></li>
+<li><a href="https://www.tidyverse.org/lifecycle/#stable"><img src="https://img.shields.io/badge/lifecycle-stable-green.svg" alt="Lifecycle: stable"></a></li>
+<li><a href="https://github.com/wfmackey/absmapsdata/actions"><img src="https://github.com/wfmackey/absmapsdata/workflows/R-CMD-check/badge.svg" alt="R build status"></a></li>
 </ul>
 </div>
-
-  </div>
+</div>
 </div>
 
 
       <footer><div class="copyright">
-  <p></p>
-<p>Developed by Will Mackey.</p>
+  <p>Developed by Will Mackey.</p>
 </div>
 
 <div class="pkgdown">
-  <p></p>
-<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 1.6.1.9001.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.6.1.</p>
 </div>
 
       </footer>
@@ -410,8 +411,6 @@
 
   
 
-
-  
 
   </body>
 </html>
