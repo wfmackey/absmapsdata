@@ -3,10 +3,10 @@ source("data-raw/read_shape.R")
 
 
 # Aus
-australia2021 <- read_shape("data-raw/data/2021/AUS_2021_AUST_SHP_GDA2020/",
-                            include_aus = TRUE)
+aus2021 <- read_shape("data-raw/data/2021/AUS_2021_AUST_SHP_GDA2020/",
+                      include_aus = TRUE)
 
-save(australia2021, file = "data/aus2021.rda", compress = "xz")
+save(aus2021, file = "data/aus2021.rda", compress = "xz")
 
 
 # State
