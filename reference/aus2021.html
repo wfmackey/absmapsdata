@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Urban Centre and Locality (UCL), 2016 — ucl2016 • absmapsdata</title>
+<title>Australia, 2021 — aus2021 • absmapsdata</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -48,8 +48,9 @@
   <link href="../extra.css" rel="stylesheet">
   
 
-<meta property="og:title" content="Urban Centre and Locality (UCL), 2016 — ucl2016" />
-<meta property="og:description" content="Geospatial data provided by the ABS for Urban Centre and Locality (UCL) in 2016." />
+<meta property="og:title" content="Australia, 2021 — aus2021" />
+<meta property="og:description" content="Geospatial data provided by the ABS for Australia in 2021. Note that the Geocentric Datum of Australia 2020 (GDA2020) is used.
+See [ABS explanation](https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files)." />
 
 
 
@@ -120,30 +121,25 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Urban Centre and Locality (UCL), 2016</h1>
+    <h1>Australia, 2021</h1>
     <small class="dont-index">Source: <a href='https://github.com/wfmackey/absmapsdata/blob/master/R/geog_dat.R'><code>R/geog_dat.R</code></a></small>
-    <div class="hidden name"><code>ucl2016.Rd</code></div>
+    <div class="hidden name"><code>aus2021.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Geospatial data provided by the ABS for Urban Centre and Locality (UCL) in 2016.</p>
+    <p>Geospatial data provided by the ABS for Australia in 2021. Note that the Geocentric Datum of Australia 2020 (GDA2020) is used.
+See [ABS explanation](https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files).</p>
     </div>
 
-    <pre class="usage"><span class='va'>ucl2016</span></pre>
+    <pre class="usage"><span class='va'>aus2021</span></pre>
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>An <code>sf</code> object with twelve variables:</p><dl>
-<dt><code>ucl_code_2016</code></dt><dd><p>The UCL code</p></dd>
-<dt><code>ucl_name_2016</code></dt><dd><p>The UCL name</p></dd>
-<dt><code>ssr_code_2016</code></dt><dd><p>The SSR code</p></dd>
-<dt><code>ssr_name_2016</code></dt><dd><p>The SSR name</p></dd>
-<dt><code>sos_code_2016</code></dt><dd><p>The SOS code</p></dd>
-<dt><code>sos_name_2016</code></dt><dd><p>The SOS name</p></dd>
-<dt><code>state_code_2016</code></dt><dd><p>The state code</p></dd>
-<dt><code>state_name_2016</code></dt><dd><p>The full state name</p></dd>
-<dt><code>areasqkm_2016</code></dt><dd><p>The area in square kilometres</p></dd>
+    <p>An <code>sf</code> object with 6 variables:</p><dl>
+<dt><code>aus_code_2021</code></dt><dd><p>The full Australia code</p></dd>
+<dt><code>aus_name_2021</code></dt><dd><p>The full Australia name</p></dd>
+<dt><code>areasqkm_2021</code></dt><dd><p>The area in square kilometres</p></dd>
 <dt><code>cent_lat</code></dt><dd><p>The latitide of the area's centroid</p></dd>
 <dt><code>cent_long</code></dt><dd><p>The latitide of the area's centroid</p></dd>
 <dt><code>geometry</code></dt><dd><p>A nested list containing the area's geometry (polygons)</p></dd>
