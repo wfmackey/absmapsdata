@@ -114,3 +114,29 @@ load("data/ced2018.rda")
 ced2018 <- st_set_crs(ced2018, st_crs(4326))
 save(ced2018, file = "data/ced2018.rda", compress = "xz")
 
+
+# rename albers
+load("data/sa12011.rda")
+names(sa12011) <- names(sa12011) %>% str_replace("albers_sqkm", "areasqkm_2011")
+save(sa12011, file = "data/sa12011.rda", compress = "xz")
+
+load("data/sa22011.rda")
+names(sa22011) <- names(sa22011) %>% str_replace("albers_sqkm", "areasqkm_2011")
+save(sa22011, file = "data/sa22011.rda", compress = "xz")
+
+load("data/sa32011.rda")
+names(sa32011) <- names(sa32011) %>% str_replace("albers_sqkm", "areasqkm_2011")
+save(sa32011, file = "data/sa32011.rda", compress = "xz")
+
+load("data/sa42011.rda")
+names(sa42011) <- names(sa42011) %>% str_replace("albers_sqkm", "areasqkm_2011")
+save(sa42011, file = "data/sa42011.rda", compress = "xz")
+
+load("data/gcc2011.rda")
+names(gcc2011) <- names(gcc2011) %>% str_replace("albers_sqkm", "areasqkm_2011")
+save(gcc2011, file = "data/gcc2011.rda", compress = "xz")
+
+load("data/state2011.rda")
+names(state2011) <- names(state2011) %>% str_replace("albers_sqkm", "areasqkm_2011")
+save(state2011, file = "data/state2011.rda", compress = "xz")
+

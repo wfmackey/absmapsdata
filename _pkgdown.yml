@@ -28,7 +28,7 @@ reference:
     desc: >
       ASGS data structures provided by the ABS
     contents:
-      - australia2021
+      - aus2021
       - ced2018
       - dz2011
       - dz2016

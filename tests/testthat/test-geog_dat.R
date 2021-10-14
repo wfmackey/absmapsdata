@@ -14,12 +14,16 @@ test_that("all objects are sf objects", {
   expect_s3_class(regional_ivi2008, class = c("sf", "data.frame"))
   expect_s3_class(sa12011, class = c("sf", "data.frame"))
   expect_s3_class(sa12016, class = c("sf", "data.frame"))
+  expect_s3_class(sa12021, class = c("sf", "data.frame"))
   expect_s3_class(sa22011, class = c("sf", "data.frame"))
   expect_s3_class(sa22016, class = c("sf", "data.frame"))
+  expect_s3_class(sa22021, class = c("sf", "data.frame"))
   expect_s3_class(sa32011, class = c("sf", "data.frame"))
   expect_s3_class(sa32016, class = c("sf", "data.frame"))
+  expect_s3_class(sa32021, class = c("sf", "data.frame"))
   expect_s3_class(sa42011, class = c("sf", "data.frame"))
   expect_s3_class(sa42016, class = c("sf", "data.frame"))
+  expect_s3_class(sa42021, class = c("sf", "data.frame"))
   expect_s3_class(sed2018, class = c("sf", "data.frame"))
   expect_s3_class(sos2016, class = c("sf", "data.frame"))
   expect_s3_class(sosr2016, class = c("sf", "data.frame"))
@@ -65,3 +69,87 @@ test_that("all objects are the right CRS", {
   expect_equal(st_crs(tourism2016)[[1]], "EPSG:4326")
   expect_equal(st_crs(ucl2016)[[1]], "EPSG:4326")
 })
+
+test_that("names are consistent", {
+
+  correct_names2021 <- c(
+    "sa1_code_2021",
+    "sa2_code_2021",
+    "sa2_name_2021",
+    "sa3_code_2021",
+    "sa3_name_2021",
+    "sa4_code_2021",
+    "sa4_name_2021",
+    "gcc_code_2021",
+    "gcc_name_2021",
+    "state_code_2021",
+    "state_name_2021",
+    "areasqkm_2021",
+    "cent_lat",
+    "cent_long",
+    "geometry"
+  )
+
+  correct_names2016 <- c(
+    "sa1_code_2016",
+    "sa1_7dig_2016",
+    "sa2_code_2016",
+    "sa2_name_2016",
+    "sa2_5dig_2016",
+    "sa3_code_2016",
+    "sa3_name_2016",
+    "sa4_code_2016",
+    "sa4_name_2016",
+    "gcc_code_2016",
+    "gcc_name_2016",
+    "state_code_2016",
+    "state_name_2016",
+    "areasqkm_2016",
+    "cent_lat",
+    "cent_long",
+    "geometry"
+  )
+
+  correct_names2011 <- c(
+    "sa1_code_2011",
+    "sa1_7dig_2011",
+    "sa2_code_2011",
+    "sa2_name_2011",
+    "sa2_5dig_2011",
+    "sa3_code_2011",
+    "sa3_name_2011",
+    "sa4_code_2011",
+    "sa4_name_2011",
+    "gcc_code_2011",
+    "gcc_name_2011",
+    "state_code_2011",
+    "state_name_2011",
+    "areasqkm_2011",
+    "cent_lat",
+    "cent_long",
+    "geometry"
+  )
+
+  expect_true(all(names(sa12011) %in% correct_names2011))
+  expect_true(all(names(sa22011) %in% correct_names2011))
+  expect_true(all(names(sa32011) %in% correct_names2011))
+  expect_true(all(names(sa42011) %in% correct_names2011))
+  expect_true(all(names(gcc2011) %in% correct_names2011))
+  expect_true(all(names(state2011) %in% correct_names2011))
+
+  expect_true(all(names(sa12016) %in% correct_names2016))
+  expect_true(all(names(sa22016) %in% correct_names2016))
+  expect_true(all(names(sa32016) %in% correct_names2016))
+  expect_true(all(names(sa42016) %in% correct_names2016))
+  expect_true(all(names(gcc2016) %in% correct_names2016))
+  expect_true(all(names(state2016) %in% correct_names2016))
+
+  expect_true(all(names(sa12021) %in% correct_names2021))
+  expect_true(all(names(sa22021) %in% correct_names2021))
+  expect_true(all(names(sa32021) %in% correct_names2021))
+  expect_true(all(names(sa42021) %in% correct_names2021))
+  expect_true(all(names(gcc2021) %in% correct_names2021))
+  expect_true(all(names(state2021) %in% correct_names2021))
+
+})
+

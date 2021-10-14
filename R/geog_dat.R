@@ -386,7 +386,7 @@
 #' \item{\code{cent_long}}{The latitide of the area's centroid}
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
 #' }
-"australia2021"
+"aus2021"
 
 
 
