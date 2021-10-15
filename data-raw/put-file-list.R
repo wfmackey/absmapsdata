@@ -2,7 +2,7 @@
 
 library(tidyverse)
 
-current_list <- tibble(files = list.files("data") %>%
-                             stringr::str_remove("\\.rda"))
+absmapsdata_file_list <- tibble(files = list.files("data") %>%
+                                  stringr::str_remove("\\.rda"))
 
-write_csv(current_list, "data-raw/absmapsdata-file-list.csv", col_names = FALSE)
+usethis::use_data(absmapsdata_file_list)

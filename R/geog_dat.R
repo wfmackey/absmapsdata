@@ -1,3 +1,8 @@
+#' Package file list
+#'
+#' @format An \code{tibble} object containing the names of files available in the package.
+"absmapsdata_file_list"
+
 #' Statistical Area 1, 2011
 #'
 #' Geospatial data provided by the ABS for Statistical Area 1 in 2011.
