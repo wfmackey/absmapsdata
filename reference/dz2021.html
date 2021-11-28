@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Postcodes, 2016 — postcode2016 • absmapsdata</title>
+<title>Destination Zones, 2021 — dz2021 • absmapsdata</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -48,8 +48,8 @@
   <link href="../extra.css" rel="stylesheet">
   
 
-<meta property="og:title" content="Postcodes, 2016 — postcode2016" />
-<meta property="og:description" content="Geospatial data provided by the ABS for postcodes in 2016." />
+<meta property="og:title" content="Destination Zones, 2021 — dz2021" />
+<meta property="og:description" content="Geospatial data provided by the ABS for destination zones in 2021." />
 
 
 
@@ -120,23 +120,25 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Postcodes, 2016</h1>
+    <h1>Destination Zones, 2021</h1>
     <small class="dont-index">Source: <a href='https://github.com/wfmackey/absmapsdata/blob/master/R/geog_dat.R'><code>R/geog_dat.R</code></a></small>
-    <div class="hidden name"><code>postcode2016.Rd</code></div>
+    <div class="hidden name"><code>dz2021.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Geospatial data provided by the ABS for postcodes in 2016.</p>
+    <p>Geospatial data provided by the ABS for destination zones in 2021.</p>
     </div>
 
-    <pre class="usage"><span class='va'>postcode2016</span></pre>
+    <pre class="usage"><span class='va'>dz2021</span></pre>
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>An <code>sf</code> object with five variables:</p><dl>
-<dt><code>postcode_2016</code></dt><dd><p>The postcode number as a character string.</p></dd>
-<dt><code>postcode_num_2016</code></dt><dd><p>The postcode number as a numeric.</p></dd>
+    <p>An <code>sf</code> object with nine variables:</p><dl>
+<dt><code>dz_code_2021</code></dt><dd><p>The destination zone code as a character string.</p></dd>
+<dt><code>sa2_code_2021</code></dt><dd><p>The 9 digit SA2 code numeric</p></dd>
+<dt><code>sa2_name_2021</code></dt><dd><p>The SA2 name character</p></dd>
+<dt><code>state_name_2021</code></dt><dd><p>The full state name</p></dd>
 <dt><code>cent_lat</code></dt><dd><p>The latitide of the area's centroid</p></dd>
 <dt><code>cent_long</code></dt><dd><p>The latitide of the area's centroid</p></dd>
 <dt><code>geometry</code></dt><dd><p>A nested list containing the area's geometry (polygons)</p></dd>
