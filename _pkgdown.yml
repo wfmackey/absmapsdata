@@ -30,15 +30,19 @@ reference:
     contents:
       - aus2021
       - ced2018
+      - ced2021
       - dz2011
       - dz2016
+      - dz2021
       - gcc2011
       - gcc2016
       - gcc2021
       - lga2011
       - lga2016
       - lga2018
+      - lga2021
       - postcode2016
+      - postcode2021
       - ra2011
       - ra2016
       - regional_ivi2008
@@ -55,6 +59,7 @@ reference:
       - sa42016
       - sa42021
       - sed2018
+      - sed2021
       - sos2016
       - sosr2016
       - state2011
@@ -62,6 +67,8 @@ reference:
       - state2021
       - sua2016
       - tourism2016
+      - tourism2021
       - ucl2016
       - employment_regions2015
       - get_correspondence_absmaps
+      - absmapsdata_file_list
