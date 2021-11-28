@@ -428,6 +428,24 @@
 
 
 
+#' Local Government Areas, 2021
+#'
+#' Geospatial data provided by the ABS for local government areas (LGAs) in 2021.
+#'
+#' @format An \code{sf} object with eight variables:
+#' \describe{
+#' \item{\code{lga_code_2021}}{The LGA code}
+#' \item{\code{lga_name_2021}}{The LGA name}
+#' \item{\code{state_code_2021}}{The state code}
+#' \item{\code{state_name_2021}}{The full state name}
+#' \item{\code{areasqkm_2021}}{The area in square kilometres}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"lga2021"
+
+
 #' Local Government Areas, 2018
 #'
 #' Geospatial data provided by the ABS for local government areas (LGAs) in 2018.
@@ -512,6 +530,37 @@
 "sed2018"
 
 
+#' Commonwelath Electoral Districts, 2021
+#'
+#' Geospatial data provided by the ABS for Commonwealth Electoral Districts (CEDs) in 2021.
+#'
+#' @format An \code{sf} object with six variables:
+#' \describe{
+#' \item{\code{ced_code_2021}}{The CED code}
+#' \item{\code{ced_name_2021}}{The CED name}
+#' \item{\code{areasqkm_2021}}{The area in square kilometres}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"ced2021"
+
+
+#' State Electoral Districts, 2021
+#'
+#' Geospatial data provided by the ABS for State Electoral Districts (SEDs) in 2021.
+#'
+#' @format An \code{sf} object with six variables:
+#' \describe{
+#' \item{\code{sed_code_2021}}{The SED code}
+#' \item{\code{sed_name_2021}}{The SED name}
+#' \item{\code{areasqkm_2021}}{The area in square kilometres}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"sed2021"
+
 #' Regional IVI, 2008
 #'
 #' Geospatial data privately provided on request by the Department of Employment(...)'s Labour Market Information Portal Team in 2019.
@@ -538,12 +587,26 @@
 #' @format An \code{sf} object with five variables:
 #' \describe{
 #' \item{\code{postcode_2016}}{The postcode number as a character string.}
-#' \item{\code{state_name}}{The postcode number as a numeric.}
+#' \item{\code{postcode_num_2016}}{The postcode number as a numeric.}
 #' \item{\code{cent_lat}}{The latitide of the area's centroid}
 #' \item{\code{cent_long}}{The latitide of the area's centroid}
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
 #' }
 "postcode2016"
+
+#' Postcodes, 2021
+#'
+#' Geospatial data provided by the ABS for postcodes in 2021.
+#'
+#' @format An \code{sf} object with five variables:
+#' \describe{
+#' \item{\code{postcode_2021}}{The postcode number as a character string.}
+#' \item{\code{postcode_num_2021}}{The postcode number as a numeric.}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"postcode2021"
 
 
 
@@ -564,6 +627,21 @@
 #' }
 "dz2016"
 
+#' Destination Zones, 2021
+#'
+#' Geospatial data provided by the ABS for destination zones in 2021.
+#'
+#' @format An \code{sf} object with nine variables:
+#' \describe{
+#' \item{\code{dz_code_2021}}{The destination zone code as a character string.}
+#' \item{\code{sa2_code_2021}}{The 9 digit SA2 code numeric}
+#' \item{\code{sa2_name_2021}}{The SA2 name character}
+#' \item{\code{state_name_2021}}{The full state name}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"dz2021"
 
 
 #' Destination Zones, 2011
@@ -674,6 +752,23 @@
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
 #' }
 "tourism2016"
+
+#' Tourism Regions, 2021
+#'
+#' Geospatial data provided by the ABS for Tourism Regions in 2021.
+#'
+#' @format An \code{sf} object with eight variables:
+#' \describe{
+#' \item{\code{tourism_code_2021}}{The Tourism Regions code}
+#' \item{\code{tourism_name_2021}}{The Tourism Regions name}
+#' \item{\code{state_code_2021}}{The state code}
+#' \item{\code{state_name_2021}}{The full state name}
+#' \item{\code{areasqkm_2021}}{The area in square kilometres}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"tourism2021"
 
 #' Employment Regions, 2015-2020
 #'

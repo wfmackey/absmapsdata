@@ -1,3 +1,7 @@
+# absmapsdata 1.3.2, 2021-11-29
+- Adds 2021 Non ABS Structures:
+  - `postcode2021`, `lga2021`, `ced2021`, `sed2021`, `tourism2021`, `dz2021`.
+
 # absmapsdata 1.3.1, 2021-10-14
 - Fixes some naming issues with `sa1` variables in the `2021` batch.
 
