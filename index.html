@@ -83,7 +83,7 @@
 
 <p>The <code>absmapsdata</code> package exists to make it easier to produce maps from ABS data in R. The package contains compressed, tidied, and lazily-loadable <code>sf</code> objects that hold geometric information about ABS data structures.</p>
 <p>It also contains a vast number of 2016 population-weighted ABS correspondences (the most recent) that you can access with the <code>get_correspondence_absmaps</code> function. The correspondences available can be found at the <a href="https://data.gov.au/data/dataset/asgs-geographic-correspondences-2016/resource/951e18c7-f187-4c86-a73f-fcabcd19af16">data.gov.au website</a>.</p>
-<p>Before we get into the ‘what problem is this package solving’ details, let’s look at some examples so that you can copy-paste into your own script and replicate out-of-the-box (and impress your friends).</p>
+<p>Note: the <code>absmapsdata</code> package is <strong>huge</strong>. To download and read <code>absmapsdata</code> files <strong>without installing the whole absmapsdata package</strong>, please see <a href="https://github.com/runapp-aus/strayr"><code>strayr::read_absmaps</code></a>. E.g.: <code>strayr::read_absmaps("sa42021")</code></p>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
@@ -93,9 +93,8 @@
 <span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span><span class="op">(</span><span class="st">"wfmackey/absmapsdata"</span><span class="op">)</span></code></pre></div>
 <p><code>absmapsdata</code> contains a lot of data, so installing using <code><a href="https://remotes.r-lib.org/reference/install_github.html">remotes::install_github</a></code> may fail if the download times out. If this happens, set the timeout option to a large value and try again, i.e. run:</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/base/options.html">options</a></span><span class="op">(</span>timeout<span class="op">=</span><span class="fl">1000</span><span class="op">)</span>
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/base/options.html">options</a></span><span class="op">(</span>timeout <span class="op">=</span> <span class="fl">1000</span><span class="op">)</span>
 <span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span><span class="op">(</span><span class="st">"wfmackey/absmapsdata"</span><span class="op">)</span></code></pre></div>
-<p>Note: to download and read <code>absmapsdata</code> files <strong>without installing the whole absmapsdata package</strong>, please see <a href="https://github.com/runapp-aus/strayr"><code>strayr::read_absmaps</code></a>.</p>
 <p>The <code>sf</code> package is required to handle the <code>sf</code> objects:</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co"># install.packages("sf")</span>
@@ -118,17 +117,17 @@
 </ul>
 <p><strong>ASGS Non-ABS Structures</strong></p>
 <ul>
-<li>Commonwealth Electoral Divisions 2018: <code>ced2018</code>
+<li>Commonwealth Electoral Divisions 2018: <code>ced2018</code>; and 2021: <code>ced2021</code>
 </li>
-<li>State Electoral Divisions 2018:<code>sed2018</code>
+<li>State Electoral Divisions 2018:<code>sed2018</code>; and 2021: <code>sed2021</code>
 </li>
-<li>Local Government Areas 2016: <code>lga2016</code>; and 2018: <code>lga2018</code>
+<li>Local Government Areas 2016: <code>lga2016</code>; 2018: <code>lga2018</code>; and 2021: <code>lga2021</code>
 </li>
 <li>Regions for the Internet Vacancy Index 2008: <code>regional_ivi2008</code>
 </li>
-<li>Postcodes 2016: <code>postcodes2016</code>
+<li>Postcodes 2016: <code>postcodes2016</code>; and 2021: <code>postcodes2021</code>
 </li>
-<li>Census of Population and Housing Destination Zones 2011: <code>dz2011</code>; and 2016: <code>dz2016</code>.</li>
+<li>Census of Population and Housing Destination Zones 2011: <code>dz2011</code>; 2016: <code>dz2016</code>; and 2021: <code>dz2021</code>.</li>
 </ul>
 <p><strong>Non-ABS Australian Government Structures</strong></p>
 <ul>
@@ -147,9 +146,9 @@
 <code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op">)</span>
 <span class="co">#&gt; ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──</span>
 <span class="co">#&gt; ✓ ggplot2 3.3.5     ✓ purrr   0.3.4</span>
-<span class="co">#&gt; ✓ tibble  3.1.4     ✓ dplyr   1.0.7</span>
-<span class="co">#&gt; ✓ tidyr   1.1.3     ✓ stringr 1.4.0</span>
-<span class="co">#&gt; ✓ readr   2.0.0     ✓ forcats 0.5.1</span>
+<span class="co">#&gt; ✓ tibble  3.1.6     ✓ dplyr   1.0.7</span>
+<span class="co">#&gt; ✓ tidyr   1.1.4     ✓ stringr 1.4.0</span>
+<span class="co">#&gt; ✓ readr   2.1.0     ✓ forcats 0.5.1</span>
 <span class="co">#&gt; ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──</span>
 <span class="co">#&gt; x dplyr::filter() masks stats::filter()</span>
 <span class="co">#&gt; x dplyr::lag()    masks stats::lag()</span>
@@ -157,23 +156,23 @@
 <span class="co">#&gt; Linking to GEOS 3.8.1, GDAL 3.2.1, PROJ 7.2.1</span>
 <span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va">absmapsdata</span><span class="op">)</span>
 
-<span class="va">mapdata1</span> <span class="op">&lt;-</span> <span class="va">sa32011</span>
+<span class="va">mapdata1</span> <span class="op">&lt;-</span> <span class="va">sa32021</span>
 
 <span class="fu">glimpse</span><span class="op">(</span><span class="va">mapdata1</span><span class="op">)</span>
-<span class="co">#&gt; Rows: 351</span>
+<span class="co">#&gt; Rows: 359</span>
 <span class="co">#&gt; Columns: 12</span>
-<span class="co">#&gt; $ sa3_code_2011   &lt;chr&gt; "10101", "10102", "10103", "10104", "10201", "10202", …</span>
-<span class="co">#&gt; $ sa3_name_2011   &lt;chr&gt; "Goulburn - Yass", "Queanbeyan", "Snowy Mountains", "S…</span>
-<span class="co">#&gt; $ sa4_code_2011   &lt;chr&gt; "101", "101", "101", "101", "102", "102", "103", "103"…</span>
-<span class="co">#&gt; $ sa4_name_2011   &lt;chr&gt; "Capital Region", "Capital Region", "Capital Region", …</span>
-<span class="co">#&gt; $ gcc_code_2011   &lt;chr&gt; "1RNSW", "1RNSW", "1RNSW", "1RNSW", "1GSYD", "1GSYD", …</span>
-<span class="co">#&gt; $ gcc_name_2011   &lt;chr&gt; "Rest of NSW", "Rest of NSW", "Rest of NSW", "Rest of …</span>
-<span class="co">#&gt; $ state_code_2011 &lt;chr&gt; "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1",…</span>
-<span class="co">#&gt; $ state_name_2011 &lt;chr&gt; "New South Wales", "New South Wales", "New South Wales…</span>
-<span class="co">#&gt; $ albers_sqkm     &lt;dbl&gt; 21236.61396, 6511.12140, 14281.83009, 9864.93971, 988.…</span>
-<span class="co">#&gt; $ cent_long       &lt;dbl&gt; 149.0763, 149.6013, 148.9416, 149.8063, 151.2182, 151.…</span>
-<span class="co">#&gt; $ cent_lat        &lt;dbl&gt; -34.55399, -35.44940, -36.43958, -36.49934, -33.36542,…</span>
-<span class="co">#&gt; $ geometry        &lt;MULTIPOLYGON [°]&gt; MULTIPOLYGON (((149.1198 -3..., MULTIPOLY…</span></code></pre></div>
+<span class="co">#&gt; $ sa3_code_2021   &lt;chr&gt; "10102", "10103", "10104", "10105", "10106", "10201", …</span>
+<span class="co">#&gt; $ sa3_name_2021   &lt;chr&gt; "Queanbeyan", "Snowy Mountains", "South Coast", "Goulb…</span>
+<span class="co">#&gt; $ sa4_code_2021   &lt;chr&gt; "101", "101", "101", "101", "101", "102", "102", "103"…</span>
+<span class="co">#&gt; $ sa4_name_2021   &lt;chr&gt; "Capital Region", "Capital Region", "Capital Region", …</span>
+<span class="co">#&gt; $ gcc_code_2021   &lt;chr&gt; "1RNSW", "1RNSW", "1RNSW", "1RNSW", "1RNSW", "1GSYD", …</span>
+<span class="co">#&gt; $ gcc_name_2021   &lt;chr&gt; "Rest of NSW", "Rest of NSW", "Rest of NSW", "Rest of …</span>
+<span class="co">#&gt; $ state_code_2021 &lt;chr&gt; "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1",…</span>
+<span class="co">#&gt; $ state_name_2021 &lt;chr&gt; "New South Wales", "New South Wales", "New South Wales…</span>
+<span class="co">#&gt; $ areasqkm_2021   &lt;dbl&gt; 6511.3971, 14284.5857, 9864.4876, 9099.9087, 12135.865…</span>
+<span class="co">#&gt; $ cent_lat        &lt;dbl&gt; -35.44896, -36.43821, -36.49582, -34.51746, -34.57987,…</span>
+<span class="co">#&gt; $ cent_long       &lt;dbl&gt; 149.6018, 148.9415, 149.8079, 149.6046, 148.6786, 151.…</span>
+<span class="co">#&gt; $ geometry        &lt;MULTIPOLYGON [°]&gt; MULTIPOLYGON (((149.979 -35..., MULTIPOLY…</span></code></pre></div>
 <p>Or</p>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">mapdata2</span> <span class="op">&lt;-</span> <span class="va">sa22016</span>
@@ -322,10 +321,10 @@
 </ul>
 <p>For me at least, finding the correct information and developing the best set of steps was a little bit interesting but mostly tedious and annoying. The <code>absmapsdata</code> package holds this data for you, so you can spend more time making maps, and less time on Stack Overflow, the ABS website, and <a href="https://www.neonscience.org/dc-open-shapefiles-r">lovely-people’s wonderful blogs</a>.</p>
 </div>
-<div id="commentscomplaintsrequeststhoughts" class="section level2">
+<div id="commentscomplaintsrequests" class="section level2">
 <h2 class="hasAnchor">
-<a href="#commentscomplaintsrequeststhoughts" class="anchor"></a>Comments/complaints/requests/THOUGHTS</h2>
-<p>Fair enough! The best avenue is via a Github issue at <a href="https://github.com/wfmackey/absmapsdata/issues">wfmackey/absmapsdata/issues</a>. This is also the best place to request data that isn’t yet available in the package.</p>
+<a href="#commentscomplaintsrequests" class="anchor"></a>Comments/complaints/requests</h2>
+<p>The best avenue is via a Github issue at <a href="https://github.com/wfmackey/absmapsdata/issues">wfmackey/absmapsdata/issues</a>. This is also the best place to request data that isn’t yet available in the package.</p>
 </div>
 </div>
   </div>
