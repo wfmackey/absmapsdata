@@ -22,9 +22,11 @@ correspondences (the most recent) that you can access with the
 be found at the [data.gov.au
 website](https://data.gov.au/data/dataset/asgs-geographic-correspondences-2016/resource/951e18c7-f187-4c86-a73f-fcabcd19af16).
 
-Before we get into the ‘what problem is this package solving’ details,
-let’s look at some examples so that you can copy-paste into your own
-script and replicate out-of-the-box (and impress your friends).
+Note: the `absmapsdata` package is **huge**. To download and read
+`absmapsdata` files **without installing the whole absmapsdata
+package**, please see
+[`strayr::read_absmaps`](https://github.com/runapp-aus/strayr). E.g.:
+`strayr::read_absmaps("sa42021")`
 
 ## Installation
 
@@ -41,13 +43,9 @@ happens, set the timeout option to a large value and try again,
 i.e. run:
 
 ``` r
-options(timeout=1000)
+options(timeout = 1000)
 remotes::install_github("wfmackey/absmapsdata")
 ```
-
-Note: to download and read `absmapsdata` files **without installing the
-whole absmapsdata package**, please see
-[`strayr::read_absmaps`](https://github.com/runapp-aus/strayr).
 
 The `sf` package is required to handle the `sf` objects:
 
@@ -79,13 +77,15 @@ this Github repo.
 
 **ASGS Non-ABS Structures**
 
--   Commonwealth Electoral Divisions 2018: `ced2018`
--   State Electoral Divisions 2018:`sed2018`
--   Local Government Areas 2016: `lga2016`; and 2018: `lga2018`
+-   Commonwealth Electoral Divisions 2018: `ced2018`; and 2021:
+    `ced2021`
+-   State Electoral Divisions 2018:`sed2018`; and 2021: `sed2021`
+-   Local Government Areas 2016: `lga2016`; 2018: `lga2018`; and 2021:
+    `lga2021`
 -   Regions for the Internet Vacancy Index 2008: `regional_ivi2008`
--   Postcodes 2016: `postcodes2016`
+-   Postcodes 2016: `postcodes2016`; and 2021: `postcodes2021`
 -   Census of Population and Housing Destination Zones 2011: `dz2011`;
-    and 2016: `dz2016`.
+    2016: `dz2016`; and 2021: `dz2021`.
 
 **Non-ABS Australian Government Structures**
 
@@ -103,9 +103,9 @@ call the object (see list above for object names).
 library(tidyverse)
 #> ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──
 #> ✓ ggplot2 3.3.5     ✓ purrr   0.3.4
-#> ✓ tibble  3.1.4     ✓ dplyr   1.0.7
-#> ✓ tidyr   1.1.3     ✓ stringr 1.4.0
-#> ✓ readr   2.0.0     ✓ forcats 0.5.1
+#> ✓ tibble  3.1.6     ✓ dplyr   1.0.7
+#> ✓ tidyr   1.1.4     ✓ stringr 1.4.0
+#> ✓ readr   2.1.0     ✓ forcats 0.5.1
 #> ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
 #> x dplyr::filter() masks stats::filter()
 #> x dplyr::lag()    masks stats::lag()
@@ -113,23 +113,23 @@ library(sf)
 #> Linking to GEOS 3.8.1, GDAL 3.2.1, PROJ 7.2.1
 library(absmapsdata)
 
-mapdata1 <- sa32011
+mapdata1 <- sa32021
 
 glimpse(mapdata1)
-#> Rows: 351
+#> Rows: 359
 #> Columns: 12
-#> $ sa3_code_2011   <chr> "10101", "10102", "10103", "10104", "10201", "10202", …
-#> $ sa3_name_2011   <chr> "Goulburn - Yass", "Queanbeyan", "Snowy Mountains", "S…
-#> $ sa4_code_2011   <chr> "101", "101", "101", "101", "102", "102", "103", "103"…
-#> $ sa4_name_2011   <chr> "Capital Region", "Capital Region", "Capital Region", …
-#> $ gcc_code_2011   <chr> "1RNSW", "1RNSW", "1RNSW", "1RNSW", "1GSYD", "1GSYD", …
-#> $ gcc_name_2011   <chr> "Rest of NSW", "Rest of NSW", "Rest of NSW", "Rest of …
-#> $ state_code_2011 <chr> "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1",…
-#> $ state_name_2011 <chr> "New South Wales", "New South Wales", "New South Wales…
-#> $ albers_sqkm     <dbl> 21236.61396, 6511.12140, 14281.83009, 9864.93971, 988.…
-#> $ cent_long       <dbl> 149.0763, 149.6013, 148.9416, 149.8063, 151.2182, 151.…
-#> $ cent_lat        <dbl> -34.55399, -35.44940, -36.43958, -36.49934, -33.36542,…
-#> $ geometry        <MULTIPOLYGON [°]> MULTIPOLYGON (((149.1198 -3..., MULTIPOLY…
+#> $ sa3_code_2021   <chr> "10102", "10103", "10104", "10105", "10106", "10201", …
+#> $ sa3_name_2021   <chr> "Queanbeyan", "Snowy Mountains", "South Coast", "Goulb…
+#> $ sa4_code_2021   <chr> "101", "101", "101", "101", "101", "102", "102", "103"…
+#> $ sa4_name_2021   <chr> "Capital Region", "Capital Region", "Capital Region", …
+#> $ gcc_code_2021   <chr> "1RNSW", "1RNSW", "1RNSW", "1RNSW", "1RNSW", "1GSYD", …
+#> $ gcc_name_2021   <chr> "Rest of NSW", "Rest of NSW", "Rest of NSW", "Rest of …
+#> $ state_code_2021 <chr> "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1",…
+#> $ state_name_2021 <chr> "New South Wales", "New South Wales", "New South Wales…
+#> $ areasqkm_2021   <dbl> 6511.3971, 14284.5857, 9864.4876, 9099.9087, 12135.865…
+#> $ cent_lat        <dbl> -35.44896, -36.43821, -36.49582, -34.51746, -34.57987,…
+#> $ cent_long       <dbl> 149.6018, 148.9415, 149.8079, 149.6046, 148.6786, 151.…
+#> $ geometry        <MULTIPOLYGON [°]> MULTIPOLYGON (((149.979 -35..., MULTIPOLY…
 ```
 
 Or
@@ -335,9 +335,9 @@ spend more time making maps, and less time on Stack Overflow, the ABS
 website, and [lovely-people’s wonderful
 blogs](https://www.neonscience.org/dc-open-shapefiles-r).
 
-## Comments/complaints/requests/THOUGHTS
+## Comments/complaints/requests
 
-Fair enough! The best avenue is via a Github issue at
+The best avenue is via a Github issue at
 [wfmackey/absmapsdata/issues](https://github.com/wfmackey/absmapsdata/issues).
 This is also the best place to request data that isn’t yet available in
 the package.

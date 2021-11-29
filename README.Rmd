@@ -29,9 +29,8 @@ data structures.
 
 It also contains a vast number of 2016 population-weighted ABS correspondences (the most recent) that you can access with the `get_correspondence_absmaps` function. The correspondences available can be found at the [data.gov.au website](https://data.gov.au/data/dataset/asgs-geographic-correspondences-2016/resource/951e18c7-f187-4c86-a73f-fcabcd19af16).
 
-Before we get into the ‘what problem is this package solving’ details,
-let’s look at some examples so that you can copy-paste into your own
-script and replicate out-of-the-box (and impress your friends).
+Note: the `absmapsdata` package is **huge**. To download and read `absmapsdata` files **without installing the whole absmapsdata package**, please see [`strayr::read_absmaps`](https://github.com/runapp-aus/strayr). E.g.: `strayr::read_absmaps("sa42021")`
+
 
 ## Installation
 
@@ -45,11 +44,9 @@ remotes::install_github("wfmackey/absmapsdata")
 `absmapsdata` contains a lot of data, so installing using `remotes::install_github` may fail if the download times out. If this happens, set the timeout option to a large value and try again, i.e. run:
 
 ```{r set_timeout, eval=FALSE}
-options(timeout=1000)
+options(timeout = 1000)
 remotes::install_github("wfmackey/absmapsdata")
 ```
-
-Note: to download and read `absmapsdata` files **without installing the whole absmapsdata package**, please see [`strayr::read_absmaps`](https://github.com/runapp-aus/strayr). 
 
 The `sf` package is required to handle the `sf` objects:
 ```{r, eval=FALSE}
@@ -75,12 +72,12 @@ If you would like to request a map to be added, let me know via an issue on this
 
 **ASGS Non-ABS Structures**
 
-* Commonwealth Electoral Divisions 2018: `ced2018`
-* State Electoral Divisions 2018:`sed2018`
-* Local Government Areas 2016: `lga2016`; and 2018: `lga2018`
+* Commonwealth Electoral Divisions 2018: `ced2018`; and 2021: `ced2021`
+* State Electoral Divisions 2018:`sed2018`; and 2021: `sed2021`
+* Local Government Areas 2016: `lga2016`; 2018: `lga2018`; and 2021: `lga2021`
 * Regions for the Internet Vacancy Index 2008: `regional_ivi2008`
-* Postcodes 2016: `postcodes2016`
-* Census of Population and Housing Destination Zones 2011: `dz2011`; and 2016: `dz2016`.
+* Postcodes 2016: `postcodes2016`; and 2021: `postcodes2021`
+* Census of Population and Housing Destination Zones 2011: `dz2011`; 2016: `dz2016`; and 2021: `dz2021`.
 
 **Non-ABS Australian Government Structures**
 
@@ -99,7 +96,7 @@ library(tidyverse)
 library(sf)
 library(absmapsdata)
 
-mapdata1 <- sa32011
+mapdata1 <- sa32021
 
 glimpse(mapdata1)
 ```
@@ -250,8 +247,8 @@ spend more time making maps, and less time on Stack Overflow, the ABS
 website, and [lovely-people’s wonderful
 blogs](https://www.neonscience.org/dc-open-shapefiles-r).
 
-## Comments/complaints/requests/THOUGHTS
+## Comments/complaints/requests
 
-Fair enough! The best avenue is via a Github issue at
+The best avenue is via a Github issue at
 [wfmackey/absmapsdata/issues](https://github.com/wfmackey/absmapsdata/issues).
 This is also the best place to request data that isn't yet available in the package.
