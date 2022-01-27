@@ -43,6 +43,8 @@ reference:
       - lga2021
       - postcode2016
       - postcode2021
+      - suburb2016
+      - suburb2021
       - ra2011
       - ra2016
       - regional_ivi2008
