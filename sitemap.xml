@@ -13,16 +13,25 @@
     <loc>/news/index.html</loc>
   </url>
   <url>
-    <loc>/reference/australia2021.html</loc>
+    <loc>/reference/absmapsdata_file_list.html</loc>
+  </url>
+  <url>
+    <loc>/reference/aus2021.html</loc>
   </url>
   <url>
     <loc>/reference/ced2018.html</loc>
+  </url>
+  <url>
+    <loc>/reference/ced2021.html</loc>
   </url>
   <url>
     <loc>/reference/dz2011.html</loc>
   </url>
   <url>
     <loc>/reference/dz2016.html</loc>
+  </url>
+  <url>
+    <loc>/reference/dz2021.html</loc>
   </url>
   <url>
     <loc>/reference/employment_regions2015.html</loc>
@@ -52,7 +61,13 @@
     <loc>/reference/lga2018.html</loc>
   </url>
   <url>
+    <loc>/reference/lga2021.html</loc>
+  </url>
+  <url>
     <loc>/reference/postcode2016.html</loc>
+  </url>
+  <url>
+    <loc>/reference/postcode2021.html</loc>
   </url>
   <url>
     <loc>/reference/ra2011.html</loc>
@@ -103,6 +118,9 @@
     <loc>/reference/sed2018.html</loc>
   </url>
   <url>
+    <loc>/reference/sed2021.html</loc>
+  </url>
+  <url>
     <loc>/reference/sos2016.html</loc>
   </url>
   <url>
@@ -121,7 +139,16 @@
     <loc>/reference/sua2016.html</loc>
   </url>
   <url>
+    <loc>/reference/suburb2016.html</loc>
+  </url>
+  <url>
+    <loc>/reference/suburb2021.html</loc>
+  </url>
+  <url>
     <loc>/reference/tourism2016.html</loc>
+  </url>
+  <url>
+    <loc>/reference/tourism2021.html</loc>
   </url>
   <url>
     <loc>/reference/ucl2016.html</loc>
