@@ -22,15 +22,16 @@ stable](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://www.ti
 [![R build status](https://github.com/wfmackey/absmapsdata/workflows/R-CMD-check/badge.svg)](https://github.com/wfmackey/absmapsdata/actions)
 <!-- badges: end -->
 
-The `absmapsdata` package exists to make it easier to produce maps from
-ABS data in R. The package contains compressed, tidied, and
-lazily-loadable `sf` objects that hold geometric information about ABS
-data structures.
+The `absmapsdata` package exists to make it easier to produce maps from ABS data in R. The package contains compressed, tidied, and lazily-loadable `sf` objects that hold geometric information about ABS data structures.
 
 It also contains a vast number of 2016 population-weighted ABS correspondences (the most recent) that you can access with the `get_correspondence_absmaps` function. The correspondences available can be found at the [data.gov.au website](https://data.gov.au/data/dataset/asgs-geographic-correspondences-2016/resource/951e18c7-f187-4c86-a73f-fcabcd19af16).
 
-Note: the `absmapsdata` package is **huge**. To download and read `absmapsdata` files **without installing the whole absmapsdata package**, please see [`strayr::read_absmaps`](https://github.com/runapp-aus/strayr). E.g.: `strayr::read_absmaps("sa42021")`
+Note: the `absmapsdata` package is **huge**. To download and read `absmapsdata` files **without installing the whole absmapsdata package**, please see [`strayr::read_absmaps`](https://github.com/runapp-aus/strayr). E.g.:
 
+```{r, eval=FALSE}
+# remotes::install_github("runapp-aus/strayr")
+strayr::read_absmaps("sa42021")`
+```
 
 ## Installation
 
@@ -76,7 +77,8 @@ If you would like to request a map to be added, let me know via an issue on this
 * State Electoral Divisions 2018:`sed2018`; and 2021: `sed2021`
 * Local Government Areas 2016: `lga2016`; 2018: `lga2018`; and 2021: `lga2021`
 * Regions for the Internet Vacancy Index 2008: `regional_ivi2008`
-* Postcodes 2016: `postcodes2016`; and 2021: `postcodes2021`
+* Postcodes 2016: `postcode2016`; and 2021: `postcode2021`
+* Suburbs (SSC) 2016: `suburb2016`; and (SAL) 2021: `suburb2021`
 * Census of Population and Housing Destination Zones 2011: `dz2011`; 2016: `dz2016`; and 2021: `dz2021`.
 
 **Non-ABS Australian Government Structures**

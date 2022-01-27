@@ -1,7 +1,7 @@
 Package: absmapsdata
 Type: Package
 Title: A catalogue of ready-to-use ASGS (and other) sf objects
-Version: 1.3.2
+Version: 1.3.3
 Authors@R: c(person("Will", "Mackey", email = "wfmackey@gmail.com",
                 role = c("aut", "cre")))
 Maintainer: Will Mackey <wfmackey@gmail.com>

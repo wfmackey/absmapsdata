@@ -83,7 +83,8 @@ this Github repo.
 -   Local Government Areas 2016: `lga2016`; 2018: `lga2018`; and 2021:
     `lga2021`
 -   Regions for the Internet Vacancy Index 2008: `regional_ivi2008`
--   Postcodes 2016: `postcodes2016`; and 2021: `postcodes2021`
+-   Postcodes 2016: `postcode2016`; and 2021: `postcode2021`
+-   Suburbs (SSC) 2016: `suburb2016`; and (SAL) 2021: `suburb2021`
 -   Census of Population and Housing Destination Zones 2011: `dz2011`;
     2016: `dz2016`; and 2021: `dz2021`.
 
@@ -103,9 +104,9 @@ call the object (see list above for object names).
 library(tidyverse)
 #> ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──
 #> ✓ ggplot2 3.3.5     ✓ purrr   0.3.4
-#> ✓ tibble  3.1.6     ✓ dplyr   1.0.7
+#> ✓ tibble  3.1.5     ✓ dplyr   1.0.7
 #> ✓ tidyr   1.1.4     ✓ stringr 1.4.0
-#> ✓ readr   2.1.0     ✓ forcats 0.5.1
+#> ✓ readr   2.0.2     ✓ forcats 0.5.1
 #> ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
 #> x dplyr::filter() masks stats::filter()
 #> x dplyr::lag()    masks stats::lag()

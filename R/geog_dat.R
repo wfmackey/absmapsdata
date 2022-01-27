@@ -608,6 +608,38 @@
 #' }
 "postcode2021"
 
+#' Suburbs, 2016
+#'
+#' Geospatial data provided by the ABS for State Suburbs (SSC) in 2016.
+#'
+#' @format An \code{sf} object with five variables:
+#' \describe{
+#' \item{\code{suburb_2016}}{The suburb (SSC) number as a character string.}
+#' \item{\code{suburb_num_2016}}{The suburb number as a numeric.}
+#' \item{\code{state_code_2016}}{The state code.}
+#' \item{\code{state_name_2016}}{The full state name.}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"suburb2016"
+
+#' Suburbs, 2021
+#'
+#' Geospatial data provided by the ABS for Suburbs and Localities (SAL) in 2021.
+#'
+#' @format An \code{sf} object with five variables:
+#' \describe{
+#' \item{\code{suburb_2021}}{The suburb (SAL) number as a character string.}
+#' \item{\code{suburb_num_2021}}{The suburb number as a numeric.}
+#' \item{\code{state_code_2021}}{The state code.}
+#' \item{\code{state_name_2021}}{The full state name.}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"suburb2021"
+
 
 
 #' Destination Zones, 2016

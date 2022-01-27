@@ -22,6 +22,10 @@ read_shape <- function(folder_path,
     "sa4_name_2021" = "SA4_NAME21",
     "gcc_code_2021" = "GCC_CODE21",
     "gcc_name_2021" = "GCC_NAME21",
+    "suburb_name_2021" = "SAL_NAME21",
+    "suburb_code_2021" = "SAL_CODE21",
+    "suburb_name_2016" = "SSC_NAME16",
+    "suburb_code_2016" = "SSC_CODE16",
     "postcode_2021" = "POA_NAME21",
     "sed_code_2021" = "SED_CODE21",
     "sed_name_2021" = "SED_NAME21",
@@ -35,7 +39,10 @@ read_shape <- function(folder_path,
     "dz_code_2021" = "DZN_CODE21",
     "state_code_2021" = "STE_CODE21",
     "state_name_2021" = "STE_NAME21",
+    "state_code_2016" = "STE_CODE16",
+    "state_name_2016" = "STE_NAME16",
     "areasqkm_2021" = "AREASQKM21",
+    "areasqkm_2016" = "AREASQKM16",
     "cent_lat", "cent_long"
   )
 
@@ -59,7 +66,12 @@ read_shape <- function(folder_path,
 
   # Import sf object at correct CRS
   sf_object <- sf::read_sf(path) %>%
-    st_set_crs(st_crs(4326))
+    sf::st_set_crs(st_crs(4326))
+
+  if (grepl("\\.zip$", folder_path)) {
+    walk(list.files(path, full.names = TRUE), file.remove)
+    file.remove(path)
+  }
 
   # Add centroids
   add_cent <- cbind(sf_object,
@@ -72,7 +84,7 @@ read_shape <- function(folder_path,
 
   # Tidy
   tidy <- compressed %>%
-    mutate(across(c(-X, -Y, -AREASQKM21, -geometry), as.character)) %>%
+    mutate(across(c(-X, -Y, -starts_with("areasqkm"), -geometry), as.character)) %>%
     # always do this:
     rename(cent_lat = Y,
            cent_long = X)

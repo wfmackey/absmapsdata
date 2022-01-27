@@ -1,3 +1,7 @@
+# absmapsdata 1.3.3, 2022-01-28
+- Adds 2016 and 2021 suburbs (thanks @mattcowgill for the request):
+  - `suburb2016`, `suburb2021`
+
 # absmapsdata 1.3.2, 2021-11-29
 - Adds 2021 Non ABS Structures:
   - `postcode2021`, `lga2021`, `ced2021`, `sed2021`, `tourism2021`, `dz2021`.
