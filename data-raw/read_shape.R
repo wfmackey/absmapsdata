@@ -66,7 +66,7 @@ read_shape <- function(folder_path,
 
   # Import sf object at correct CRS
   sf_object <- sf::read_sf(path) %>%
-    sf::st_set_crs(st_crs(4326))
+    sf::st_transform(4326)
 
   if (grepl("\\.zip$", folder_path)) {
     walk(list.files(path, full.names = TRUE), file.remove)
