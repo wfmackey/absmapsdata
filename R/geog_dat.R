@@ -813,3 +813,21 @@
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
 #' }
 "employment_regions2015"
+
+#' BITRE Working Zones, 2016
+#'
+#' Geospatial data provided by BITRE/The Department of Infrastructure,
+#' Transport, Regional Development, Communications and the Arts
+#'
+#' @format An \code{sf} object with 7 variables:
+#' \describe{
+#' \item{\code{wz_code}}{Working zone code}
+#' \item{\code{wz_code16}}{Working zone code 2016}
+#' \item{\code{wz_code16}}{Working zone code 2016}
+#' \item{\code{wz_name16}}{Working zone name 2016}
+#' \item{\code{areasqkm16}}{The area in square kilometres}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"bitre_work_zones2016"
