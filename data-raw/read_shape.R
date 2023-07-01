@@ -29,14 +29,26 @@ read_shape <- function(folder_path,
     "postcode_2021" = "POA_NAME21",
     "sed_code_2021" = "SED_CODE21",
     "sed_name_2021" = "SED_NAME21",
+      "sed_code_2022" = "SED_CODE22",
+      "sed_name_2022" = "SED_NAME22",
     "ced_code_2021" = "CED_CODE21",
     "ced_name_2021" = "CED_NAME21",
     "lga_code_2021" = "LGA_CODE21",
     "lga_name_2021" = "LGA_NAME21",
+      "lga_code_2022" = "LGA_CODE22",
+      "lga_name_2022" = "LGA_NAME22",
     "tourism_code_2021" = "TR_CODE21",
     "tourism_name_2021" = "TR_NAME21",
     "postcode_num_2021" = "POA_CODE21",
     "dz_code_2021" = "DZN_CODE21",
+    "ucl_code_2021" = "UCL_CODE21",
+    "ucl_name_2021" = "UCL_NAME21",
+    "ssr_code_2021" = "SSR_CODE21",
+    "ssr_name_2021" = "SSR_NAME21",
+    "sos_code_2021" = "SOS_CODE21",
+    "sos_name_2021" = "SOS_NAME21",
+    "sua_code_2021" = "SUA_CODE21",
+    "sua_name_2021" = "SUA_NAME21",
     "state_code_2021" = "STE_CODE21",
     "state_name_2021" = "STE_NAME21",
     "state_code_2016" = "STE_CODE16",
@@ -66,7 +78,9 @@ read_shape <- function(folder_path,
 
   # Import sf object at correct CRS
   sf_object <- sf::read_sf(path) %>%
-    sf::st_transform(4326)
+    sf::st_transform("+init=epsg:7856")
+
+
 
   if (grepl("\\.zip$", folder_path)) {
     walk(list.files(path, full.names = TRUE), file.remove)

@@ -80,3 +80,20 @@ dz2021 <- read_shape("data-raw/shapefiles/DZN_2021_AUST_GDA2020_SHP/")
 
 save(dz2021, file = "data/dz2021.rda", compress = "xz")
 
+# Additional -------------------------------------------------------------------
+
+ucl2021 <- read_shape("data-raw/new-asgs-data/UCL_2021_AUST_GDA2020_SHP/")
+usethis::use_data(ucl2021)
+
+sua2021 <- read_shape("data-raw/new-asgs-data/SUA_2021_AUST_GDA2020_SHP/")
+usethis::use_data(sua2021)
+
+lga2022 <- read_shape("data-raw/new-asgs-data/LGA_2022_AUST_GDA2020_SHP/")
+usethis::use_data(lga2022)
+
+sed2022 <- read_shape("data-raw/new-asgs-data/SED_2022_AUST_GDA2020_SHP/")
+usethis::use_data(sed2022)
+
+
+
+
