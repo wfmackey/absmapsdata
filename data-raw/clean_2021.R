@@ -94,6 +94,13 @@ usethis::use_data(lga2022)
 sed2022 <- read_shape("data-raw/new-asgs-data/SED_2022_AUST_GDA2020_SHP/")
 usethis::use_data(sed2022)
 
+ireg2021 <- read_shape("data-raw/new-asgs-data/IREG_2021_AUST_GDA2020_SHP/")
+usethis::use_data(ireg2021)
 
+iare2021 <- read_shape("data-raw/new-asgs-data/IARE_2021_AUST_GDA2020_SHP/")
+usethis::use_data(iare2021)
+
+iloc2021 <- read_sf("data-raw/new-asgs-data/ILOC_2021_AUST_GDA2020_SHP/")
+usethis::use_data(iloc2021)
 
 
