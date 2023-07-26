@@ -84,7 +84,7 @@ read_shape <- function(folder_path,
 
   # Import sf object at correct CRS
   sf_object <- sf::read_sf(path) %>%
-    sf::st_transform("+init=epsg:7856")
+    sf::st_transform(4326)
 
 
 
