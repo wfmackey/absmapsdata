@@ -962,3 +962,17 @@
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
 #' }
 "ireg2021"
+
+
+#' NSW Local Health Districts, 2023
+#'
+#' Geospatial data of NSW Local Health Districts (see source)
+#'
+#' @source <https://www.google.com/maps/d/u/0/viewer?mid=1Dv1JRTGmzlm83tBv7tb8vQcOQXY&hl=en_US&ll=-36.014960831899266%2C146.956844&z=9>
+#' @format An \code{sf} object with two variables:
+#' \describe{
+#' \item{\code{nsw_lhd_name}}{The NSW Local Health District name}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"nsw_lhd_2023"
+
