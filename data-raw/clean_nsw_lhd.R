@@ -14,10 +14,10 @@ nsw_lhd_2023_regional <- st_read(
   st_zm() # remove 'Z' dimension of some geometries
 
 ## combine
-nsw_lhd_2023 <- bind_rows(nsw_lhd_2023_metro,
+nsw_lhd2023 <- bind_rows(nsw_lhd_2023_metro,
                           nsw_lhd_2023_regional) %>%
   select(nsw_lhd_name = Name, geometry) %>%
   sf::st_transform(4326)
 
 
-save(nsw_lhd_2023, file = "data/nsw_lhd_2023.rda", compress = "xz")
+save(nsw_lhd2023, file = "data/nsw_lhd2023.rda", compress = "xz")

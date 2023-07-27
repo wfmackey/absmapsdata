@@ -111,7 +111,7 @@ If you would like to request a map to be added, let me know via an issue on this
 
 * Employment Regions 2015-2020: `employment_regions2015`
 * BITRE Working Zones 2016: `bitre_work_zones2016`
-* NSW Local Health District 2023: `nsw_lhd_2023`
+* NSW Local Health District 2023: `nsw_lhd2023`
 
 **Correspondences**
 

@@ -974,5 +974,4 @@
 #' \item{\code{nsw_lhd_name}}{The NSW Local Health District name}
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
 #' }
-"nsw_lhd_2023"
-
+"nsw_lhd2023"
