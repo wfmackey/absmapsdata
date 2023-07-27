@@ -83,7 +83,7 @@ test_that("all objects are the right CRS", {
   expect_equal(sf::st_crs(tourism2016)[[1]], "EPSG:4326")
   expect_equal(sf::st_crs(tourism2021)[[1]], "EPSG:4326")
   expect_equal(sf::st_crs(ucl2016)[[1]], "EPSG:4326")
-  expect_equal(sf::st_crs(nsw_lhd_2023)[[1]], "EPSG:4326")
+  expect_equal(sf::st_crs(nsw_lhd2023)[[1]], "EPSG:4326")
 
 })
 
