@@ -831,3 +831,161 @@
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
 #' }
 "bitre_work_zones2016"
+
+#' Significant Urban Area (SUA), 2021
+#'
+#' Geospatial data provided by the ABS for Significant Urban Areas (SUA) in 2021.
+#'
+#' @format An \code{sf} object with six variables:
+#' \describe{
+#' \item{\code{sua_code_2021}}{The SUA code}
+#' \item{\code{sua_name_2021}}{The SUA name}
+#' \item{\code{areasqkm_2021}}{The area in square kilometres}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"sua2021"
+
+
+#' Urban Centre and Locality (UCL), 2021
+#'
+#' Geospatial data provided by the ABS for Urban Centre and Locality (UCL) in 2021.
+#'
+#' @format An \code{sf} object with twelve variables:
+#' \describe{
+#' \item{\code{ucl_code_2021}}{The UCL code}
+#' \item{\code{ucl_name_2021}}{The UCL name}
+#' \item{\code{ssr_code_2021}}{The SSR code}
+#' \item{\code{ssr_name_2021}}{The SSR name}
+#' \item{\code{sos_code_2021}}{The SOS code}
+#' \item{\code{sos_name_2021}}{The SOS name}
+#' \item{\code{state_code_2021}}{The state code}
+#' \item{\code{state_name_2021}}{The full state name}
+#' \item{\code{areasqkm_2021}}{The area in square kilometres}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"ucl2021"
+
+#' State Electoral Districts, 2022
+#'
+#' Geospatial data provided by the ABS for State Electoral Districts (SEDs) in 2022.
+#'
+#' @format An \code{sf} object with six variables:
+#' \describe{
+#' \item{\code{sed_code_2022}}{The SED code}
+#' \item{\code{sed_name_2022}}{The SED name}
+#' \item{\code{areasqkm_2022}}{The area in square kilometres}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"sed2022"
+
+#' Local Government Areas, 2022
+#'
+#' Geospatial data provided by the ABS for local government areas (LGAs) in 2022.
+#'
+#' @format An \code{sf} object with eight variables:
+#' \describe{
+#' \item{\code{lga_code_2022}}{The LGA code}
+#' \item{\code{lga_name_2022}}{The LGA name}
+#' \item{\code{state_code_2022}}{The state code}
+#' \item{\code{state_name_2022}}{The full state name}
+#' \item{\code{areasqkm_2022}}{The area in square kilometres}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"lga2022"
+
+#' Indigenous Locations (ILOCs), 2021
+#'
+#' Geospatial data provided by the ABS for ILOCs in 2021, where 'Indigenous Locations (ILOCs) represent small Aboriginal and Torres Strait Islander communities (urban and rural) with a minimum population of about 90 people.'
+#'
+#' @source <https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files>
+#' @format An \code{sf} object with 11 variables:
+#' \describe{
+#' \item{\code{ilo_code_2021}}{The Indigenous Locations code}
+#' \item{\code{ilo_name_2021}}{The Indigenous Locations name}
+#' \item{\code{iar_code_2021}}{The Indigenous Areas code}
+#' \item{\code{iar_name_2021}}{The Indigenous Areas name}
+#' \item{\code{ire_code_2021}}{The Indigenous Regions code}
+#' \item{\code{ire_name_2021}}{The Indigenous Regions name}
+#' \item{\code{state_code_2021}}{The state code}
+#' \item{\code{state_name_2021}}{The full state name}
+#' \item{\code{areasqkm_2021}}{The area in square kilometres}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"iloc2021"
+
+
+#' Indigenous Areas (IAREs), 2021
+#'
+#' Geospatial data provided by the ABS for IAREs in 2021, where 'Indigenous Areas (IAREs) are medium sized geographical areas designed to facilitate the release of more detailed statistics for Aboriginal and Torres Strait Islander people.'
+#'
+#' @source <https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files>
+#' @format An \code{sf} object with nine variables:
+#' \describe{
+#' \item{\code{iar_code_2021}}{The Indigenous Areas code}
+#' \item{\code{iar_name_2021}}{The Indigenous Areas name}
+#' \item{\code{ire_code_2021}}{The Indigenous Regions code}
+#' \item{\code{ire_name_2021}}{The Indigenous Regions name}
+#' \item{\code{state_code_2021}}{The state code}
+#' \item{\code{state_name_2021}}{The full state name}
+#' \item{\code{areasqkm_2021}}{The area in square kilometres}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"iare2021"
+
+
+#' Indigenous Regions (IREGs), 2021
+#'
+#' Geospatial data provided by the ABS for IREGs in 2021, where 'Indigenous Regions (IREGs) are large geographical areas based on historical boundaries. The larger population of Indigenous Regions enables highly detailed analysis.'
+#'
+#' @source <https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files>
+#' @format An \code{sf} object with seven variables:
+#' \describe{
+#' \item{\code{ire_code_2021}}{The Indigenous Regions code}
+#' \item{\code{ire_name_2021}}{The Indigenous Regions name}
+#' \item{\code{state_code_2021}}{The state code}
+#' \item{\code{state_name_2021}}{The full state name}
+#' \item{\code{areasqkm_2021}}{The area in square kilometres}
+#' \item{\code{cent_lat}}{The latitide of the area's centroid}
+#' \item{\code{cent_long}}{The latitide of the area's centroid}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"ireg2021"
+
+
+#' NSW Local Health Districts, 2023
+#'
+#' Geospatial data of NSW Local Health Districts (see source)
+#'
+#' @source <https://www.google.com/maps/d/u/0/viewer?mid=1Dv1JRTGmzlm83tBv7tb8vQcOQXY&hl=en_US&ll=-36.014960831899266%2C146.956844&z=9>
+#' @format An \code{sf} object with two variables:
+#' \describe{
+#' \item{\code{nsw_lhd_name}}{The NSW Local Health District name}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"nsw_lhd2023"
+
+
+#' Regional Development Australia 2015-16
+#'
+#' RDA Regions are created and maintained by the Dept. of Infrastructure and Regional Development to support this initiative.
+#'
+#' @source <https://data.gov.au/data/dataset/rda-2015-16>
+#' @format An \code{sf} object with two variables:
+#' \describe{
+#' \item{\code{rda_code_2016}}{Regional Development Australia code}
+#' \item{\code{rda_name_2016}}{Regional Development Australia name}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"rda2016"

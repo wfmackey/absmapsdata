@@ -80,3 +80,25 @@ dz2021 <- read_shape("data-raw/shapefiles/DZN_2021_AUST_GDA2020_SHP/")
 
 save(dz2021, file = "data/dz2021.rda", compress = "xz")
 
+# Additional -------------------------------------------------------------------
+
+ucl2021 <- read_shape("data-raw/new-asgs-data/UCL_2021_AUST_GDA2020_SHP/")
+usethis::use_data(ucl2021, overwrite = TRUE)
+
+sua2021 <- read_shape("data-raw/new-asgs-data/SUA_2021_AUST_GDA2020_SHP/")
+usethis::use_data(sua2021, overwrite = TRUE)
+
+lga2022 <- read_shape("data-raw/new-asgs-data/LGA_2022_AUST_GDA2020_SHP/")
+usethis::use_data(lga2022, overwrite = TRUE)
+
+sed2022 <- read_shape("data-raw/new-asgs-data/SED_2022_AUST_GDA2020_SHP/")
+usethis::use_data(sed2022, overwrite = TRUE)
+
+ireg2021 <- read_shape("data-raw/new-asgs-data/IREG_2021_AUST_GDA2020_SHP/")
+usethis::use_data(ireg2021, overwrite = TRUE)
+
+iare2021 <- read_shape("data-raw/new-asgs-data/IARE_2021_AUST_GDA2020_SHP/")
+usethis::use_data(iare2021, overwrite = TRUE)
+
+iloc2021 <- read_shape("data-raw/new-asgs-data/ILOC_2021_AUST_GDA2020_SHP/")
+usethis::use_data(iloc2021, overwrite = TRUE)

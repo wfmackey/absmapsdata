@@ -8,6 +8,7 @@ read_shape <- function(folder_path,
                        tidy_vars = TRUE, # select and rename key variables
                        include_aus = FALSE, # include aus_code_2021 and aus_name_2021 variables
                        add_vars = NULL, # vars to add
+                       add_centroids = TRUE,
                        compress_level = 0.1) {
 
 
@@ -29,14 +30,34 @@ read_shape <- function(folder_path,
     "postcode_2021" = "POA_NAME21",
     "sed_code_2021" = "SED_CODE21",
     "sed_name_2021" = "SED_NAME21",
+      "sed_code_2022" = "SED_CODE22",
+      "sed_name_2022" = "SED_NAME22",
     "ced_code_2021" = "CED_CODE21",
     "ced_name_2021" = "CED_NAME21",
     "lga_code_2021" = "LGA_CODE21",
     "lga_name_2021" = "LGA_NAME21",
+      "lga_code_2022" = "LGA_CODE22",
+      "lga_name_2022" = "LGA_NAME22",
     "tourism_code_2021" = "TR_CODE21",
     "tourism_name_2021" = "TR_NAME21",
     "postcode_num_2021" = "POA_CODE21",
     "dz_code_2021" = "DZN_CODE21",
+    "ucl_code_2021" = "UCL_CODE21",
+    "ucl_name_2021" = "UCL_NAME21",
+    "ssr_code_2021" = "SSR_CODE21",
+    "ssr_name_2021" = "SSR_NAME21",
+    "sos_code_2021" = "SOS_CODE21",
+    "sos_name_2021" = "SOS_NAME21",
+    "sua_code_2021" = "SUA_CODE21",
+    "sua_name_2021" = "SUA_NAME21",
+    "ilo_code_2021" = "ILO_CODE21",
+    "ilo_name_2021" = "ILO_NAME21",
+    "iar_code_2021" = "IAR_CODE21",
+    "iar_name_2021" = "IAR_NAME21",
+    "ire_code_2021" = "IRE_CODE21",
+    "ire_name_2021" = "IRE_NAME21",
+    "rda_code_2016" = "RDA_Code",
+    "rda_name_2016" = "RDA",
     "state_code_2021" = "STE_CODE21",
     "state_name_2021" = "STE_NAME21",
     "state_code_2016" = "STE_CODE16",
@@ -68,26 +89,35 @@ read_shape <- function(folder_path,
   sf_object <- sf::read_sf(path) %>%
     sf::st_transform(4326)
 
+
+
   if (grepl("\\.zip$", folder_path)) {
     walk(list.files(path, full.names = TRUE), file.remove)
     file.remove(path)
   }
 
   # Add centroids
-  add_cent <- cbind(sf_object,
-                    sf::st_coordinates(sf::st_centroid(sf_object)))
+  if (add_centroids) {
+    sf_object <- cbind(
+      sf_object,
+      sf::st_coordinates(sf::st_centroid(sf_object))
+    ) %>%
+    rename(cent_lat = Y,
+           cent_long = X)
+  }
 
   # Compress
-  compressed <- rmapshaper::ms_simplify(add_cent,
+  compressed <- rmapshaper::ms_simplify(sf_object,
                                         keep = compress_level,
                                         keep_shapes = TRUE)
 
   # Tidy
   tidy <- compressed %>%
-    mutate(across(c(-X, -Y, -starts_with("areasqkm"), -geometry), as.character)) %>%
-    # always do this:
-    rename(cent_lat = Y,
-           cent_long = X)
+    mutate(across(
+      c(-starts_with("cent_"),
+        -starts_with("areasqkm"),
+        -geometry),
+      as.character))
 
   if (!is.null(tidy_vars)) tidy <- tidy %>% select(any_of(select_vars))
 
