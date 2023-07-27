@@ -1,5 +1,7 @@
 ---
 output: github_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -11,7 +13,18 @@ knitr::opts_chunk$set(
   fig.path = "man/figures/README-",
   out.width = "100%"
 )
+
+devtools::load_all()
+library(sf)
+library(tidyverse)
+
+options(width = 1000)
 ```
+
+> :warning: **This package is not owned, run, or endorsed by the ABS.** 
+Data contained in this package are compressed, re-projected, renamed and stored as `sf` objects to be useful for making maps in R. 
+If conducting spatial analysis, or any analysis that requires precise area boundaries, please use the original shapefiles provided by the ABS and others.
+
 
 # absmapsdata
 
@@ -22,27 +35,25 @@ stable](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://www.ti
 [![R build status](https://github.com/wfmackey/absmapsdata/workflows/R-CMD-check/badge.svg)](https://github.com/wfmackey/absmapsdata/actions)
 <!-- badges: end -->
 
-The `absmapsdata` package exists to make it easier to produce maps from ABS data in R. The package contains compressed, tidied, and lazily-loadable `sf` objects that hold geometric information about ABS data structures.
+`absmapsdata` is a user-generated package to make it easier for R users to access ABS (and other) spatial structure names/codes and produce maps using this data. The package contains compressed (lossy), tidied, and lazily-loadable `sf` objects that hold geometric information about data structures in Australia.
+It also contains a correspondences files provided by the ABS.
 
-It also contains a vast number of 2016 population-weighted ABS correspondences (the most recent) that you can access with the `get_correspondence_absmaps` function. The correspondences available can be found at the [data.gov.au website](https://data.gov.au/data/dataset/asgs-geographic-correspondences-2016/resource/951e18c7-f187-4c86-a73f-fcabcd19af16).
+> :white_check_mark: **It is now recommended that you use [`strayr::read_absmap`](https://github.com/runapp-aus/strayr) to access data stored in `absmapsdata`**. To download and read these data files without installing the whole `absmapsdata` package, please use `strayr::read_absmap`, for example:
 
-Note: the `absmapsdata` package is **huge**. To download and read `absmapsdata` files **without installing the whole absmapsdata package**, please see [`strayr::read_absmaps`](https://github.com/runapp-aus/strayr). E.g.:
-
-```{r, eval=FALSE}
+```{r, eval=TRUE, }
 # remotes::install_github("runapp-aus/strayr")
-strayr::read_absmaps("sa42021")`
+strayr::read_absmap("gcc2021")
 ```
+
+
 
 ## Installation
 
-You can install `absmapsdata` from github with:
+You probably don't need to install the full `absmapsdata` package (see above). 
 
-```{r, eval=FALSE}
-# install.packages("remotes")
-remotes::install_github("wfmackey/absmapsdata")
-```
+But if you want to, you can install `absmapsdata` from Github. 
+The package contains a lot of data, so installing using `remotes::install_github` may fail if the download times out. If this happens, set the timeout option to a large value and try again, i.e. run:
 
-`absmapsdata` contains a lot of data, so installing using `remotes::install_github` may fail if the download times out. If this happens, set the timeout option to a large value and try again, i.e. run:
 
 ```{r set_timeout, eval=FALSE}
 options(timeout = 1000)
@@ -51,12 +62,11 @@ remotes::install_github("wfmackey/absmapsdata")
 
 The `sf` package is required to handle the `sf` objects:
 ```{r, eval=FALSE}
-# install.packages("sf")
 library(sf)
 ```
 
 
-## Maps loaded with this package
+## Data loaded with this package
 
 Available maps are listed below. These will be added to over time. 
 If you would like to request a map to be added, let me know via an issue on this Github repo.
@@ -71,19 +81,51 @@ If you would like to request a map to be added, let me know via an issue on this
 * Remoteness Areas 2011: `ra2011`; and 2016: `ra2016`
 * State 2011: `state2011`; 2016: `state2016`; and `state2021`.
 
+
+**ASGS Indigenous Structures**
+
+* Indigenous Locations 2021: `iloc2021`
+* Indigenous Areas 2021: `iare2021`
+* Indigenous Regions 2021: `ireg2021`
+
+
+**Significant Urban Areas and Urban Centres and Localities**
+
+* Significant Urban Areas 2016: `sua2016`; and 2021: `sua2021`
+* Urban Centre and Locality 2016: `ucl2016`; and 2021: `ucl2021`
+* Section of State Range 2016: `sosr2016`
+* Section of State 2016: `sos2016`
+
 **ASGS Non-ABS Structures**
 
 * Commonwealth Electoral Divisions 2018: `ced2018`; and 2021: `ced2021`
-* State Electoral Divisions 2018:`sed2018`; and 2021: `sed2021`
-* Local Government Areas 2016: `lga2016`; 2018: `lga2018`; and 2021: `lga2021`
+* State Electoral Divisions 2018:`sed2018`; 2021: `sed2021`; and 2022: `sed2022`
+* Local Government Areas 2016: `lga2016`; 2018: `lga2018`; 2021: `lga2021`; and 2022: `lga2022`
 * Regions for the Internet Vacancy Index 2008: `regional_ivi2008`
 * Postcodes 2016: `postcode2016`; and 2021: `postcode2021`
 * Suburbs (SSC) 2016: `suburb2016`; and (SAL) 2021: `suburb2021`
 * Census of Population and Housing Destination Zones 2011: `dz2011`; 2016: `dz2016`; and 2021: `dz2021`.
 
+
 **Non-ABS Australian Government Structures**
 
 * Employment Regions 2015-2020: `employment_regions2015`
+* BITRE Working Zones 2016: `bitre_work_zones2016`
+* NSW Local Health District 2023: `nsw_lhd_2023`
+
+**Correspondences**
+
+This package also contains a number of 2016 population-weighted ABS correspondences (the most recent) that can be found on the [data.gov.au website](https://data.gov.au/data/dataset/asgs-geographic-correspondences-2016/resource/951e18c7-f187-4c86-a73f-fcabcd19af16).
+
+> :white_check_mark: Use [`strayr::read_correspondence_tbl`](https://github.com/runapp-aus/strayr) to access correspondence this data, rather than loading the whole `absmapsdata` package, e.g.:
+
+```{r, eval=TRUE}
+# remotes::install_github("runapp-aus/strayr")
+strayr::read_correspondence_tbl(from_area = "sa2", from_year = 2011,
+                                to_area = "sa2", to_year = 2016) 
+```
+Within `absmapsdata`, you can retrieve correspondences with the `get_correspondence_absmaps` function.
+
 
 ## Just show me how to make a map with this package
 
