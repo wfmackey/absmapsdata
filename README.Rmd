@@ -42,7 +42,7 @@ It also contains a correspondences files provided by the ABS.
 
 ```{r, eval=TRUE, }
 # remotes::install_github("runapp-aus/strayr")
-strayr::read_absmap("gcc2021")
+strayr::read_absmap("sa42021")
 ```
 
 
@@ -254,7 +254,15 @@ map
 
 ## Get correspondence files
 
-You can use the `get_correspondence_absmaps` function to get population-weighted correspondence tables provided [by the ABS](https://data.gov.au/data/dataset/asgs-geographic-correspondences-2016/resource/951e18c7-f187-4c86-a73f-fcabcd19af16).
+> :white_check_mark: Use [`strayr::read_correspondence_tbl`](https://github.com/runapp-aus/strayr) to access correspondence this data, rather than loading the whole `absmapsdata` package, e.g.:
+
+```{r, eval=TRUE}
+# remotes::install_github("runapp-aus/strayr")
+strayr::read_correspondence_tbl(from_area = "sa2", from_year = 2011,
+                                to_area = "sa2", to_year = 2016) 
+```
+
+You can use the `absmapsdata::get_correspondence_absmaps` function to get population-weighted correspondence tables provided [by the ABS](https://data.gov.au/data/dataset/asgs-geographic-correspondences-2016/resource/951e18c7-f187-4c86-a73f-fcabcd19af16).
 Note that while there are lots of correspondence tables, not every combination is available.
 
 

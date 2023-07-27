@@ -33,24 +33,24 @@ provided by the ABS.
 
 ``` r
 # remotes::install_github("runapp-aus/strayr")
-strayr::read_absmap("gcc2021")
-#> Simple feature collection with 35 features and 7 fields (with 19 geometries empty)
-#> Geometry type: GEOMETRY
+strayr::read_absmap("sa42021")
+#> Simple feature collection with 108 features and 9 fields (with 19 geometries empty)
+#> Geometry type: MULTIPOLYGON
 #> Dimension:     XY
 #> Bounding box:  xmin: 96.81696 ymin: -43.74047 xmax: 167.9969 ymax: -9.219923
 #> Geodetic CRS:  WGS 84
 #> First 10 features:
-#>    gcc_code_2021                          gcc_name_2021 state_code_2021 state_name_2021 areasqkm_2021  cent_lat cent_long                       geometry
-#> 1          1GSYD                         Greater Sydney               1 New South Wales     12368.686 -33.68732  150.7668 MULTIPOLYGON (((151.1741 -3...
-#> 2          1RNSW                            Rest of NSW               1 New South Wales    788428.973 -32.13447  146.9589 MULTIPOLYGON (((151.6403 -3...
-#> 3          19499                 No usual address (NSW)               1 New South Wales            NA        NA        NA             MULTIPOLYGON EMPTY
-#> 4          19799  Migratory - Offshore - Shipping (NSW)               1 New South Wales            NA        NA        NA             MULTIPOLYGON EMPTY
-#> 5          2GMEL                      Greater Melbourne               2        Victoria      9992.608 -37.78383  145.1286 MULTIPOLYGON (((145.2129 -3...
-#> 6          2RVIC                           Rest of Vic.               2        Victoria    217503.640 -36.81418  144.2428 MULTIPOLYGON (((146.2929 -3...
-#> 7          29499                No usual address (Vic.)               2        Victoria            NA        NA        NA             MULTIPOLYGON EMPTY
-#> 8          29799 Migratory - Offshore - Shipping (Vic.)               2        Victoria            NA        NA        NA             MULTIPOLYGON EMPTY
-#> 9          3GBRI                       Greater Brisbane               3      Queensland     15842.007 -27.44471  152.6963 MULTIPOLYGON (((153.2321 -2...
-#> 10         3RQLD                            Rest of Qld               3      Queensland   1714329.214 -22.44797  144.3864 MULTIPOLYGON (((142.5314 -1...
+#>    sa4_code_2021               sa4_name_2021 gcc_code_2021  gcc_name_2021 state_code_2021 state_name_2021 areasqkm_2021  cent_lat cent_long                       geometry
+#> 1            101              Capital Region         1RNSW    Rest of NSW               1 New South Wales     51896.244 -35.55432  149.2427 MULTIPOLYGON (((150.3113 -3...
+#> 2            102               Central Coast         1GSYD Greater Sydney               1 New South Wales      1681.009 -33.30788  151.2855 MULTIPOLYGON (((151.315 -33...
+#> 3            103                Central West         1RNSW    Rest of NSW               1 New South Wales     70297.060 -33.21932  148.3585 MULTIPOLYGON (((150.6107 -3...
+#> 4            104     Coffs Harbour - Grafton         1RNSW    Rest of NSW               1 New South Wales     13229.758 -29.81484  152.7740 MULTIPOLYGON (((153.2672 -3...
+#> 5            105          Far West and Orana         1RNSW    Rest of NSW               1 New South Wales    339355.646 -30.99476  145.0285 MULTIPOLYGON (((150.1106 -3...
+#> 6            106 Hunter Valley exc Newcastle         1RNSW    Rest of NSW               1 New South Wales     21491.292 -32.35426  150.9840 MULTIPOLYGON (((151.9978 -3...
+#> 7            107                   Illawarra         1RNSW    Rest of NSW               1 New South Wales      1539.241 -34.43440  150.7712 MULTIPOLYGON (((150.8768 -3...
+#> 8            108             Mid North Coast         1RNSW    Rest of NSW               1 New South Wales     18851.499 -31.56224  152.3435 MULTIPOLYGON (((159.0685 -3...
+#> 9            109                      Murray         1RNSW    Rest of NSW               1 New South Wales     97796.490 -34.42239  144.0206 MULTIPOLYGON (((147.6165 -3...
+#> 10           110  New England and North West         1RNSW    Rest of NSW               1 New South Wales     99139.900 -30.05970  150.7010 MULTIPOLYGON (((152.4876 -2...
 ```
 
 ## Installation
@@ -58,14 +58,8 @@ strayr::read_absmap("gcc2021")
 You probably don’t need to install the full `absmapsdata` package (see
 above).
 
-But if you want to, you can install `absmapsdata` from Github with:
-
-``` r
-# install.packages("remotes")
-remotes::install_github("wfmackey/absmapsdata")
-```
-
-`absmapsdata` contains a lot of data, so installing using
+But if you want to, you can install `absmapsdata` from Github. The
+package contains a lot of data, so installing using
 `remotes::install_github` may fail if the download times out. If this
 happens, set the timeout option to a large value and try again,
 i.e. run:
@@ -78,7 +72,6 @@ remotes::install_github("wfmackey/absmapsdata")
 The `sf` package is required to handle the `sf` objects:
 
 ``` r
-# install.packages("sf")
 library(sf)
 ```
 
@@ -133,7 +126,7 @@ this Github repo.
 
 - Employment Regions 2015-2020: `employment_regions2015`
 - BITRE Working Zones 2016: `bitre_work_zones2016`
-- NSW Local Health District 2023: `nsw_lhd_2023`
+- NSW Local Health District 2023: `nsw_lhd2023`
 
 **Correspondences**
 
@@ -247,7 +240,7 @@ sa32016 %>%
 map
 ```
 
-<img src="man/figures/README-unnamed-chunk-8-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-7-1.png" width="100%" />
 
 The data also include centroids of each area, and we can add these
 points to the map with the `cent_lat` and `cent_long` variables using
@@ -263,7 +256,7 @@ map <- sa32016 %>%
 map
 ```
 
-<img src="man/figures/README-unnamed-chunk-9-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-8-1.png" width="100%" />
 
 Cool. But this all looks a bit ugly. We can pretty it up using `ggplot`
 tweaks. See the comments on each line for its objective. Also note that
@@ -288,7 +281,7 @@ map <- sa32016 %>%
 map
 ```
 
-<img src="man/figures/README-unnamed-chunk-10-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-9-1.png" width="100%" />
 
 ## Joining with other datasets
 
@@ -348,12 +341,38 @@ map <- combined_data %>%
 map
 ```
 
-<img src="man/figures/README-unnamed-chunk-13-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-12-1.png" width="100%" />
 
 ## Get correspondence files
 
-You can use the `get_correspondence_absmaps` function to get
-population-weighted correspondence tables provided [by the
+> :white_check_mark: Use
+> [`strayr::read_correspondence_tbl`](https://github.com/runapp-aus/strayr)
+> to access correspondence this data, rather than loading the whole
+> `absmapsdata` package, e.g.:
+
+``` r
+# remotes::install_github("runapp-aus/strayr")
+strayr::read_correspondence_tbl(from_area = "sa2", from_year = 2011,
+                                to_area = "sa2", to_year = 2016) 
+#> Reading file found in /var/folders/98/c8srjgc55kbfzlrnl3c9yy2w0000gn/T//RtmpyJ9yUb
+#> # A tibble: 2,426 × 6
+#>    SA2_MAINCODE_2011 SA2_NAME_2011     SA2_MAINCODE_2016 SA2_NAME_2016     ratio PERCENTAGE
+#>    <chr>             <chr>             <chr>             <chr>             <dbl> <chr>     
+#>  1 101011001         Goulburn          101051539         Goulburn              1 100       
+#>  2 101011002         Goulburn Region   101051540         Goulburn Region       1 100       
+#>  3 101011003         Yass              101061541         Yass                  1 100       
+#>  4 101011004         Yass Region       101061542         Yass Region           1 100       
+#>  5 101011005         Young             101061543         Young                 1 100       
+#>  6 101011006         Young Region      101061544         Young Region          1 100       
+#>  7 101021007         Braidwood         101021007         Braidwood             1 100       
+#>  8 101021008         Karabar           101021008         Karabar               1 100       
+#>  9 101021009         Queanbeyan        101021009         Queanbeyan            1 100       
+#> 10 101021010         Queanbeyan - East 101021010         Queanbeyan - East     1 100       
+#> # ℹ 2,416 more rows
+```
+
+You can use the `absmapsdata::get_correspondence_absmaps` function to
+get population-weighted correspondence tables provided [by the
 ABS](https://data.gov.au/data/dataset/asgs-geographic-correspondences-2016/resource/951e18c7-f187-4c86-a73f-fcabcd19af16).
 Note that while there are lots of correspondence tables, not every
 combination is available.
