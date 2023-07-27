@@ -975,3 +975,17 @@
 #' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
 #' }
 "nsw_lhd2023"
+
+
+#' Regional Development Australia 2015-16
+#'
+#' RDA Regions are created and maintained by the Dept. of Infrastructure and Regional Development to support this initiative.
+#'
+#' @source <https://data.gov.au/data/dataset/rda-2015-16>
+#' @format An \code{sf} object with two variables:
+#' \describe{
+#' \item{\code{rda_code_2016}}{Regional Development Australia code}
+#' \item{\code{rda_name_2016}}{Regional Development Australia name}
+#' \item{\code{geometry}}{A nested list containing the area's geometry (polygons)}
+#' }
+"rda2016"
