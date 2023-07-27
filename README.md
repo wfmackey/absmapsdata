@@ -127,6 +127,7 @@ this Github repo.
 - Employment Regions 2015-2020: `employment_regions2015`
 - BITRE Working Zones 2016: `bitre_work_zones2016`
 - NSW Local Health District 2023: `nsw_lhd2023`
+- Regional Development Australia areas 2015-16: `rda2016`
 
 **Correspondences**
 
@@ -354,7 +355,7 @@ map
 # remotes::install_github("runapp-aus/strayr")
 strayr::read_correspondence_tbl(from_area = "sa2", from_year = 2011,
                                 to_area = "sa2", to_year = 2016) 
-#> Reading file found in /var/folders/98/c8srjgc55kbfzlrnl3c9yy2w0000gn/T//RtmpyJ9yUb
+#> Reading file found in /var/folders/98/c8srjgc55kbfzlrnl3c9yy2w0000gn/T//RtmpBsnhzT
 #> # A tibble: 2,426 × 6
 #>    SA2_MAINCODE_2011 SA2_NAME_2011     SA2_MAINCODE_2016 SA2_NAME_2016     ratio PERCENTAGE
 #>    <chr>             <chr>             <chr>             <chr>             <dbl> <chr>     

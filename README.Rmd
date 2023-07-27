@@ -120,7 +120,7 @@ This package also contains a number of 2016 population-weighted ABS corresponden
 
 > :white_check_mark: Use [`strayr::read_correspondence_tbl`](https://github.com/runapp-aus/strayr) to access correspondence this data, rather than loading the whole `absmapsdata` package, e.g.:
 
-```{r, eval=TRUE}
+```{r, eval=TRUE, message=FALSE}
 # remotes::install_github("runapp-aus/strayr")
 strayr::read_correspondence_tbl(from_area = "sa2", from_year = 2011,
                                 to_area = "sa2", to_year = 2016) 
